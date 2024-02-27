@@ -3,119 +3,160 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Services',
       links: [
         {
-          text: 'SaaS',
+          text: 'Hourly or 24-Hour Care',
           href: getPermalink('/homes/saas'),
         },
         {
-          text: 'Startup',
+          text: 'Live-in Home Care',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Skilled Nursing',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: 'Staffing Services',
+          href: getPermalink('/homes/personal'),
+        },
+        {
+          text: 'Senior Care Advisors',
+          href: getPermalink('/homes/saas'),
+        },
+        {
+          text: 'Home Care Packages',
+          href: getPermalink('/homes/startup'),
+        },
+        {
+          text: 'Veteran Aid & Attendant Benefits',
+          href: getPermalink('/homes/mobile-app'),
+        },
+        {
+          text: 'Long Term Care Insurance',
           href: getPermalink('/homes/personal'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Specialty Care',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Alzheimer\'s & Dementia Care',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
+          text: 'Parkinson\'s Disease Care',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'About us',
+          text: 'After Stroke In-Home Care',
+          href: getPermalink('/services'),
+        },
+        {
+          text: 'Post Surgical Recovery and Rehabilitation Care',
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
+          text: 'Hospice & End of Life Care',
           href: getPermalink('/contact'),
         },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
+        // {
+        //   text: 'Terms',
+        //   href: getPermalink('/terms'),
+        // },
+        // {
+        //   text: 'Privacy policy',
+        //   href: getPermalink('/privacy'),
+        // },
       ],
     },
     {
-      text: 'Landing',
+      text: 'Caregivers',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'Application for Employment',
           href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Long-form Sales',
+          text: 'Caregiver Continuing Education',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
+          text: 'Caregiver Resources',
           href: getPermalink('/landing/click-through'),
         },
         {
-          text: 'Product Details (or Services)',
+          text: 'Caregiver Support',
           href: getPermalink('/landing/product'),
         },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
+        // {
+        //   text: 'Coming Soon or Pre-Launch',
+        //   href: getPermalink('/landing/pre-launch'),
+        // },
+        // {
+        //   text: 'Subscription',
+        //   href: getPermalink('/landing/subscription'),
+        // },
       ],
     },
     {
-      text: 'Blog',
+      text: 'Family Services',
       links: [
         {
-          text: 'Blog List',
+          text: 'Getting Started',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
+          text: 'Family Portal - ESP',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
         {
-          text: 'Article (with MDX)',
+          text: 'Community Care Resources',
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
+        // {
+        //   text: 'Category Page',
+        //   href: getPermalink('tutorials', 'category'),
+        // },
+        // {
+        //   text: 'Tag Page',
+        //   href: getPermalink('astro', 'tag'),
+        // },
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'About Us',
+      links: [
+        {
+          text: 'About Right Accord',
+          href: getPermalink('/landing/click-through'),
+        },
+        {
+          text: 'About the Founder',
+          href: getPermalink('/landing/product'),
+        },
+        {
+          text: 'Our Mission',
+          href: getPermalink('/landing/lead-generation'),
+        },
+        {
+          text: 'Why Choose Right Accord?',
+          href: getPermalink('/landing/sales'),
+        },
+        {
+          text: 'Testimonials',
+          href: getPermalink('/landing/product'),
+        },
+        {
+          text: 'Blog',
+          href: getPermalink('/landing/product'),
+        },
+      ]
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Contact Us', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
