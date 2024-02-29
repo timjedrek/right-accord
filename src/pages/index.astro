@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
@@ -19,6 +20,24 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  
+    <!-- Hero2 Widget ******************* -->
+
+    <Hero2
+    tagline="Caregivers for your loved ones"
+    title="We care for your family with the respect and dignity they deserve"
+    subtitle="RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family."
+    actions={[
+      { variant: 'primary', text: 'Schedule Appointment', href: '#', icon: 'tabler:calendar-heart' },
+      { text: 'Contact Us', href: '#' },
+    ]}
+    image={{
+      src: '/elderly-home-health-care-venice-sarasota-manatee.webp',
+      alt: 'Children telling a story. Long-form Sales Landing Page demo',
+    }}
+  />
+  
+  
   <!-- Hero Widget ******************* -->
 
   <Hero
