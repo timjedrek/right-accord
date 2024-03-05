@@ -77,19 +77,19 @@ export const headerData = {
       links: [
         {
           text: 'Application for Employment',
-          href: getPermalink('/landing/lead-generation'),
+          href: getPermalink('/caregivers/application-for-employment'),
         },
         {
           text: 'Caregiver Continuing Education',
-          href: getPermalink('/landing/sales'),
+          href: getPermalink('/caregivers/caregiver-continuing-education'),
         },
         {
           text: 'Caregiver Resources',
-          href: getPermalink('/landing/click-through'),
+          href: getPermalink('/caregivers/caregiver-resources'),
         },
         {
           text: 'Caregiver Support',
-          href: getPermalink('/landing/product'),
+          href: getPermalink('/caregivers/caregiver-support'),
         },
         // {
         //   text: 'Coming Soon or Pre-Launch',
