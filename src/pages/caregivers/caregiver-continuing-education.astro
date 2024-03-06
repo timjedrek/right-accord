@@ -10,23 +10,23 @@ const metadata = {
   title: 'Sales Landing Page Demo',
 };
 
-const items=[
-      {
-        title: 'Sign up for courses offered by the agency',
-      },
-      {
-        title: 'Attend and complete all class sessions',
-      },
-      {
-        title: 'Pay attention and complete all class requirements including tests and competency evaluations',
-      },
-      {
-        title: 'Make the most of your time in in-service programs',
-      },
-      {
-        title: 'Participate!',
-      },
-    ]
+const items = [
+  {
+    title: 'Sign up for courses offered by the agency',
+  },
+  {
+    title: 'Attend and complete all class sessions',
+  },
+  {
+    title: 'Pay attention and complete all class requirements including tests and competency evaluations',
+  },
+  {
+    title: 'Make the most of your time in in-service programs',
+  },
+  {
+    title: 'Participate!',
+  },
+];
 ---
 
 <Layout metadata={metadata}>
@@ -37,8 +37,8 @@ const items=[
     title="Continuing Education For Home Health Aides"
     subtitle="Empowering home health aides: ensuring excellence through ongoing education and training"
     actions={[
-      { variant: 'primary', text: 'Call to Action', href: '#', icon: 'tabler:square-rounded-arrow-right' },
-      { text: 'Learn more', href: '#' },
+      { variant: 'primary', text: 'CTA pending', href: '#', icon: 'tabler:square-rounded-arrow-right' },
+      { text: 'Learn more', href: '#continuing-education' },
     ]}
     image={{
       src: '/src/assets/images/home-health-aide.jpg',
@@ -46,10 +46,24 @@ const items=[
     }}
   />
 
-  <div class="max-w-4xl mx-auto text-xl flex flex-col gap-5 leading-relaxed mb-10 p-5">
-    <p>Florida Agency for Health Care Administration (AHCA) requires that Home Health Aides have 12 hours of continuing education each year. Some state requires more In-Service courses to help you keep up with your knowledge and keep your skills fresh.</p>
-    <p>At RIGHT ACCORD classes are provided on an ongoing basis. We offer weekly and monthly trainings. You are responsible for attending and completing the training.</p>
-    <p>Our specialty programs are designed to provide you with more knowledge and skills about certain conditions, meet the challenges you face among clients with different conditions. You need to be up-to-date on the latest and it is expected of you to keep up with the improvement and constantly ever changing in home health care.</p>
+  <div
+    id="continuing-education"
+    class="max-w-4xl mx-auto text-xl flex flex-col gap-5 leading-relaxed mb-10 p-5 scroll-m-24"
+  >
+    <p>
+      Florida Agency for Health Care Administration (AHCA) requires that Home Health Aides have 12 hours of continuing
+      education each year. Some state requires more In-Service courses to help you keep up with your knowledge and keep
+      your skills fresh.
+    </p>
+    <p>
+      At RIGHT ACCORD classes are provided on an ongoing basis. We offer weekly and monthly trainings. You are
+      responsible for attending and completing the training.
+    </p>
+    <p>
+      Our specialty programs are designed to provide you with more knowledge and skills about certain conditions, meet
+      the challenges you face among clients with different conditions. You need to be up-to-date on the latest and it is
+      expected of you to keep up with the improvement and constantly ever changing in home health care.
+    </p>
     <p class="font-semibold">As a Home Health Aide, you must:</p>
     <ItemGrid
       items={items}

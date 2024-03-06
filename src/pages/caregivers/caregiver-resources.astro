@@ -1,41 +1,221 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero2 from '~/components/widgets/Hero2.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
 
 const metadata = {
   title: 'Click-through Landing Page Demo',
 };
+
+const documents = [
+  {
+    title:
+      'Identification including drive’ s license, social security card, birth certificate, or official form of identification to prove who you are',
+  },
+  {
+    title: 'Proof of legal status in this country and proof that you are legally able to work',
+  },
+  {
+    title:
+      'Name of school or program Diploma or certificate from home health aide training course and copy of CNA license',
+  },
+  {
+    title: 'Names, titles, addresses and phone numbers of previous employers or clients',
+  },
+  {
+    title: 'Copies of Continuing Education Certifications',
+  },
+  {
+    title: 'Days and hours available to work',
+  },
+  {
+    title: 'Brief statement why you want to work as a home health aide and client preferences',
+  },
+];
+
+const competences = [
+  {
+    title: 'Dress neatly and appropriately',
+  },
+  {
+    title: 'Shower or bathe and use deodorant',
+  },
+  {
+    title: 'Wash your hands with clean well filed nails no more than medium length or shorter',
+  },
+  {
+    title: 'Men caregiver should shave before interview',
+  },
+  {
+    title: 'Do not smoke before interview',
+  },
+  {
+    title: 'Do not wear perfume or cologne. Many people are sensitive or allergic to scents',
+  },
+  {
+    title: 'Wear simple make up and jewelry',
+  },
+  {
+    title: 'Wear hair in a simple and tidy style',
+  },
+  {
+    title: 'Wear nice pair of pants, skirt or dress. Make sure they are not wrinkled to too short. No short pants',
+  },
+  {
+    title: 'Make sure your shoes are clean and polished',
+  },
+  {
+    title: 'Arrive 10-15 minutes early. Find the location ahead of time',
+  },
+  {
+    title: 'Introduce yourself wit a smile and shake hands',
+  },
+  {
+    title: 'Answer questions clearly and completely',
+  },
+  {
+    title: 'Make eye contact to show your are sincere',
+  },
+  {
+    title: 'Avoid using slang words',
+  },
+  {
+    title: 'Never eat, drink, or chew during an interview',
+  },
+  {
+    title: 'Sit up or stand up straight and look happy',
+  },
+  {
+    title: 'Do not bring friends or children',
+  },
+  {
+    title: 'Do not use cell phones and best turn off your cell phone',
+  },
+  {
+    title: 'Relax and Be Confident',
+  },
+];
+
+const questions = [
+  {
+    title: 'Why did you become a home health aide?',
+  },
+  {
+    title: 'What do you like about working as a home health aide?',
+  },
+  {
+    title: 'What do you not like working as a home health aide?',
+  },
+  {
+    title: 'For first time home health aide, what are your expectations for this job?',
+  },
+  {
+    title: 'What are you good at? Your strengths and your weaknesses?',
+  },
+  {
+    title: 'Why did you leave your last job?',
+  },
+  {
+    title: 'What kind of clients do you prefer to work?',
+  },
+  {
+    title: 'What hours do you prefer to work?',
+  },
+  {
+    title: 'What salary are you looking for?',
+  },
+  {
+    title: 'What benefits are you looking for?',
+  },
+  {
+    title: 'How much traveling can you work? Any preference for distances of client’s homes?',
+  },
+  {
+    title: 'When are you available to start working?',
+  },
+];
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero2 Widget ******************* -->
+  <!-- Hero Widget ******************* -->
 
-  <Hero2
-    tagline="Click-through Demo"
-    title="Click-through Landing Page: The Perfect Bridge to Conversion!"
-    subtitle="Learn how to design a Click-Through Landing Page that seamlessly guides visitors to your main offer."
+  <Hero
+    tagline="Caregiver Resources"
+    title="Essential Documents and Interview Tips for Job Applicants"
+    subtitle="Equipping you with vital documents, expert advice, and field-tested strategies to land your ideal job, foster change in home health care, and navigate interviews with poise and precision"
     actions={[
       { variant: 'primary', text: 'Call to Action', href: '#', icon: 'tabler:square-rounded-arrow-right' },
       { text: 'Learn more', href: '#' },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: '/src/assets/images/image_caregiver-resources2.jpg',
       alt: 'Click-through Landing Page Hero Image',
     }}
   />
-
-  <CallToAction
-    title="Coming soon"
-    subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Download Template',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
-      },
-    ]}
-  />
+  <div
+    id="continuing-education"
+    class="max-w-6xl mx-auto text-xl flex flex-col gap-5 leading-relaxed mb-10 p-5 scroll-m-24"
+  >
+    <h2 class="text-3xl font-bold leading-9 dark:text-white">Documents required when applying for a job:</h2>
+    <ItemGrid
+      items={documents}
+      columns={1}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-medium text-muted dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <h2 class="text-3xl font-bold leading-9 dark:text-white mt-5">
+      Competence in job interview process. Be professional and do the following:
+    </h2>
+    <ItemGrid
+      items={competences}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-medium text-muted dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <h2 class="text-3xl font-bold leading-9 dark:text-white mt-5">
+      Here are some sample questions asked during an interview:
+    </h2>
+    <ItemGrid
+      items={questions}
+      columns={1}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-medium text-muted dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <h2 class="text-3xl font-bold leading-9 dark:text-white mt-5">Our corporate social responsibility</h2>
+    <p class="lg:text-base font-medium text-muted dark:text-slate-400 leading-6">
+      RIGHT ACCORD Home Health Care is one with the <a
+        href="https://www.mesotheliomahope.com/"
+        class="text-cyan-600 hover:text-cyan-700"
+        target="_blank">Mesothelioma Hope</a
+      >, a health support organization for terminally ill cancer patients and their loved ones. And also to
+      <a href="https://www.mesotheliomalawyercenter.org/" class="text-cyan-600 hover:text-cyan-700" target="_blank"
+        >MesotheliomaLawyerCenter.org</a
+      >, who aside from providing people with comprehensive mesothelioma cancer information, also help asbestos victims
+      recover money for medical treatment and other expenses. Together, we share our desire to provide hope to the
+      hopeless and support grief-stricken families.
+    </p>
+  </div>
 </Layout>
