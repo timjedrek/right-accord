@@ -43,11 +43,11 @@ export const headerData = {
       text: 'Specialty Care',
       links: [
         {
-          text: 'Alzheimer\'s & Dementia Care',
+          text: "Alzheimer's & Dementia Care",
           href: getPermalink('/#features'),
         },
         {
-          text: 'Parkinson\'s Disease Care',
+          text: "Parkinson's Disease Care",
           href: getPermalink('/pricing'),
         },
         {
@@ -106,16 +106,40 @@ export const headerData = {
       links: [
         {
           text: 'Getting Started',
-          href: getBlogPermalink(),
+          href: getPermalink('/family-services/getting-started'),
         },
         {
-          text: 'Family Portal - ESP',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+          text: 'FAQs',
+          href: getPermalink('/family-services/frequently-asked-questions'),
+        },
+        {
+          text: 'Family Portal - ERSP',
+          href: getPermalink('/family-services/family-portal-ersp'),
+        },
+        {
+          text: 'Family Caregiver Support',
+          href: getPermalink('/family-services/family-caregiver-support'),
         },
         {
           text: 'Community Care Resources',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
+          href: getPermalink('/family-services/community-care-resources'),
         },
+        {
+          text: 'Payers for Home Care',
+          href: getPermalink('/family-services/payers-for-home-care'),
+        },
+        // {
+        //   text: 'Getting Started',
+        //   href: getBlogPermalink(),
+        // },
+        // {
+        //   text: 'Family Portal - ESP',
+        //   href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+        // },
+        // {
+        //   text: 'Community Care Resources',
+        //   href: getPermalink('markdown-elements-demo-post', 'post'),
+        // },
         // {
         //   text: 'Category Page',
         //   href: getPermalink('tutorials', 'category'),
@@ -153,7 +177,7 @@ export const headerData = {
           text: 'Blog',
           href: getPermalink('/landing/product'),
         },
-      ]
+      ],
     },
   ],
   actions: [{ text: 'Contact Us', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],

@@ -1,0 +1,109 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+const metadata = {
+  title: 'Pre-Launch Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="Frquently Asked Questions"
+    title="Home health care center FAQ’s"
+    subtitle="Your comprehensive faqs resource for clarity and understanding"
+    actions={[{ text: 'Learn more', href: '#faq' }]}
+    image={{
+      src: '/src/assets/images/main-image_faq2.jpg',
+      alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
+    }}
+  />
+
+  <FAQs
+    id="faq"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'What are the warning signs that your loved one may need in-home care?',
+        description: 'A combination of the following means you need to consult for in-home care.',
+        list: [
+          'Frequent Falls',
+          'Weight Loss, Dehydration or Malnutrition',
+          'Appear unkempt',
+          'Lonely or depressed',
+          'Forgetful of doctor appointments',
+          'Experiencing errors in medications',
+          'Making frequent or unnecessary phone calls',
+          'Neglecting his or her hygiene',
+          'Disorganized at home',
+          'Unable to go to grocery store',
+          'Unable to drive or keep driving even when advised by doctor to stop driving',
+          'Have lapses of memory',
+          'Unable to manage affairs in the home',
+          'Hoarding',
+          'Wandering',
+          'Frequent infections',
+          'Need to see doctors more than usual',
+          'New diagnosis with treatments involve',
+          'Depression or loneliness',
+          'Having medical procedure and live alone',
+        ],
+      },
+      {
+        title: 'What questions should i ask when consulting an in-home care provider?',
+        description: 'When interviewing, ask if the company is:',
+        list: [
+          'Licensed by the State of Florida and regulated by FL Agency for Health Care Administration (AHCA)',
+          'Caregivers are not contractors but Employees (which means you will not be responsible, but the agency is responsible for paying all employment payroll taxes, unemployment insurance taxes, Workmen’s Compensation plan, Social Security, Medicare, Federal and State withholdings',
+          'Covered with Professional Liability Insurance',
+          'Fidelity Bond Insurance (referred to as theft insurance)',
+          'Level 2 Criminal Background Screening as mandated by AHCA',
+          'Has a system to validate caregiver experience and training',
+          'Provide continuing education',
+          'Has caregiver coverage or substitution in case of emergencies',
+          'Oversight and supervision of caregivers',
+          'Develop a plan of care and continue to review and update according the your loved ones condition',
+          'Minimum number of hours required',
+          'On call service is available 24/7 for emergencies or to address your concerns',
+          'Provide periodic follow-up, spot checks and visits',
+        ],
+      },
+      {
+        title: 'How our caregivers are selected?',
+        description:
+          'We hire an “A-Team” of caregivers whom we conduct a complete and thorough personal and professional screening. Our goal is to match the specific needs and requests of each client with our caregiver’s personality. We want to hire the best caregivers in the community.',
+      },
+      {
+        title: 'Can we choose or meet the caregiver in advance?',
+        description:
+          'Yes, we can arrange caregivers for you to interview. We want you to be happy with your or our choice of caregiver. We want to work with you in finding the suitable caregiver for your loved one.',
+      },
+      {
+        title:
+          'What will happen if caregiver is unable to show up at a scheduled shift due to an emergency or sickness?',
+        description:
+          'RIGHT ACCORD Care Coordinator will do everything in our power to find another qualified caregiver or replacement and ensure there’s no disruption of service.',
+      },
+      {
+        title: 'Do you provide services in the hospital or other facilities?',
+        description:
+          'Yes, we provide sitter or companionship services while your loved one is hospitalized, or recovering in a facility or living in an assisted living or independent living community.',
+      },
+      {
+        title: 'Who pays for in-home care services?',
+        description:
+          'Typically, it is privately paid. However. we accept all kinds of Long Term Care Insurance Policies, Veterans Aid and Attendance Benefits, Medicaid Waivers and Workers Compensation.',
+      },
+      {
+        title: 'How do we pay for services rendered?',
+        description:
+          'All our caregivers are employed and paid weekly. We take care of billing, payroll, taxes and insurances. You will receive a weekly invoice from our company by mail or email, as agreed upon initially. Invoices are due upon receipt. Payment by check or credit card is accepted.',
+      },
+    ]}
+  />
+</Layout>

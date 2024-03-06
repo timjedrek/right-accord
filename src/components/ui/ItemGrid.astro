@@ -11,6 +11,7 @@ const {
   panel: panelClass = '',
   title: titleClass = '',
   description: descriptionClass = '',
+  list: listClass = '',
   icon: defaultIconClass = 'text-primary',
   action: actionClass = '',
 } = classes;
@@ -32,7 +33,7 @@ const {
         containerClass
       )}
     >
-      {items.map(({ title, description, icon, callToAction, classes: itemClasses = {} }) => (
+      {items.map(({ title, description, icon, callToAction, list, classes: itemClasses = {} }) => (
         <div>
           <div class={twMerge('flex flex-row max-w-md', panelClass, itemClasses?.panel)}>
             <div class="flex justify-center">
@@ -51,6 +52,18 @@ const {
                   set:html={description}
                 />
               )}
+              {list &&
+                list.map((item) => (
+                  <div class="flex">
+                    <Icon
+                      name="tabler:check"
+                      class={
+                        'mr-2 min-w-5 mt-1 rtl:mr-0 rtl:ml-2 flex h-5 w-5 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1'
+                      }
+                    />
+                    <p class={twMerge(`mt-1 text-muted`, listClass, itemClasses?.list)} set:html={item} />
+                  </div>
+                ))}
               {callToAction && (
                 <div class={twMerge(`${title || description ? 'mt-3' : ''}`, actionClass, itemClasses?.actionClass)}>
                   <Button variant="link" {...callToAction} />
