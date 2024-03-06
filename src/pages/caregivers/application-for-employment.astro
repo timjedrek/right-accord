@@ -1,5 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import Jobs from '~/components/widgets/Jobs.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -13,18 +16,35 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero
-    tagline="Lead Generation Landing Demo"
-    title="Effective Lead Generation Landing Page: Unlock the Secrets"
-    subtitle="Discover the secrets to creating a Landing Page that turns curious visitors into eager leads. (Your Hero should grab attention instantly. Use a powerful headline that speaks directly to your target audience.)"
+    tagline="Application for Employment"
+    title="How to Apply?"
+    subtitle="Before applying, please read the relevant job description to ensure you hold all the required qualifications to pursue this employment."
     actions={[
-      { variant: 'primary', text: 'Call to Action', href: '#', icon: 'tabler:square-rounded-arrow-right' },
+      { variant: 'primary', text: 'Apply Here', href: '#', icon: 'tabler:square-rounded-arrow-right' },
       { text: 'Learn more', href: '#' },
     ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1597423498219-04418210827d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80',
-      alt: 'Magnet attracting screws. Lead generation landing page demo',
-    }}
   />
+
+  <Jobs items={[
+    {
+      title: 'Certified Nursing Assistant (CNA) - Job Description',
+      description:
+        'Certified Nursing Assistants (CNA) are designated to work within a home environment providing hands-on personal care assistance with an established plan of care. Live-in Caregivers are CNA’s who work and live in the home. CNA’s cannot administer medications of any kind, although they can remind the patient / client to take medications.',
+      icon: 'tabler:template',
+    },
+    {
+      title: 'Home Health Aides (HHA) - Job Description',
+      description:
+        'Home Health Aides (HHA) are designated to work within a home environment providing hands-on personal care assistance with an established plan of care. Live-in Caregivers are HHA’ who work and live in the home. HHA’s cannot administer medications of any kind, although they can remind the patient / client to take medications.',
+      icon: 'tabler:template',
+    },
+    {
+      title: 'Homemaker/Companion - Job Description',
+      description:
+        'A homemaker/companion provides a safe and clean environment for the client within a home environment.',
+      icon: 'tabler:template',
+    },
+  ]}></Jobs>
 
   <CallToAction
     title="Coming soon"
