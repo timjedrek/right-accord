@@ -1,0 +1,61 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Sales Landing Page Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Caregiver Support"
+    title="Caregiver Support"
+    subtitle="Everyday may be different and challenging. In many hundred ways, every week you may offer help that only a caring and compassionate person like you can give."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Check our RIGHT ACCORD Portal Site',
+        href: 'http://rightaccordhomecare.com/',
+        icon: 'tabler:square-rounded-arrow-right',
+        target: '_blank',
+      },
+      { text: 'Learn more', href: '#support' },
+    ]}
+    image={{
+      src: '/src/assets/images/home-maker2.jpg',
+      alt: 'Children telling a story. Long-form Sales Landing Page demo',
+    }}
+  />
+
+  <div id="support" class="max-w-4xl mx-auto text-xl flex flex-col gap-5 leading-relaxed mb-10 p-5 scroll-m-24">
+    <p>
+      From your clients and their families, your work can mean the whole big difference in their lives. The difference
+      you make may sometimes even mean between life and death. Look at the face of each of your client and know that you
+      are doing an important work. Each day look at yourself in a mirror and be proud of how you are making a living.
+    </p>
+    <p>
+      At the most, Caregivers are also easily prone to <a
+        href="https://rightaccordhealth.com/blog/2019/september/caregiver-stress-burnout.html"
+        class="text-cyan-600 hover:text-cyan-700"
+        target="_blank">stress and burned out</a
+      >. Without observing proper rest and relaxation techniques, caregivers often become frustrated with their jobs and
+      themselves. Sometimes, when you need a break, all you need is an exercise that can make you feel refreshed and
+      relaxed.
+    </p>
+    <p>
+      At RIGHT ACCORD, we value our employees, support them and reach out to them regularly to ensure they are always at
+      their best.
+    </p>
+    <p>
+      We offer Health and Wellness Programs that help ease some of the tensions and anxiety. We provide Stress
+      Management seminars to help develop simple skills to relax and deal with their stresses. We listen to their
+      concerns and offer some solutions.
+    </p>
+  </div>
+</Layout>

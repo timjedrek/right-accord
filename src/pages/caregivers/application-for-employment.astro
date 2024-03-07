@@ -1,0 +1,102 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Features4 from '~/components/widgets/Features4.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Button from '~/components/ui/Button.astro';
+
+const metadata = {
+  title: 'Lead Generation Landing Page Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="Application for Employment"
+    title="How to Apply?"
+    subtitle="Before applying, please read the relevant job description to ensure you hold all the required qualifications to pursue this employment."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Apply Here',
+        href: 'https://rightaccordhealth.isolvedhire.com/jobs/',
+        icon: 'tabler:square-rounded-arrow-right',
+        target: '_blank',
+      },
+      { text: 'Learn more', href: '#jobs' },
+    ]}
+  />
+
+  <Features4
+    id="jobs"
+    title="Job Openings"
+    subtitle="We are hiring for the following positions"
+    items={[
+      {
+        title: 'Certified Nursing Assistant (CNA) - Job Description',
+        description:
+          'Certified Nursing Assistants (CNA) are designated to work within a home environment providing hands-on personal care assistance with an established plan of care. Live-in Caregivers are CNA’s who work and live in the home. CNA’s cannot administer medications of any kind, although they can remind the patient / client to take medications.',
+        icon: 'tabler:template',
+        image: {
+          src: '/src/assets/images/certified-nursing-assistant2.jpg',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+        },
+      },
+      {
+        title: 'Home Health Aides (HHA) - Job Description',
+        description:
+          'Home Health Aides (HHA) are designated to work within a home environment providing hands-on personal care assistance with an established plan of care. Live-in Caregivers are HHA’ who work and live in the home. HHA’s cannot administer medications of any kind, although they can remind the patient / client to take medications.',
+        icon: 'tabler:template',
+        image: {
+          src: '/src/assets/images/home-health-aide2.jpg',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+        },
+      },
+      {
+        title: 'Homemaker/Companion - Job Description',
+        description:
+          'A homemaker/companion provides a safe and clean environment for the client within a home environment.',
+        icon: 'tabler:template',
+        image: {
+          src: '/src/assets/images/home-maker-companion.jpg',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+        },
+      },
+    ]}
+  />
+  <div class="max-w-4xl mx-auto text-xl flex flex-col gap-5 leading-relaxed mb-10 p-5">
+    <h2>IMPORTANT THINGS TO NOTE:</h2>
+    <p>
+      Please note that all applicants must hold or undergo an electronic Level 2 background screening as required by
+      Florida Statute (F.S.), Chapter 435. The results will determine your eligibility to be hired or not. Depending on
+      which LiveScan vendor you use, the cost to you will be approximately $55. Once you can confirm that you have these
+      documents, then carefully follow the instructions as directed below. If you are interested in any of the above
+      positions, please complete the application at <a
+        href="https://rightaccordhealth.isolvedhire.com/jobs/"
+        class="text-cyan-600 hover:text-cyan-700"
+        target="_blank">RIGHT ACCORD Careers Page</a
+      >.
+    </p>
+    <p>
+      If you are unable to complete the application online, please visit our main office located at 3821 Clark Road,
+      Sarasota, Monday through Friday, from 10 a.m. - 3 p.m. where you will be able to complete the application online
+      using our computer. On completion, the Human Resources Manager will review your application as soon as possible.
+      If your skills and experience match the position requirements, you will be requested to attend an interview at
+      RIGHT ACCORD. Again, please, ensure you have ALL required qualifications and relevant documents.
+    </p>
+
+    <Button
+      variant="primary"
+      text="Apply Here"
+      href="https://rightaccordhealth.isolvedhire.com/jobs/"
+      icon="tabler:square-rounded-arrow-right"
+      class="w-fit sm:mb-0"
+      target="_blank"
+    />
+  </div>
+</Layout>

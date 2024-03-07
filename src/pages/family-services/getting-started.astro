@@ -1,0 +1,80 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Pre-Launch Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="Getting Started"
+    title="Ready to get started?"
+    subtitle="Through our Guarantee of Compassionate Care, Professional Support, and Total Comfort, our Mission will help you and your loved ones lead a dignified and fulfilling life in the comfort and safety of home."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Call Us Now',
+        href: 'https://rightaccordhealth.isolvedhire.com/jobs/',
+        icon: 'tabler:square-rounded-arrow-right',
+        target: '_blank',
+      },
+      { text: 'Learn more', href: '#jobs' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_getting-started.jpg',
+      alt: 'Click-through Landing Page Hero Image',
+      width: '2024',
+    }}
+  />
+
+  <div class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5">
+    <div class="grid md:grid-cols-3 gap-5">
+      <div
+        class="rounded-lg shadow-slate-400 shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"
+      >
+        <p class="text-xl font-bold">Sarasota Office:</p>
+        <p class="text-muted mt-2">Phone: (941) 366-0801</p>
+      </div>
+      <div
+        class="rounded-lg shadow-slate-400 shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"
+      >
+        <p class="text-xl font-bold">Bradenton Office:</p>
+        <p class="text-muted mt-2">Phone: (941) 487-3665</p>
+      </div>
+      <div
+        class="rounded-lg shadow-slate-400 shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"
+      >
+        <p class="text-xl font-bold">Venice Office:</p>
+        <p class="text-muted mt-2">Phone: (941) 366-0801</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-5 mt-10">
+      <h2 class="font-semibold">About RIGHT ACCORD Home Health Care</h2>
+      <p>
+        RIGHT ACCORD HOME CARE provide in home care to seniors who are struggling with independence by sending
+        caregivers who can provide help anywhere from few hours to 24 hours of care. Our caregivers are certified
+        nursing assistants and home health aides who can help families ease their burden from caregiving and have peace
+        of mind.
+      </p>
+      <p>
+        We highly specialized in 24 hour care for cases such as in Dementia and Alzheimer’s Care, Parkinsons, Stroke and
+        End of Life Care or Hospice Care. Our caregivers have extensive trainings and receive ongoing training while
+        working at Right Accord. Our Electronic Caregiver Technology is a state of the art modern Personal Emergency
+        Response System available to our clients. Our Seniors and Caregiver Wellness Program focuses on Holistic
+        Approach to total well being that embraces natural balance on mind, body, spirit, food and sleep.
+      </p>
+      <p>
+        Our aim is keeping our seniors safe and allowing them to remain home as long as possible. We offer Caregivers
+        who can provide families peace of mind and help them maintain their lifestyle without suffering from the burden
+        of caregiving.
+      </p>
+    </div>
+  </div>
+</Layout>

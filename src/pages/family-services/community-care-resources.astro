@@ -1,0 +1,249 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+
+const resources = [
+  {
+    title: 'Adult Day Care and Respite Care',
+  },
+  {
+    title: 'Assisted Living Facilities',
+  },
+  {
+    title: 'Independent Living Communities',
+  },
+  {
+    title: 'Rehabilitation Facilities',
+  },
+  {
+    title: 'Long Term Care Facilities',
+  },
+  {
+    title: 'Medicare Home Health Visits (Nursing, Physical Therapy, Occupational Therapy)',
+  },
+  {
+    title: 'Alzheimer’s Care or Memory Care Units/Facilities',
+  },
+  {
+    title: 'Area Agency on Aging',
+  },
+  {
+    title: 'Alternative Medicine such as Acupuncture',
+  },
+  {
+    title: 'Chiropractors',
+  },
+  {
+    title: 'Health and Wellness Coaching',
+  },
+  {
+    title: 'Nutritional Counseling',
+  },
+  {
+    title: 'Beauty and Hair and Nail Places',
+  },
+  {
+    title: 'Grab Bars',
+  },
+  {
+    title: 'Bathroom Safety and Conversions',
+  },
+  {
+    title: 'Senior Advocacy',
+  },
+  {
+    title: 'Senior Home Modifications',
+  },
+  {
+    title: 'Geriatric Care Management',
+  },
+  {
+    title: 'Concierge Doctors and Mobile Physician services',
+  },
+  {
+    title: 'Primary and Specialty Physicians',
+  },
+  {
+    title: 'Laboratory, Treatments and Diagnostic Centers',
+  },
+  {
+    title: 'Caregiver Support Groups',
+  },
+  {
+    title: 'Memory Care Clinic and Facilities',
+  },
+  {
+    title: 'Mental Health Counseling',
+  },
+  {
+    title: 'Dementia Care Specialist',
+  },
+  {
+    title: 'Local entertainment and activities',
+  },
+  {
+    title: 'County Health Department',
+  },
+  {
+    title: 'County Sherriff or Police Department',
+  },
+  {
+    title: 'Elder Abuse',
+  },
+  {
+    title: 'Department of Children’s and Family Services',
+  },
+  {
+    title: 'Trust and Wealth Managers',
+  },
+  {
+    title: 'Medicaid and Life Planning',
+  },
+  {
+    title: 'Estate and Trust Attorney',
+  },
+  {
+    title: 'Elder Attorneys',
+  },
+  {
+    title: 'Guardianship',
+  },
+  {
+    title: 'Home Organizers',
+  },
+  {
+    title: 'Movers and Packers',
+  },
+  {
+    title: 'Travel Planners',
+  },
+  {
+    title: 'Disabled Transportation',
+  },
+  {
+    title: 'Flight Assistance',
+  },
+  {
+    title: 'Personal Home Emergency Alert/ Management Systems',
+  },
+  {
+    title: 'Home Medication Management Technology',
+  },
+  {
+    title: 'Local Hospitals',
+  },
+  {
+    title: 'Telehealth',
+  },
+  {
+    title: 'Dental Services',
+  },
+  {
+    title: 'Dialysis Services',
+  },
+  {
+    title: 'Eye Clinic and Vision Services',
+  },
+  {
+    title: 'Hearing Aids',
+  },
+  {
+    title: 'Medical Equipment / Home Oxygen Providers',
+  },
+  {
+    title: 'Out-Patient Physical Therapy',
+  },
+  {
+    title: 'Mobile Physical Therapy',
+  },
+  {
+    title: 'Pharmacies',
+  },
+  {
+    title: 'Urgent Clinics',
+  },
+  {
+    title: 'Gym and Fitness Centers',
+  },
+  {
+    title: 'Veterinarian Services',
+  },
+  {
+    title: 'Dog Grooming Services',
+  },
+  {
+    title: 'Home Maintenance Companies (Pool, Air Conditioning, Lawn, Roofing)',
+  },
+  {
+    title: 'Meals on Wheels',
+  },
+  {
+    title: 'Errand Services',
+  },
+  {
+    title: 'Mobile Dry Cleaning Service',
+  },
+  {
+    title: 'Grocery Stores and Assistance Plan',
+  },
+  {
+    title: 'Senior Real Estate Agents and Reverse Mortgage Specialist',
+  },
+  {
+    title: 'Funeral, Cremation and Mortuary Services',
+  },
+  {
+    title: 'And more',
+  },
+];
+const metadata = {
+  title: 'Pre-Launch Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    title="Community Care Resources"
+    subtitle="Navigating care networks: our commitment to community care coordination"
+    actions={[{ text: 'Learn more', href: '#learn-more' }]}
+    image={{
+      src: '/src/assets/images/main-image_community-care.jpg',
+      alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
+      width: '2024',
+    }}
+  />
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <h2 class="font-semibold text-2xl">Community care coordination</h2>
+    <p>
+      We are continuously working with different businesses that we can trust to collaborate our care and services to
+      our clients. RIGHT ACCORD will not only provide in home care for your loved but upon request or when the need is
+      identified, we will provide you with comprehensive sources and names of services such as senior housing options,
+      health care professionals and other home health care, community resources and information. We can initiate and
+      help process the referral for you.
+    </p>
+
+    <h2 class="font-semibold text-2xl mt-10">Community care resources</h2>
+
+    <ItemGrid
+      items={resources}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+  </div>
+</Layout>

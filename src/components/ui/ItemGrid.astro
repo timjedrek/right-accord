@@ -11,6 +11,7 @@ const {
   panel: panelClass = '',
   title: titleClass = '',
   description: descriptionClass = '',
+  list: listClass = '',
   icon: defaultIconClass = 'text-primary',
   action: actionClass = '',
 } = classes;
@@ -20,19 +21,19 @@ const {
   items && (
     <div
       class={twMerge(
-        `grid mx-auto gap-8 md:gap-y-12 ${
+        `grid gap-8 md:gap-y-12 ${
           columns === 4
             ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2'
             : columns === 3
-            ? 'lg:grid-cols-3 sm:grid-cols-2'
-            : columns === 2
-            ? 'sm:grid-cols-2 '
-            : ''
+              ? 'lg:grid-cols-3 sm:grid-cols-2'
+              : columns === 2
+                ? 'sm:grid-cols-2 '
+                : ''
         }`,
         containerClass
       )}
     >
-      {items.map(({ title, description, icon, callToAction, classes: itemClasses = {} }) => (
+      {items.map(({ title, description, icon, callToAction, list, classes: itemClasses = {} }) => (
         <div>
           <div class={twMerge('flex flex-row max-w-md', panelClass, itemClasses?.panel)}>
             <div class="flex justify-center">
@@ -43,7 +44,7 @@ const {
                 />
               )}
             </div>
-            <div class="mt-0.5">
+            <div>
               {title && <h3 class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>{title}</h3>}
               {description && (
                 <p
@@ -51,14 +52,20 @@ const {
                   set:html={description}
                 />
               )}
+              {list &&
+                list.map((item) => (
+                  <div class="flex">
+                    <Icon
+                      name="tabler:check"
+                      class={
+                        'mr-2 min-w-5 mt-1 rtl:mr-0 rtl:ml-2 flex h-5 w-5 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1'
+                      }
+                    />
+                    <p class={twMerge(`mt-1 text-muted`, listClass, itemClasses?.list)} set:html={item} />
+                  </div>
+                ))}
               {callToAction && (
-                <div
-                  class={twMerge(
-                    `${title || description ? 'mt-3' : ''}`,
-                    actionClass,
-                    itemClasses?.actionClass
-                  )}
-                >
+                <div class={twMerge(`${title || description ? 'mt-3' : ''}`, actionClass, itemClasses?.actionClass)}>
                   <Button variant="link" {...callToAction} />
                 </div>
               )}

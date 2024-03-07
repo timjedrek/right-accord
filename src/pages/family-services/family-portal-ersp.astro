@@ -1,0 +1,58 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Pre-Launch Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Family Portal - ESRP"
+    title="eRSP Family Connect"
+    subtitle="The new eRSP Family Connect is a portal for client’s family to be able to communicate with the agency and home care providers regarding plan of care including scheduling and calendar."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Log In',
+        href: 'https://tsc214.ersp.biz/index.cfm?event=general#/',
+        icon: 'tabler:square-rounded-arrow-right',
+        target: '_blank',
+      },
+      { text: 'Learn more', href: '#learn-more' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_family-portal.jpg',
+      alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
+    }}
+  />
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <h2 class="font-semibold">About RIGHT ACCORD Home Health Care</h2>
+    <p>
+      RIGHT ACCORD HOME CARE provide in home care to seniors who are struggling with independence by sending caregivers
+      who can provide help anywhere from few hours to 24 hours of care. Our caregivers are certified nursing assistants
+      and home health aides who can help families ease their burden from caregiving and have peace of mind.
+    </p>
+    <p>
+      We highly specialized in 24 hour care for cases such as in Dementia and Alzheimer’s Care, Parkinsons, Stroke and
+      End of Life Care or Hospice Care. Our caregivers have extensive trainings and receive ongoing training while
+      working at Right Accord. Our Electronic Caregiver Technology is a state of the art modern Personal Emergency
+      Response System available to our clients. Our Seniors and Caregiver Wellness Program focuses on Holistic Approach
+      to total well being that embraces natural balance on mind, body, spirit, food and sleep.
+    </p>
+    <p>
+      Our aim is keeping our seniors safe and allowing them to remain home as long as possible. We offer Caregivers who
+      can provide families peace of mind and help them maintain their lifestyle without suffering from the burden of
+      caregiving.
+    </p>
+  </div>
+</Layout>
