@@ -1,0 +1,141 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Image from '~/components/common/Image.astro';
+
+const metadata = {
+  title: 'Personal Homepage Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    id="hero"
+    title="Rosemarie Ramunday-Casanova"
+    tagline="About the founder"
+    actions={[{ variant: 'primary', text: 'Learn more', href: '#about' }]}
+  >
+    <Fragment slot="subtitle">
+      RIGHT ACCORD is a florida-based, family-owned and operated home health care service run by Rosemarie
+      Tamunday-Casanova, together with a highly experienced team of experts comprising administrative and clinical
+      staff.
+    </Fragment>
+  </Hero>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="about"
+    columns={3}
+    image={{
+      src: '/src/assets/images/Rosemarie-Tamunday-Casanova2.jpg',
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Rosemarie Tamunday-Casanova</h3>
+      <p>
+        Having devoted a good proportion of her early life to providing care for her ailing father, grandmother, and
+        then her mother, Rosemarie developed a deep interest in the Healthcare industry with special regard to elderly
+        long-term care.
+      </p>
+      <br />
+      <p>
+        Her practical experience coupled with this zeal for a medical caregiving fuelled her passion and she went on to
+        earn a Bachelor's degree in Nursing with a special qualification in Critical Care Nursing, another degree in
+        Legal Nurse Consulting, and then a master's degree in Health Administration.
+      </p>
+      <br />
+      <p>
+        She realized that just like her ailing parents and grandmother had needed assistance, very many American senior
+        citizens equally have a great need for assistance with activities of daily living (ADL) as well as a need for
+        compassionate, quality home care and companionship.
+      </p>
+      <br />
+      <p>
+        Propelled by the passion and desire to fill this need for more healthcare professionals in geriatric care, she
+        was spurred on to establish RIGHT ACCORD Duty Home Healthcare in Sarasota, Florida in May 2007, one of the first
+        Private Duty companies to be accredited and certified by the Joint Commission in Sarasota, a nationally
+        recognized symbol of high quality and performance.
+      </p>
+    </Fragment>
+  </Content>
+
+  <div class="max-w-5xl mx-auto flex flex-col px-5 pb-16">
+    <blockquote class="italic text-3xl text-muted indent-5">
+      "We’ve been developing our set of specialized senior care services over the past years. Now we’re ready for more
+      growth, and are seeking motivated professionals to join our program"
+    </blockquote>
+    <p class="text-sm self-end">- Rosemarie Tamunday-Casanova</p>
+  </div>
+
+  <div class="py-16 max-w-7xl px-5 mx-auto">
+    <h2 class="font-semibold text-2xl bg-main-blue p-3 text-white w-fit uppercase mb-3">
+      Right accord's commitment to service
+    </h2>
+    <Image
+      class="mx-auto rounded-md w-full mb-4 float-end"
+      widths={[400, 768, 1024, 2040]}
+      sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+      loading="eager"
+      width={500}
+      height={700}
+      src="/src/assets/images/rose_tamunday-casanova.jpg"
+      alt="Children telling a story. Long-form Sales Landing Page demo"
+    />
+    <p>
+      RIGHT ACCORD understands that seniors cherish their independence and would rather remain in the comfort of their
+      own homes, so is dedicated to providing them with the needed support and assistance in the most dignified manner
+      possible, achieved with the help of Rosemarie's substantial background in Nursing Care, Critical Care Nursing,
+      Hospice Care, Health administration, Healthcare Practice Management, and Elderly Home Care.
+    </p>
+    <p class="py-5">
+      In addition, RIGHT ACCORD staff and caregivers are thoroughly screened and evaluated before employment, and are
+      also required to undergo routine continuing education as part of their extensive training.
+    </p>
+    <p>
+      With RIGHT ACCORD, aging at home is safe and possible and we are committed to ensuring that seniors who require
+      short or long-term care and assistance are provided such in a way that it would be given them by their own family
+      members.
+    </p>
+    <p class="py-5">
+      Having today successfully cared for hundreds of seniors including those requiring specialized care such as
+      Alzheimer's care and other related Dementia care, Parkinson's disease care, After-Stroke in home care,
+      Post-surgical/recovery or Rehabilitation care, and Hospice and End-of-Life support and care etc, RIGHT ACCORD as
+      part of our commitment towards bringing elderly home care to as many who need it as possible, is implementing a
+      new program to begin expansion in Florida and also nationwide.
+    </p>
+    <p class="py-5">
+      “We’ve been developing our set of specialized senior care services over the past years,” said Rosemarie, founder
+      of RIGHT ACCORD Senior Care Franchise. “Now we’re ready for more growth, and are seeking motivated professionals
+      to join our program.”
+    </p>
+    <p class="py-5">
+      When she's not busy with the demands of being RIGHT ACCORD’s administrator, Rosemarie as a testament to her
+      burning desire and ability to provide care and help, is involved in humanitarian and philanthropic activities such
+      as volunteering as a facilitator for Caregiver Support Groups to the Alzheimer’s Association Gulf Coast chapter in
+      four different facilities in the area, volunteering in her capacity as member and one-time President of Siesta Key
+      Kiwanis Club towards youth empowerment and fundraising events locally and internationally, contributing to
+      non-profit organizations, offering scholarship programs to well deserving college students towards earning a
+      degree, helps with poverty alleviation, and also involved in routine medical missions to her home country the
+      Philippines.
+    </p>
+    <p class="py-5">
+      Her active community engagements and partnerships is one of the reasons why she stands out from others and is able
+      to provide tremendous support and recommendations even for clients requiring services not offered by RIGHT ACCORD.
+    </p>
+    <p class="py-5">
+      RIGHT ACCORD’s mission is simple -- To achieve a world in which senior citizens can age in a graceful, dignified
+      and safe way, with ready access to every social connection they require to live an enhanced quality of life.
+    </p>
+  </div>
+</Layout>

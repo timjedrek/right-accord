@@ -1,0 +1,98 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Image from '~/components/common/Image.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+
+const metadata = {
+  title: 'RIGHT ACCORD Home Care',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="About Us"
+    title="RIGHT ACCORD Home Care"
+    subtitle="Home Health Agency licensed by the Florida Agency for Health Care Administration (AHCA) who is responsible for health care organization licensure and regulation. (HHA29993655)"
+    actions={[{ text: 'Learn more', href: '#learn-more' }]}
+    image={{
+      src: '/src/assets/images/RIGHT-ACCORD-Sarasota-Office.jpg',
+      alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
+    }}
+  />
+
+  <div id="learn-more" class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 px-5 flex flex-col scroll-m-24">
+    <h2 class="font-semibold text-2xl pb-3 bg-main-blue p-3 text-white w-fit uppercase">
+      About RIGHT ACCORD Home Health Care
+    </h2>
+    <p>
+      RIGHT ACCORD HOME CARE is a nurse-owned company with over 30 years of experience. The company is built on the
+      foundation of commitment to caring with compassion for the elderly and disabled seniors. Families are assured with
+      peace of mind knowing their loved ones are cared for at home by compassionate and qualified care providers.
+    </p>
+    <h2 class="font-semibold text-2xl pb-3 bg-main-blue p-3 text-white w-fit uppercase mt-10">
+      Accreditation and certification
+    </h2>
+    <div class="flex gap-5 flex-col lg:flex-row">
+      <div class="flex flex-col gap-5 flex-[2_2_0]">
+        <p>
+          The Joint Commission accredits RIGHT ACCORD with the Gold Seal. The accreditation and certification with The
+          Joint Commission is recognized nationwide, which reflects an organization commitment to certain performance
+          standards.
+        </p>
+        <p>The Gold Seal is a symbol of quality that reflects a commitment to safety and quality standards.</p>
+        <p>
+          We are licensed to provide home care services in Sarasota and Manatee Counties. Our company is insured and
+          bonded. Our caregivers are employed, covered by Workers’ Compensation, insured and bonded.
+        </p>
+        <p>
+          RIGHT ACCORD is proud to be nominated as Best Home Health Care Provider Finalist by The Herald Tribune
+          Reader’s Choice in Sarasota and Manatee.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-3 flex-1">
+        <Image
+          class="mx-auto rounded-md w-full mb-4"
+          widths={[400, 768, 1024, 2040]}
+          sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+          loading="eager"
+          width={600}
+          height={600}
+          src="/src/assets/images/accreditation-gold-seal.jpg"
+          alt="Children telling a story. Long-form Sales Landing Page demo"
+        />
+        <Image
+          class="mx-auto rounded-md w-full mb-4"
+          widths={[400, 768, 1024, 2040]}
+          sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+          loading="eager"
+          width={600}
+          height={600}
+          src="/src/assets/images/readers-choice-2009.jpg"
+          alt="Children telling a story. Long-form Sales Landing Page demo"
+        />
+        <Image
+          class="mx-auto rounded-md w-full mb-4"
+          widths={[400, 768, 1024, 2040]}
+          sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+          loading="eager"
+          width={600}
+          height={600}
+          src="/src/assets/images/readers-choice-2010b.jpg"
+          alt="Children telling a story. Long-form Sales Landing Page demo"
+        />
+        <Image
+          class="mx-auto rounded-md w-full mb-4"
+          widths={[400, 768, 1024, 2040]}
+          sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+          loading="eager"
+          width={600}
+          height={600}
+          src="/src/assets/images/readers-choice-2014b.jpg"
+          alt="Children telling a story. Long-form Sales Landing Page demo"
+        />
+      </div>
+    </div>
+  </div>
+</Layout>

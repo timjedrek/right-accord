@@ -155,27 +155,27 @@ export const headerData = {
       links: [
         {
           text: 'About Right Accord',
-          href: getPermalink('/landing/click-through'),
+          href: getPermalink('/about-us/about-right-accord'),
         },
         {
           text: 'About the Founder',
-          href: getPermalink('/landing/product'),
+          href: getPermalink('/about-us/about-the-founder'),
         },
         {
           text: 'Our Mission',
-          href: getPermalink('/landing/lead-generation'),
+          href: getPermalink('/about-us/our-mission'),
         },
         {
           text: 'Why Choose Right Accord?',
-          href: getPermalink('/landing/sales'),
+          href: getPermalink('/about-us/why-choose-right-accord'),
         },
         {
           text: 'Testimonials',
-          href: getPermalink('/landing/product'),
+          href: getPermalink('/about-us/testimonials'),
         },
         {
           text: 'Blog',
-          href: getPermalink('/landing/product'),
+          href: getPermalink('/blog'),
         },
       ],
     },
