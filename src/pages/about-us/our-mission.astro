@@ -1,0 +1,172 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+
+const metadata = {
+  title: 'Our Mission',
+};
+
+const items = [
+  {
+    title: 'our professionalism',
+  },
+  {
+    title: 'experience our consistency',
+  },
+  {
+    title: 'appreciate our integrity',
+  },
+  {
+    title: 'feel our compassion',
+  },
+  {
+    title: 'enjoy our highly trained staff and',
+  },
+  {
+    title: 'feel secure about their safety',
+  },
+];
+
+const beliefs = [
+  {
+    title: 'Every person is a unique individual with worth',
+  },
+  {
+    title: 'Every person has the need for self-determination',
+  },
+  {
+    title: 'Every person has the desire to actualize his/her dreams',
+  },
+  {
+    title: 'Every person has individual right that must be respected and upheld',
+  },
+  {
+    title: 'Every person has the right to be treated with dignity and respect',
+  },
+  {
+    title: 'Every person has the right to be a valued member within the community',
+  },
+  {
+    title: 'Every person must have the opportunity to access all community services appropriate for his/her needs',
+  },
+  {
+    title: 'Every person has the right to develop a supportive network of individuals who act as advocates',
+  },
+  {
+    title: 'Every person has the right to give of one’s self and to receive from others in return',
+  },
+];
+
+const values = [
+  {
+    title: 'To Honor Life in All Its Stages',
+  },
+  {
+    title: 'Act with Dignity and Respect for All',
+  },
+  {
+    title: 'To Faster and Encourage Growth in Ourselves and Others',
+  },
+  {
+    title: 'To Build Value in Our Service to Others',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Our Mission"
+    title="One of Sarasota's Top In-Home Senior Care Provider"
+    subtitle="The RIGHT ACCORD mission is a commitment to help the seniors in our community to age gracefully. We ensure them of their dignity, security and social connections that will enhance their lives."
+    actions={[{ text: 'Learn more', href: '#learn-more' }]}
+    image={{
+      src: '/src/assets/images/main-image_our-mission.jpg',
+      alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
+    }}
+  />
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <div class="flex gap-5 flex-col lg:flex-row mb-5">
+      <div class="flex-1">
+        <h2 class="font-semibold text-2xl pb-3 bg-main-blue p-3 text-white w-fit uppercase">Our company vision</h2>
+        <p>
+          RIGHT ACCORD envisions a world in which senior citizens can age gracefully, socialize frequently and live
+          comfortably. Therefore, we make sure that seniors DON’T have to experience isolation, malnutrition and
+          indignity.
+        </p>
+        <p>
+          We committed to make a positive difference in the aging experience. The RIGHT ACCORD team will perform
+          collective duties with confidence, concern, commitment, cheerfulness and care. In other words, we will treat
+          every contact as a friend, every client as a family and perform every task with honor.
+        </p>
+        <p>Clients and families will see:</p>
+        <ItemGrid
+          items={items}
+          columns={1}
+          defaultIcon="tabler:check"
+          classes={{
+            container: 'gap-y-4 md:gap-y-2 py-3',
+            panel: 'max-w-none',
+            title: 'text-xl font-normal leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+            description: '',
+            icon: 'flex h-5 w-5 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1',
+            action: 'text-lg font-normal leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+          }}
+        />
+        <p>This is “The RIGHT ACCORD Way”.</p>
+      </div>
+      <div class="flex-1">
+        <h2 class="font-semibold text-2xl pb-3 bg-main-blue p-3 text-white w-fit uppercase">Our core beliefs</h2>
+        <p>RIGHT ACCORD proclaims the following beliefs:</p>
+        <ItemGrid
+          items={beliefs}
+          columns={1}
+          defaultIcon="tabler:check"
+          classes={{
+            container: 'gap-y-4 md:gap-y-2 pt-3',
+            panel: 'max-w-none',
+            title: 'text-xl font-normal leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+            description: '',
+            icon: 'flex h-5 w-5 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1',
+            action: 'text-lg font-normal leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+          }}
+        />
+      </div>
+    </div>
+
+    <div class="flex gap-5 flex-col lg:flex-row">
+      <div class="flex-1">
+        <h2 class="font-semibold text-2xl pb-3 bg-main-blue p-3 text-white w-fit uppercase">Our core values</h2>
+        <p>RIGHT ACCORD maintains several core values as its guiding principles:</p>
+        <ItemGrid
+          items={values}
+          columns={1}
+          defaultIcon="tabler:check"
+          classes={{
+            container: 'gap-y-4 md:gap-y-2 py-3',
+            panel: 'max-w-none',
+            title: 'text-xl font-normal leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+            description: '',
+            icon: 'flex h-5 w-5 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1',
+            action: 'text-lg font-normal leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+          }}
+        />
+      </div>
+      <div class="flex-1">
+        <h2 class="font-semibold text-2xl pb-3 bg-main-blue p-3 text-white w-fit uppercase">Our core aim</h2>
+        <p>
+          We at RIGHT ACCORD relentlessly seeking ways to improve seniors life, to make a positive difference in aging
+          experience and establish atmosphere in which seniors can thrive.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>

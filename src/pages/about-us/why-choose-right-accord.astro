@@ -1,0 +1,154 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Content from '~/components/widgets/Content.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
+
+import { headerData } from '~/navigation';
+import FAQs from '~/components/widgets/FAQs.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'Why Choose Right Accord?',
+};
+---
+
+<Layout metadata={metadata}>
+  <Fragment slot="header">
+    <Header
+      {...headerData}
+      actions={[
+        {
+          variant: 'secondary',
+          text: 'Login',
+          href: '#',
+        },
+        {
+          variant: 'primary',
+          text: 'Sign Up',
+          href: '#',
+        },
+      ]}
+      isSticky
+    />
+  </Fragment>
+
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline=""
+    title="Why Choose Right Accord?"
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'We are family owned and operated',
+        description:
+          'RIGHT ACCORD is locally, family owned and operated. We are very passionate about helping seniors and we treat each client like our own family. We ensure the best possible care for your loved ones and give you peace of mind.',
+      },
+      {
+        title: 'Who are our caregivers?',
+        description: `The right caregivers are truly special people. We continually build and develop a team of outstanding caregivers who are ready to assist clients. The majority of them work with the elderly because they had a family experience with an elderly person that has touched them deeply, or they’ve been a caregiver all their lives, first to their children, and then to parents, in-laws, and friends. It’s what they do best. All our caregivers are carefully screened and backgrounds checked and evaluate their personality to match their clients.`,
+      },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_why-choose.jpg',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent={true}
+    items={[
+      {
+        title: '24 hour availability',
+        description: `We understand immediate needs, concerns and challenges that may arise anytime. There are home care inquiries that need immediate services. There will be changes in client condition, scheduling request or questions about the care. That’s why we always have someone available answering our phones 24/7. A Registered Nurse is available for Free Consultation and Assessment all the time.`,
+      },
+      {
+        title: 'Affordability',
+        description: `We are here to make your care-giving experience positive and affordable. We offer flexibility to make your own choices that would best meet your loved ones needs. There are different ways to pay for home care services. We are happy to explore the different ways and resources that are available to pay for your care.`,
+      },
+    ]}
+    image={{
+      src: '/src/assets/images/sub-image1_why-choose.jpg',
+      alt: 'SaaS Businesses Image',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Our technology',
+        description: `We believe in increasing efficiency to improve care and outcomes that’s why we invest in information technology to make care-giving easy for clients, families and caregivers. The Family Connect is a Family Portal designed to provide our clients and their families’ access to a wide range of service information features and communication options for our agency and our caregivers.`,
+      },
+      {
+        title: 'Complimentary in-home care evaluation',
+        description: `Every senior client has unique needs and circumstances. That’s why its important that we evaluate each client we serve. A Registered Nurse is available and offers a thorough assessment of your care needs. We discuss the options and if necessary the payment options and community resources that are available to meet your needs.`,
+      },
+    ]}
+    image={{
+      src: '/src/assets/images/sub-image2_why-choose.jpg',
+      alt: 'Portfolio Image',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="Reach out to us"
+    subtitle="Have questions? Feel free to contact us using the form below. We're here to help!"
+    callToAction={{
+      text: 'Contact us',
+      href: '/',
+    }}
+    items={[
+      {
+        title: 'Email us',
+        description: 'contact@support.com',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Call us',
+        description: '+1 (234) 567-890',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Follow us',
+        description: '@example',
+        icon: 'tabler:brand-twitter',
+      },
+    ]}
+  />
+</Layout>
