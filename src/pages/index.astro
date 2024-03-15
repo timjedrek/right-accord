@@ -1,18 +1,18 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero from '~/components/widgets/Hero.astro';
+//import Hero from '~/components/widgets/Hero.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
-import Note from '~/components/widgets/Note.astro';
+//import Note from '~/components/widgets/Note.astro';
 import Features5 from '~/components/widgets/Features5.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+//import Features2 from '~/components/widgets/Features2.astro';
 import Features6 from '~/components/widgets/Features6.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
+//import Steps from '~/components/widgets/Steps.astro';
+//import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+//import Stats from '~/components/widgets/Stats.astro';
+//import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Home Health Care Sarasota, FL | Right Accord',
@@ -32,6 +32,32 @@ import Brands from '~/components/widgets/Brands.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Features4 from '~/components/widgets/Features4.astro';
+
+// Image variables
+const HeroImage = '/src/assets/images/elderly-home-health-care-venice-sarasota-manatee.webp';
+const Alz = '/src/assets/images/fgrid-image1_dlgl66_c_scale,w_900.jpg';
+const Park = '/src/assets/images/fgrid-image2_rnl0fg_c_scale,w_600.jpg';
+const Stroke = '/src/assets/images/fgrid-image3_abwgxo_c_scale,w_600.jpg';
+const Surg = '/src/assets/images/fgrid-image4_jjue7v_c_scale,w_600.jpg';
+const Hospice = '/src/assets/images/fgrid-image5_zwmoce_c_scale,w_600.jpg';
+const LWRBALogo = '/src/assets/images/LWRBA-Logo-WEB.png';
+const IFALogo = '/src/assets/images/IFA-Logo-300x209.png';
+const SarasotaMemorial = '/src/assets/partners/sarasota-memorial.webp';
+const AmericanCancerSociety = '/src/assets/partners/american-cancer-society.webp';
+const DoctorsHospital = '/src/assets/partners/doctors-hospital.webp';
+const LakewoodRanchMC = '/src/assets/partners/lakewood-ranch-mc.webp';
+const ParkinsonPlace = '/src/assets/partners/parkinson-place.webp';
+const TidewellHospice = '/src/assets/partners/tidewell-hospice.webp';
+const DepartmentOfElderAffairs = '/src/assets/partners/department-of-elder-affairs.webp';
+const USDVA = '/src/assets/partners/us-department-of-veterans-affairs.webp';
+const LighthouseOfManasota = '/src/assets/partners/lighthouse-of-manasota.webp';
+const FriendshipCenters = '/src/assets/partners/friendship-centers.webp';
+const SCAT = '/src/assets/partners/scat.webp';
+const AlzheimerAssociation = '/src/assets/partners/alz.webp';
+const LernerCohen = '/src/assets/partners/lerner-cohen.webp';
+const PayneLawGroup = '/src/assets/partners/payne-lawgroup.webp';
+const ITNSuncoast = '/src/assets/partners/itn-suncoast.webp';
+
 ---
 
 <Layout metadata={metadata}>
@@ -46,7 +72,7 @@ import Features4 from '~/components/widgets/Features4.astro';
       { text: 'Contact Us', href: '#' },
     ]}
     image={{
-      src: '/src/assets/images/elderly-home-health-care-venice-sarasota-manatee.webp',
+      src: HeroImage,
       alt: 'Children telling a story. Long-form Sales Landing Page demo',
     }}
   />
@@ -61,7 +87,7 @@ import Features4 from '~/components/widgets/Features4.astro';
           'Right Accord team of certified dementia caregivers understands the disease and they develop skills and attitudes that are helpful when working with seniors with alzheimer’s disease',
         icon: 'flat-color-icons:document',
         image: {
-          src: '/src/assets/images/fgrid-image1_dlgl66_c_scale,w_900.jpg',
+          src: Alz,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
         },
       },
@@ -71,7 +97,7 @@ import Features4 from '~/components/widgets/Features4.astro';
           'Our caregivers help elderly with parkinson’s disease through personal care and the activities of daily living.',
         icon: 'flat-color-icons:template',
         image: {
-          src: '/src/assets/images/fgrid-image2_rnl0fg_c_scale,w_600.jpg',
+          src: Park,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
         },
       },
@@ -81,7 +107,7 @@ import Features4 from '~/components/widgets/Features4.astro';
           'Right Accord’s caregiver experts create strategies to help stroke survivors go through their recovery very quickly.',
         icon: 'flat-color-icons:voice-presentation',
         image: {
-          src: '/src/assets/images/fgrid-image3_abwgxo_c_scale,w_600.jpg',
+          src: Stroke,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
         },
       },
@@ -91,7 +117,7 @@ import Features4 from '~/components/widgets/Features4.astro';
           'Right Accord’s in-home care helps client to recuperate after hospitalization or after the surgery.',
         icon: 'flat-color-icons:voice-presentation',
         image: {
-          src: '/src/assets/images/fgrid-image4_jjue7v_c_scale,w_600.jpg',
+          src: Surg,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
         },
       },
@@ -100,7 +126,7 @@ import Features4 from '~/components/widgets/Features4.astro';
         description: 'Our caregivers receives special training from tidewell hospice team of professionals.',
         icon: 'flat-color-icons:voice-presentation',
         image: {
-          src: '/src/assets/images/fgrid-image5_zwmoce_c_scale,w_600.jpg',
+          src: Hospice,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
         },
       },
@@ -147,7 +173,7 @@ import Features4 from '~/components/widgets/Features4.astro';
     items={[
       {
         image: {
-          src: '/src/assets/images/LWRBA-Logo-WEB.png',
+          src: LWRBALogo,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
           width: 'auto',
           height: '100',
@@ -155,7 +181,7 @@ import Features4 from '~/components/widgets/Features4.astro';
       },
       {
         image: {
-          src: '/src/assets/images/IFA-Logo-300x209.png',
+          src: IFALogo,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
           width: 'auto',
           height: '80',
@@ -237,63 +263,63 @@ import Features4 from '~/components/widgets/Features4.astro';
     icons={[]}
     images={[
       {
-        src: '/src/assets/partners/sarasota-memorial.webp',
+        src: SarasotaMemorial,
         alt: 'Sarasota Memorial Health Care System',
       },
       {
-        src: '/src/assets/partners/american-cancer-society.webp',
+        src: AmericanCancerSociety,
         alt: 'American Cancer Society',
       },
       {
-        src: '/src/assets/partners/doctors-hospital.webp',
+        src: DoctorsHospital,
         alt: 'Doctors Hospital of Sarasota',
       },
       {
-        src: '/src/assets/partners/lakewood-ranch-mc.webp',
+        src: LakewoodRanchMC,
         alt: 'Lakewood Ranch Medical Center',
       },
       {
-        src: '/src/assets/partners/parkinson-place.webp',
+        src: ParkinsonPlace,
         alt: 'Parkinson Place',
       },
       {
-        src: '/src/assets/partners/tidewell-hospice.webp',
+        src: TidewellHospice,
         alt: 'Tidewell Hospice',
       },
       {
-        src: '/src/assets/partners/department-of-elder-affairs.webp',
+        src: DepartmentOfElderAffairs,
         alt: 'Department of Elder Affairs',
       },
       {
-        src: '/src/assets/partners/us-department-of-veterans-affairs.webp',
+        src: USDVA,
         alt: 'US Department of Veterans Affairs',
       },
       {
-        src: '/src/assets/partners/lighthouse-of-manasota.webp',
+        src: LighthouseOfManasota,
         alt: 'Lighthouse of Manasota',
       },
       {
-        src: '/src/assets/partners/friendship-centers.webp',
+        src: FriendshipCenters,
         alt: 'Friendship Centers',
       },
       {
-        src: '/src/assets/partners/scat.webp',
+        src: SCAT,
         alt: 'Sarasota County Area Transit',
       },
       {
-        src: '/src/assets/partners/alz.webp',
+        src: AlzheimerAssociation,
         alt: 'Alzheimer’s Association',
       },
       {
-        src: '/src/assets/partners/lerner-cohen.webp',
+        src: LernerCohen,
         alt: 'Lerner Cohen',
       },
       {
-        src: '/src/assets/partners/payne-lawgroup.webp',
+        src: PayneLawGroup,
         alt: 'Payne Law Group',
       },
       {
-        src: '/src/assets/partners/itn-suncoast.webp',
+        src: ITNSuncoast,
         alt: 'ITN Suncoast',
       },
     ]}
