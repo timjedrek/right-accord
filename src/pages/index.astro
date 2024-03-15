@@ -4,8 +4,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
 import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
+import Features5 from '~/components/widgets/Features5.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Features6 from '~/components/widgets/Features6.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
@@ -17,13 +18,26 @@ const metadata = {
   title: 'Home Health Care Sarasota, FL | Right Accord',
   ignoreTitleTemplate: true,
 };
+import IconTime from '~/assets/icons/icon-time.svg?raw';
+import IconHome from '~/assets/icons/icon-home.svg?raw';
+import IconNurse from '~/assets/icons/icon-nurse.svg?raw';
+import IconStaff from '~/assets/icons/icon-staff.svg?raw';
+import IconElder from '~/assets/icons/icon-elder.svg?raw';
+import IconPackage from '~/assets/icons/icon-package.svg?raw';
+import IconVeteran from '~/assets/icons/icon-veteran.svg?raw';
+import IconInsurance from '~/assets/icons/icon-insurance.svg?raw';
+import IconFacility from '~/assets/icons/icon-facility.svg?raw';
+
+import Brands from '~/components/widgets/Brands.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Features4 from '~/components/widgets/Features4.astro';
 ---
 
 <Layout metadata={metadata}>
-  
-    <!-- Hero2 Widget ******************* -->
+  <!-- Hero2 Widget ******************* -->
 
-    <Hero2
+  <Hero2
     tagline="Caregivers for your loved ones"
     title="We care for your family with the respect and dignity they deserve"
     subtitle="RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family."
@@ -32,304 +46,370 @@ const metadata = {
       { text: 'Contact Us', href: '#' },
     ]}
     image={{
-      src: '/elderly-home-health-care-venice-sarasota-manatee.webp',
+      src: '/src/assets/images/elderly-home-health-care-venice-sarasota-manatee.webp',
       alt: 'Children telling a story. Long-form Sales Landing Page demo',
     }}
   />
-  
-  
-  <!-- Hero Widget ******************* -->
 
-  <Hero
-    actions={[
+  <Features6
+    title="Right Accord specialty care services"
+    subtitle="We highly specialized in 24 hour care for cases such as in Dementia and Alzheimer's Care, Parkinsons, Stroke and End of Life Care or Hospice Care. Our caregivers have extensive trainings and receive ongoing training while working at Right Accord. Our Seniors and Caregiver Wellness Program focuses on Holistic Approach to total well being that embraces natural balance on mind, body, spirit, food and sleep."
+    items={[
       {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        title: `Alzheimer's Care`,
+        description:
+          'Right Accord team of certified dementia caregivers understands the disease and they develop skills and attitudes that are helpful when working with seniors with alzheimer’s disease',
+        icon: 'flat-color-icons:document',
+        image: {
+          src: '/src/assets/images/fgrid-image1_dlgl66_c_scale,w_900.jpg',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+        },
       },
-      { text: 'Learn more', href: '#features' },
+      {
+        title: 'Parkinson’s Care',
+        description:
+          'Our caregivers help elderly with parkinson’s disease through personal care and the activities of daily living.',
+        icon: 'flat-color-icons:template',
+        image: {
+          src: '/src/assets/images/fgrid-image2_rnl0fg_c_scale,w_600.jpg',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+        },
+      },
+      {
+        title: 'Afterstroke Care',
+        description:
+          'Right Accord’s caregiver experts create strategies to help stroke survivors go through their recovery very quickly.',
+        icon: 'flat-color-icons:voice-presentation',
+        image: {
+          src: '/src/assets/images/fgrid-image3_abwgxo_c_scale,w_600.jpg',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+        },
+      },
+      {
+        title: 'Post-Surgical Care',
+        description:
+          'Right Accord’s in-home care helps client to recuperate after hospitalization or after the surgery.',
+        icon: 'flat-color-icons:voice-presentation',
+        image: {
+          src: '/src/assets/images/fgrid-image4_jjue7v_c_scale,w_600.jpg',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+        },
+      },
+      {
+        title: 'Hospice Care',
+        description: 'Our caregivers receives special training from tidewell hospice team of professionals.',
+        icon: 'flat-color-icons:voice-presentation',
+        image: {
+          src: '/src/assets/images/fgrid-image5_zwmoce_c_scale,w_600.jpg',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+        },
+      },
     ]}
-    image={{ src: '~/assets/images/hero.png', alt: 'AstroWind Hero Image' }}
+  />
+
+  <FAQs
+    title="Why is Right Accord your caregiver and companion company of choice?"
+    items={[
+      {
+        description:
+          'RIGHT ACCORD Private Duty Home Health Care is a Home Care agency licensed by the Florida Agency for Health Care Administration (AHCA). We are nurse owned, and independently operating in the business for more than 12 years.',
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        description: `We offer our clients the best and compassionate care they deserve like meal preparation and other private duty care services at the comfort of their homes. Our Electronic Caregiver Technology is a state of the art modern personal emergency response system available to our clients.`,
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        description:
+          'Our mission is to provide consistent caregivers for every senior clients, who are struggling with independence, helping them anywhere from few hours to 24 hours of care. We firmly believe that Home Care service must be delivered as if it were being provided by the family.',
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        description: `We helped many seniors in our community and most remained with us until the end. Our longest client we helped for 10 years is allowing her to remain at home safely and comfortably with the help of our 24-hour caregivers.`,
+        icon: 'tabler:chevrons-right',
+      },
+    ]}
   >
-    <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
+  </FAQs>
 
-    <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages
-      & Blogs.
-    </Fragment>
-  </Hero>
-
-  <!-- Note Widget ******************* -->
-
-  <Note />
+  <Features4
+    title="Right Accord is a proud member of"
+    columns={2}
+    classes={{
+      container: 'max-w-xs sm:max-w-3xl',
+      items: {
+        panel: 'p-0',
+      },
+    }}
+    items={[
+      {
+        image: {
+          src: '/src/assets/images/LWRBA-Logo-WEB.png',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+          width: 'auto',
+          height: '100',
+        },
+      },
+      {
+        image: {
+          src: '/src/assets/images/IFA-Logo-300x209.png',
+          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+          width: 'auto',
+          height: '80',
+        },
+      },
+    ]}
+  />
 
   <!-- Features Widget *************** -->
 
-  <Features
+  <Features5
     id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    tagline="Services"
+    title="Our services customized to your needs"
+    subtitle="Right Accord believes that home care service must be delivered as if it were being provided by the family. We know that everyone is different so we provide customized service programs, each of our clients receives care based upon his or her individual needs."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Houly Care or 24-Hour Care',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
+          'We provide hourly care or 24-hour care. Our caregivers are available 24/7 to provide the care and support you need.',
+        icon: IconTime,
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Live-in Home Care',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
+          'Our live-in home care services are a great option for those who need around-the-clock care and support.',
+        icon: IconHome,
       },
       {
-        title: 'Best Practices',
+        title: 'Skilled Nursing',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
+          'Our skilled nursing services are provided by licensed and certified nurses who are experienced in providing care to seniors.',
+        icon: IconNurse,
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Staffing Services',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
+          'We provide staffing services to hospitals, nursing homes, and other healthcare facilities in Sarasota, FL.',
+        icon: IconStaff,
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Senior Care Advisors',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
+          "Our senior care advisors are available to help you find the right care solution for your loved one's needs.",
+        icon: IconElder,
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'Home Care Packages',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+          'We offer home care packages that are designed to meet the needs of our clients and their families.',
+        icon: IconPackage,
+      },
+      {
+        title: 'Veteran Aid & Attendant Benefits',
+        description:
+          'We provide assistance to veterans and their spouses in applying for the VA Aid & Attendance benefits.',
+        icon: IconVeteran,
+      },
+      {
+        title: 'Long Term Care Insurance',
+        description: 'We work with long term care insurance companies to help you get the most out of your policy.',
+        icon: IconInsurance,
+      },
+      {
+        title: 'Senior Facility Relocation',
+        description: 'We provide assistance to seniors who are moving to a new home or senior living facility.',
+        icon: IconFacility,
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features5>
+
+  <Brands
+    title="Trusted Partners"
+    subtitle="Trusted Services and Organizations we like and recommend!"
+    icons={[]}
+    images={[
+      {
+        src: '/src/assets/partners/sarasota-memorial.webp',
+        alt: 'Sarasota Memorial Health Care System',
+      },
+      {
+        src: '/src/assets/partners/american-cancer-society.webp',
+        alt: 'American Cancer Society',
+      },
+      {
+        src: '/src/assets/partners/doctors-hospital.webp',
+        alt: 'Doctors Hospital of Sarasota',
+      },
+      {
+        src: '/src/assets/partners/lakewood-ranch-mc.webp',
+        alt: 'Lakewood Ranch Medical Center',
+      },
+      {
+        src: '/src/assets/partners/parkinson-place.webp',
+        alt: 'Parkinson Place',
+      },
+      {
+        src: '/src/assets/partners/tidewell-hospice.webp',
+        alt: 'Tidewell Hospice',
+      },
+      {
+        src: '/src/assets/partners/department-of-elder-affairs.webp',
+        alt: 'Department of Elder Affairs',
+      },
+      {
+        src: '/src/assets/partners/us-department-of-veterans-affairs.webp',
+        alt: 'US Department of Veterans Affairs',
+      },
+      {
+        src: '/src/assets/partners/lighthouse-of-manasota.webp',
+        alt: 'Lighthouse of Manasota',
+      },
+      {
+        src: '/src/assets/partners/friendship-centers.webp',
+        alt: 'Friendship Centers',
+      },
+      {
+        src: '/src/assets/partners/scat.webp',
+        alt: 'Sarasota County Area Transit',
+      },
+      {
+        src: '/src/assets/partners/alz.webp',
+        alt: 'Alzheimer’s Association',
+      },
+      {
+        src: '/src/assets/partners/lerner-cohen.webp',
+        alt: 'Lerner Cohen',
+      },
+      {
+        src: '/src/assets/partners/payne-lawgroup.webp',
+        alt: 'Payne Law Group',
+      },
+      {
+        src: '/src/assets/partners/itn-suncoast.webp',
+        alt: 'ITN Suncoast',
       },
     ]}
   />
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
-    items={[
+  <Testimonials
+    title="What our clients say about us"
+    testimonials={[
       {
-        title: 'Built on top of Astro 4.0',
-        description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+        testimonial: `Thank you for the cooperative and professional way that Rosemarie and the Caregivers have served us. We look forward to a long future and pleasant relationship with you.`,
+        name: 'w.G.',
+        job: 'Sarasota, FL',
+        image: {
+          src: '/src/assets/images/profile-placeholder.webp',
+          alt: 'Cary Kennedy Image',
+        },
       },
       {
-        title: 'Styled using Tailwind CSS',
-        description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+        testimonial: `Yes, I would recommend Right Accord for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
+        name: 'J.U.',
+        job: 'Sarasota, FL',
+        image: {
+          src: '/src/assets/images/profile-placeholder.webp',
+          alt: 'Josh Wilkinson Image',
+        },
       },
       {
-        title: 'Cross-browser compatibility',
-        description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+        testimonial:
+          'I will definitely use Right Accord again. It is a very well run organization and all the people I was in contact with were very kind and considerate.',
+        name: 'L.A.',
+        job: 'Sarasota, FL',
+        image: {
+          src: '/src/assets/images/profile-placeholder.webp',
+          alt: 'Sidney Hansen Image',
+        },
       },
     ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
+    callToAction={{
+      text: 'Read more testimonials',
+      href: '/about-us/testimonials',
+      icon: 'tabler:chevron-right',
     }}
   >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-       Gain a competitive advantage by incorporating industry leading practices
-    </Fragment>
-
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Testimonials>
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent
+  <Features3
+    title="Our service areas"
+    subtitle="We are serving our clients in:"
+    columns={4}
+    defaultIcon="tabler:point-filled"
+    classes={{
+      items: {
+        container: 'md:gap-y-6 place-items-center sm:place-items-start',
+      },
+    }}
     items={[
       {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
+        title: 'Sarasota & Manatee Counties',
       },
       {
-        title: 'Multiple layout possibilities',
-        description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+        title: 'Sarasota',
       },
       {
-        title: 'Fully responsive design',
-        description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
+        title: 'Longboat Key',
       },
       {
-        title: 'Integration of media',
-        description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
+        title: 'Siesta Key',
+      },
+      {
+        title: 'Bird Key',
+      },
+      {
+        title: 'Lido Beach',
+      },
+      {
+        title: 'Casey Key',
+      },
+      {
+        title: 'Lakewood Ranch',
+      },
+      {
+        title: 'Bradenton',
+      },
+      {
+        title: 'Venice, FL',
+      },
+      {
+        title: 'Osprey',
+      },
+      {
+        title: 'Nokomis',
+      },
+      {
+        title: 'Englewood',
+      },
+      {
+        title: 'North Port',
+      },
+      {
+        title: 'Anna Maria Island',
+      },
+      {
+        title: 'Holmes Beach',
       },
     ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
-    }}
-  >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'Enhanced user engagement',
-        description:
-          'Captivate your audience with interactive elements, intuitive navigation, and visually appealing layouts, encouraging longer visits.',
-      },
-      {
-        title: 'Continuous improvement',
-        description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
-      },
-      {
-        title: 'Time and resource efficiency',
-        description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
-      },
-      {
-        title: 'Community support',
-        description: `Join the growing AstroWind community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
-    }}
-  >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Steps Widget ****************** -->
-
-  <Steps
-    title="Get your dream website up and running in no time with AstroWind."
-    items={[
-      {
-        title: 'Step 1: <span class="font-medium">Download</span>',
-        description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Add content</em>',
-        description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
-        description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
-    }}
   />
 
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
-    items={[
-      {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
-      },
-      {
-        title: 'Content',
-        description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14185.55753792691!2d-82.4930632!3d27.2696738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd63ddd79e3387a8c!2sRight%20Accord%20Private%20Duty-Home%20Health%20Care%20-%20Caregivers%20%26%20Companions!5e0!3m2!1sen!2sph!4v1573807050260!5m2!1sen!2sph"
+    width="100%"
+    height="500"
+    style="border:0;"
+    allowfullscreen="true"></iframe>
 
   <!-- HighlightedPosts Widget ******* -->
 
@@ -339,80 +419,11 @@ const metadata = {
                         Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
                         Astro is a very interesting technology. Thanks.
                 `}
-  />
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestPosts>
 
   <!-- FAQs Widget ******************* -->
-
-  <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'Why AstroWind?',
-        description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-      },
-      {
-        title: 'What do I need to start?',
-        description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
-      },
-      {
-        title: 'How to install the Astro + Tailwind CSS template?',
-        description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-      },
-      {
-        title: "What's something that you don't understand?",
-        description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-      },
-    ]}
-  />
-
-  <!-- Stats Widget ****************** -->
-
-  <Stats
-    stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
-    ]}
-  />
-
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-    ]}
-  >
-    <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
-    </Fragment>
-  </CallToAction>
 </Layout>

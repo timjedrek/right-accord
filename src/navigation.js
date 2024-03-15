@@ -368,11 +368,17 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    {
+      ariaLabel: 'LinkedIn',
+      icon: 'tabler:brand-linkedin',
+      href: 'https://www.linkedin.com/company/right-accord-home-care/',
+    },
+    {
+      ariaLabel: 'YouTube',
+      icon: 'tabler:brand-youtube',
+      href: 'https://www.youtube.com/channel/UCL2zO8c8QN3fQBYsrTbNyuA',
+    },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/RightAccord/' },
   ],
   footNote: `
     All rights reserved.
