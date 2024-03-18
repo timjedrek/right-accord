@@ -1,0 +1,332 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Home Care Packages"
+    title="Experienced Health Aides in providing in-home support as part of your home health care package"
+    subtitle="Our Home Care Packages are customized to a typical event or client requirement. They are cost-efficient and affordable for any budget. Packages are detailed below in scope of care and services provided."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_homecare-packages.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <Features2
+    id="learn-more"
+    title="Sunrise Package"
+    subtitle="Ease up into the Day with less Stress and Worry"
+    columns={2}
+    items={[
+      {
+        description:
+          'Rise and Shine. Sunrise Package is a morning care service starting at 4 hours of care to assist your loved ones with morning routine. We all have routines for personal care and activities of daily living.',
+      },
+      {
+        description:
+          'These routines remain very important for the elderly even when they are sick or disabled. Even getting out of bed in the morning may pose a challenge for a person with a disability. Some people who are recovering from an illness or accident may not have the energy to care for themselves.',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Assistance with bathing, dressing, grooming, toileting',
+      },
+      {
+        title: 'Breakfast Meal preparation / Cooking for lunch and dinner',
+      },
+      {
+        title: 'Assistance with Medications',
+      },
+      {
+        title: 'Light Housekeeping (bed making, laundry, vacuuming)',
+      },
+      {
+        title: 'Errands and Grocery Shopping',
+      },
+      {
+        title: 'Transportation and assistance to doctors appointments',
+      },
+      {
+        title: 'If able, Engage elderly in Physical Activity or Exercise Routine',
+      },
+      {
+        title: 'Encourage Cognitive Stimulation to keep brain healthy',
+      },
+      {
+        title: 'Social Engagement or allow hobbies senior enjoy doing',
+      },
+      {
+        title: 'Companionship and Conversation',
+      },
+    ]}
+    classes={{
+      container: 'gap-y-1 md:gap-y-2',
+      title: 'font-normal text-base',
+    }}
+    image={{
+      src: '/src/assets/images/sub-image1_sunrise-packages.jpg',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-xl font-bold tracking-tight dark:text-white sm:text-2xl mb-2">Morning Routine May Include:</h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Features2
+    title="Sunset Package (Tuck in Bed Service)"
+    subtitle="“Forget the day’s troubles, remember the day’s blessings” – Anonymous"
+    columns={3}
+    items={[
+      {
+        description:
+          'Tucked-in Bed. Sunset Package is a tuck in bed home care service for elderly who need assistance with their evening routine. Depending on the disability, a senior may be limited in performing activities of daily living (ADL) in the evening.',
+      },
+      {
+        description:
+          'RIGHT ACCORD Sunset package at a minimum of 4 hours of care provide efforts to help clients lead more independent lives at home despite their disabilities.',
+      },
+      {
+        description:
+          'Families of seniors with difficulties maintaining activities of daily living may feel resentment, disappointment, guilt, shame, anger or frustration. The Sunset Package may be the only break a family member receives from the duties of caregiving.',
+      },
+    ]}
+  />
+
+  <Content
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Meal Preparation',
+      },
+      {
+        title: 'Medication Assistance',
+      },
+      {
+        title: 'Light Housekeeping',
+      },
+      {
+        title: 'Undressing and Dressing for bedtime',
+      },
+      {
+        title: 'Assistance with Oral Care or Denture Care',
+      },
+      {
+        title: 'Prepare bed for sleeping',
+      },
+      {
+        title: 'Empty and Change Catheter Bag (if applicable)',
+      },
+      {
+        title: 'Assistance with Ostomy Care if any',
+      },
+      {
+        title: 'And more…',
+      },
+    ]}
+    classes={{
+      container: 'gap-y-1 md:gap-y-2',
+      title: 'font-normal text-base',
+    }}
+    image={{
+      src: '/src/assets/images/sub-image1_sunset-packages.jpg',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-xl font-bold tracking-tight dark:text-white sm:text-2xl mb-2">Evening Routine May Include:</h3>
+    </Fragment>
+  </Content>
+
+  <Features2
+    title="Wellness Check-in Service Package"
+    subtitle="“Not all of us can do great things, but we can do small things with great love“ Mother Teresa"
+    columns={2}
+    items={[
+      {
+        description:
+          'The growing number of older people and chronic illnesses are creating a demand for home care services. Family members who in the past would care for aging or ill loved ones frequently leave home towns to live and work in distant areas. In addition, they often have other responsibilities or problems that interfere with their ability to provide care. A typical baby boomer who works or care for younger children may be unable to look after aging relatives as they become frail and less functional.',
+      },
+      {
+        description:
+          'At RIGHT ACCORD we understand the purpose and need for home health care. Many seniors want to remain independent and continue to lead normal lives at home. At first, seniors may be reluctant of the need for home care and may decline the care. Our Wellness Check-In Service is a perfect solution for seniors who are not ready for home care and the need may only be for someone to check on him or her occasionally. It is very affordable and cost-effective option for home care. Visits are one hour or less and can be tailored from once a week or as often as possible. Our goal is peace of mind for the family and their loved ones that there’s someone they can call anytime.',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Checking vital signs (Blood Pressure, Pulse, Respiration)',
+      },
+      {
+        title: 'Evaluate and Observe Medication Management',
+      },
+      {
+        title: 'Check refrigerator for spoiled or expired food',
+      },
+      {
+        title: 'Observe for dehydration or malnutrition',
+      },
+      {
+        title: 'Check for safety hazards',
+      },
+      {
+        title: 'Reduce risk for falls by recommending fall prevention initiatives',
+      },
+      {
+        title: 'Check cognition and mental status',
+      },
+      {
+        title: 'Observe overall behavior',
+      },
+      {
+        title: 'Check personal appearance and overall hygiene',
+      },
+      {
+        title: 'Lower risk of hospitalization',
+      },
+      {
+        title: 'Check doctors appointments',
+      },
+      {
+        title: 'Report back to family members caregiver’s observation or any significant changes',
+      },
+      {
+        title: 'Recommend to family community resources if needed',
+      },
+      {
+        title: 'And more…',
+      },
+    ]}
+    classes={{
+      container: 'gap-y-1 md:gap-y-2',
+      title: 'font-normal text-base',
+    }}
+    image={{
+      src: '/src/assets/images/sub-image1_wellness-packages.jpg',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-xl font-bold tracking-tight dark:text-white sm:text-2xl mb-2">
+        Peace Of Mind, Wellness Check-in Service May Include:
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Features2
+    title="Welcome Home Package"
+    subtitle="“There is no place like home”"
+    columns={2}
+    items={[
+      {
+        description:
+          'Welcome, Home Package is a special package from RIGHT ACCORD to afford elderly with short-term care home care needs with a caregiver who can assist him or her with.',
+      },
+      {
+        description:
+          'Welcome Home Package can be a minimum of 2-hour visit that can be done for a day or a week and may be extended as requested. RIGHT ACCORD clients who used this package have proven to help seniors with reducing the incidence of falls in the home and the risk of being readmitted to the hospital.',
+      },
+    ]}
+  />
+
+  <Content
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Going for diagnostic procedures',
+      },
+      {
+        title: 'Same day surgery',
+      },
+      {
+        title: 'Medical Testing or procedure',
+      },
+      {
+        title: 'Follow-up appointment',
+      },
+      {
+        title: 'Out-patient Physical Therapy Visits',
+      },
+      {
+        title: 'Transportation from facility or hospital to home',
+      },
+      {
+        title: 'Pick up prescriptions',
+      },
+      {
+        title: 'Pick up groceries or run errands',
+      },
+      {
+        title: 'Prepare meals',
+      },
+      {
+        title: 'Make the bed',
+      },
+      {
+        title: 'Follow discharge instructions',
+      },
+      {
+        title: 'Pick up from mailbox and assist with sorting mails',
+      },
+      {
+        title: 'And more…',
+      },
+    ]}
+    classes={{
+      container: 'gap-y-1 md:gap-y-2',
+      title: 'font-normal text-base',
+    }}
+    image={{
+      src: '/src/assets/images/sub-image1_welcome-packages.jpg',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-xl font-bold tracking-tight dark:text-white sm:text-2xl mb-2">
+        Welcome Home Package May Include:
+      </h3>
+    </Fragment>
+  </Content>
+</Layout>

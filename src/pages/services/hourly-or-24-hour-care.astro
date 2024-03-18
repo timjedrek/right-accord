@@ -1,0 +1,279 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Content from '~/components/widgets/Content.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
+
+import { headerData } from '~/navigation';
+import FAQs from '~/components/widgets/FAQs.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+
+const benefits = [
+  {
+    title: 'Reduce the impact of caregiving that can strain emotionally, physically and financially.',
+  },
+  {
+    title: 'The hiring of a RIGHT ACCORD caregiver will ease the burden and provide peace of mind to families.',
+  },
+  {
+    title:
+      'Family caregivers can now get the much-needed relief from caregiving duties. Informal caregiving provided by family members are often underappreciated and overly worked.',
+  },
+  {
+    title:
+      'Reduce the trouble when struggling with independence to keep up with everyday activities of daily living such as bathing, dressing, grooming, toileting, cooking, grocery shopping, and housekeeping.',
+  },
+  {
+    title:
+      'Regain your Freedom and Independence. There’s more freedom and flexibility for you so you can maintain your lifestyle and enjoy the things you like and love to do. Let us help you. It will be more convenient than imposing the caregiving to other family members or relying on friends and neighbors.',
+  },
+  {
+    title:
+      'Cost effective – The cost of care for an hourly caregiver working 40 hours per week or fewer costs lower than the price of an average assisted living facility. From 12 to 20 hours a week (commonly requested) in – home care, there is no comparison.',
+  },
+  {
+    title:
+      'Preserve Your Sanity and Enjoy Peace of Mind. Enjoy the things you like to do knowing your caregiver is there to help you while ensuring your loved one’s safety, provides peace of mind to both you and concerned family members and loved ones.',
+  },
+];
+
+const personalCare = [
+  {
+    title: 'Bathing (Showering, Tub, Bed Bath or Sponge Bath)',
+  },
+  {
+    title: 'Dressing and Grooming',
+  },
+  {
+    title: 'Toileting and Incontinence Care',
+  },
+  {
+    title: 'Total Hygiene',
+  },
+  {
+    title: 'Basic Skin Care (Clean and moisturize)',
+  },
+  {
+    title: 'Repositioning to prevent pressure sores',
+  },
+  {
+    title: 'Oral or Denture Care',
+  },
+  {
+    title: 'Ambulation and Prosthetic Device Assistance',
+  },
+  {
+    title: 'Assistance with wheelchair, walker, crutches or cane',
+  },
+  {
+    title: 'Assistance with transfers from bed to chair using gait belts for safety',
+  },
+  {
+    title: 'The range of Motion Exercises as recommended by Physical Therapist',
+  },
+  {
+    title: 'A catheter or Ostomy Care Assistance',
+  },
+  {
+    title: 'Assist with bowel and bladder training',
+  },
+  {
+    title: 'Warm and Cold Compress Application as prescribed by a doctor',
+  },
+  {
+    title: 'Assistance on applying elastic stockings',
+  },
+  {
+    title: 'Measure intake (food and drinks) and output (urine) as needed in some cases',
+  },
+  {
+    title: 'Obtain specimens (urine, stool or sputum) as necessary',
+  },
+  {
+    title: 'Take Vital Signs (Blood Pressure, Pulse, Respiration, Temperature) as required',
+  },
+];
+
+const companionship = [
+  {
+    title: 'Medication Reminders & Assistance',
+  },
+  {
+    title: 'Grocery Shopping',
+  },
+  {
+    title: 'Meal Preparation',
+  },
+  {
+    title: 'Light Housekeeping (vacuuming, dusting, wash dishes)',
+  },
+  {
+    title: 'Bed making',
+  },
+  {
+    title: 'Appointment Scheduling',
+  },
+  {
+    title: 'Transportation to Appointments',
+  },
+  {
+    title: 'Errands and Grocery Shopping',
+  },
+  {
+    title: 'Comforting Companionship',
+  },
+  {
+    title: 'Accompany on outings and to Social Engagements',
+  },
+  {
+    title: 'Pet care',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Hourly Care or 24-Hour Care"
+    title="Customized, Flexible Family and Client-Directed Care"
+    subtitle="RIGHT ACCORD Private Duty-Home Health Care is a senior care provider and helps at home who cares about you. We can provide you or your family with senior helpers whether the need is short-term or long-term care for your loved one. You are in control. We work together to plan and design the care. Each client and family has unique needs and wants."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_hourly-care.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <p>
+      Sometimes the need is minimal and sometimes more care is necessary. At RIGHT ACCORD, we customize your care based
+      on your needs. Hiring a caregiver from RIGHT ACCORD means you are in control and you are carefully matched to the
+      right caregiver that best suit your needs. Caregivers are available from as little as 4 hours to 24 hours. There
+      are no limits to the number of visits you can have per week or month. We will assist you in customizing schedule
+      that will best benefit you and your loved one.
+    </p>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">Hourly or 24 hour care benefits</h2>
+
+    <p>
+      While there are profound rewards for caregiving, family members are exposed to a wide array of stressors. RIGHT
+      ACCORD offers a wide variety of senior services and options to make staying at home safe and possible offering
+      benefits such as:
+    </p>
+    <ItemGrid
+      items={benefits}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+  </div>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    title="Services provided by an hourly or 24 hour in-home caregiver"
+    isReversed
+    items={[
+      {
+        title: 'Alzheimer’s / Dementia Care',
+      },
+      {
+        title: 'Parkinson’s Disease Care',
+      },
+      {
+        title: 'Post Stroke and other Neurological Care',
+      },
+      {
+        title: 'COPD Care (Chronic Obstructive Pulmonary Disease)',
+      },
+      {
+        title: 'Care for Chronic Conditions such as Congestive Heart Failure, Diabetes, Arthritis',
+      },
+      {
+        title: 'Hospice or End of Life Care',
+      },
+      {
+        title: 'Facility or Hospital Sitter or Companion',
+      },
+    ]}
+    image={{
+      src: '/src/assets/images/sub-image1_hourly-care2.jpg',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Our Specialty Care Areas:</h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <div class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24">
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      Assistance with personal care (hands-on care)
+    </h2>
+
+    <ItemGrid
+      items={personalCare}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">Companionship and homemaking</h2>
+
+    <ItemGrid
+      items={companionship}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+
+    <p>
+      If hourly in-home care by a caring, compatible and compassionate personal caregiver or home health care aide is
+      right for you, please call us to schedule a free in-home assessment or to arrange care right away. Our A-Team of
+      Caregivers ensures your 100% satisfaction. RIGHT ACCORD is here to provide you and your family with the comforts
+      and peace of mind you deserve.
+    </p>
+  </div>
+</Layout>

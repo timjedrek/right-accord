@@ -1,0 +1,99 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Image from '~/components/common/Image.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Long Term Care Insurance"
+    title="Long Term Care Insurance"
+    subtitle="As you continue to age and about to reach your senior years, purchasing long term care insurance now can have some form of benefits. It is most likely that someone who waits too long to buy long term care insurance has a greater chance of developing a health condition in the future."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#learn-more' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_long-term-care.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      What is long-term care insurance service?
+    </h2>
+
+    <div class="flex flex-col lg:flex-row items-center lg:items-start gap-5">
+      <div>
+        <p>
+          Long-Term Care Insurance is initially introduced as "nursing home insurance" back in the 1980s. A long term
+          care insurance policy will pay for the expenses of care arising from a chronic illness, injury, or disability.
+          The insurance also provides the person with the aid they may need due to the general effects of aging.
+        </p>
+
+        <p>
+          Long-Term Care Insurance is primarily designed to help with payment for the costs of custodial & personal
+          care, as opposed to strictly medical care.
+        </p>
+
+        <p>
+          In this regard, long term care insurance is not like traditional health insurance, as its purpose is to cover
+          for expenses that are associated with senior long-term care services and support, irrespective of where the
+          care is provided - at home or in an assisted living community, in a skilled nursing facility, or in any other
+          senior care setting.
+        </p>
+      </div>
+
+      <Image
+        class="mx-auto rounded-md"
+        widths={[400, 768, 1024, 2040]}
+        sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+        loading="eager"
+        width={400}
+        height={400}
+        src="/src/assets/images/feature-grid-image4_2x.jpg"
+        alt="Long Term Care Insurance"
+      />
+    </div>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      What does long-term care insurance service cover for?
+    </h2>
+
+    <p>
+      A long-term insurance policy can provide coverage for one or several types of care. Based on the types of
+      insurance coverage the policyholder thinks they would require, and of course, the premium amount they can afford.
+      Most insurance policies are comprehensive, and so give room for benefits to be utilised in a variety of settings.
+      However, it is important to be sure of which facilities are specifically covered.
+    </p>
+
+    <p>
+      The insurance provider may not grant benefit payments if your loved one is in a wrong type of facility that is not
+      covered by the insurance policy. Some insurance policies only cover for some state-licensed facilities, or provide
+      cover only for nursing home care, but a lot also cover for assisted living facilities, and this is vital, as this
+      type of care is expanding rapidly.
+    </p>
+
+    <p>
+      Many policies cover in-home care as well, including nursing care, physical therapy & medical equipment. Community
+      care may be covered, and this usually entails adult day care and respite care for the caregiver. Respite care
+      usually provides Caregivers compensation for up to 14 to 21 days a year. This care can be received at home, at a
+      nursing home, or an adult daytime care facility.
+    </p>
+  </div>
+</Layout>

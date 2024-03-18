@@ -1,0 +1,95 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Veteran Aid & Attendant Benefits"
+    title="We Salute You. Thank You To Our Veterans"
+    subtitle="Right Accord understand that many elderly veterans in our community could use help at home from their disabilities."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#learn-more' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_veteran-aid.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <p>Through our local partners, we can help you:</p>
+    <ItemGrid
+      items={[
+        {
+          title: 'Determine you meet the eligibility criteria for Aid and Attendance Benefits',
+        },
+        {
+          title: 'Assist with gathering necessary documents and information for application',
+        },
+        {
+          title: 'Assist with filing out paperwork with the VA.',
+        },
+      ]}
+      columns={1}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <p>
+      It is a burdensome process to figure out if your insurance or the Veterans Administration will cover the home care
+      services you need. Sometimes it can get very confusing. We’re here to help you. We can help find out if you are
+      eligible for any VA programs and benefits.
+    </p>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      2015 Maximum allowable pension rates (MAPR)
+    </h2>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Aid and Attendance without Dependents $1,788/month',
+        },
+        {
+          title: 'Aid and Attendance With One Dependent $2,120/month',
+        },
+        {
+          title:
+            'If you have questions if you qualify for VA Benefits, give us a call: 941.366.0801. We will be happy to discuss your options.',
+        },
+      ]}
+      columns={1}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+  </div>
+</Layout>
