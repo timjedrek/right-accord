@@ -1,0 +1,157 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Image from '~/components/common/Image.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Alzheimer’s & Dementia Care"
+    title="Alzheimer’s Disease is the most common form of Dementia."
+    subtitle="It is a progressive, degenerative, irreversible disease of the brain. Progressive and degenerative means the disease gets worse causing greater loss of health and abilities."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#learn-more' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_alzheimers-care.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <p>
+      At RIGHT ACCORD, our A-Team of caregivers is trained and specializes in Dementia care. Aside from annual review on
+      Dementia Care, caregivers are required to complete Advance Dementia Caregiver Certification Program consisting of
+      18 hours or classroom training.
+    </p>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      How can home care help seniors with dementia?
+    </h2>
+
+    <p>Home Care help seniors suffering with Dementia by virtue of the following:</p>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Improve quality of life',
+        },
+        {
+          title: 'Respect for life and dignity',
+        },
+        {
+          title: 'Ensure safe area in case of pacing and wandering',
+        },
+        {
+          title:
+            'Help develop creative therapies such as reality orientation, validation therapy, reminiscence therapy',
+        },
+        {
+          title: 'Assist with mental exercises and activities to prevent boredom and frustration',
+        },
+        {
+          title: 'Assistance with personal care',
+        },
+        {
+          title: 'Encourage cognitive activities to help slow progression of Alzheimer’s disease',
+        },
+      ]}
+      columns={1}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      Our team of certified dementia caregivers
+    </h2>
+
+    <p>
+      Our team of certified dementia caregivers understands the disease and they develop skills and attitudes that are
+      helpful when working with seniors with Alzheimer’s disease.
+    </p>
+
+    <p>They are:</p>
+
+    <div class="flex flex-col lg:flex-row items-center lg:items-start gap-5">
+      <div>
+        <ItemGrid
+          items={[
+            {
+              title: 'Do not take it personally',
+            },
+            {
+              title: 'Put themselves in their client’s shoes',
+            },
+            {
+              title: 'Work with the symptoms and behaviors they see',
+            },
+            {
+              title: 'Collaborate with the team',
+            },
+            {
+              title: 'Take care of themselves so they can take care of others',
+            },
+            {
+              title: 'Work with family members',
+            },
+            {
+              title: 'Remember the goals of the care plan',
+            },
+            {
+              title: 'Safety is their priority',
+            },
+            {
+              title: 'Sensitive to the big adjustments clients and families may be making',
+            },
+            {
+              title: 'Refer to Case Manager or supervisor for help if needed',
+            },
+          ]}
+          columns={1}
+          defaultIcon="tabler:check"
+          classes={{
+            container: 'gap-y-1 md:gap-y-1',
+            panel: 'max-w-none',
+            title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+            description: '',
+            icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+            action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+          }}
+        />
+      </div>
+
+      <Image
+        class="mx-auto rounded-md"
+        widths={[400, 768, 1024, 2040]}
+        sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+        loading="eager"
+        width={600}
+        height={400}
+        src="/src/assets/images/sub-image1_alzheimers-care.jpg"
+        alt="Long Term Care Insurance"
+      />
+    </div>
+  </div>
+</Layout>

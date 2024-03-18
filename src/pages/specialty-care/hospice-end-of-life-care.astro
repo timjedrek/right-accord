@@ -1,0 +1,166 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Image from '~/components/common/Image.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="Hospice & End of Life Support Care"
+    title="What is Hospice Care?"
+    subtitle="Hospice is the term used for the special care that a dying person needs. It is a compassionate way to care for dying person and their families. "
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#learn-more' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_hospice-care.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <p>
+      RIGHT ACCORD caregivers can support hospice care seven days a week or 24 hours a day. Hospice care may be provided
+      in a hospital, at a facility, or in the home. A hospice can be any location where a person who is dying is treated
+      with dignity by caregivers.
+    </p>
+    <p>
+      RIGHT ACCORD A-Team of caregivers receives special training and additional in service trainings from Tidewell
+      Hospice team of professionals who are experts in Hospice Care.
+    </p>
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      How in-home care helps with hospice care?
+    </h2>
+
+    <div class="flex flex-col lg:flex-row items-center lg:items-start gap-5">
+      <div>
+        <ItemGrid
+          items={[
+            {
+              title: 'Encourage client to participate in life decision making as long as possible',
+            },
+            {
+              title: 'Focus on relieving pain and making client as comfortable as possible',
+            },
+            {
+              title: 'Encourage independence as long as possible',
+            },
+            {
+              title: 'Provide break to family members who may be experiencing excessive stress',
+            },
+            {
+              title: 'Offer support groups and services',
+            },
+            {
+              title: 'Providing total comfort for the client rather than focusing on recovery',
+            },
+            {
+              title: 'Being a good listener is a big help to client and his or her family',
+            },
+            {
+              title:
+                'Allow client make choices when possible such as whether to bathe now or later, or what to eat or drink',
+            },
+            {
+              title: 'Provide respect and privacy to client and family',
+            },
+          ]}
+          columns={1}
+          defaultIcon="tabler:check"
+          classes={{
+            container: 'gap-y-1 md:gap-y-1',
+            panel: 'max-w-none',
+            title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+            description: '',
+            icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+            action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+          }}
+        />
+      </div>
+
+      <Image
+        class="mx-auto rounded-md"
+        widths={[400, 768, 1024, 2040]}
+        sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+        loading="eager"
+        width={600}
+        height={400}
+        src="/src/assets/images/sub-image1_hospice-care.jpg"
+        alt="Long Term Care Insurance"
+      />
+    </div>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      Our certified hospice home health aides and nursing assistants are able to provide:
+    </h2>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Personal care such as bathing, dressing and grooming',
+        },
+        {
+          title: 'Oral care and care of nose and mouth',
+        },
+        {
+          title: 'Incontinence Care',
+        },
+        {
+          title: 'Feeding Assistance',
+        },
+        {
+          title: 'Repositioning in bed for comfort',
+        },
+        {
+          title: 'Provide skin care',
+        },
+        {
+          title: 'Assist with pain relief',
+        },
+        {
+          title: 'Give massages for comfort',
+        },
+        {
+          title: 'Display favorite objects where clients can easily see them',
+        },
+        {
+          title: 'Keep room temperature comfortable',
+        },
+        {
+          title: 'Keep room softly lighted without glare',
+        },
+        {
+          title: 'Provide emotional and spiritual support',
+        },
+        {
+          title: 'And more',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+  </div>
+</Layout>
