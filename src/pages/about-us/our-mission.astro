@@ -2,7 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero2 from '~/components/widgets/Hero2.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import ItemGrid from '~/components/ui/ItemGrid.astro';
 
 const metadata = {
@@ -74,6 +73,8 @@ const values = [
     title: 'To Build Value in Our Service to Others',
   },
 ];
+
+import HeroImage from '~/assets/images/main-image_our-mission.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -85,7 +86,7 @@ const values = [
     subtitle="The RIGHT ACCORD mission is a commitment to help the seniors in our community to age gracefully. We ensure them of their dignity, security and social connections that will enhance their lives."
     actions={[{ text: 'Learn more', href: '#learn-more' }]}
     image={{
-      src: '/src/assets/images/main-image_our-mission.jpg',
+      src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
     }}
   />
