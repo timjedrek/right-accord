@@ -1,12 +1,12 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+
+import HeroImage from '~/assets/images/main-image_getting-started.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -27,7 +27,7 @@ const metadata = {
       { text: 'Learn more', href: '#jobs' },
     ]}
     image={{
-      src: '/src/assets/images/main-image_getting-started.jpg',
+      src: HeroImage,
       alt: 'Click-through Landing Page Hero Image',
       width: '2024',
     }}

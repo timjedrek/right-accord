@@ -1,12 +1,12 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero2 from '~/components/widgets/Hero2.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+
+import HeroImage from '~/assets/images/main-image_family-portal.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -27,7 +27,7 @@ const metadata = {
       { text: 'Learn more', href: '#learn-more' },
     ]}
     image={{
-      src: '/src/assets/images/main-image_family-portal.jpg',
+      src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
     }}
   />

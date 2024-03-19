@@ -1,12 +1,19 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
 import Features7 from '~/components/widgets/Features7.astro';
 
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+
+import HeroImage from '/src/assets/images/main-image_payers-for-home2.jpg';
+import LongTermCareInsuranceImage from '/src/assets/images/long-term-insurance.jpg';
+import LifeInsuranceImage from '/src/assets/images/life-insurance.jpg';
+import VeteransBenefitsImage from '/src/assets/images/veteran-benefits.jpg';
+import PrivatePayImage from '/src/assets/images/private-pay.jpg';
+import MedicaidImage from '/src/assets/images/Medicaid.jpg';
+import WorkersCompensationImage from '/src/assets/images/workers-compensation.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -17,7 +24,7 @@ const metadata = {
     subtitle="Affordable home care solutions: exploring payment options"
     actions={[{ text: 'Learn more', href: '#learn-more' }]}
     image={{
-      src: '/src/assets/images/main-image_payers-for-home2.jpg',
+      src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
       width: '2024',
     }}
@@ -45,7 +52,7 @@ const metadata = {
             'This type of insurance covers the cost of care beyond a predetermined period of time. Long-term care insurance covers care that is generally not covered by your primary insurance plan. Unlike traditional health insurance, long-term care insurance is designed to cover long-term services that include skilled, assistive or personal care services at home.',
           icon: 'tabler:template',
           image: {
-            src: '/src/assets/images/long-term-insurance.jpg',
+            src: LongTermCareInsuranceImage,
             alt: 'Children telling a story. Long-form Sales Landing Page demo',
           },
         },
@@ -55,7 +62,7 @@ const metadata = {
             '88% of Life Insurance policies will lapse or be surrendered for little to no value. We will help you find out if a Life Settlement, Viatical Settlement or an Accelerated Death Benefit is an option for you.',
           icon: 'tabler:template',
           image: {
-            src: '/src/assets/images/life-insurance.jpg',
+            src: LifeInsuranceImage,
             alt: 'Children telling a story. Long-form Sales Landing Page demo',
           },
         },
@@ -65,7 +72,7 @@ const metadata = {
             'Veterans Benefits include a wide range of services including long term care, home or community-based care, and nursing home or facility care. Your eligibility for these services will be determined based on your need for ongoing treatment, personal care and assistance, as well as the availability of the service in your location.',
           icon: 'tabler:template',
           image: {
-            src: '/src/assets/images/veteran-benefits.jpg',
+            src: VeteransBenefitsImage,
             alt: 'Children telling a story. Long-form Sales Landing Page demo',
           },
         },
@@ -75,7 +82,7 @@ const metadata = {
             'In the event you choose to pay for home health care services without the assistance of health insurance, RIGHT ACCORD Home Health Care is happy to work out payment terms with you. This is not just cash in the bank or monthly pensions. We can also look at annuities and trusts or Collective Sibling Agreement.',
           icon: 'tabler:template',
           image: {
-            src: '/src/assets/images/private-pay.jpg',
+            src: PrivatePayImage,
             alt: 'Children telling a story. Long-form Sales Landing Page demo',
           },
         },
@@ -85,7 +92,7 @@ const metadata = {
             'Medicaid is a state government program that provides health care insurance and medical assistance to people, including families and children, who meet income eligibility requirements.',
           icon: 'tabler:template',
           image: {
-            src: '/src/assets/images/Medicaid.jpg',
+            src: MedicaidImage,
             alt: 'Children telling a story. Long-form Sales Landing Page demo',
           },
         },
@@ -95,7 +102,7 @@ const metadata = {
             'An employee or their dependents can receive workers’ compensation benefits for an injury or death arising out of and in the course of employment. The employer or their insurance carrier pays for necessary and reasonable medical treatment, loss of wages during the period of rehabilitation and when documented, benefits for permanent disability.',
           icon: 'tabler:template',
           image: {
-            src: '/src/assets/images/workers-compensation.jpg',
+            src: WorkersCompensationImage,
             alt: 'Children telling a story. Long-form Sales Landing Page demo',
           },
         },
