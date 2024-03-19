@@ -1,0 +1,143 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Skilled Nursing"
+    title="Our Skilled Nursing Services"
+    subtitle="(Not available in Manatee County) Our skilled nursing services are provided by a registered professional nurse in your loved one's home. RIGHT ACCORD employs Registered Nurses (RN) or Licensed Practical Nurse (LPN) who perform Free of charge the initial evaluation to determine the care your family need. RNs and LPNs are able to assist you design the plan of care."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_skilled-nursing.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      Registered nurses (RN) or licensed practical nurse (LPN) duties and functions
+    </h2>
+    <p>RNs and LPNs may:</p>
+    <ItemGrid
+      items={[
+        {
+          title: 'Perform assessment and evaluation for care',
+        },
+        {
+          title: 'Conduct periodic re-evaluation and adjust care needs as necessary',
+        },
+        {
+          title: 'Obtain physician’s orders as necessary',
+        },
+        {
+          title: 'Develops the Plan of Care',
+        },
+        {
+          title: 'Refer for additional health or other services when appropriate',
+        },
+        {
+          title: 'Coordinate with multi-disciplinary care teams',
+        },
+        {
+          title: 'Accompany to Doctor appointments',
+        },
+        {
+          title: 'IV Infusion and IV Injections',
+        },
+        {
+          title: 'Catheter Care',
+        },
+        {
+          title: 'Tube Feedings',
+        },
+        {
+          title: 'Wound Care Management',
+        },
+        {
+          title: 'Comfort and Pain Management',
+        },
+        {
+          title: 'Diabetic Care Management (Insulin Management)',
+        },
+        {
+          title: 'Perform Emergency Care as necessary (CPR)',
+        },
+        {
+          title: 'Supervise Certified Nursing Assistants (C N A) and Home Health Aides',
+        },
+        {
+          title: 'Collaborate with family plan of care and changes in the plan of care',
+        },
+        {
+          title: 'Perform follow-up visits as needed',
+        },
+        {
+          title: 'Maintain clinical records',
+        },
+        {
+          title: '… and many more.',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+
+    <Content
+      isReversed
+      items={[
+        {
+          title: 'Regain your Freedom and Independence',
+          description:
+            'There’s more freedom and flexibility for you so you can maintain your lifestyle and enjoy the things you like and love to do. Let us help you. It will be more convenient than imposing the caregiving to other family members or relying on friends and neighbors.',
+        },
+        {
+          title: 'Cost effective',
+          description: `The cost of care for an hourly caregiver working 40 hours per week or fewer costs lower than the price of an average assisted living facility. From 12 to 20 hours a week (commonly requested) in – home care, there is no comparison.`,
+        },
+        {
+          title: 'Preserve Your Sanity and Enjoy Peace of Mind',
+          description: `Enjoy the things you like to do knowing your caregiver is there to help you while ensuring your loved one’s safety, provides peace of mind to both you and concerned family members and loved ones.`,
+        },
+      ]}
+      image={{
+        src: '/src/assets/images/main-image_skilled-nursing.jpg',
+        alt: 'Startup Image',
+      }}
+    >
+      <Fragment slot="content">
+        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits:</h3>
+      </Fragment>
+
+      <Fragment slot="bg">
+        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      </Fragment>
+    </Content>
+  </div>
+</Layout>

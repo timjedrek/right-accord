@@ -1,0 +1,153 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Image from '~/components/common/Image.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Post Surgical/Recovery Care"
+    title="Post Surgical/Recovery or Rehabilitation Care"
+    subtitle="There’s no doubt, home is the best place to be especially when recuperating after hospitalization or after surgery. However, According to the Medicare payment advisory committee, almost 1 in 5 Medicare patients will be readmitted to the within 30 days of discharge."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#learn-more' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_post-surgery.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      How in-home care can help after hospital discharge?
+    </h2>
+
+    <div class="flex flex-col lg:flex-row items-center lg:items-start gap-5">
+      <div>
+        <ItemGrid
+          items={[
+            {
+              title: 'Reduce incidence of hospital readmission',
+            },
+            {
+              title: 'Coordinating discharge and following discharge recommendation',
+            },
+            {
+              title: 'Reduce the incidence of falls in the home',
+            },
+            {
+              title: 'Transportation from the hospital',
+            },
+            {
+              title: 'Coordinating medical equipment delivery',
+            },
+            {
+              title: 'Monitoring exercise and activities prescribed',
+            },
+            {
+              title: 'Scheduling transport and follow up appointments',
+            },
+            {
+              title: 'Reviewing medication and reminders',
+            },
+            {
+              title: 'Assistance with food shopping and Preparing meals',
+            },
+            {
+              title: 'Responding to any health concerns and reporting if anything significant',
+            },
+          ]}
+          columns={1}
+          defaultIcon="tabler:check"
+          classes={{
+            container: 'gap-y-1 md:gap-y-1',
+            panel: 'max-w-none',
+            title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+            description: '',
+            icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+            action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+          }}
+        />
+      </div>
+
+      <Image
+        class="mx-auto rounded-md"
+        widths={[400, 768, 1024, 2040]}
+        sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+        loading="eager"
+        width={600}
+        height={400}
+        src="/src/assets/images/sub-image1_post-surgery.jpg"
+        alt="Long Term Care Insurance"
+      />
+    </div>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      Right Accord A-team of home health aide and nursing assistants can help after hospitalization and surgery by:
+    </h2>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Assisting with self-care',
+        },
+        {
+          title: 'Following plan of care',
+        },
+        {
+          title: 'Assisting with personal care and activities of daily living (bathing, dressing, grooming, toileting)',
+        },
+        {
+          title: 'Assisting with range of motion (ROM) exercises and ambulation',
+        },
+        {
+          title: 'Transferring from bed to chair or wheelchair',
+        },
+        {
+          title: 'Taking vital signs (temperature, pulse, respiration and blood pressure)',
+        },
+        {
+          title: 'Assessment of pain and reminding about medications',
+        },
+        {
+          title: 'Assist with use of medical assistive devices such as walkers, cane, crutches',
+        },
+        {
+          title: 'Assist with light housekeeping',
+        },
+        {
+          title: 'Prepare meals',
+        },
+        {
+          title: 'And more',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+  </div>
+</Layout>

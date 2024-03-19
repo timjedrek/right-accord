@@ -1,0 +1,411 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+
+const facts = [
+  {
+    title:
+      'The vast majority of seniors over age 65 (90%) want to remain at home or “age in place” grow older without having to move from their homes.',
+  },
+  {
+    title: 'More than half (53%) is concerned about their ability to do so.',
+  },
+  {
+    title: 'More than two out of three baby boomers provide care and assistance to their aging parents.',
+  },
+  {
+    title: 'Live-In Home Care is a cost-effective alternative to long-term care facilities',
+  },
+];
+
+const conditions = [
+  {
+    title:
+      'Cognitive impairment, such as people with Alzheimer’s disease or other related dementias with mild to severe memory-impairment. Have they gotten lost? Would they know what to do in an emergency? Have they left the stove on?',
+  },
+  {
+    title:
+      'Physical or cognitive disabilities preventing them from maintaining proper hydration. The effects of dehydration are rapid and severe with serious complications among seniors.',
+  },
+  {
+    title:
+      'Physical or cognitive disabilities preventing meal preparation and consumption. Malnutrition and failure to thrive is very common among seniors.',
+  },
+  {
+    title: 'Cannot use the toilet without assistance and lives alone. High risk for falling.',
+  },
+  {
+    title: 'Prone to falling. A leading cause of hospitalization among seniors.',
+  },
+  {
+    title:
+      'Cannot properly self-administer medications due to cognitive or physical impairment. Miss taking medications, or overdosing when forgetful that they took their medications.',
+  },
+  {
+    title:
+      'Recovering from an illness or surgery and is temporarily disabled and needs assistance throughout the day and occasionally at night.',
+  },
+  {
+    title: 'Overwhelmed by daily tasks and responsibilities.',
+  },
+  {
+    title: 'Living isolated and alone.',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Live-In Home Care"
+    title="Live-in Home Care Program"
+    subtitle="There is no place like home. Home is a better place for a loved one to receive care. If you or your loved one suffers from a chronic condition or is recovering from an injury, illness, or surgical procedure, live in-home care can help maintain your lifestyle, independence, freedom, and peace of mind."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_live-in-care.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">WHAT IS A LIVE-IN HOME CARE?</h2>
+
+    <p>
+      A live-in home care is a senior helper that provides or is available to provide caregiving services throughout the
+      day, stay overnight and sleep in the client’s home and available for hands-on assistance as needed at nighttime.
+      We offer live-in care in Sarasota and Manatee Counties.
+    </p>
+    <p>
+      A live-in home health care giver is usually what is meant when a Physician, Case Manager or Social Worker
+      recommends a 24-hour care.
+    </p>
+    <p>
+      Live In Home Care is strongly considered for people who live alone while experiencing cognitive impairment, such
+      as Alzheimer’s or other forms of dementia and memory failures, and/or physical disabilities.
+    </p>
+    <p>
+      Live-in care is ideal for people with difficulty moving around the home who may be deprived of proper nutrition or
+      hydration without round the clock care, caregivers provide meal preparation, toileting, self-administration of
+      medications, and provide continuous supervision and companionship.
+    </p>
+    <p>Some facts:</p>
+    <ItemGrid
+      items={facts}
+      columns={1}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+  </div>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    title="Benefits of live-in home care"
+    isReversed
+    items={[
+      {
+        title: 'Better Quality of life',
+      },
+      {
+        title: 'Better Continuity of care',
+      },
+      {
+        title: 'Comfort for family and friends to visit',
+      },
+      {
+        title: 'Feel safer in familiar surroundings',
+      },
+      {
+        title: 'Reduce stress and anxiety',
+      },
+      {
+        title: 'Enhance physical and mental well-being',
+      },
+      {
+        title: 'Continue daily routines in the comfort of their own home',
+      },
+      {
+        title: 'Live-in caregivers provide companionship and peace of mind',
+      },
+      {
+        title: 'Provides loved ones with safety, security, and peace of mind that help is at hand',
+      },
+    ]}
+    image={{
+      src: '/src/assets/images/sub-image1_live-in-care.jpg',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <div class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24">
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      When is live-in home care recommended?
+    </h2>
+
+    <p>
+      If you or a loved one has any of the following conditions and lives alone, Live- in home care should be a top
+      priority.
+    </p>
+
+    <ItemGrid
+      items={conditions}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+  </div>
+
+  <Features2
+    title="Live-in caregiver agency"
+    subtitle="RIGHT ACCORD understands that finding the most compatible caregiver for you or your loved one is the most important task. We take serious responsibility in finding the right caregiver and can provide you with a reliable and compassionate live-in caregiver suitable for you."
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <div class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24">
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      Services provided by a live-in caregiver
+    </h2>
+
+    <p class="font-semibold">People with Special Needs Requiring Live in Home Care</p>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Alzheimer’s / Dementia Care (Middle or Late Stage)',
+        },
+        {
+          title: 'Parkinson’s Disease Care (Advanced Stage)',
+        },
+        {
+          title: 'Post Stroke, Brain Trauma and other Neurological Care',
+        },
+        {
+          title: 'Post Surgical or Post Hospitalization Care',
+        },
+        {
+          title: 'COPD Care (Chronic Obstructive Pulmonary Disease)',
+        },
+        {
+          title: 'Care for Chronic Conditions such as Congestive Heart Failure, Diabetes, Arthritis',
+        },
+        {
+          title: 'Hospice or End of Life Care',
+        },
+        {
+          title: 'And more…',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+
+    <p class="font-semibold">Assistance with Personal Care (Hands-on Care)</p>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Bathing (Showering, Tub, Bed Bath or Sponge Bath)',
+        },
+        {
+          title: 'Dressing and Grooming',
+        },
+        {
+          title: 'Toileting and Incontinence Care',
+        },
+        {
+          title: 'Total Hygiene',
+        },
+        {
+          title: 'Basic Skin Care (Clean and moisturize)',
+        },
+        {
+          title: 'Repositioning to prevent pressure sores',
+        },
+        {
+          title: 'Assist with eating or oral feeding',
+        },
+        {
+          title: 'Oral or Denture Care',
+        },
+        {
+          title: 'Ambulation and Prosthetic Device Assistance',
+        },
+        {
+          title: 'Assistance with wheelchair, walker, crutches or cane',
+        },
+        {
+          title: 'Assistance with transfers form bed to chair using gait belts for safety',
+        },
+        {
+          title: 'Range of Motion Exercises as recommended by Physical Therapist',
+        },
+        {
+          title: 'Catheter or Ostomy Care Assistance',
+        },
+        {
+          title: 'Assist with bowel and bladder training',
+        },
+        {
+          title: 'Warm and Cold Compress Application as prescribed by a doctor',
+        },
+        {
+          title: 'Assistance on applying elastic stockings',
+        },
+        {
+          title: 'Measure intake (food and drinks) and output (urine) as needed in some cases',
+        },
+        {
+          title: 'Obtain specimens (urine, stool or sputum) as necessary',
+        },
+        {
+          title: 'Take Vital Signs (Blood Pressure, Pulse, Respiration, Temperature) as needed',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+
+    <p class="font-semibold">Companionship And Homemaking</p>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Medication Reminders & Assistance',
+        },
+        {
+          title: 'Grocery Shopping',
+        },
+        {
+          title: 'Meal Preparation',
+        },
+        {
+          title: 'Light Housekeeping (vacuuming, dusting, wash dishes)',
+        },
+        {
+          title: 'Bed making',
+        },
+        {
+          title: 'Appointment Scheduling',
+        },
+        {
+          title: 'Transportation to Appointments',
+        },
+        {
+          title: 'Errands and Grocery Shopping',
+        },
+        {
+          title: 'Comforting Companionship',
+        },
+        {
+          title: 'Accompany on outings and to Social Engagements',
+        },
+        {
+          title: 'Pet care',
+        },
+        {
+          title: 'And many more…',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+
+    <p class="font-semibold">RIGHT ACCORD’s Community of Professional Caregivers include:</p>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Certified Nursing Assistants',
+        },
+        {
+          title: 'Home Health Aides',
+        },
+        {
+          title: 'Companions and Homemakers',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-base font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <p class="font-semibold mt-10">
+      Live-in care is applicable when a caregiver is able to have adequate sleep at night otherwise hourly 24-hour care
+      may apply.
+    </p>
+
+    <p class="text-base">
+      If live-in home care by a caring and compassionate caregiver is right for you, or want to learn more please
+      contact us. We can arrange care over the phone, or schedule a free in-home care consultation conducted by a
+      Registered Nurse. Our A-Team of caregivers ensures your 100% satisfaction. RIGHT ACCORD is here to provide you and
+      your family with the comfort and peace of mind you deserve.
+    </p>
+  </div>
+</Layout>

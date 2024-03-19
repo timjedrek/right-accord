@@ -1,0 +1,158 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Image from '~/components/common/Image.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="After Stroke in-Home Care"
+    title="What is a Stroke?"
+    subtitle="Stroke or Cerebral Vascular Accident (CVA) is caused when the blood supply in the brain is cut off suddenly by a clot or ruptured vessel. Without blood, part of the brain gets no oxygen."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#learn-more' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_after-stroke.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <Features2 id="learn-more">
+    <Fragment slot="subtitle">
+      <p class="text-lg">
+        Stroke symptoms can be from mild to severe and varies with each experience, depending on which side of the brain
+        is affected. Seniors may suffer from loss of sensations, loss of bowel or bladder control, confusion, memory
+        loss, loss of cognitive abilities and emotional liability (laughing or crying without any reason). Family
+        members often fear that a second stroke may happen and recovery at home is a challenge.
+      </p>
+      <p class="text-lg pt-5">
+        We understand the best place to recuperate is your own home. It is the best place to be.
+      </p>
+    </Fragment>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <div class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24">
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      How does home care help stroke survivors and their families?
+    </h2>
+    <p>At RIGHT ACCORD, our A-Team of caregivers promote restorative and rehabilitative care to stroke survivors by:</p>
+
+    <ItemGrid
+      items={[
+        {
+          title: 'Supporting physical therapy and occupational therapy by assisting clients to perform exercises',
+        },
+        {
+          title:
+            'Ensuring range of motion exercises to help strengthen muscles and keep joints mobile and improve circulation',
+        },
+        {
+          title:
+            'Caregivers assist Speech Therapists with clients who’ve suffered from speech loss by helping to recognize written words or to speak words',
+        },
+        {
+          title:
+            'Use of verbal and non-verbal communication and letting clients know you have confidence in his or her abilities through smiles, touches, and gestures',
+        },
+        {
+          title: 'Monitoring home safety and removing any hazards from the home',
+        },
+        {
+          title:
+            'Always checking proper body alignment; sometimes client is unaware when an arm or leg is caught some place',
+        },
+        {
+          title: 'Assisting with transfers or walking',
+        },
+      ]}
+      columns={1}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      Our Specialized A-team Of Caregivers Are Trained In:
+    </h2>
+
+    <div class="flex flex-col lg:flex-row items-center lg:items-start gap-5">
+      <div>
+        <ItemGrid
+          items={[
+            {
+              title: 'Protect clients from any unsafe areas and conditions',
+            },
+            {
+              title: 'Prevent falls. Seniors with Parkinsons are high risk for falls',
+            },
+            {
+              title: 'Assist with personal care and activities of daily living',
+            },
+            {
+              title: 'Assist with range of motion exercises to prevent contractures',
+            },
+            {
+              title: 'Ambulate with assistance to help strengthen muscles',
+            },
+            {
+              title: 'Encourage independence and self-care',
+            },
+            {
+              title: 'Assist with housekeeping duties',
+            },
+            {
+              title: 'Give emotional support',
+            },
+            {
+              title: 'Promote client’ health and comfort',
+            },
+            {
+              title: 'Maintain client’s dignity and self-worth',
+            },
+          ]}
+          columns={1}
+          defaultIcon="tabler:check"
+          classes={{
+            container: 'gap-y-1 md:gap-y-1',
+            panel: 'max-w-none',
+            title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+            description: '',
+            icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+            action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+          }}
+        />
+      </div>
+
+      <Image
+        class="mx-auto rounded-md"
+        widths={[400, 768, 1024, 2040]}
+        sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+        loading="eager"
+        width={600}
+        height={400}
+        src="/src/assets/images/sub-image1_after-stroke.jpg"
+        alt="Long Term Care Insurance"
+      />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,213 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="Senior Care Advisors"
+    title="What is senior care advisors?"
+    subtitle="The Senior Care Advisors are individuals who are able to provide clients and families guidance in times of difficulty in making health care decisions."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_senior-care-advisor.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <p>
+      They are the one who has an in-depth understanding on the needs of seniors and aging parent. This needs includes
+      financial, social and health concerns of a senior individuals. A Senior Care Advisors guide seniors in the process
+      of looking for the best alternative care service for their needs according to their available budget allocation
+      and preferred level of care. They assist in the education process by providing clear information about the various
+      options.
+    </p>
+    <p>
+      The advisors also have a better understanding about the government assistance and social security programs
+      intended for the seniors of the community to help ease the burden of financial concerns in availing their home
+      care services options.
+    </p>
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">What does senior care advisors do?</h2>
+    <p>
+      Senior Care Advisors first listens to the concerns of the senior and their family and then make assessment upon
+      collecting enough data and information about their current situation. They apply their knowledge to identify the
+      most appropriate options for seniors needs and to the best of their interest with detailed information about the
+      next step of the process. They'll help senior individual to further explore more choices by presenting her a list
+      of living care options in an easy and most presentable way. Once the senior have made their decision to proceed,
+      the advisors will stand by them and will keep working with them until they have moved and settled to their chosen
+      home care option such as in-home, assisted-livings or nursing cares. They offer a sense of compassion by carefully
+      listening to the concerns of the senior and their family, and responding with kindness and empathy.
+    </p>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">Who may need a senior care advisor?</h2>
+    <ItemGrid
+      items={[
+        {
+          title: 'Senior living alone with no family support',
+        },
+        {
+          title: 'Overwhelmed family caregiver',
+        },
+        {
+          title: 'People confused about the different care services',
+        },
+        {
+          title: 'Family who has difficulty navigating the healthcare system',
+        },
+        {
+          title: 'Someone need guidance on availability of services',
+        },
+        {
+          title: 'Individual with cognitive and medical issues',
+        },
+        {
+          title: 'Family is not available to provide care',
+        },
+        {
+          title: 'Person living in unsafe conditions',
+        },
+        {
+          title: 'Families not satisfied with current health care providers',
+        },
+        {
+          title: 'Need for caregiver support systems',
+        },
+        {
+          title: 'Individuals who need legal and financial advisors',
+        },
+        {
+          title: 'People with cognitive issues such as Dementia',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">Senior care advisors will:</h2>
+    <ItemGrid
+      items={[
+        {
+          title: 'Complete a thorough assessment',
+        },
+        {
+          title: 'Initiate Planning',
+        },
+        {
+          title: 'Support with Problem-Solving',
+        },
+        {
+          title: 'Establish a Plan of Care',
+        },
+        {
+          title: 'Monitor the overall care',
+        },
+        {
+          title: 'Educate and Coach client and family members',
+        },
+        {
+          title: 'Advocate for client and family',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <p class="font-semibold">
+      RIGHT ACCORD Senior Care Advisors will recommend local and cost-effective resources depending on your needs.
+    </p>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">Right accord senior care advisors</h2>
+    <p>
+      A Senior Care Advisor at RIGHT ACCORD is an individual who holds a degree in Nursing (Associate, Diploma,
+      Bachelor’s, Masters or Ph.D.), Physical Therapy, Occupational Therapy or Social Work with experience or practicing
+      in areas of gerontology, home care, mental health, and counseling. These professional are able to provide clients
+      and families guidance in times of difficulty in making health care decisions.
+    </p>
+
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">Comprehensive assessment result</h2>
+    <p>After a comprehensive assessment, we will customize a plan of care that best suit your needs.</p>
+    <p class="font-semibold">These needs are in areas such as:</p>
+    <ItemGrid
+      items={[
+        {
+          title: 'Appropriate Housing',
+        },
+        {
+          title: 'Home Care Services',
+        },
+        {
+          title: 'Primary and Specialty Doctors',
+        },
+        {
+          title: 'Legal Counsel',
+        },
+        {
+          title: 'Financial Advisors',
+        },
+        {
+          title: 'Social Activities',
+        },
+        {
+          title: 'Safety and Security Systems',
+        },
+        {
+          title: 'Home Technologies',
+        },
+        {
+          title: 'Personal Alarm Systems',
+        },
+        {
+          title: 'And more…',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+    <p>
+      Our specialty program “Dementia Care” highly recommends our Senior Care Advisors because families are faced with
+      multiple challenges when someone in the family is diagnosed with Alzheimer’s or Dementia. It requires a lot of
+      planning and preparation as client and family take on to the journey of caregiving.
+    </p>
+    <p class="font-semibold text-green-600 text-2xl">Contact our Senior Care Advisors at (941) 366-0801 Now!</p>
+  </div>
+</Layout>

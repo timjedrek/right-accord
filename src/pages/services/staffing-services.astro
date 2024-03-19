@@ -1,0 +1,96 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Staffing Services"
+    title="Relief, Flexible, Staffing Solutions"
+    subtitle="At RIGHT ACCORD, we understand the impact of nursing shortage in the delivery of health care services. We believe in maintaining the safety and quality of care for your clients that’s why we are here to support your mission in the community. Our A-Team of care providers is ready to help you."
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{
+      src: '/src/assets/images/main-image_staffing-service.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <div
+    id="learn-more"
+    class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 p-5 flex flex-col mt-10 scroll-m-24"
+  >
+    <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
+      How can our staffing service help you
+    </h2>
+    <p>
+      We can help you with staffing needs whether it is for short or long-term need. Our staff is carefully screened and
+      criminal background checked. We perform complete employment verification process and competency evaluations.
+    </p>
+    <p>
+      We staff Registered Nurses RNs, Licensed Practical LPNs, Certified Nursing Assistants (C N A), Home Health Aides,
+      Resident Aides, Patient Care Technicians.
+    </p>
+    <p>Locations where we provide Staffing Services:</p>
+    <ItemGrid
+      items={[
+        {
+          title: 'Long-Term Care Facilities',
+        },
+        {
+          title: 'Skilled Nursing Facility',
+        },
+        {
+          title: 'Rehabilitation Facility',
+        },
+        {
+          title: 'Collaborate with the team',
+        },
+        {
+          title: 'Assisted Living Facility',
+        },
+        {
+          title: 'Hospice Care Facility',
+        },
+        {
+          title: 'Behavioral Clinics and Facility',
+        },
+        {
+          title: 'Independent Living Communities',
+        },
+        {
+          title: 'Adult Day Care Centers',
+        },
+        {
+          title: 'Health Clinics',
+        },
+        {
+          title: 'Hospitals',
+        },
+      ]}
+      columns={2}
+      defaultIcon="tabler:check"
+      classes={{
+        container: 'gap-y-1 md:gap-y-1',
+        panel: 'max-w-none',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
+        description: '',
+        icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
+        action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+      }}
+    />
+  </div>
+</Layout>
