@@ -1,13 +1,12 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero2 from '~/components/widgets/Hero2.astro';
-import Content from '~/components/widgets/Content.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Sales Landing Page Demo',
 };
+
+import HeroImage from '~/assets/images/home-maker2.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -28,7 +27,7 @@ const metadata = {
       { text: 'Learn more', href: '#support' },
     ]}
     image={{
-      src: '/src/assets/images/home-maker2.jpg',
+      src: HeroImage,
       alt: 'Children telling a story. Long-form Sales Landing Page demo',
     }}
   />
