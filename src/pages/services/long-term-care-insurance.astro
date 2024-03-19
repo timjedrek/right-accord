@@ -1,14 +1,14 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
-import Content from '~/components/widgets/Content.astro';
-import ItemGrid from '~/components/ui/ItemGrid.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
   title: 'SaaS Landing Page',
 };
+
+import HeroImage from '~/assets/images/main-image_long-term-care.jpg';
+import InsuranceImage from '~/assets/images/feature-grid-image4_2x.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -23,7 +23,7 @@ const metadata = {
       { text: 'Learn more', href: '#learn-more' },
     ]}
     image={{
-      src: '/src/assets/images/main-image_long-term-care.jpg',
+      src: HeroImage,
       alt: 'AstroWind Hero Image',
     }}
   />
@@ -66,7 +66,7 @@ const metadata = {
         loading="eager"
         width={400}
         height={400}
-        src="/src/assets/images/feature-grid-image4_2x.jpg"
+        src={InsuranceImage}
         alt="Long Term Care Insurance"
       />
     </div>

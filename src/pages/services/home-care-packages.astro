@@ -8,6 +8,12 @@ import Features2 from '~/components/widgets/Features2.astro';
 const metadata = {
   title: 'SaaS Landing Page',
 };
+
+import HeroImage from '/src/assets/images/main-image_homecare-packages.jpg';
+import SunrisePackage from '/src/assets/images/sub-image1_sunrise-packages.jpg';
+import SunsetPackage from '/src/assets/images/sub-image1_sunset-packages.jpg';
+import WellnessPackage from '/src/assets/images/sub-image1_wellness-packages.jpg';
+import WelcomePackage from '/src/assets/images/sub-image1_welcome-packages.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -22,7 +28,7 @@ const metadata = {
       { text: 'Learn more', href: '#features' },
     ]}
     image={{
-      src: '/src/assets/images/main-image_homecare-packages.jpg',
+      src: HeroImage,
       alt: 'AstroWind Hero Image',
     }}
   />
@@ -90,7 +96,7 @@ const metadata = {
       title: 'font-normal text-base',
     }}
     image={{
-      src: '/src/assets/images/sub-image1_sunrise-packages.jpg',
+      src: SunrisePackage,
       alt: 'Startup Image',
     }}
   >
@@ -159,7 +165,7 @@ const metadata = {
       title: 'font-normal text-base',
     }}
     image={{
-      src: '/src/assets/images/sub-image1_sunset-packages.jpg',
+      src: SunsetPackage,
       alt: 'Startup Image',
     }}
   >
@@ -240,7 +246,7 @@ const metadata = {
       title: 'font-normal text-base',
     }}
     image={{
-      src: '/src/assets/images/sub-image1_wellness-packages.jpg',
+      src: WellnessPackage,
       alt: 'Startup Image',
     }}
   >
@@ -319,7 +325,7 @@ const metadata = {
       title: 'font-normal text-base',
     }}
     image={{
-      src: '/src/assets/images/sub-image1_welcome-packages.jpg',
+      src: WelcomePackage,
       alt: 'Startup Image',
     }}
   >
