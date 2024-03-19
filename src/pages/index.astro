@@ -1,18 +1,10 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
-//import Hero from '~/components/widgets/Hero.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
-//import Note from '~/components/widgets/Note.astro';
 import Features5 from '~/components/widgets/Features5.astro';
-//import Features2 from '~/components/widgets/Features2.astro';
 import Features6 from '~/components/widgets/Features6.astro';
-//import Steps from '~/components/widgets/Steps.astro';
-//import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-//import Stats from '~/components/widgets/Stats.astro';
-//import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Home Health Care Sarasota, FL | Right Accord',
@@ -32,6 +24,9 @@ import Brands from '~/components/widgets/Brands.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Features4 from '~/components/widgets/Features4.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Button from '~/components/ui/Button.astro';
+import Image from '~/components/common/Image.astro';
 
 // Image variables
 import HeroImage from '/src/assets/images/elderly-home-health-care-venice-sarasota-manatee.webp';
@@ -58,6 +53,7 @@ import LernerCohen from '/src/assets/partners/lerner-cohen.webp';
 import PayneLawGroup from '/src/assets/partners/payne-lawgroup.webp';
 import ITNSuncoast from '/src/assets/partners/itn-suncoast.webp';
 import ProfilePlaceHolder from '/src/assets/images/profile-placeholder.webp';
+import Booklet from '/src/assets/images/booklet.png';
 ---
 
 <Layout metadata={metadata}>
@@ -435,9 +431,9 @@ import ProfilePlaceHolder from '/src/assets/images/profile-placeholder.webp';
     width="100%"
     height="500"
     style="border:0;"
-    allowfullscreen="true"></iframe>
-
-  <!-- HighlightedPosts Widget ******* -->
+    allowfullscreen="true"
+  >
+  </iframe>
 
   <BlogLatestPosts
     title="Find out more content in our Blog"
@@ -450,6 +446,22 @@ import ProfilePlaceHolder from '/src/assets/images/profile-placeholder.webp';
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </BlogLatestPosts>
+
+  <CallToAction
+    id="download"
+    title="Download our booklet now!"
+    subtitle="Get to know more about our services and how we can help you and your loved ones."
+  >
+    <div slot="actions" class="flex max-w-sm gap-4">
+      <Button
+        variant="link"
+        target="_blank"
+        href="https://rightaccordhealth.com/download-materials/2020/pdf/Survival-Guide-For-Parent-Care.pdf?inf_contact_key=110de0d98ad9baacbcd047d93293680a680f8914173f9191b1c0223e68310bb1"
+      >
+        <Image src={Booklet} alt="App Store Image" width={400} />
+      </Button>
+    </div>
+  </CallToAction>
 
   <!-- FAQs Widget ******************* -->
 </Layout>
