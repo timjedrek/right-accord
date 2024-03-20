@@ -6,6 +6,12 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 const metadata = {
   title: 'RIGHT ACCORD Home Care',
 };
+
+import HeroImage from '/src/assets/images/RIGHT-ACCORD-Sarasota-Office.jpg';
+import GoldSealImage from '/src/assets/images/accreditation-gold-seal.jpg';
+import ReadersChoice2009Image from '/src/assets/images/readers-choice-2009.jpg';
+import ReadersChoice2010Image from '/src/assets/images/readers-choice-2010b.jpg';
+import ReadersChoice2014Image from '/src/assets/images/readers-choice-2014b.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -17,7 +23,7 @@ const metadata = {
     subtitle="Home Health Agency licensed by the Florida Agency for Health Care Administration (AHCA) who is responsible for health care organization licensure and regulation. (HHA29993655)"
     actions={[{ text: 'Learn more', href: '#learn-more' }]}
     image={{
-      src: '/src/assets/images/RIGHT-ACCORD-Sarasota-Office.jpg',
+      src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
     }}
   />
@@ -59,7 +65,7 @@ const metadata = {
           loading="eager"
           width={600}
           height={600}
-          src="/src/assets/images/accreditation-gold-seal.jpg"
+          src={GoldSealImage}
           alt="Children telling a story. Long-form Sales Landing Page demo"
         />
         <Image
@@ -69,7 +75,7 @@ const metadata = {
           loading="eager"
           width={600}
           height={600}
-          src="/src/assets/images/readers-choice-2009.jpg"
+          src={ReadersChoice2009Image}
           alt="Children telling a story. Long-form Sales Landing Page demo"
         />
         <Image
@@ -79,7 +85,7 @@ const metadata = {
           loading="eager"
           width={600}
           height={600}
-          src="/src/assets/images/readers-choice-2010b.jpg"
+          src={ReadersChoice2010Image}
           alt="Children telling a story. Long-form Sales Landing Page demo"
         />
         <Image
@@ -89,7 +95,7 @@ const metadata = {
           loading="eager"
           width={600}
           height={600}
-          src="/src/assets/images/readers-choice-2014b.jpg"
+          src={ReadersChoice2014Image}
           alt="Children telling a story. Long-form Sales Landing Page demo"
         />
       </div>

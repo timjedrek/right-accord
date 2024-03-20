@@ -1,9 +1,9 @@
 ---
 import { Icon } from 'astro-icon/components';
+import Image from '~/components/common/Image.astro';
 import { twMerge } from 'tailwind-merge';
 import type { ItemGrid } from '~/types';
 import Button from './Button.astro';
-import Image from '~/components/common/Image.astro';
 
 const { items = [], columns, defaultIcon = '', classes = {} } = Astro.props as ItemGrid;
 
@@ -33,35 +33,28 @@ const {
         containerClass
       )}
     >
-      {items.map(({ title, description, icon, callToAction, image, classes: itemClasses = {} }) => (
-        <div
-          class={twMerge(
-            'relative flex flex-col sm:first:col-span-2 overflow-hidden group cursor-pointer',
-            panelClass,
-            itemClasses?.panel
-          )}
-        >
+      {items.map(({ title, description, icon, image, callToAction, classes: itemClasses = {} }) => (
+        <div class={twMerge('relative flex flex-col', panelClass, itemClasses?.panel)}>
           {image && (
-            <div class="absolute top-0 left-0 w-full h-full group-hover:bg-black/40 duration-300"></div>
-            <div class="absolute -z-10 top-0 w-full h-full left-0 scale-105 group-hover:scale-100 duration-300">
+            <div class="relative mx-auto max-w-5xl">
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
                 <Image
-                  class="w-full h-full"
+                  class="mx-auto rounded-md w-full mb-4"
                   widths={[400, 768, 1024, 2040]}
                   sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
                   loading="eager"
-                  style='max-width: 100%;'
+                  width={600}
                   height={600}
                   {...image}
                 />
               )}
             </div>
           )}
-          <div class={twMerge('text-4xl font-bold mt-52 text-white group-hover:scale-105 group-hover:ml-5 duration-300 z-10', titleClass, itemClasses?.title)}>{title}</div>
+          <div class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>{title}</div>
           {description && (
-            <p class={twMerge('group-hover:text-white font-semibold text-transparent duration-300 mt-2 relative -left-1/2 group-hover:left-0 ', descriptionClass, itemClasses?.description)} set:html={description} />
+            <p class={twMerge('text-muted mt-2', descriptionClass, itemClasses?.description)} set:html={description} />
           )}
           {callToAction && (
             <div class="mt-2">

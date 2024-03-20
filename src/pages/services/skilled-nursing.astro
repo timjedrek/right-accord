@@ -3,11 +3,12 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
 import Content from '~/components/widgets/Content.astro';
 import ItemGrid from '~/components/ui/ItemGrid.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
   title: 'SaaS Landing Page',
 };
+
+import HeroImage from '~/assets/images/main-image_skilled-nursing.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -22,7 +23,7 @@ const metadata = {
       { text: 'Learn more', href: '#features' },
     ]}
     image={{
-      src: '/src/assets/images/main-image_skilled-nursing.jpg',
+      src: HeroImage,
       alt: 'AstroWind Hero Image',
     }}
   />
@@ -127,7 +128,7 @@ const metadata = {
         },
       ]}
       image={{
-        src: '/src/assets/images/main-image_skilled-nursing.jpg',
+        src: HeroImage,
         alt: 'Startup Image',
       }}
     >

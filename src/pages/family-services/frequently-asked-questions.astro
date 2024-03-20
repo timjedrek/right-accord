@@ -1,13 +1,13 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+
+import HeroImage from '~/assets/images/main-image_faq2.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -19,7 +19,7 @@ const metadata = {
     subtitle="Your comprehensive faqs resource for clarity and understanding"
     actions={[{ text: 'Learn more', href: '#faq' }]}
     image={{
-      src: '/src/assets/images/main-image_faq2.jpg',
+      src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
     }}
   />

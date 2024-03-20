@@ -1,18 +1,15 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
   title: 'Personal Homepage Demo',
 };
+
+import RosemarieTamundayImage from '~/assets/images/Rosemarie-Tamunday-Casanova2.jpg';
+import RosemarieTamundayImage2 from '~/assets/images/rose_tamunday-casanova.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -37,7 +34,7 @@ const metadata = {
     id="about"
     columns={3}
     image={{
-      src: '/src/assets/images/Rosemarie-Tamunday-Casanova2.jpg',
+      src: RosemarieTamundayImage,
       alt: 'Colorful Image',
     }}
   >
@@ -89,7 +86,7 @@ const metadata = {
       loading="eager"
       width={500}
       height={700}
-      src="/src/assets/images/rose_tamunday-casanova.jpg"
+      src={RosemarieTamundayImage2}
       alt="Children telling a story. Long-form Sales Landing Page demo"
     />
     <p>

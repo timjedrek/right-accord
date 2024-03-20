@@ -1,16 +1,16 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Features4 from '~/components/widgets/Features4.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-
+import Features7 from '~/components/widgets/Features7.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import Button from '~/components/ui/Button.astro';
 
 const metadata = {
   title: 'Lead Generation Landing Page Demo',
 };
+
+import CNAImage from '/src/assets/images/certified-nursing-assistant2.jpg';
+import HHAImage from '/src/assets/images/home-health-aide2.jpg';
+import HomemakerImage from '/src/assets/images/home-maker-companion.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -32,7 +32,7 @@ const metadata = {
     ]}
   />
 
-  <Features4
+  <Features7
     id="jobs"
     title="Job Openings"
     subtitle="We are hiring for the following positions"
@@ -43,7 +43,7 @@ const metadata = {
           'Certified Nursing Assistants (CNA) are designated to work within a home environment providing hands-on personal care assistance with an established plan of care. Live-in Caregivers are CNA’s who work and live in the home. CNA’s cannot administer medications of any kind, although they can remind the patient / client to take medications.',
         icon: 'tabler:template',
         image: {
-          src: '/src/assets/images/certified-nursing-assistant2.jpg',
+          src: CNAImage,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
         },
       },
@@ -53,7 +53,7 @@ const metadata = {
           'Home Health Aides (HHA) are designated to work within a home environment providing hands-on personal care assistance with an established plan of care. Live-in Caregivers are HHA’ who work and live in the home. HHA’s cannot administer medications of any kind, although they can remind the patient / client to take medications.',
         icon: 'tabler:template',
         image: {
-          src: '/src/assets/images/home-health-aide2.jpg',
+          src: HHAImage,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
         },
       },
@@ -63,7 +63,7 @@ const metadata = {
           'A homemaker/companion provides a safe and clean environment for the client within a home environment.',
         icon: 'tabler:template',
         image: {
-          src: '/src/assets/images/home-maker-companion.jpg',
+          src: HomemakerImage,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
         },
       },

@@ -1,11 +1,12 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
 
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+
+import HeroImage from '~/assets/images/main-image_family-caregiver.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -16,7 +17,7 @@ const metadata = {
     subtitle="Compassionate caregiving: tools and assistance for family support"
     actions={[{ text: 'Learn more', href: '#learn-more' }]}
     image={{
-      src: '/src/assets/images/main-image_family-caregiver.jpg',
+      src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
       width: '2024',
     }}

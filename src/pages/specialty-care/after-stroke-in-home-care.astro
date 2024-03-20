@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Content from '~/components/widgets/Content.astro';
 import ItemGrid from '~/components/ui/ItemGrid.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Image from '~/components/common/Image.astro';
@@ -9,6 +8,9 @@ import Image from '~/components/common/Image.astro';
 const metadata = {
   title: 'SaaS Landing Page',
 };
+
+import HeroImage from '~/assets/images/main-image_after-stroke.jpg';
+import CaregiversImage from '/src/assets/images/sub-image1_after-stroke.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -23,7 +25,7 @@ const metadata = {
       { text: 'Learn more', href: '#learn-more' },
     ]}
     image={{
-      src: '/src/assets/images/main-image_after-stroke.jpg',
+      src: HeroImage,
       alt: 'AstroWind Hero Image',
     }}
   />
@@ -150,7 +152,7 @@ const metadata = {
         loading="eager"
         width={600}
         height={400}
-        src="/src/assets/images/sub-image1_after-stroke.jpg"
+        src={CaregiversImage}
         alt="Long Term Care Insurance"
       />
     </div>
