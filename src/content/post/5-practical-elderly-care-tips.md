@@ -1,5 +1,5 @@
 ---
-publishDate: 2021-07-07T00:00:00Z
+publishDate: 2021-04-07T00:00:00Z
 title: '5 Practical Elderly Care Tips To Caregivers During Pandemic'
 excerpt: Getting started with caregiving is best done by knowing how to do it effectively. Here iss the 5 best practical tips in caring for your elderly during pandemic.
 image: /src/assets/images/blog/2021/elderly-care-tips-cover.jpg
