@@ -2,7 +2,7 @@
 publishDate: 2022-01-23T00:00:00Z
 title: 'Hospice Care and Palliative Care What is the Difference?'
 excerpt: Glaucoma is vision related disease that cause blindness. The elderly is risky of glaucoma, so here's helpful details about it and the 5 potent treatments.
-image: /src/assets/images/blog/2022/Glaucoma-in-Elderly.jpg
+image: /blog/2022/Glaucoma-in-Elderly.jpg
 tags:
   - What Causes Glaucoma in Elderly
 metadata:
@@ -14,7 +14,7 @@ What Causes Glaucoma in the Elderly and Its 5 Potent Treatments?
 
 By: Rosemarie Tamunday Casanova — RN, BSN, MHA
 
-![glaucoma in the elderly cover design](/src/assets/images/blog/2022/Glaucoma-in-Elderly.jpg)
+![glaucoma in the elderly cover design](/blog/2022/Glaucoma-in-Elderly.jpg)
 
 Graphic Artwork by Tom Banogon
 
@@ -22,7 +22,7 @@ Glaucoma is often referred to as the silent thief which steals the ability of el
 
 It is silent because it usually comes with little to no symptoms and signs and by the time the person is aware of it, the sight is more or less gone.
 
-![elderly woman taking optical vision test](/src/assets/images/blog/2022/hush-naidoo-jade-photography-rcP7T6MPEIc-unsplash.jpg)
+![elderly woman taking optical vision test](/blog/2022/hush-naidoo-jade-photography-rcP7T6MPEIc-unsplash.jpg)
 
 Photo by Hush Naidoo Jade Photography on Unsplash
 
@@ -35,7 +35,7 @@ It is therefore important in this awareness month to let as many people as possi
 What is Glaucoma?
 -----------------
 
-![image of the pupil eye model](/src/assets/images/blog/2022/harpreet-singh-ZI2Lv7jxmEM-unsplash.jpg)
+![image of the pupil eye model](/blog/2022/harpreet-singh-ZI2Lv7jxmEM-unsplash.jpg)
 
 Photo by Harpreet Singh on Unsplash
 
@@ -78,7 +78,7 @@ In this type of glaucoma, there is damage to the optic nerve even though the pre
 Symptoms Of Glaucoma
 --------------------
 
-![optician performing eye check up on elderly](/src/assets/images/blog/2022/eye-care-ge8f7ec688_1280.jpg)
+![optician performing eye check up on elderly](/blog/2022/eye-care-ge8f7ec688_1280.jpg)
 
 Photo by Pixabay
 
@@ -98,7 +98,7 @@ Also, the doctor will check the pressure in your eye (Intraocular pressure), ref
 What is the Treatment for Glaucoma?
 -----------------------------------
 
-![eye drops and eyeglasses image](/src/assets/images/blog/2022/towfiqu-barbhuiya-6F2mPewg2RA-unsplash.jpg)
+![eye drops and eyeglasses image](/blog/2022/towfiqu-barbhuiya-6F2mPewg2RA-unsplash.jpg)
 
 Photo by Towfiqu Barbhuiya on Unsplash
 
@@ -137,7 +137,7 @@ As it is a lifelong condition, people having glaucoma can improve their conditio
 How to get involved in the National Glaucoma Awareness month?
 -------------------------------------------------------------
 
-![group images of social media icons](/src/assets/images/blog/2022/alexander-shatov-mr4JG4SYOF8-unsplash.jpg)
+![group images of social media icons](/blog/2022/alexander-shatov-mr4JG4SYOF8-unsplash.jpg)
 
 Photo by Alexander Shatov on Unsplash
 

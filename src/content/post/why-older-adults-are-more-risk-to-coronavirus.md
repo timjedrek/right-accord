@@ -2,7 +2,7 @@
 publishDate: 2020-04-05T00:00:00Z
 title: 'Why Older Adults are More Risk to Coronavirus'
 excerpt: The older adults are at a higher stake of risk during this Coronavirus global pandemic outbreak. This article discusses why are they at high risk and how we can keep them safe from the virus.
-image: /src/assets/images/blog/2020/covid-and-elderly.jpg
+image: /blog/2020/covid-and-elderly.jpg
 tags:
   - covid-19
   - older adults
@@ -21,7 +21,7 @@ By: Rosemarie Tamunday Casanova
 
 The older adults are at a higher stake of risk during this coronavirus global pandemic outbreak. According to the studies, the first 20 people to die due to COVID-19 had an age of over 80 years. The average age of the first 500 people to get COVID-19 was approximately 60 years (Sarah Elizbeth Adler, March 14, 2020). This reveals that elderly people are more likely to be affected by this disease. Want to know the reasons?
 
-![An elderly woman being check for coronavirus symptoms](/src/assets/images/blog/2020/kian-zhang-VUjGmbtcCBk-unsplash.jpg)
+![An elderly woman being check for coronavirus symptoms](/blog/2020/kian-zhang-VUjGmbtcCBk-unsplash.jpg)
 
 Photo by kian zhang on Unsplash
 
@@ -43,7 +43,7 @@ About 6-29% of people older than 85 years of age are being admitted to ICUs due 
 
 Approximately, 10-27% of the patients aging over 85 years are dead. While 4-11% of the people with an age of over 65 years have faced the wrath of fate (CDC, MARCH 21, 2020). 
 
-![A coronavirus image in 3D model](/src/assets/images/blog/2020/viktor-forgacs-FcDqdJUM6B4-unsplash.jpg)
+![A coronavirus image in 3D model](/blog/2020/viktor-forgacs-FcDqdJUM6B4-unsplash.jpg)
 
 Photo by Viktor Forgacs on Unsplash
 
@@ -78,7 +78,7 @@ There is no specific vaccination for the COVID-19 till the date. The medications
 *   Covering your nose and face
 *   Staying 6 feet away from an infected person
 
-![Seniors taking public transportation](/src/assets/images/blog/2020/nick-fewings-oBnAP0eHmdY-unsplash.jpg)
+![Seniors taking public transportation](/blog/2020/nick-fewings-oBnAP0eHmdY-unsplash.jpg)
 
 Photo by Nick Fewings on Unsplash
 

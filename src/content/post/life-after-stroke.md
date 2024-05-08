@@ -2,7 +2,7 @@
 publishDate: 2020-01-23T00:00:00Z
 title: 'Life After a Stroke'
 excerpt: A stroke is a sudden interruption in the blood supply of the brain. Surviving a stroke is no easy feat. Life after a stroke is a whole new world all together.
-image: /src/assets/images/blog/2020/stroke-cover-image.jpg
+image: /blog/2020/stroke-cover-image.jpg
 tags:
   - stroke
   - heart stroke
@@ -68,7 +68,7 @@ These and many more are the presentations of patients who have suffered from Str
 
 A CT Scan is also a vital tool not only in making a diagnosis of stroke, but to accurately map the region is of the brain affected.
 
-![](/src/assets/images/blog/2020/sharon-mccutcheon-7PZ8Gb-pmaA-unsplash.jpg)
+![](/blog/2020/sharon-mccutcheon-7PZ8Gb-pmaA-unsplash.jpg)
 
 Photo by Sharon McCutcheon on Unsplash
 
@@ -89,7 +89,7 @@ Quality of life after stroke varies with people, their temperaments, age, family
 
 It is also important to note that it is usually best to begin rehabilitation of survivors as soon as possible and the target of recovery will also have to be modified to suit each patient depending on the type of stroke suffered and the part of the brain affected.
 
-![](/src/assets/images/blog/2020/ali-yahya-G9Si5It7y_o-unsplash.jpg)
+![](/blog/2020/ali-yahya-G9Si5It7y_o-unsplash.jpg)
 
 Photo by Ali Yahya on Unsplash
 
@@ -120,7 +120,7 @@ Stroke rehabilitation may usually take time depending on the severity of the con
 
 The physician may also give drugs like Aspirin to certain patients to prevent a recurrence of stroke. Family and loved ones have a huge role to also play in the rehabilitation process.
 
-![](/src/assets/images/blog/2020/hush-naidoo-pA0uoltkwao-unsplash.jpg)
+![](/blog/2020/hush-naidoo-pA0uoltkwao-unsplash.jpg)
 
 Photo by Hush Naidoo on Unsplash
 

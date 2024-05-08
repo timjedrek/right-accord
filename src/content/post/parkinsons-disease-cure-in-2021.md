@@ -2,7 +2,7 @@
 publishDate: 2021-04-27T00:00:00Z
 title: 'Lockdown Effects and Is There a Cure for Parkinsons Disease in 2021?'
 excerpt: April 11 is World Parkinson’s day. And during lockdown, there is hope that a cure will finally emerge and Parkinson’s disease will become a thing of the past.
-image: /src/assets/images/blog/2021/parkinsons-awareness.jpg
+image: /blog/2021/parkinsons-awareness.jpg
 tags:
   - Parkinson’s Disease
   - elderly with Parkinson's
@@ -28,7 +28,7 @@ This year’s awareness for Parkinson’s disease attempts to bring to the fore 
 WHAT IS Parkinson’s DISEASE?
 ----------------------------
 
-![attending physician and his patient](/src/assets/images/blog/2021/david-hinkle-oAwCGFZEU_w-unsplash.jpg)
+![attending physician and his patient](/blog/2021/david-hinkle-oAwCGFZEU_w-unsplash.jpg)
 
 Photo by Annie Spratt on Unsplash
 
@@ -58,7 +58,7 @@ There is some known familial associations with Parkinson’s albeit rare. Most c
 
 Being exposed to certain chemicals in the environment has been known to be a risk factor. One of such is pesticides.
 
-![doctor visiting his patient in her bed](/src/assets/images/blog/2021/Jose-Antonio-Alba.jpg)
+![doctor visiting his patient in her bed](/blog/2021/Jose-Antonio-Alba.jpg)
 
 Photo by StockSnap
 
@@ -102,7 +102,7 @@ Although Parkinson’s disease cannot be cured but only managed at best, this ac
 
 During the course of the awareness, we try to examine how deeply the lockdown over the past one year has affected the lives of these people.
 
-![physician explaining proper medication to his patient](/src/assets/images/blog/2021/nuno-lopez.jpg)
+![physician explaining proper medication to his patient](/blog/2021/nuno-lopez.jpg)
 
 Photo by Nuno Lopezs on Pixabay
 
@@ -125,7 +125,7 @@ With the easing off of the instituted lockdown measures and subsequent return of
 
 This is one of the ways to help deal with depression and anxiety; by having the assurance that they have the support of the people that matter in their lives to go through this journey with them.
 
-![attending physician explaining to family members](/src/assets/images/blog/2021/katt-yukawa.jpg)
+![attending physician explaining to family members](/blog/2021/katt-yukawa.jpg)
 
 Photo by Katt Yukawa on Unsplash
 

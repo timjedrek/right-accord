@@ -2,7 +2,7 @@
 publishDate: 2021-08-13T00:00:00Z
 title: '4 Common Types of Myths & Misconceptions About Immunization'
 excerpt: August is a National Immunization Awareness Month. It's the annual observance debunking misconceptions and highlight  the importance of vaccination for people.
-image: /src/assets/images/blog/2021/vaccine-month.jpg
+image: /blog/2021/vaccine-month.jpg
 tags:
   - immunization
   - vaccination
@@ -21,7 +21,7 @@ Immunization and vaccinations have come a long way. From the 13th century attemp
 
 To a varying extent, this worked, crashing down the number of deaths from between 20-30% to less than 5%. It is however most unlikely that these pioneers of immunization techniques in China and Africa and Turkey knew exactly how such mechanisms worked, we also know that their methods were in fact crude and their results not largely efficacious, but this much is clear: the principles that backed such practices have not changed much—if at all.
 
-![immunization applied to a patient](/src/assets/images/blog/2021/mat-napo-dzPkdvuk7qk-unsplash.jpg)
+![immunization applied to a patient](/blog/2021/mat-napo-dzPkdvuk7qk-unsplash.jpg)
 
 Photo by Mat Napo on Unsplash
 
@@ -35,7 +35,7 @@ Never before, in recent history, has it been more pertinent to evaluate and cons
 
 Today, we are both equipped with vaccines to battle this scourge and challenged with a new variant of the virus. Although only about 29.4% of the world’s population are vaccinated against covid 19, it very clear that the individuals with full vaccinations are much less likely to have symptomatic infections with the third wave of the infection, requiring hospitalization and serious medical attention. If nothing, this shows us that the concept of immunization is no hoax.
 
-![nurse applying protection to the vaccinated arm of a patient](/src/assets/images/blog/2021/cdc-90ejoVTj2-M-unsplash.jpg)
+![nurse applying protection to the vaccinated arm of a patient](/blog/2021/cdc-90ejoVTj2-M-unsplash.jpg)
 
 Photo by CDC on Unsplash
 
@@ -60,7 +60,7 @@ It is economically prudent for states to organize and carry out immunization cam
 
 Although immunization and vaccine acceptance have come a long way and are now widely acceptable, there is still more awareness required. There are those who still believe in certain conspiracies as regards the safety and intentions behind the use of vaccines.
 
-![happy girl looking at her vaccinated arm sticker](/src/assets/images/blog/2021/cdc-TDoPeUSOD1c-unsplash.jpg)
+![happy girl looking at her vaccinated arm sticker](/blog/2021/cdc-TDoPeUSOD1c-unsplash.jpg)
 
 Photo by CDC on Unsplash
 
@@ -83,7 +83,7 @@ There is no truth whatsoever in this claim. Immunization and vaccines have never
 
 In fact, children are perhaps one of the most important age brackets who need immunization. This is because, at their early stages, they do not have a well formed immune system to protect them from diseases like diphtheria, measles and whooping cough. Immunization at an early age significantly reduces child mortality rates.
 
-![i got covid-19 vaccine sticker](/src/assets/images/blog/2021/marisol-benitez-OY8KhPCT3V8-unsplash.jpg)
+![i got covid-19 vaccine sticker](/blog/2021/marisol-benitez-OY8KhPCT3V8-unsplash.jpg)
 
 Photo by Marisol Benitez on Unsplash
 
@@ -108,6 +108,6 @@ This month, you can make it a duty to share bulletins and digital flyers on your
 
 Health professionals can take a few minutes to talk with their patients about vaccinations. Allay their fears and provide answers to their questions. That way, they too can help with answers to the questions of others.
 
-![hope word written on the colored stones](/src/assets/images/blog/2021/nick-fewings-ioNNsLBO8hE-unsplash.jpg)
+![hope word written on the colored stones](/blog/2021/nick-fewings-ioNNsLBO8hE-unsplash.jpg)
 
 Photo by Nick Fewings on Unsplash

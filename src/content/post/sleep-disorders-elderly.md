@@ -2,7 +2,7 @@
 publishDate: 2019-10-29T00:00:00Z
 title: 'Sleep Disorder In The Elderly Fully Explained'
 excerpt: Sleep disorder in the elderly is a very important thing that we need to give attention to. We highlight the causes of sleep deprivation and what can be done to mitigate this problem.
-image: /src/assets/images/blog/2019/old-woman-sleeping.jpg
+image: /blog/2019/old-woman-sleeping.jpg
 tags:
   - personal adjustments on illness or disability
   - parent illness
@@ -54,7 +54,7 @@ The symptoms of insomnia include:
 
   
 
-![](/src/assets/images/blog/2019/closed-eyes.jpg)
+![](/blog/2019/closed-eyes.jpg)
 
 Photo by Creedi Zhong on Unsplash
 
@@ -144,7 +144,7 @@ A lot of times, it may be as a result of other problems like urological infectio
 
 It could also be due to more serious problems like liver failure, heart failure, diabetes mellitus that is poorly controlled, diabetes insipidus, etc.
 
-![](/src/assets/images/blog/2019/old-man-reading.jpg)
+![](/blog/2019/old-man-reading.jpg)
 
 Photo by Alessandro Vallainc on Unsplash
 

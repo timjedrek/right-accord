@@ -2,7 +2,7 @@
 publishDate: 2023-02-20T00:00:00Z
 title: 'The Important Role of Sleep in Seniors Health and Well-being'
 excerpt: National Sleep Awareness Week promote health by educating seniors and their loved ones on the vital role of adequate sleep in their overall wellness.
-image: /src/assets/images/blog/2023/Role-of-Sleep-in-Senior.jpg
+image: /blog/2023/Role-of-Sleep-in-Senior.jpg
 tags:
   - sleep in senior
 metadata:
@@ -20,7 +20,7 @@ To promote awareness of the importance of sleep in senior health, the National S
 The importance of sleep in senior health
 ----------------------------------------
 
-![picture of a bedroom](/src/assets/images/blog/2023/pexels-ron-lach-10387563.jpg)
+![picture of a bedroom](/blog/2023/pexels-ron-lach-10387563.jpg)
 
 Photo by Ron Lach on pexels
 
@@ -44,7 +44,7 @@ How to promote healthy sleeping habits in seniors
 
 In order to promote healthy sleeping habits in seniors, it is important to create a sleep-friendly environment. This can include setting a regular bedtime, avoiding caffeine and alcohol before bed, and avoiding the use of electronic devices before bedtime. Additionally, it is important to maintain a comfortable temperature in the bedroom and to keep it dark and quiet.
 
-![man sleeping with alarm clock](/src/assets/images/blog/2023/pexels-shvets-production-8899461.jpg)
+![man sleeping with alarm clock](/blog/2023/pexels-shvets-production-8899461.jpg)
 
 Photo by Shvets Production on pexels
 
@@ -69,7 +69,7 @@ Conversely, getting enough quality sleep can help to reduce stress and anxiety l
 Tips for getting a better night’s sleep
 ---------------------------------------
 
-![coffee and journal book in the bed](/src/assets/images/blog/2023/pexels-shvets-production-8972601.jpg)
+![coffee and journal book in the bed](/blog/2023/pexels-shvets-production-8972601.jpg)
 
 Photo by Shvets Production on pexels
 
@@ -93,7 +93,7 @@ Creating a sleep-friendly environment is essential for promoting healthy sleepin
 
 It is also important to practice good sleeping hygiene. This includes avoiding naps during the day, avoiding large meals and strenuous exercise before bed, and avoiding screens and blue light before bedtime. Finally, it is important to address any underlying medical conditions that may be contributing to sleep disturbances.
 
-![get good sleep scrabble words](/src/assets/images/blog/2023/brett-jordan-feKxV48FZVM-unsplash.jpg)
+![get good sleep scrabble words](/blog/2023/brett-jordan-feKxV48FZVM-unsplash.jpg)
 
 Photo by Brett Jordan on Unsplash
 

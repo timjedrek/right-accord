@@ -2,7 +2,7 @@
 publishDate: 2020-11-24T00:00:00Z
 title: '10 Guides To Beat Seasonal Affective Disorder On Seniors'
 excerpt: Seasonal Affective Disorder is a serious medical condition. It is life-threatening that mostly affects the seniors during the holiday called winter blues.
-image: /src/assets/images/blog/2020/winter-blues-guide.jpg
+image: /blog/2020/winter-blues-guide.jpg
 tags:
   - elderly
   - seasonal affective disorder
@@ -23,7 +23,7 @@ You find yourself crying a lot, moody and depressed. You may have even started t
 
 All these strange sensations you feel are not out of this world. It is good to know that you are not alone. Other people have had this too before. You may simply be suffering from the winter blues.
 
-![elderly man looking on the window](/src/assets/images/blog/2020/laura-beth-snipes-PlUJM2sPwis-unsplash.jpg)
+![elderly man looking on the window](/blog/2020/laura-beth-snipes-PlUJM2sPwis-unsplash.jpg)
 
 Photo by Laura Beth Snipes on Unsplash
 
@@ -44,7 +44,7 @@ First, humans require sunlight to make their own vitamin D, the absence of which
 
 Secondly, the body’s clock mechanism that controls how and when we sleep is largely influenced by a chemical known as melatonin.
 
-![image of a lonely elderly woman](/src/assets/images/blog/2020/christian-langballe-3I0X0owZS7M-unsplash.jpg)
+![image of a lonely elderly woman](/blog/2020/christian-langballe-3I0X0owZS7M-unsplash.jpg)
 
 Photo by Christian Langballe on Unsplash
 
@@ -75,7 +75,7 @@ Here is the light at the end of the tunnel - this condition can be well managed 
 A Guide to survive the winter blues
 -----------------------------------
 
-![senior woman during fall season](/src/assets/images/blog/2020/pexels-alexavier-rylee-cimafranca-3126016.jpg)
+![senior woman during fall season](/blog/2020/pexels-alexavier-rylee-cimafranca-3126016.jpg)
 
 Photo by Alexavier Rylee Cimafranca on Pexels
 
@@ -103,7 +103,7 @@ As you plan your day, pick out bright colors for your outings and visits. There 
 
 Sedentary lifestyle does no good at a time like this. It should be noted that elderly people are usually prone to medical conditions like diabetes and hypertension and other conditions that could be made worse by an inactive lifestyle and the weight gain that comes with that. So engage in physical activity rather than staying idle.
 
-![family gathering on holiday](/src/assets/images/blog/2020/pexels-c-technical-5962170.jpg)
+![family gathering on holiday](/blog/2020/pexels-c-technical-5962170.jpg)
 
 Photo by Pexels
 

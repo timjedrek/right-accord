@@ -2,7 +2,7 @@
 publishDate: 2023-11-14T00:00:00Z
 title: 'The Ultimate Live-In Home Care Services Solution for Seniors'
 excerpt: This Blog will explain the key benefits of choosing live-in home care services and why it's the best option for our aging seniors and their families.
-image: /src/assets/images/blog/2023/Live-In-Home-Care-Services.jpg
+image: /blog/2023/Live-In-Home-Care-Services.jpg
 tags:
   - Live-In Home Care Services
 metadata:
@@ -20,7 +20,7 @@ In these situations, live-in home care services can be an excellent option. Thes
 The Rise of Live-In Home Care Services
 --------------------------------------
 
-![happy old woman talking with her caretaker](/src/assets/images/blog/2023/happy-old-woman-nursing-home-sitting-couch-talking-with-her-caretaker.jpg)
+![happy old woman talking with her caretaker](/blog/2023/happy-old-woman-nursing-home-sitting-couch-talking-with-her-caretaker.jpg)
 
 Live-in home care services have become increasingly popular in recent years, and for good reason. Many seniors prefer to remain in their homes rather than transition to an assisted living facility or nursing home.
 
@@ -49,7 +49,7 @@ One of the primary benefits of live-in home care is the constant availability of
 
 Living alone can present safety challenges for seniors. Live-in caregivers are trained to assess and minimize potential hazards within the home. They can help prevent accidents and falls, ensuring that your loved one remains safe and secure in their living environment.
 
-![retirement home concept with nurse woman](/src/assets/images/blog/2023/retirement-home-concept-with-nurse-woman.jpg)
+![retirement home concept with nurse woman](/blog/2023/retirement-home-concept-with-nurse-woman.jpg)
 
 ### 6\. Peace of Mind for Families
 
@@ -90,7 +90,7 @@ RIGHT ACCORD recognizes that every senior is unique. They work closely with you 
 
 RIGHT ACCORD regularly monitors and assesses the care provided to ensure that it meets the evolving needs of your loved one. This commitment to continuous improvement guarantees that the care remains effective and relevant.
 
-![female caregiver and an elderly man](/src/assets/images/blog/2023/caregiver-and-senior.jpg)
+![female caregiver and an elderly man](/blog/2023/caregiver-and-senior.jpg)
 
 ### 4\. Comprehensive Services
 
@@ -112,7 +112,7 @@ RIGHT ACCORD places a strong emphasis on safety, both in terms of the physical e
 
 RIGHT ACCORD values open and transparent communication with both seniors and their families. They provide regular updates on the care provided and encourage families to stay involved in the caregiving process.
 
-![senior woman talking with her doctor](/src/assets/images/blog/2023/senior-woman-talking-with-her-doctor.jpg)
+![senior woman talking with her doctor](/blog/2023/senior-woman-talking-with-her-doctor.jpg)
 
 Photo by Dominik Lange on Unsplash
 

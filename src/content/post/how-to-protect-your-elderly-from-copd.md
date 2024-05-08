@@ -2,7 +2,7 @@
 publishDate: 2022-02-21T00:00:00Z
 title: 'How to Protect Yourself and Your Elderly from COPD?'
 excerpt: Are your elderly loved ones experiencing chronic shortness of breath? You've come to the right place. Here's all you need to know to manage COPD symptoms.
-image: /src/assets/images/blog/2022/copd-on-elderly.jpg
+image: /blog/2022/copd-on-elderly.jpg
 tags:
   - COPD on elderly
 metadata:
@@ -17,7 +17,7 @@ Are your elderly loved ones experiencing chronic shortness of breath or a naggin
 
 A kind of disease that causes airflow blockage and occurs most often in older adults. Which if not treated early might result in more serious complications and that can be fatal.
 
-![older woman coughing continuously](/src/assets/images/blog/2022/annie-spratt-_S0XzuaZLas-unsplash.jpg)
+![older woman coughing continuously](/blog/2022/annie-spratt-_S0XzuaZLas-unsplash.jpg)
 
 Photo by Annie Spratt on Unsplash
 
@@ -34,7 +34,7 @@ _"When I tried to go to the bathroom in the middle of the night, I felt like I c
 What is COPD?
 -------------
 
-![image of a respiratory model](/src/assets/images/blog/2022/upper-body-g82e9a5cac_1280.jpg)
+![image of a respiratory model](/blog/2022/upper-body-g82e9a5cac_1280.jpg)
 
 Photo by Pixabay
 
@@ -44,7 +44,7 @@ Chronic obstructive pulmonary disease (COPD) involves the gradual destruction of
 
 COPD is primarily caused by smoking. In Mrs. Anderson's case, she smoked more than 50 packs a year, but quit at age 50. In addition, passive smoking can cause COPD. Smoking can cause severe and permanent lung damage. As a result, the lungs suffer irreversible damage and are inflamed.
 
-![elderly man smoking](/src/assets/images/blog/2022/man-g934cbfd7b_1920.jpg)
+![elderly man smoking](/blog/2022/man-g934cbfd7b_1920.jpg)
 
 Photo by Pixabay
 
@@ -70,7 +70,7 @@ The treatment of COPD requires a thorough and careful examination by a physician
 
 The most important part of treatment is quitting smoking for people who smoke. At home and at work, try to reduce your exposure to air pollutants, including tobacco smoke.
 
-![person breaking a cigarette](/src/assets/images/blog/2022/non-smoking-g105524fbe_1920.jpg)
+![person breaking a cigarette](/blog/2022/non-smoking-g105524fbe_1920.jpg)
 
 Photo by Pixabay
 
@@ -92,7 +92,7 @@ A person may need to use a portable oxygen tank if the level of oxygen in their 
 
 After receiving intensive hospital treatment and care, Mrs. Anderson was able to return to her normal breathing pattern. Her respiratory status gradually improved, and after 4 days in the hospital, she was discharged to her home with regular home care support from a skilled caregiver.
 
-![oxygen inhaler](/src/assets/images/blog/2022/mockup-graphics-2WlwSXFw7Kk-unsplash.jpg)
+![oxygen inhaler](/blog/2022/mockup-graphics-2WlwSXFw7Kk-unsplash.jpg)
 
 Photo by Mockup Graphics on Unsplash
 

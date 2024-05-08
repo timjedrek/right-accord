@@ -2,7 +2,7 @@
 publishDate: 2021-05-10T00:00:00Z
 title: 'Celebrate Nurses Week 2021: Frontline Warriors and Everyday Heroes'
 excerpt: May 6 to 12 has been set as days to commemorate and appreciate the important roles that nurses play in our healthcare systems. This blog gives them a full appreciation.
-image: /src/assets/images/blog/2021/national-nurses-week-cover.jpg
+image: /blog/2021/national-nurses-week-cover.jpg
 tags:
   - Nurses Week
   - nurse
@@ -19,7 +19,7 @@ May 6 to 12 has been set aside as days to commemorate and appreciate the invalua
 
 According to the world health organization, of the 43.5 million health care workers worldwide, nurses make up 20.7 million of that work force. That is almost 50% of all health care providers. In the United States alone, the microcosmic representation isn’t any much different. The 3.2 million registered nurses in the country make up the highest percentage of any health care professional group in the health work force. This goes to show how important their duties. Hence, the need to take out time to appreciate their efforts.
 
-![Florence Nightingale photo](/src/assets/images/blog/2021/Florence_Nightingale_by_Goodman,_1858-crop.jpg)
+![Florence Nightingale photo](/blog/2021/Florence_Nightingale_by_Goodman,_1858-crop.jpg)
 
 Florence Nightingale Photo by Wikimedia Commons
 
@@ -42,7 +42,7 @@ Not too long from then, in 1981, the American Nurses Association made a national
 
 As of 1990, May 6 had been extended to May 6 – 12 and the week was hence referred to as the National Nurse’s Week. Although this was still speculative until 1993 when it became settled as the permanent date for the recognition of nurses. Ever since, May 6 – 12 has been the national nurse’s day.
 
-![doctor visiting his patient in her bed](/src/assets/images/blog/2021/nurse-with-heart.jpg)
+![doctor visiting his patient in her bed](/blog/2021/nurse-with-heart.jpg)
 
 Photo by Gerd Altmann on Pixabay
 
@@ -68,7 +68,7 @@ During the heat of the pandemic and the lockdown that ensued across different co
 
 This was indeed motivating and a true show of gratitude. Communities in this period can come up with such ideas again to make nurses feel appreciated. As a more personal approach, pay a visit or send a card or message to a nurse you know or one who has played a vital role in your recovery process, thanking them for their contribution to society.
 
-![physician explaining proper medication to his patient](/src/assets/images/blog/2021/nurses-group.jpg)
+![physician explaining proper medication to his patient](/blog/2021/nurses-group.jpg)
 
 Photo on Unsplash
 

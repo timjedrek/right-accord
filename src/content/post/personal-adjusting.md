@@ -2,7 +2,7 @@
 publishDate: 2019-06-15T00:00:00Z
 title: '7 Tips In Personal Adjusting To A Parent Or Family Illness Or Disability'
 excerpt: Here are 7 tips to personal adjusting in the event of a parent or family illness or disability. Some of the personal adjustments that may be necessary are immediate or maybe later.
-image: /src/assets/images/blog/2019/personal-adjustments.jpg
+image: /blog/2019/personal-adjustments.jpg
 tags:
   - personal adjustments on illness or disability
   - parent illness

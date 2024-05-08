@@ -2,7 +2,7 @@
 publishDate: 2024-01-23T00:00:00Z
 title: 'Navigating Retirement A Full Guide for Families of Seniors'
 excerpt: This guide, explores essential tips for a successful retirement journey, emphasizing the significance of choosing the best healthcare option for seniors.
-image: /src/assets/images/blog/2024/Retirement-Guide-for-Families-of-Seniors.jpg
+image: /blog/2024/Retirement-Guide-for-Families-of-Seniors.jpg
 tags:
   - home adaptation
 canonical: https://rightaccordhealth.com/retirement-guide-for-families-of-seniors
@@ -19,7 +19,7 @@ In this guide, we'll delve into essential tips for a successful retirement journ
 Financial Considerations
 ------------------------
 
-![medium-shot-senior-couple-indoors](/src/assets/images/blog/2024/medium-shot-senior-couple-indoors.jpg)
+![medium-shot-senior-couple-indoors](/blog/2024/medium-shot-senior-couple-indoors.jpg)
 
 ### Start Early and Plan Strategically
 
@@ -48,7 +48,7 @@ Investigate long-term care insurance to protect against the potentially high cos
 
 Home health care services, such as those offered by RIGHT ACCORD, provide personalized care plans that allow seniors to age gracefully in the comfort of their own homes. Explore the benefits of home health care as a viable option for comprehensive and tailored healthcare.
 
-![elderly-people-with-cat-pet](/src/assets/images/blog/2024/elderly-people-with-cat-pet.jpg)
+![elderly-people-with-cat-pet](/blog/2024/elderly-people-with-cat-pet.jpg)
 
 Importance of Choosing the Best Healthcare Option
 -------------------------------------------------
@@ -80,7 +80,7 @@ Retirement is an excellent time to explore new hobbies and interests. Encourage 
 
 Evaluate the living situation and consider downsizing if necessary. A smaller, more manageable home can reduce maintenance stress and free up resources for other enjoyable pursuits.
 
-![senior-couple-with-keys](/src/assets/images/blog/2024/senior-couple-with-keys.jpg)
+![senior-couple-with-keys](/blog/2024/senior-couple-with-keys.jpg)
 
 Conclusion
 ----------

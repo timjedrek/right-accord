@@ -2,7 +2,7 @@
 publishDate: 2021-02-11T00:00:00Z
 title: '9 Effective Ways to Protect the Elderly from Heart Disease'
 excerpt: Heart disease is a leading cause of mortality in America affecting the elderly. These 9 tips can be used to prevent them from certain heart related conditions.
-image: /src/assets/images/blog/2021/heart-health-month.jpg
+image: /blog/2021/heart-health-month.jpg
 tags:
   - heart disease
   - heart health month
@@ -18,7 +18,7 @@ By: Rosemarie Tamunday Casanova — RN, BSN, MHA
 
 It's another year and this February is the American Heart Health month! Every year, a special consideration is given to the heart. A time when we must stop and consider the challenges of heart diseases, it’s impact on our lives and the society as well as things that can be done to prevent certain heart related conditions.
 
-![image of an stethoscope](/src/assets/images/blog/2021/Gerd-Altmann-from-Pixabay.jpg)
+![image of an stethoscope](/blog/2021/Gerd-Altmann-from-Pixabay.jpg)
 
 Photo by Gerd Altmann from Pixabay
 
@@ -32,7 +32,7 @@ The White House recently has released a [statement](https://www.whitehouse.gov/b
 
 Ever since, every other president has towed that path to acknowledge the importance of a healthy heart and to commemorate the February American Heart Month. Associations, organizations and of course, individuals during this period put up awareness campaigns to inform, educate and remind people of the importance of a healthy heart and how to achieve this.
 
-![health worker administering vaccine to elderly woman](/src/assets/images/blog/2021/jesse-orrico-Us3AQvyOP-o-unsplash.jpg)
+![health worker administering vaccine to elderly woman](/blog/2021/jesse-orrico-Us3AQvyOP-o-unsplash.jpg)
 
 Photo by Jesse Orrico on Unsplash
 
@@ -58,7 +58,7 @@ There are many conditions and factors that predispose people to heart diseases. 
 
 Diet has an important role to play in maintaining a healthy cardiovascular system. Focus more on eating vegetables , grains , plant proteins , lean meat and fish as opposed to high calorie diets and junk food. With the latter, you put yourself at risk of obesity and clogging your blood vessels. This consequently takes its negative effects on the heart.
 
-![female patient lying in the hospital bed](/src/assets/images/blog/2021/jamie-street-i-doci67oF8-unsplash.jpg)
+![female patient lying in the hospital bed](/blog/2021/jamie-street-i-doci67oF8-unsplash.jpg)
 
 Photo by Jamie Street on Unsplash
 
@@ -78,7 +78,7 @@ Remember that having some other health challenges can predispose you to coming d
 
 All forms of tobacco consumption are unhealthy to the heart. If you do not have a habit of consuming tobacco, it is not an advisable habit to pick up as an elderly person. And if you already consume tobacco, then it is best to find a way to quit. Seek professional help on how to let go of the habit. Simply swapping from one tobacco product or type to another in hopes of limiting or halting its damaging effects to the body does not help matters.
 
-![female patient lying in the hospital bed](/src/assets/images/blog/2021/andres-siimon.jpg)
+![female patient lying in the hospital bed](/blog/2021/andres-siimon.jpg)
 
 Photo by Andres Siimon on Unsplash
 
@@ -99,7 +99,7 @@ These measures can go a long way in helping you reduce your chances of having a 
 How to help create awareness for the American Heart Month
 ---------------------------------------------------------
 
-![patient signing for registration](/src/assets/images/blog/2021/42311763_m.jpg)
+![patient signing for registration](/blog/2021/42311763_m.jpg)
 
 ### Begin from your immediate environment
 

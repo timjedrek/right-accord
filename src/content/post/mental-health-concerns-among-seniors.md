@@ -2,7 +2,7 @@
 publishDate: 2024-01-10T00:00:00Z
 title: 'Mental Health Concerns: Tackling Depression  Among Seniors'
 excerpt: In this blog, we delve deep into mental health concerns among seniors and discuss how companionship from family or caregivers can be a beacon of hope.
-image: /src/assets/images/blog/2024/Mental-Concerns-Among-Seniors.jpg
+image: /blog/2024/Mental-Concerns-Among-Seniors.jpg
 tags:
   - Depression on Senior
 metadata:
@@ -20,7 +20,7 @@ In this blog post, we delve deep into these concerns and discuss how companionsh
 Loneliness: A Silent Epidemic
 -----------------------------
 
-![elderly woman confronting alzheimer's disease](/src/assets/images/blog/2024/elderly-woman-confronting-alzheimer-s-disease.jpg)
+![elderly woman confronting alzheimer's disease](/blog/2024/elderly-woman-confronting-alzheimer-s-disease.jpg)
 
 Loneliness isn't just a feeling of being alone; it's a deep emotional distress stemming from a perceived lack of social connections.
 
@@ -35,7 +35,7 @@ Cognitive decline is another significant concern among seniors. While some memor
 
 Social interactions and engaging activities are vital for cognitive health. They stimulate the brain, foster new neural connections, and can delay the onset or progression of cognitive decline. However, without regular engagement, seniors are at a higher risk of accelerated cognitive decline.
 
-![sad elder man at home](/src/assets/images/blog/2024/sad-elder-man-home.jpg)
+![sad elder man at home](/blog/2024/sad-elder-man-home.jpg)
 
 Depression: The Silent Struggle
 -------------------------------
@@ -49,7 +49,7 @@ The Healing Power of Companionship
 
 While the challenges are real, they are not insurmountable. Companionship plays a pivotal role in enhancing the mental well-being of seniors. Whether it's spending time with family, reconnecting with old friends, or seeking support from professional caregivers, the benefits are manifold.
 
-![caregivers comforting senior woman](/src/assets/images/blog/2024/medium-shot-women-sitting-couch.jpg)
+![caregivers comforting senior woman](/blog/2024/medium-shot-women-sitting-couch.jpg)
 
 ### 1\. Emotional Support
 

@@ -2,7 +2,7 @@
 publishDate: 2020-12-28T00:00:00Z
 title: '5 Veterans Aid and Attendance Qualification Tips You Will Need in 2021'
 excerpt: When it comes to the Veterans Aid and Attendance Qualifications Benefit that are accrued to seniors of the country, knowing the right information is important.
-image: /src/assets/images/blog/2020/Veterans-Aid-and-Attendant-Benefits.jpg
+image: /blog/2020/Veterans-Aid-and-Attendant-Benefits.jpg
 tags:
   - va aid and attendance qualifications
   - veterans aid and attendance qualifications
@@ -24,7 +24,7 @@ Veterans Aid and Attendance Benefits makes provision for a sizable monthly pay t
 Brief history of this program
 -----------------------------
 
-![elderly woman face in focus](/src/assets/images/blog/2020/david-clode-4K4jGng-IBk-unsplash.jpg)
+![elderly woman face in focus](/blog/2020/david-clode-4K4jGng-IBk-unsplash.jpg)
 
 Photo by David Clode on Unsplash
 
@@ -56,7 +56,7 @@ In addition, the veteran who seeks to access the veteran aid and attendance bene
 
 Currently, the Veteran Aid and Attendance will pay a monthly fee of $1,911 to single veterans. For a veteran with a spouse, the pay goes up to $2,266. If both partners are veterans, then the payment is in the tune of $3,032 and finally for surviving spouses of veterans, they earn $1,176.
 
-![senior man doing selfie](/src/assets/images/blog/2020/old-5018013_1280.jpg)
+![senior man doing selfie](/blog/2020/old-5018013_1280.jpg)
 
 Photo by Pixabay
 
@@ -91,7 +91,7 @@ At this point, it may start to sound like a will right? Understandably so. But f
 
 There is a caveat to this though; if the holder of this right to survivorship is the last surviving partner of the agreement, then the rules change. The property involved can then be included in estate declared in a will or testament.
 
-![image of a lonely elderly woman](/src/assets/images/blog/2020/cytonn-photography-GJao3ZTX9gU-unsplash.jpg)
+![image of a lonely elderly woman](/blog/2020/cytonn-photography-GJao3ZTX9gU-unsplash.jpg)
 
 Photo by Cytonn Photography on Unsplash
 

@@ -2,7 +2,7 @@
 publishDate: 2021-10-26T00:00:00Z
 title: 'Hospice Care and Palliative Care What is the Difference?'
 excerpt: Some elderly have terminal health conditions that can lead their family to choose between Hospice or Palliative Care. Here's what all you need to know about it.
-image: /src/assets/images/blog/2021/hospice-and-palliative-care.jpg
+image: /blog/2021/hospice-and-palliative-care.jpg
 tags:
   - Hospice Care
   - Palliative Care
@@ -20,7 +20,7 @@ Sometimes, these conditions get to a terminal stage and those who suffer from it
 
 Hospice and palliative care have come a long way since their inception and more strides can still be achieved. It is therefore, a goal of this year’s awareness program to help people understand the difference between both varieties of healthcare and how important they are to society.
 
-![physician attending a sick elderly patient](/src/assets/images/blog/2021/mikita-yo-C53CnEp-hsU-unsplash.jpg)
+![physician attending a sick elderly patient](/blog/2021/mikita-yo-C53CnEp-hsU-unsplash.jpg)
 
 The awareness program also hopes to help improve the quality of life for people that are affected by serious and life -threatening illnesses and uphold their right to be cared for in ways that best suit them. Each year, a wave of musical concerts are organized by concerned bodies to mark the world hospice and palliative care day.
 
@@ -41,7 +41,7 @@ In 1989, Sheila Hurton, in a bid to raise funds as well as create awareness to t
 
 As we commemorate this year's awareness, here are some of the things that we should know about hospice and palliative care.
 
-![vital sign apparatus with a patient](/src/assets/images/blog/2021/tim-cooper-BvS7q4yFQt4-unsplash.jpg)
+![vital sign apparatus with a patient](/blog/2021/tim-cooper-BvS7q4yFQt4-unsplash.jpg)
 
 Photo by Tim Cooper Unsplash
 
@@ -62,7 +62,7 @@ Palliative care aims to relieve the symptoms, mental and physical stress of illn
 
 The message is to understand that both aspects of care are equally important and those who dedicate their time and effort into providing them should be appreciated. This is the aim of the awareness.
 
-![group shot of concert goers](/src/assets/images/blog/2021/konstantin-hopp-e7yVZzmstFA-unsplash.jpg)
+![group shot of concert goers](/blog/2021/konstantin-hopp-e7yVZzmstFA-unsplash.jpg)
 
 Photo by Konstantin Hopp on Unsplash
 
@@ -83,7 +83,7 @@ Attend the Voices of Hospice concerts and have fun listening to beautiful and en
 
 One of the best ways to do this is to subscribe to the regular newsletter of the world hospice and palliative care awareness committee. On this platform, you will be sure to also find materials that can help with online creation of awareness. Interested participants can help reposting posters and awareness images using their social media platforms. The hashtags to follow and use are #WHPCD21 and #LeaveNoOneBehind21.
 
-![two hands holding each other](/src/assets/images/blog/2021/compassion.jpg)
+![two hands holding each other](/blog/2021/compassion.jpg)
 
 ### Lend a hand
 

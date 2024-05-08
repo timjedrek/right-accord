@@ -2,7 +2,7 @@
 publishDate: 2019-11-12T00:00:00Z
 title: 'Pain Management in the Elderly: A Helpful Guide for Caregivers'
 excerpt: Pain and pain management are a growing concern among Americans age 65 and older. The management of pain in the elderly is often a sensitive but essential topic both on the diagnosis and the treatment of pain.
-image: /src/assets/images/blog/2019/elder-pain-Vidar-Nordli-Mathisen-.jpg
+image: /blog/2019/elder-pain-Vidar-Nordli-Mathisen-.jpg
 tags:
   - pain in the elderly
   - pain management in the elderly
@@ -105,7 +105,7 @@ The effective management of pain involves knowing how to observe and measure it 
 
 When the causative factors have been identified and treatments initiated, it is appropriate and very beneficial to keep pain logs or diaries where patients are encouraged to record their data daily.
 
-![](/src/assets/images/blog/2019/medicine-Laurynas-Mereckas.jpg)
+![](/blog/2019/medicine-Laurynas-Mereckas.jpg)
 
 Photo by Laurynas Mereckas on Unsplash
 

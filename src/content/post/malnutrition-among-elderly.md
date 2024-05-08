@@ -2,7 +2,7 @@
 publishDate: 2019-10-15T00:00:00Z
 title: 'Danger Signs of Malnutrition and Dehydration Among Elderly'
 excerpt: Malnutrition and dehydration to elderly person can lead to many serious health problems. For elderly care malnutrition is costly while dehydration can be fatal.
-image: /src/assets/images/blog/2019/hand-with-cup-Claudia-van-Zyl.jpg
+image: /blog/2019/hand-with-cup-Claudia-van-Zyl.jpg
 tags:
   - elderly
   - senior care
@@ -36,7 +36,7 @@ Incidents of malnutrition and dehydration have been reported more in the elderly
 
   
 
-![](/src/assets/images/blog/2019/old-man-eating-Madhav-Rajesh.jpg)
+![](/blog/2019/old-man-eating-Madhav-Rajesh.jpg)
 
 Photo by Madhav Rajesh on Unsplash
 
@@ -59,7 +59,7 @@ On the other hand, elderly people [in home senior care](https://rightaccordhealt
 
 In both situations, the tips that would be discussed below can be of immense help to the care giver and the elderly as well.
 
-![](/src/assets/images/blog/2019/elder-drinking-tea-Laura-Peralta.jpg)
+![](/blog/2019/elder-drinking-tea-Laura-Peralta.jpg)
 
 Photo by Laura Margarita Cedeño Peralta on Unsplash
 
@@ -101,7 +101,7 @@ If an elderly is malnourished or dehydrated, one can tell by spotting these tell
 
 These situations are usually aggravated or even caused by inadequate attention from the care givers which may be as a result of lack of individualized care or lack of appropriate education on the part of the caregiver about appropriate ways of handling elderly subjects. Also, it could be as a result of the need for special care by the elderly person who may require tube feeding, special dietary needs or a specific nutrient deficiency correction.
 
-![](/src/assets/images/blog/2019/woman-eating-Stella-Smit.jpg)
+![](/blog/2019/woman-eating-Stella-Smit.jpg)
 
 Photo by Stella de Smit on Unsplash
 

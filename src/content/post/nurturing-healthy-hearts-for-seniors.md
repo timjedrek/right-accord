@@ -2,7 +2,7 @@
 publishDate: 2024-02-06T00:00:00Z
 title: 'Nurturing Healthy Hearts: A Guide for Seniors In Heart Month'
 excerpt: This blog aims to define the alarming statistics about heart disease in America and provide useful tips for aging individuals to keep a healthy heart.
-image: /src/assets/images/blog/2024/Nurturing-Healthy-Hearts-for-Seniors.jpg  
+image: /blog/2024/Nurturing-Healthy-Hearts-for-Seniors.jpg  
 tags:
   - healthy heart for seniors
 metadata:
@@ -20,7 +20,7 @@ February is [American Heart Month,](https://www.cdc.gov/heartdisease/american_he
 Heart Disease in America: The Silent Epidemic
 ---------------------------------------------
 
-![pain-in-the-heart](/src/assets/images/blog/2024/pain-in-the-heart.jpg)
+![pain-in-the-heart](/blog/2024/pain-in-the-heart.jpg)
 
 Heart disease remains a pervasive and silent threat, claiming the lives of thousands of Americans each year. According to recent statistics:
 
@@ -56,7 +56,7 @@ These statistics underscore the urgent need for awareness and action, especially
 
 *   Practice stress management techniques, including meditation, deep breathing, and hobbies that bring joy and relaxation.
 
-![real-food-pyramid](/src/assets/images/blog/2024/real-food-pyramid.jpg)
+![real-food-pyramid](/blog/2024/real-food-pyramid.jpg)
 
 Things to Avoid for a Healthy Heart
 -----------------------------------
@@ -107,7 +107,7 @@ Our compassionate caregivers encourage and support seniors in adopting heart-hea
 
 Balancing work, family, and caregiving responsibilities can be overwhelming. RIGHT ACCORD provides respite care, offering much-needed relief for family members while ensuring their loved ones receive optimal care.
 
-![nurses-taken-care-elderly-woman](/src/assets/images/blog/2024/nurses-taken-care-elderly-woman.jpg)
+![nurses-taken-care-elderly-woman](/blog/2024/nurses-taken-care-elderly-woman.jpg)
 
 How You Can Take Action
 -----------------------

@@ -2,7 +2,7 @@
 publishDate: 2021-06-07T00:00:00Z
 title: 'Mental Health Awareness Month with Mental Health America'
 excerpt: Month of May is annual mental health month. At this time each year, there is a lot of dedicated effort and action channeled towards creating awareness of mental health.
-image: /src/assets/images/blog/2021/mental-health-awareness.jpg
+image: /blog/2021/mental-health-awareness.jpg
 tags:
   - mental health
   - anxiety
@@ -21,7 +21,7 @@ Although many people are yet to realize it, our mental health plays arguably the
 
 This aspect of our health is so important that it has a global health burden of $2.5 trillion and in no distant future, that figure is predicted to hit 6 trillion. Mental illness, although not usually reported in many parts of the world, is more common than diabetes and cancer. In recent history, more people have died from suicide than from wars, terrorist attacks and homicides combined. In America alone, 26% of people above the age of 18 meet the criteria to pass for one mental illness or another.
 
-![old woman having difficulty in hearing](/src/assets/images/blog/2021/alec-douglas-iuC9fvq63J8-unsplash.jpg)
+![old woman having difficulty in hearing](/blog/2021/alec-douglas-iuC9fvq63J8-unsplash.jpg)
 
 Photo by Alec Douglas on Unsplash
 
@@ -42,7 +42,7 @@ It is generally a known fact that mental illnesses are as a result of genetic an
 *   Childhood history of abuse and neglect
 *   Gender; women are more predisposed to mental illnesses than men
 
-![Senior male speaking with his son](/src/assets/images/blog/2021/micheile-henderson-8tf3e8LaSX0-unsplash.jpg)
+![Senior male speaking with his son](/blog/2021/micheile-henderson-8tf3e8LaSX0-unsplash.jpg)
 
 Photo by Micheile Henderson on Unsplash
 
@@ -79,7 +79,7 @@ Our lives are in a state of constant change. And at some times, certain major li
 
 Mental health America hopes to also address the need to take out time outside the mundane routines and cycles to relax, recover and ease off the tension.
 
-![elderly man trying to communicate](/src/assets/images/blog/2021/camilo-jimenez-mvbKbOFLBg4-unsplash.jpg)
+![elderly man trying to communicate](/blog/2021/camilo-jimenez-mvbKbOFLBg4-unsplash.jpg)
 
 Photo by Camilo Jimenez on Unsplash
 

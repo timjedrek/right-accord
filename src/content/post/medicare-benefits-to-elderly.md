@@ -2,7 +2,7 @@
 publishDate: 2021-01-28T00:00:00Z
 title: 'Understanding Medicare and Its Benefits to the Elderly'
 excerpt: This article aims to explain the purpose of Medicare, whom it benefits, the options available for those who enroll in it and how to best maximize its benefits.
-image: /src/assets/images/blog/2021/medicare-benefits.jpg
+image: /blog/2021/medicare-benefits.jpg
 tags:
   - Medicare
   - Seniors
@@ -22,7 +22,7 @@ That notwithstanding, other citizens who fall below this age criteria may also s
 How Did MEdicare come about?
 ----------------------------
 
-![image of an stethoscope](/src/assets/images/blog/2021/bill-oxford-8u_2imJaVQs-unsplash.jpg)
+![image of an stethoscope](/blog/2021/bill-oxford-8u_2imJaVQs-unsplash.jpg)
 
 Photo by Bill Oxford on Unsplash
 
@@ -38,7 +38,7 @@ It wasn’t until 2001 that the program was further expanded to not just include
 
 Furthermore, congress went on to further expand the reaches of this program, covering people who have suffered from permanent disabilities and even those with end stage kidney disease. This program thus far has been financed by tax payers money as well as the US treasury revenue.
 
-![health worker administering vaccine to elderly woman](/src/assets/images/blog/2021/cdc-62x2bhPdPk8-unsplash.jpg)
+![health worker administering vaccine to elderly woman](/blog/2021/cdc-62x2bhPdPk8-unsplash.jpg)
 
 Photo by CDC on Unsplash
 
@@ -63,7 +63,7 @@ This part is a more flexible part in Medicare. It allows for the choice of servi
 
 This covers drugs and prescriptions that are mostly self administered.
 
-![female patient lying in the hospital bed](/src/assets/images/blog/2021/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg)
+![female patient lying in the hospital bed](/blog/2021/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg)
 
 Photo by Sharon Mccutcheon on Unsplash
 
@@ -100,7 +100,7 @@ Healthcare can be pretty expensive. Especially with ailments that require freque
 
 Rather than miss out on certain medical appointments, treatment plans and specialty visits, Medicare can help you put the priorities in check. With the coordinated services rendered by Medicare, patient ratings go higher as well as better improved staff experience.
 
-![cancer patient consulting with a doctor](/src/assets/images/blog/2021/national-cancer-institute-0YBIMOqQzt0-unsplash.jpg)
+![cancer patient consulting with a doctor](/blog/2021/national-cancer-institute-0YBIMOqQzt0-unsplash.jpg)
 
 Photo by NCI on Unsplash
 
@@ -127,7 +127,7 @@ However, it is important to know that this also comes with certain negative flip
 
 In choosing these plans and finding out if you meet the required criteria, kindly refer to the official website of the United States government on this program [www.medicare.gov](https://www.medicare.gov/) as many reviews and changes may now apply in more recent times than when this article was documented.
 
-![patient signing for registration](/src/assets/images/blog/2021/chang-duong-bVCALks91JQ-unsplash.jpg)
+![patient signing for registration](/blog/2021/chang-duong-bVCALks91JQ-unsplash.jpg)
 
 Photo by Chang Duong on Unsplash
 

@@ -2,7 +2,7 @@
 publishDate: 2023-12-26T00:00:00Z
 title: 'The Critical Role of Handwashing on Seniors This Flu Season'
 excerpt: The role of handwashing in preventing infections and promoting overall well-being cannot be overstated. Deep dive into this simple yet powerful practice.
-image: /src/assets/images/blog/2023/Handwashing-on-Seniors.jpg
+image: /blog/2023/Handwashing-on-Seniors.jpg
 tags:
   - Handwashing Guide on Seniors
 metadata:
@@ -20,7 +20,7 @@ While its benefits are universally acknowledged, the emphasis on this practice i
 The Foundation of Handwashing
 -----------------------------
 
-![person washing hands](/src/assets/images/blog/2023/high-angle-person-washing-hands.jpg)
+![person washing hands](/blog/2023/high-angle-person-washing-hands.jpg)
 
 To understand the gravity of handwashing, it's essential to first appreciate its foundational role in hygiene and public health. Handwashing, a seemingly mundane act, is a formidable barrier against a myriad of pathogens.
 
@@ -33,7 +33,7 @@ The Vulnerability of Seniors
 
 While infections can affect individuals across all age groups, seniors, particularly those above 65, face heightened risks and challenges. Several factors contribute to this vulnerability:
 
-![sick man laying couch](/src/assets/images/blog/2023/high-angle-sick-man-laying-couch.jpg)
+![sick man laying couch](/blog/2023/high-angle-sick-man-laying-couch.jpg)
 
 ### Diminished Immune Response
 
@@ -64,7 +64,7 @@ For seniors, the repercussions of infections can be severe, leading to hospitali
 
 Beyond infection prevention, handwashing fosters overall health and well-being. It mitigates the risk of secondary infections, promotes skin health, and reinforces a broader culture of hygiene, which is especially crucial in communal settings like senior care facilities.
 
-![person washing hands on sink](/src/assets/images/blog/2023/side-view-person-washing-hands-sink.jpg)
+![person washing hands on sink](/blog/2023/side-view-person-washing-hands-sink.jpg)
 
 Strategies for Effective Handwashing
 ------------------------------------
@@ -83,7 +83,7 @@ Ensure that handwashing facilities are readily accessible to seniors, especially
 
 Explore innovative solutions, such as sensor-based faucets, touch-free dispensers, and interactive training modules, to enhance handwashing practices and make them more engaging for seniors.
 
-![wash hand before work](/src/assets/images/blog/2023/wash-hand-before-work-laptop-protect-coronavirus.jpg)
+![wash hand before work](/blog/2023/wash-hand-before-work-laptop-protect-coronavirus.jpg)
 
 Conclusion
 ----------

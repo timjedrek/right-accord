@@ -2,7 +2,7 @@
 publishDate: 2020-04-13T00:00:00Z
 title: '10 Steps to Start a Successful Private Caregiver Agency Business'
 excerpt: Caregiver agency business needs small capital and is easy to set up. These 10 basic steps to start your own caregiver agency will get yourself up and running.
-image: /src/assets/images/blog/2020/caregiver-agency-business.jpg
+image: /blog/2020/caregiver-agency-business.jpg
 tags:
   - how to start a private caregiver business
   - private caregiver

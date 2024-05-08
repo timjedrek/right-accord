@@ -2,7 +2,7 @@
 publishDate: 2019-08-26T00:00:00Z
 title: 'Hiring a Licensed Home Care Agency vs an Independent Caregiver'
 excerpt: If you are looking for the right caregiver for your aging parent, knowing the four commonly ignored benefits of hiring a licensed home care agency vs. hiring an independent caregiver will help you make a better decision.
-image: /src/assets/images/blog/2019/commonly-ignored-benefits.jpg
+image: /blog/2019/commonly-ignored-benefits.jpg
 tags:
   - caregiving agency
   - private caregiver

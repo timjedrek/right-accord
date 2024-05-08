@@ -2,7 +2,7 @@
 publishDate: 2020-12-14T00:00:00Z
 title: 'Tips For Biz Owners Getting Into Home Health Care Franchise'
 excerpt: Owning a Home Health Care Franchise that provides service to senior members of your community is a rewarding career. These 10 tips will help get you started.
-image: /src/assets/images/blog/2020/home-health-care-franchise-2021.jpg
+image: /blog/2020/home-health-care-franchise-2021.jpg
 tags:
   - elderly
   - seniors
@@ -19,7 +19,7 @@ Business ownership is a dream for many people. One of the most rewarding ways a 
 
 There are two options for opening a senior home health care business, either by establishing an independent agency or by purchasing an already stable franchise. There are significant differences between an independent agency and a franchise, and which one the person chooses drastically changes how they operate their business.
 
-![elderly woman face in focus](/src/assets/images/blog/2020/kelly-sikkema-SiOW0btU0zk-unsplash.jpg)
+![elderly woman face in focus](/blog/2020/kelly-sikkema-SiOW0btU0zk-unsplash.jpg)
 
 Photo by Kelly Sikkema on Unsplash
 
@@ -43,7 +43,7 @@ It might look like a page full of terms & conditions (which we always ignore and
 
 If your franchise agreement has some additional points, read them thoroughly and always ask about the points you are unable to comprehend.
 
-![caregiver talking to the elder woman](/src/assets/images/blog/2020/kevin-bhagat-zNRITe8NPqY-unsplash.jpg)
+![caregiver talking to the elder woman](/blog/2020/kevin-bhagat-zNRITe8NPqY-unsplash.jpg)
 
 Photo by Unsplash
 
@@ -64,7 +64,7 @@ If there is enough market demand for your potential franchise, look out for the 
 
 These question’s answers will help you assess if you should opt for the franchise or not. To seek the right answers, ask these questions from the franchisees in the same business.
 
-![senior man doing selfie](/src/assets/images/blog/2020/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg)
+![senior man doing selfie](/blog/2020/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg)
 
 Photo by Gabrielle Henderson on Unsplash
 
@@ -106,7 +106,7 @@ Your managerial skills will be needed, too, for managing a staff of caregivers a
 
 Creating engaging dialog with your community through marketing strategies will help to establish your presence and the services you provide. While Right Accord will help by providing materials and samples for you to use, the ability to utilize social media platforms and to recognize marketing opportunities will give you a decided edge over your competition. Managing events and leveraging technology to promote services or activities can greatly enhance your reach and audience.
 
-![image of a lonely elderly woman](/src/assets/images/blog/2020/christina-wocintechchat-com-rg1y72eKw6o-unsplash.jpg)
+![image of a lonely elderly woman](/blog/2020/christina-wocintechchat-com-rg1y72eKw6o-unsplash.jpg)
 
 Photo by Christina Wocintechchat on Unsplash
 

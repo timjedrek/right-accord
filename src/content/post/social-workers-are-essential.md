@@ -2,7 +2,7 @@
 publishDate: 2021-03-14T00:00:00Z
 title: 'Why are Social Workers Considered Essential to Society?'
 excerpt: Social Work. Truly, the aim of this profession is not for pecuniary gains but to make long lasting impacts and changes in society and individuals.
-image: /src/assets/images/blog/2021/social-workers-month.jpg
+image: /blog/2021/social-workers-month.jpg
 tags:
   - social worker
   - society, caregiver
@@ -27,7 +27,7 @@ The History of National Social Work Month
 
 In 1963, the National Association of Social Workers introduced the national social work month. During this inception period, the association’s aim was to garner public support and to create fresh interest in the work they do. This campaign was successful.
 
-![somebody's hand offered for help](/src/assets/images/blog/2021/priscilla-du-preez-aPa843frIzI-unsplash.jpg)
+![somebody's hand offered for help](/blog/2021/priscilla-du-preez-aPa843frIzI-unsplash.jpg)
 
 Photo by Priscilla du Preez from Unsplash
 
@@ -57,7 +57,7 @@ National Social Work Month historic themes:
 *   Social work-purpose and possibility, 2009
 *   Social workers change futures, 2011
 
-![preparing the vaccine for injection](/src/assets/images/blog/2021/counselling_s.jpg)
+![preparing the vaccine for injection](/blog/2021/counselling_s.jpg)
 
 Photo by RIGHT ACCORD
 
@@ -86,7 +86,7 @@ This is where social workers come in; to help provide a buffer at the frontlines
 
 This year, a lot of activities have been mapped out by the National Association of Social Workers in the United States. The campaign activities will involve the following programs:
 
-![group of people staging a rally in the street](/src/assets/images/blog/2021/rally_s.jpg)
+![group of people staging a rally in the street](/blog/2021/rally_s.jpg)
 
 Photo by RIGHT ACCORD
 
@@ -114,7 +114,7 @@ During the heat of the pandemic, the idea of giving standing ovations to frontli
 
 There are many organizations out there that support the work done by social workers. Donations for the cause are encouraged. These organizations provide the necessary financial backing essentially needed to carry out many of the activities and projects that social workers execute.
 
-![elderly senior in a happy mood](/src/assets/images/blog/2021/katt-yukawa-K0E6E0a0R3A-unsplash.jpg)
+![elderly senior in a happy mood](/blog/2021/katt-yukawa-K0E6E0a0R3A-unsplash.jpg)
 
 Photo by Katt Yukawa on Unsplash
 

@@ -3,7 +3,7 @@ publishDate: 2020-03-04T00:00:00Z
 title: 'Vision Loss and Macular Degeneration to Elderly Family Members'
 excerpt: Aging sometimes comes with eye changes which reduce visual acuity, 
     and in some cases lead to vision loss. Loss of vision amongst the senior population is a health issue of major health concern.
-image: /src/assets/images/blog/2020/macular-degeneration-cover.jpg
+image: /blog/2020/macular-degeneration-cover.jpg
 tags:
   - vision loss
   - macular degeneration
@@ -49,7 +49,7 @@ Treatment of this condition usually involves the use of various classes of drugs
 
 The eye condition is characterised by the growth of new tiny blood vessels within the eyes which are friable and so bleed easily, leading to damaging changes that impair vision. Treatment options include laser therapy and surgery.
 
-![Photo by Carl Cheng on Unsplash](/src/assets/images/blog/2020/carl-cheng-o4L-veTcXHY-unsplash.jpg)
+![Photo by Carl Cheng on Unsplash](/blog/2020/carl-cheng-o4L-veTcXHY-unsplash.jpg)
 
 Photo by Carl Cheng on Unsplash
 
@@ -80,7 +80,7 @@ This is a more severe form of the disease, being responsible for up to 80-90% of
 
 Exudative ARMD is associated with the abnormal growth of blood vessels in the choroid, a thin layer of cells in the macula. These new and fragile blood vessels easily leak fluid, protein and blood into the macula, leading to a comparatively more severe distortion of vision. When chronic inflammation subsequently leads to scarring, irreversible central vision loss occurs.
 
-![Photo by Scott Van Daalen on Unsplash](/src/assets/images/blog/2020/scott-van-daalen-UsALNdok2m4-unsplash.jpg)
+![Photo by Scott Van Daalen on Unsplash](/blog/2020/scott-van-daalen-UsALNdok2m4-unsplash.jpg)
 
 Photo by Scott Van Daalen on Unsplash
 

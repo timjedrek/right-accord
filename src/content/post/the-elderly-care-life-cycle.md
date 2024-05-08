@@ -2,7 +2,7 @@
 publishDate: 2022-03-28T00:00:00Z
 title: 'The Elderly Care Life Cycle And What It Means For You'
 excerpt: In caring for the elderly there is a cycle that you need to understand in order to make the right care decision. Find the one that best works for you.
-image: /src/assets/images/blog/2022/elderly-care-life-cycle.jpg
+image: /blog/2022/elderly-care-life-cycle.jpg
 tags:
   - Eldely care life cycle
 metadata:
@@ -17,7 +17,7 @@ In kindergarten, you learn about lifecycles. Plant a seed, it sprouts. That spro
 
 There's a cycle that takes you from understanding your elderly loved one's situation to having to go through physical and emotional hurdles involved with this difficult task and (assuming you decide to take action) finally breaking away from your situation.
 
-![elderly woman accompanied by her family caregiver](/src/assets/images/blog/2022/54532356_s.jpg)
+![elderly woman accompanied by her family caregiver](/blog/2022/54532356_s.jpg)
 
 When people come to us, they're at all stages of the elderly care cycle. Meaning, the next steps are different for all of them. Even in the best of situations, it can be a daunting task caring for your aging parents, especially if a crisis occurs when it is least expected, leaving you with no time to adequately adjust and make suitable plans.
 
@@ -32,7 +32,7 @@ The best way to provide genuine care and assistance for an elder is to understan
 
 It is therefore important that the caregiver for elders understand that to cater their services in such a way that it boosts an elder's confidence about their ability and to be more trusting of their carer.
 
-![elderly couple consulting a senior care officer](/src/assets/images/blog/2022/main-image_senior-care-advisor.jpg)
+![elderly couple consulting a senior care officer](/blog/2022/main-image_senior-care-advisor.jpg)
 
 Finding the Right Care Options
 ------------------------------
@@ -45,7 +45,7 @@ The family provided care is more or less care provided in two ways but with vari
 
 For either of these two options, professional health care workers can be arranged to offer in-home services when needed. In-home workers can be companions, homemakers, personal care support, etc.
 
-![family member talking to a caregiver group](/src/assets/images/blog/2022/52544940_s.jpg)
+![family member talking to a caregiver group](/blog/2022/52544940_s.jpg)
 
 Making the Right Decision
 -------------------------
@@ -54,7 +54,7 @@ The road is looking a lot more clear from here. You have come to some resolution
 
 If you are not hiring a senior care professional, then members of the family must come up with a schedule that will determine a shift as to who is responsible for taking care of the elder during given times within a day. An in-home elder care requires 24 hour care, thus one person cannot perform the task alone. Moreover, there are other areas to look into aside from the physical care and assistance provided to the elder, such as housekeeping, shopping, assistance in grooming or bathing, paying the bills, and others.
 
-![a caregiver comforting a sick elderly](/src/assets/images/blog/2022/55422020_s.jpg)
+![a caregiver comforting a sick elderly](/blog/2022/55422020_s.jpg)
 
 RIGHT ACCORD Home Health Care is a professional care provider that offers services that cannot be fully provided by some regular members of the family such as Dementia and Alzheimer's Care, Parkinsons, Stroke and End of Life Care or Hospice Care.
 

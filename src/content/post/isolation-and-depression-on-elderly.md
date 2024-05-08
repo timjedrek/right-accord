@@ -2,7 +2,7 @@
 publishDate: 2021-12-22T00:00:00Z
 title: 'Prevent Isolation & Depression Among Elderly During Holiday'
 excerpt: Isolation and depression among elderly during the holidays are concerning. So here are some warning signs and helpful ways to mitigate depression among elderly
-image: /src/assets/images/blog/2021/elderly-depression-during-holidays.jpg
+image: /blog/2021/elderly-depression-during-holidays.jpg
 tags:
   - isolation on elderly
   - depression during holidays
@@ -20,7 +20,7 @@ But with the coming of age, there is a lot to take in and deal with all at once,
 
 Many elderly persons also sometimes have to juggle multiple doctor’s appointments. It is indeed a challenging time for many of the elderly population and this in itself can be a trigger for depression.
 
-![sad image of an elderly man](/src/assets/images/blog/2021/tim-doerfler-dYNar7pk9_Y-unsplash.jpg)
+![sad image of an elderly man](/blog/2021/tim-doerfler-dYNar7pk9_Y-unsplash.jpg)
 
 Photo by Tim Doerfler on Unsplash
 
@@ -48,7 +48,7 @@ There are signs to look out for before the diagnosis of depression is considered
 
 Whenever the above signs are noticed, they are red flags that require prompt actions to be taken.
 
-![elderly woman kissing her daughter](/src/assets/images/blog/2021/hillaryperalta-dtgSAJVSqv8-unsplash.jpg)
+![elderly woman kissing her daughter](/blog/2021/hillaryperalta-dtgSAJVSqv8-unsplash.jpg)
 
 Photo by Hillary Peralta on Unsplash
 
@@ -75,7 +75,7 @@ Even in old age, people want to still feel that their presence is well acknowled
 
 One of the best ways to show elderly people that you love them and make them happy is to help out with their daily tasks. If you have an elderly one in your life , this holiday season is a good time to be around them, help them lift a bucket or dice up the veggies in the kitchen. Doing such mundane tasks together helps with bonding and mood elevation, asides the fact that it could help prevent the elderly person from hurting or overstraining themselves.
 
-![an elderly woman playing with a small girl](/src/assets/images/blog/2021/sergiu-valena-7VPdLfzLwg8-unsplash.jpg)
+![an elderly woman playing with a small girl](/blog/2021/sergiu-valena-7VPdLfzLwg8-unsplash.jpg)
 
 Photo by Matt Chesin on Unsplash
 
@@ -94,7 +94,7 @@ You should understand that you can no longer live in the past. You may have to g
 
 Good food is the best form of medicine. Eating right helps to boost your immunity and maintain hormonal balance. An imbalance of hormones and other blood chemicals can be a sign of, as well as a cause of depression. It is also advisable to avoid non-prescription drugs and food substances and drinks that could affect your mood negatively such as alcohol and recreational drugs.
 
-![eating healthy food](/src/assets/images/blog/2021/louis-hansel-rheOvfxOlOA-unsplash.jpg)
+![eating healthy food](/blog/2021/louis-hansel-rheOvfxOlOA-unsplash.jpg)
 
 Photo by Louis Hansel on Unsplash
 

@@ -2,7 +2,7 @@
 publishDate: 2021-07-26T00:00:00Z
 title: 'National Safety Awareness: Falls, Injuries and Covid 19'
 excerpt: The month of June mark the National Safety Awareness month to help address certain issues that help prevents hazards associated with many occupations.
-image: /src/assets/images/blog/2021/national-safety-awareness.jpg
+image: /blog/2021/national-safety-awareness.jpg
 tags:
   - safety awareness
 metadata:
@@ -22,7 +22,7 @@ Productivity of industries are affected, revenue generation is indented and heal
 Aim of National Safety awareness month campaigns
 ------------------------------------------------
 
-![photo of a tired caregiver](/src/assets/images/blog/2021/atoms-aqvLznp9MxI-unsplash.jpg)
+![photo of a tired caregiver](/blog/2021/atoms-aqvLznp9MxI-unsplash.jpg)
 
 Photo by Atoms on Unsplash
 
@@ -71,7 +71,7 @@ Every individual has an opportunity to impact hundreds —even thousands of peop
 
 Safety inspections can be organized at work and at random times to ensure that the entire working team is always prepared. These random, yet routine exercises can be in the form of drills as well simulations that test the response of staff members in created danger.
 
-![Sad woman sitting on a couch](/src/assets/images/blog/2021/atoms-C3rI_Fy84Wc-unsplash.jpg)
+![Sad woman sitting on a couch](/blog/2021/atoms-C3rI_Fy84Wc-unsplash.jpg)
 
 Photo by Atoms on Unsplash
 
@@ -88,7 +88,7 @@ This therefore calls for a more in-depth look into the causes and how best to ap
 *   Ensure that there is adequate lighting in building floors, storage rooms and places with potentially harmful equipment and appliances.
 *   When working from heights, appropriate working gears should be insisted on as well as routine medical checks for workers.
 
-![Reaching out to help people with a caregiver fatigue syndrome](/src/assets/images/blog/2021/kristine-wook-ZyxNWi3JCto-unsplash.jpg)
+![Reaching out to help people with a caregiver fatigue syndrome](/blog/2021/kristine-wook-ZyxNWi3JCto-unsplash.jpg)
 
 Photo by Kristine Wook on Unsplash
 

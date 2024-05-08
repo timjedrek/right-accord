@@ -2,7 +2,7 @@
 publishDate: 2023-04-25T00:00:00Z
 title: 'Heart-Healthy & Tasty Springtime Foods for Seniors'
 excerpt: If you're a senior looking to boost your well-being through your diet, here's the list of springtime foods that you should associate into your meals.
-image: /src/assets/images/blog/2023/Springtime-Foods-for-Seniors.jpg
+image: /blog/2023/Springtime-Foods-for-Seniors.jpg
 tags:
   - healthy foods for seniors
 metadata:
@@ -22,7 +22,7 @@ So if you're a senior looking to boost your well-being through your diet, look n
 Importance of a Heart-Healthy Diet for Seniors
 ----------------------------------------------
 
-![2 female seniors eating salad](/src/assets/images/blog/2023/pexels-cottonbro-studio-6928672.jpg)
+![2 female seniors eating salad](/blog/2023/pexels-cottonbro-studio-6928672.jpg)
 
 Photo by Cottonbro Studio on Pexels
 
@@ -33,7 +33,7 @@ It can also help seniors maintain a healthy weight, which is important for reduc
 Benefits of Incorporating Springtime Foods into a Heart-Healthy Diet
 --------------------------------------------------------------------
 
-![elderly with her family during lunch time](/src/assets/images/blog/2023/pexels-askar-abayev-5638644.jpg)
+![elderly with her family during lunch time](/blog/2023/pexels-askar-abayev-5638644.jpg)
 
 Photo by Askar Abayev on Pexels
 
@@ -69,7 +69,7 @@ Here are some delicious and heart-healthy recipes to try this spring:
 
 ### Strawberry Spinach Salad
 
-![strawberry peanut salad](/src/assets/images/blog/2023/strawberry-peanut-salad-istockphoto-545773014-612x612.jpg)
+![strawberry peanut salad](/blog/2023/strawberry-peanut-salad-istockphoto-545773014-612x612.jpg)
 
 Ingredients:
 
@@ -90,7 +90,7 @@ Directions:
 
 ### Grilled Salmon with Asparagus
 
-![grilled salmon](/src/assets/images/blog/2023/grilled-salmon-with-asparagus-istockphoto-674853582-612x612.jpg)
+![grilled salmon](/blog/2023/grilled-salmon-with-asparagus-istockphoto-674853582-612x612.jpg)
 
 Ingredients:
 
@@ -109,7 +109,7 @@ Directions:
 
 ### Mixed Berry Smoothie
 
-![mixed berry smoothie](/src/assets/images/blog/2023/pexels-any-lane-5946069.jpg)
+![mixed berry smoothie](/blog/2023/pexels-any-lane-5946069.jpg)
 
 Ingredients:
 

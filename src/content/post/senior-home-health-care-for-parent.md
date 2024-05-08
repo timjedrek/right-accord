@@ -4,7 +4,7 @@ title: '5 Senior Home Health Care Services Your Elderly Parent Will Love'
 excerpt: Generally, seniors don’t get thrilled with the idea of moving away 
     from their homes, preferring to stay independent as long as possible. Whether you are looking for 
     independent living, assisted living, or home care, there are many options available to you..
-image: /src/assets/images/blog/2020/senior-home-health-care-cover.jpg
+image: /blog/2020/senior-home-health-care-cover.jpg
 tags:
   - senior home health care
   - independent living
@@ -32,7 +32,7 @@ Bear in mind that the wish or desire of your parents to live at home is not enou
 
 Unlike before when nursing homes seemed to be the only option for seniors requiring some form of help, a lot of options are now available. Now if a senior does not have special medical and health needs, they do not need to be moved to nursing homes. Any basic assistance they require can be arranged to be offered in- house.
 
-![Photo by CDC on Unsplash](/src/assets/images/blog/2020/cdc-F98Mv9O6LfI-unsplash.jpg)
+![Photo by CDC on Unsplash](/blog/2020/cdc-F98Mv9O6LfI-unsplash.jpg)
 
 Photo by CDC on Unsplash
 
@@ -58,7 +58,7 @@ You can arrange to have the health needs of your parents attended to by healthca
 
 Keeping track of things like paying the telephone, gas, and home rent bills can be challenging for your parents. You can seek for financial planners to help co-ordinate your parents’ affairs regarding insurance, estate planning, income tax, retirement plans, and investments.
 
-![financial-planner](/src/assets/images/blog/2020/financial-planner.jpg)
+![financial-planner](/blog/2020/financial-planner.jpg)
 
 •Companionship Services
 =======================
@@ -74,7 +74,7 @@ On the other hand, independent workers are more flexible with service hours, and
 
 Rehabilitationservices such as Physical Therapy and Occupational Therapy can be gotten at home. Registered Nurses, Social Workers, Speech Therapy are also available through a Medicare/Medicaid Certified Home Care Agency. Through the use of caregivers under a Licensed Home Care Agency, they can collaborate this for you and know when your parents can benefit from skilled services.
 
-![skilled-services](/src/assets/images/blog/2020/skilled-services.jpg)
+![skilled-services](/blog/2020/skilled-services.jpg)
 
 HOME CARE
 ---------

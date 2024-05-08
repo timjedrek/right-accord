@@ -2,7 +2,7 @@
 publishDate: 2024-02-12T00:00:00Z
 title: 'Cultivating Calm: The Power of Meditation for Caregiver'
 excerpt: As caregivers traverse the intricacy of their roles, meditation emerges as a valuable ally in reducing their stress, and fostering overall well-being.
-image: /src/assets/images/blog/2024/The-Power-of-Meditation-for-Caregiver.jpg
+image: /blog/2024/The-Power-of-Meditation-for-Caregiver.jpg
 tags:
   - Meditation for Caregiver
 metadata:
@@ -20,7 +20,7 @@ Caregivers, the unsung heroes in the lives of their loved ones, often find thems
 The Impact of Caregiving Stress
 -------------------------------
 
-![pregnant-woman-with-medical-mask-doing-yoga](/src/assets/images/blog/2024/pregnant-woman-with-medical-mask-doing-yoga.jpg)
+![pregnant-woman-with-medical-mask-doing-yoga](/blog/2024/pregnant-woman-with-medical-mask-doing-yoga.jpg)
 
 Caregiving is a profound act of love, yet it comes with its unique set of challenges. The emotional, physical, and mental toll of caring for someone can accumulate, potentially leading to stress, anxiety, and exhaustion.
 
@@ -47,7 +47,7 @@ Adequate rest is crucial for caregivers, yet the stressors of their role can dis
 
 Caregivers are tasked with juggling numerous responsibilities, and maintaining focus can be challenging. Regular meditation practices have been linked to improved cognitive function, concentration, and decision-making. This enhanced mental clarity equips caregivers to navigate their duties more efficiently and make informed decisions.
 
-![female-nurse-portrait-with-older-patient](/src/assets/images/blog/2024/female-nurse-portrait-with-older-patient.jpg)
+![female-nurse-portrait-with-older-patient](/blog/2024/female-nurse-portrait-with-older-patient.jpg)
 
 National Caregiver Weeks and Beyond
 -----------------------------------

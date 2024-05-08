@@ -2,7 +2,7 @@
 publishDate: 2021-09-28T00:00:00Z
 title: '8 Motor Vehicle Safety Travel Tips for Older Adult Drivers'
 excerpt: As more adult drivers go on to use the roads, there is a chance that a rise in accident injuries and deaths may rise. Here is how you can safely prevent them.
-image: /src/assets/images/blog/2021/adult-driver.jpg
+image: /blog/2021/adult-driver.jpg
 tags:
   - adult drivers
   - motor vehicle safety
@@ -23,7 +23,7 @@ These figures leave us begging the question; why are there so many accidents wit
 Why accidents happen with adult drivers
 ---------------------------------------
 
-![car accident in the road](/src/assets/images/blog/2021/car-accident-2789841_1920-copy.jpg)
+![car accident in the road](/blog/2021/car-accident-2789841_1920-copy.jpg)
 
 Photo by vainodesositis on Pixabay
 
@@ -37,7 +37,7 @@ These eye conditions can sometimes affect how far or clearly one can see, their 
 
 Motor coordination is about how well we can control our muscles to carry out required tasks. Driving involves a coordinated movement of the hands, legs, eyes, neck and many other muscles of the body. Our reflexes tend to become slower as we age. Other conditions that can affect these movements like arthritis and Parkinson’s disease are also age related and when present, can become a strong reason to re-evaluate the need to drive oneself.
 
-![adult driver inside the car](/src/assets/images/blog/2021/mercedes-benz-1036355_1920.jpg)
+![adult driver inside the car](/blog/2021/mercedes-benz-1036355_1920.jpg)
 
 Photo by jan3933 on Pixabay
 
@@ -55,7 +55,7 @@ Another important organ required for effective driving are the ears. The ability
 
 In all, the growing elderly population can not be stopped from using vehicles because of these concerns. But there are steps that can be put in place to help curb the rate of road traffic accidents associated with adult drivers.
 
-![old motorist couple](/src/assets/images/blog/2021/motorist-4178353_1920.jpg)
+![old motorist couple](/blog/2021/motorist-4178353_1920.jpg)
 
 Photo by emkanicapic on Pixabay
 
@@ -96,7 +96,7 @@ Always ensure that there is enough space between your vehicle and the one right 
 
 Although some people prefer to drive with some music on in the vehicle, however, if that is a source of distraction to you, then you don’t have to. For those who love to, ensure to reduce the volume so you can hear when another road user attempts to hoot or when your vehicle makes funny sounds .
 
-![man handing the car key](/src/assets/images/blog/2021/key-791390_1920.jpg)
+![man handing the car key](/blog/2021/key-791390_1920.jpg)
 
 Photo by kaboompics on Pixabay
 

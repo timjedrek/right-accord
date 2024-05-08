@@ -2,7 +2,7 @@
 publishDate: 2020-09-12T00:00:00Z
 title: 'Is Long Term Care Insurance Worth It In 2020? We have Answers'
 excerpt: Is long term care insurance worth it in 2020? Find out what is the cost of long term care insurance in 2020 and other things you can use with your care policy.
-image: /src/assets/images/blog/2020/long-term-care-insurance.jpg
+image: /blog/2020/long-term-care-insurance.jpg
 tags:
   - long term care insurance
   - cost for long term care insurance
@@ -28,7 +28,7 @@ WHY YOU SHOULD CONSIDER LONG TERM CARE INSURANCE
 
 According to a United States Health study, about a half of 65 year olds today would eventually develop a disability that'd need some long-term care services. Most of them would require services for about two years or less, but about 14% would need care for over five years.
 
-![Helping the elderly](/src/assets/images/blog/2020/picspree-404073.jpg)
+![Helping the elderly](/blog/2020/picspree-404073.jpg)
 
 Photo by Picspree
 
@@ -49,7 +49,7 @@ Long term care insurance is primarily designed to help with payment for the cost
 
 In this regard, long term care insurance is not like traditional health insurance, as its purpose is to cover for expenses that are associated with senior long-term care services and support, irrespective of where the care is provided - at home or in an assisted living community, in a skilled nursing facility, or in any other senior care setting.
 
-![long term care insurance policy application](/src/assets/images/blog/2020/scott-graham-unsplash.jpg)
+![long term care insurance policy application](/blog/2020/scott-graham-unsplash.jpg)
 
 Photo by Scott Graham on Unsplash
 
@@ -68,7 +68,7 @@ Many policies cover in-home care as well, including nursing care, physical thera
 
 Some (not all) policies may also go as far as paying benefits to the family members who provide care, or cover modifications in the home, like the addition of wheelchair ramps, or installation of safety devices.
 
-![group of female elderlies sitting together](/src/assets/images/blog/2020/picspree-113911.jpg)
+![group of female elderlies sitting together](/blog/2020/picspree-113911.jpg)
 
 Photo by Picspree
 

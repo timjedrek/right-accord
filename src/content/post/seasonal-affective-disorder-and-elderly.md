@@ -2,7 +2,7 @@
 publishDate: 2020-12-02T00:00:00Z
 title: 'How Seasonal Affective Disorders Can Affect The Elderly'
 excerpt: Seasonal affective disorder is a health condition, a form of depression usually seen at certain times of the year. It's a depressive disorder that's recurrent.
-image: /src/assets/images/blog/2020/seasonal-affective-disorder.jpg
+image: /blog/2020/seasonal-affective-disorder.jpg
 tags:
   - elderly
   - seasonal affective disorder
@@ -26,7 +26,7 @@ According to the national institute for health, up to 10 million people are affe
 What is responsible for Seasonal Affective disorders?
 -----------------------------------------------------
 
-![elderly woman face in focus](/src/assets/images/blog/2020/geralt-pixabay.jpg)
+![elderly woman face in focus](/blog/2020/geralt-pixabay.jpg)
 
 Photo by Geralt on Pixabay
 
@@ -55,7 +55,7 @@ The symptoms include:
 
 The above outlined symptoms are general symptoms. However there are symptoms specific to certain types of Seasonal affective disorders depending on the time of the season when they occur.
 
-![image of a lonely elderly woman](/src/assets/images/blog/2020/kristin-hardwick-stocksnap.jpg)
+![image of a lonely elderly woman](/blog/2020/kristin-hardwick-stocksnap.jpg)
 
 Photo by Kristin Hardwick on Stocksnap
 
@@ -89,7 +89,7 @@ How the body balances your sleep-wake cycle is known as circadian rhythm. This r
 What Are The Chances That You Will Have Seasonal Affective Disorder?
 --------------------------------------------------------------------
 
-![senior woman during fall season](/src/assets/images/blog/2020/greyson-joralemon-U8FV0rOC7Fo-unsplash.jpg)
+![senior woman during fall season](/blog/2020/greyson-joralemon-U8FV0rOC7Fo-unsplash.jpg)
 
 Photo by Greyson Joralemon on Unsplash
 
@@ -109,7 +109,7 @@ Where you reside has a huge role to play on how predisposed you could be. For ex
 
 Women are more likely to be affected by this condition and also younger people are more affected than the elderly.
 
-![caregiver talking to the elder woman](/src/assets/images/blog/2020/direct-media-stocksnap.jpg)
+![caregiver talking to the elder woman](/blog/2020/direct-media-stocksnap.jpg)
 
 Photo by Direct Media on Stocksnap
 
@@ -152,7 +152,7 @@ It is first good to understand that if you have this condition, it is not a deat
 
 While it is best to seek the help of a medical expert for proper diagnosis and management, here are certain things that you must understand and what you can do about them.
 
-![senior man doing selfie](/src/assets/images/blog/2020/direct-media-stocksnap2.jpg)
+![senior man doing selfie](/blog/2020/direct-media-stocksnap2.jpg)
 
 Photo by Direct Media on Stocksnap
 
@@ -178,7 +178,7 @@ The body requires sunlight in order to manufactures its own vitamin D. With the 
 
 This vitamin has been shown to play an important role in mental and physical wellbeing. Vitamin supplements may come in handy at this time of the year to boost its depleting reserve.
 
-![hand with medicines](/src/assets/images/blog/2020/kate-hliznitsova-Nqj2XWHy4K0-unsplash.jpg)
+![hand with medicines](/blog/2020/kate-hliznitsova-Nqj2XWHy4K0-unsplash.jpg)
 
 Photo by Kate Hliznitsova on Unsplash
 

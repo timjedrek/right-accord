@@ -2,7 +2,7 @@
 publishDate: 2023-01-25T00:00:00Z
 title: 'Tips and Strategies For Seniors To Get A Good Nights Rest'
 excerpt: Seniors sleep patterns may change and could lead them to difficulties falling asleep. This blog details the best ways to get the restful sleep for your elderly.
-image: /src/assets/images/blog/2023/Sleep-Tips-for-Seniors.jpg
+image: /blog/2023/Sleep-Tips-for-Seniors.jpg
 tags:
   - senior sleep
 metadata:
@@ -22,7 +22,7 @@ From understanding how sleep changes as you age, to creating a restful sleep env
 Understanding how sleep changes as you age
 ------------------------------------------
 
-![picture of a bedroom](/src/assets/images/blog/2023/beazy-toX2sYnycCw-unsplash.jpg)
+![picture of a bedroom](/blog/2023/beazy-toX2sYnycCw-unsplash.jpg)
 
 Photo by Beazy on Unsplash
 
@@ -39,7 +39,7 @@ As you age, you should also be paying close attention to the quality of your sle
 
 First, make sure to communicate with your partner about the importance of a good night's rest. If they are the disturbance, try to negotiate sleeping arrangements so everyone gets the quality sleep they need. Similarly, if your pet is the disturbance, make sure to properly train your pet not to disturb your sleep. If these steps don't work, try investing in a pair of ear plugs to help block out the noise. Although these disruptions may seem minor, they can have a significant impact on the quality of your sleep.
 
-![man sleeping with alarm clock](/src/assets/images/blog/2023/slumber-sleep-aid-kh2VDcogqog-unsplash.jpg)
+![man sleeping with alarm clock](/blog/2023/slumber-sleep-aid-kh2VDcogqog-unsplash.jpg)
 
 Photo by Slumber on Unsplash
 
@@ -55,7 +55,7 @@ Exercise and healthy diet
 
 As we age, many seniors experience a reduction in energy and stamina. This can make it extremely challenging to regularly exercise. However, studies have shown that a regular exercise routine can improve sleep quality and regulate melatonin production. Additionally, it's important to feed your body what it needs to function at its best. This includes getting the right amount and combination of nutrients. As you get older, you may want to consult a doctor or dietitian to make sure you're getting the right amount of key nutrients, such as zinc, magnesium, and vitamin B12. This can help enhance your sleep quality and improve your energy levels in general.
 
-![coffee and journal book in the bed](/src/assets/images/blog/2023/annie-spratt-52AAiXWoVi0-unsplash.jpg)
+![coffee and journal book in the bed](/blog/2023/annie-spratt-52AAiXWoVi0-unsplash.jpg)
 
 Photo by Annie Spratt on Unsplash
 
@@ -71,7 +71,7 @@ As you age, there are simple steps you can take to reduce your mental and emotio
 
 Additionally, make sure to get your seven to nine hours of sleep every night. This can help reduce your mental and emotional stress, as well as regulate melatonin production, leading to an increased quality of sleep.
 
-![get good sleep scrabble words](/src/assets/images/blog/2023/brett-jordan-feKxV48FZVM-unsplash.jpg)
+![get good sleep scrabble words](/blog/2023/brett-jordan-feKxV48FZVM-unsplash.jpg)
 
 Photo by Brett Jordan on Unsplash
 

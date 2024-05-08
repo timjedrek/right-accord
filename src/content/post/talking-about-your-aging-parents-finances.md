@@ -2,7 +2,7 @@
 publishDate: 2022-08-22T00:00:00Z
 title: '5 Things You Should Talk About Your Aging Parents Finances'
 excerpt: If you are the primary caregiver to your aging parent, you need to be proactive and plan ahead to discuss with them these 5 important financial tips.
-image: /src/assets/images/blog/2022/aging-parents-finances.jpg
+image: /blog/2022/aging-parents-finances.jpg
 tags:
   - aging parents finances
 metadata:
@@ -20,7 +20,7 @@ Start now having a conversation with your parents about their finances while the
 Communication is Key
 --------------------
 
-![piggy bank](/src/assets/images/blog/2022/piggy-bank-gb72a500dd_1280.jpg)
+![piggy bank](/blog/2022/piggy-bank-gb72a500dd_1280.jpg)
 
 Before you can even begin to start organizing for your elderly relative's finances, you need to work out exactly where they stand with their money. Sometimes your parents may see you as a challenge when you begin asking them questions about their finances.
 
@@ -41,7 +41,7 @@ It is crucial to apply for and obtain power of attorney in order to take care of
 
 Other important documents include an advance directive, living will, birth certificate, marriage certificate, deeds to property, deeds to cemetery plots, military discharge papers, insurance policies, and pension benefits.
 
-![document signing](/src/assets/images/blog/2022/business-g6490b8743_1280.jpg)
+![document signing](/blog/2022/business-g6490b8743_1280.jpg)
 
 ### Expenses
 
@@ -59,7 +59,7 @@ Are there assets that need to be monitored, such as property, accounts at other 
 
 Pension income and other sources should be taken into consideration, as well as the amount of wealth available for general provisions in the coming year if you apply the previous year's outgoings. Income is a vital key to your ability to budget. You must research the source of this money to ensure that bank credits will remain at the same amount. In the event that you fail to do this, you might find yourself in a financial mess on behalf of your aging relative, and that would certainly throw a wrench in your budgeting plans. However, if you do complete the necessary research then you can then begin budgeting from there.
 
-![meeting with the insurance company](/src/assets/images/blog/2022/van-tay-media-TFFn3BYLc5s-unsplash.jpg)
+![meeting with the insurance company](/blog/2022/van-tay-media-TFFn3BYLc5s-unsplash.jpg)
 
 ### Insurance
 

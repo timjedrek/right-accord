@@ -2,7 +2,7 @@
 publishDate: 2024-01-30T00:00:00Z
 title: 'A Guide for Nurturing Thyroid Health in Aging Loved Ones'
 excerpt: This Blog recognize the importance of thyroid health especially for aging individuals and raise awareness about its impact on their overall well-being.
-image: /src/assets/images/blog/2024/Thyroid-Health-in-Aging-Loved-Ones.jpg  
+image: /blog/2024/Thyroid-Health-in-Aging-Loved-Ones.jpg  
 tags:
   - thyroid health in aging loved ones
 metadata:
@@ -20,7 +20,7 @@ January is Thyroid Awareness Month, a time to focus on the often-overlooked but 
 Understanding the Thyroid's Role
 --------------------------------
 
-![medical figure with thyroid](/src/assets/images/blog/2024/male-medical-figure-with-sore-throat.jpg)
+![medical figure with thyroid](/blog/2024/male-medical-figure-with-sore-throat.jpg)
 
 Before delving into the specifics of thyroid health in aging individuals, let's take a moment to understand the thyroid's role in the body.
 
@@ -31,7 +31,7 @@ Thyroid Issues and Aging
 
 As individuals age, the likelihood of developing thyroid issues increases. A malfunctioning thyroid can lead to a range of health concerns, impacting not just physical health but also mental well-being. Common thyroid disorders include hypothyroidism (underactive thyroid) and hyperthyroidism (overactive thyroid), both of which can have significant consequences if left untreated.
 
-![thyroid problem](/src/assets/images/blog/2024/thyroid-problem.jpg)
+![thyroid problem](/blog/2024/thyroid-problem.jpg)
 
 The Impact of Thyroid Issues on Aging
 -------------------------------------
@@ -67,7 +67,7 @@ Routine health check-ups are essential for monitoring thyroid function. Regular 
 
 Quality sleep is vital for overall well-being, including thyroid health. Encourage good sleep hygiene practices, such as maintaining a consistent sleep schedule and creating a comfortable sleep environment.
 
-![she-has-problems-with-sore-throat](/src/assets/images/blog/2024/she-has-problems-with-sore-throat.jpg)
+![she-has-problems-with-sore-throat](/blog/2024/she-has-problems-with-sore-throat.jpg)
 
 Conclusion
 ----------

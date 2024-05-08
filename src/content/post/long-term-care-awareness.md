@@ -2,7 +2,7 @@
 publishDate: 2021-11-16T00:00:00Z
 title: 'The Elderly Long Term Care Awareness Facts You Need to Know'
 excerpt: The Long Term Care Awareness being celebrated in this month of November is stressing on the many interesting facts about long term care for your elderly loved ones.
-image: /src/assets/images/blog/2021/long-term-care-awareness.jpg
+image: /blog/2021/long-term-care-awareness.jpg
 tags:
   - long term care
   - elderly long term care
@@ -18,7 +18,7 @@ It is common knowledge that if you live long enough, you would likely be needing
 
 It is estimated that about 70% of persons aged 65 years and above will eventually need one form of long term care or the other and this care would not only incur expenses but can take a toll on the family and friends who will be vested with the responsibility.
 
-![various hands holding each other](/src/assets/images/blog/2021/joshua-hoehne-0F4duBPWlCw-unsplash.jpg)
+![various hands holding each other](/blog/2021/joshua-hoehne-0F4duBPWlCw-unsplash.jpg)
 
 Therefore, it is important that both the young and the old are aware of this and start early to adequately prepare for it, in order to make it a more enjoyable and fulfilling time. The long term care awareness month being celebrated in this month of November is one such move geared to achieve this.
 
@@ -29,7 +29,7 @@ A short History
 
 The national long term care awareness month was set up by the American Association for Long-Term Care Insurance. The aim of the set-up was to create the awareness of the need for individuals to prepare for the period of old age and dependency for themselves and their loved ones.
 
-![long term care banner](/src/assets/images/blog/2021/long-term-care-awareness-large.jpg)
+![long term care banner](/blog/2021/long-term-care-awareness-large.jpg)
 
 Photo by American Association for Long-Term Care Insurance
 
@@ -39,7 +39,7 @@ Further down the line, new concepts such as graduated care were introduced in or
 
 It has become even more pertinent to celebrate this special occasion as the average life expectancy is increasing in the developed world and expectedly, also the burden of long term care of the elderly.
 
-![old man sitting on a chair](/src/assets/images/blog/2021/wade-austin-ellis-_mTWj51j_k4-unsplash.jpg)
+![old man sitting on a chair](/blog/2021/wade-austin-ellis-_mTWj51j_k4-unsplash.jpg)
 
 Photo by Wade Austin Unsplash
 
@@ -77,7 +77,7 @@ Starting the discussion on the November awareness month for long term care is an
 
 If you can talk to your colleagues at work, he marketplace, school and any other place, it would be a great way to encourage them to open up on their concerns about aging and the requisite care. This can help colleagues to solicit support for those who are having challenges with coping either financially or otherwise.
 
-![old couple together](/src/assets/images/blog/2021/esther-ann-glpYh1cWf0o-unsplash.jpg)
+![old couple together](/blog/2021/esther-ann-glpYh1cWf0o-unsplash.jpg)
 
 Photo by Esther Ann on Unsplash
 

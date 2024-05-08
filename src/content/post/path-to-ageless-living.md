@@ -2,7 +2,7 @@
 publishDate: 2023-09-12T00:00:00Z
 title: 'Path to Ageless Living: Keeping Health in Your Golden Years'
 excerpt: This blog will explore the path to ageless living, providing valuable insights and practical tips to help you stay healthy and active as you grow older.
-image: /src/assets/images/blog/2023/The-Path-to-Ageless-Living.jpg
+image: /blog/2023/The-Path-to-Ageless-Living.jpg
 tags:
   - ageless living
   - senior health
@@ -24,7 +24,7 @@ Ageless living is not about defying the natural aging process but rather about e
 The Importance of Health and Wellness in Aging
 ----------------------------------------------
 
-![wellness gallery photo](/src/assets/images/blog/2023/pexels-wellness-gallery-catalyst-foundation-12086686.jpg)
+![wellness gallery photo](/blog/2023/pexels-wellness-gallery-catalyst-foundation-12086686.jpg)
 
 Photo by WGCF on Pexels
 
@@ -45,7 +45,7 @@ One of the most prevalent health concerns among seniors is chronic diseases such
 
 Mental health is another crucial aspect of overall well-being, and older adults are not immune to mental health challenges. Depression and anxiety can often go unnoticed or untreated in seniors, leading to a decline in both physical and cognitive health. Being aware of the signs and seeking professional help when needed is essential for maintaining mental well-being as we age.
 
-![nutritional and healthy foods](/src/assets/images/blog/2023/louis-hansel-phEaeqe555M-unsplash.jpg)
+![nutritional and healthy foods](/blog/2023/louis-hansel-phEaeqe555M-unsplash.jpg)
 
 Photo by Louis Hansel on Unsplash
 
@@ -58,7 +58,7 @@ A diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats
 
 In addition to a well-rounded diet, certain nutrients are particularly beneficial for older adults. Calcium and vitamin D are essential for maintaining strong bones and reducing the risk of osteoporosis. Omega-3 fatty acids, found in fatty fish like salmon and sardines, can help support brain health and reduce inflammation. Consulting with a registered dietitian can provide personalized guidance on meeting individual nutritional needs.
 
-![senior couple doing Yoga](/src/assets/images/blog/2023/pexels-vlada-karpovich-8940017.jpg)
+![senior couple doing Yoga](/blog/2023/pexels-vlada-karpovich-8940017.jpg)
 
 Photo by Vlada Karpovich on Pexels
 
@@ -82,7 +82,7 @@ Staying mentally active is crucial for cognitive well-being. Engaging in activit
 
 Managing stress is another key aspect of mental well-being. Chronic stress can negatively impact cognitive function and increase the risk of developing mental health disorders. Incorporating stress management techniques into your daily routine, such as meditation, deep breathing exercises, or engaging in hobbies that bring joy, can help reduce stress levels and promote overall mental wellness.
 
-![group elderly women sharing time together](/src/assets/images/blog/2023/pexels-anna-shvets-5257342.jpg)
+![group elderly women sharing time together](/blog/2023/pexels-anna-shvets-5257342.jpg)
 
 Photo by Anna Shvets on Pexels
 
@@ -97,7 +97,7 @@ Technology can also play a significant role in maintaining social connections. V
 
 It's important to prioritize social interactions and make an effort to stay connected with loved ones. Regular phone calls, video chats, or in-person meetups can help combat feelings of loneliness and isolation, enhancing your overall well-being.
 
-![elderly person doing stretching beside the lake](/src/assets/images/blog/2023/yoga-1434787_1280_cnort.jpg)
+![elderly person doing stretching beside the lake](/blog/2023/yoga-1434787_1280_cnort.jpg)
 
 Photo by Cnort on Pixabay
 
@@ -112,7 +112,7 @@ Maintaining a healthy weight is also important for preventing chronic diseases. 
 
 Lastly, it's important to avoid tobacco and limit alcohol consumption. Smoking and excessive alcohol intake can have detrimental effects on overall health and increase the risk of developing a variety of health conditions. Making healthy lifestyle choices and seeking support if needed can help you maintain a healthier and happier life as you age.
 
-![elderly person using gadget](/src/assets/images/blog/2023/hand-2906416_1280_sabinevanerp.jpg)
+![elderly person using gadget](/blog/2023/hand-2906416_1280_sabinevanerp.jpg)
 
 Photo by Cnort on Pixabay
 

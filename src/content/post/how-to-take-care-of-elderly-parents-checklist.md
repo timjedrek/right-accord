@@ -2,7 +2,7 @@
 publishDate: 2022-01-10T00:00:00Z
 title: 'How to Take Care of Elderly Parents - Survival Checklist'
 excerpt: This blog is about practical and useful checklist on how to take care of your elderly parents in any situation at any time. Read here to learn more!
-image: /src/assets/images/blog/2022/How-to-Take-Care-of-Elderly-Parents-Checklist.jpg
+image: /blog/2022/How-to-Take-Care-of-Elderly-Parents-Checklist.jpg
 tags:
   - how to take care of elderly parents
 metadata:
@@ -17,7 +17,7 @@ If you understand how to take care of elderly parents or an elderly member of yo
 
 In many cases, you will feel like you are fighting an uphill battle with no hope of winning. Sometimes, gaining an advantage takes hard work and dedication, and even then something will inevitably crop up to return you to stage one.
 
-![elderly parent and her daughter](/src/assets/images/blog/2022/121989999_s.jpg)
+![elderly parent and her daughter](/blog/2022/121989999_s.jpg)
 
 There are, however, some brighter sides to the story, and we should all take pride in that. If you care for a parent in any way, you clearly belong to that special group of individuals who respect and value life above all else.
 
@@ -28,7 +28,7 @@ Below is a quick checklist that can help you care for your elderly parents and p
 Prepare them a Regular Healthy Diet
 -----------------------------------
 
-![a healthy and delicious meal](/src/assets/images/blog/2022/brooke-lark-nTZOILVZuOg-unsplash.jpg)
+![a healthy and delicious meal](/blog/2022/brooke-lark-nTZOILVZuOg-unsplash.jpg)
 
 Photo by Brooke Lark on Unsplash
 
@@ -39,7 +39,7 @@ A large amount of either dietary substance can delay recovery from an illness. S
 Maintain Good Hygiene in Their Daily Routine
 --------------------------------------------
 
-![hand with soap and water](/src/assets/images/blog/2022/matthew-tkocz-q697-Akhwkc-unsplash.jpg)
+![hand with soap and water](/blog/2022/matthew-tkocz-q697-Akhwkc-unsplash.jpg)
 
 Photo by Matthew Tkocz on Unsplash
 
@@ -56,7 +56,7 @@ Keeping good personal hygiene for your parents will also promote their physical 
 Frequently Checked for Their Proper Medication
 ----------------------------------------------
 
-![image of a woman taking medicine](/src/assets/images/blog/2022/towfiqu-barbhuiya-_04ev82q-s0-unsplash.jpg)
+![image of a woman taking medicine](/blog/2022/towfiqu-barbhuiya-_04ev82q-s0-unsplash.jpg)
 
 Photo by Towfiqu Barbhuiya on Unsplash
 
@@ -75,7 +75,7 @@ Taking medication regularly is an important aspect of a senior's daily routine, 
 Get Practical Knowledge About Wound Care
 ----------------------------------------
 
-![applying a plaster to a wounded skin](/src/assets/images/blog/2022/diana-polekhina-k8lvbvqCc6w-unsplash.jpg)
+![applying a plaster to a wounded skin](/blog/2022/diana-polekhina-k8lvbvqCc6w-unsplash.jpg)
 
 Photo by Diana Polekhina on Unsplash
 
@@ -88,7 +88,7 @@ In addition to wound care, ensure the elderly person you are caring for is up to
 Prevent Your Elderly Parents From Dealing With Falls
 ----------------------------------------------------
 
-![an elderly woman being assisted by her daughter](/src/assets/images/blog/2022/54532356_s.jpg)
+![an elderly woman being assisted by her daughter](/blog/2022/54532356_s.jpg)
 
 Since prevention is better than cure when it comes to elderly falls and hospital trips, it may be wise to take preventative measures to head off falls before they occur. It can be difficult at first to maintain the safety and security of an elderly individual, since you don't have eyes in the back of your head.
 

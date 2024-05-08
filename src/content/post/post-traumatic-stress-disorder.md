@@ -2,7 +2,7 @@
 publishDate: 2021-06-28T00:00:00Z
 title: 'Is There a Cure for Post Traumatic Stress Disorder Among the Elderly?'
 excerpt: Post Traumatic Stress Disorder is a mental health issue that affects all ages including the elderly. Check out the best cure available today to end this global problem.
-image: /src/assets/images/blog/2021/post-traumatic-stress-disorder.jpg
+image: /blog/2021/post-traumatic-stress-disorder.jpg
 tags:
   - Post Traumatic Stress Disorder
   - PTSD
@@ -24,7 +24,7 @@ It was at this time that it became imperative to really talk about the condition
 What Is PTSD?
 -------------
 
-![dark sillhouette of a man](/src/assets/images/blog/2021/gift-habeshaw-Of8C-QHqagM-unsplash.jpg)
+![dark sillhouette of a man](/blog/2021/gift-habeshaw-Of8C-QHqagM-unsplash.jpg)
 
 Photo by Gift Habeshaw on Unsplash
 
@@ -49,7 +49,7 @@ The symptoms of post traumatic stress disorder vary with people and to different
 
 PSTD is only seen in adults. Children rarely have the condition as they tend to have other ways of processing traumatic situations. They tend to play out the events or even totally forget the experience.
 
-![Collage of pictures with the PTSD theme](/src/assets/images/blog/2021/susan-wilkinson-EDJKEXFbzHA-unsplash.jpg)
+![Collage of pictures with the PTSD theme](/blog/2021/susan-wilkinson-EDJKEXFbzHA-unsplash.jpg)
 
 Photo by Micheile Henderson on Unsplash
 
@@ -67,7 +67,7 @@ Added to these physical symptoms, some people have also shown signs of mental di
 
 This only makes the call for increased awareness more important than before. You do not have to be a health professional to play a role in this month of awareness . There are a couple of things you can do on your own or in groups to help make this year's campaign a successful one.
 
-![close up picture of a woman suffering from PTSD](/src/assets/images/blog/2021/s-b-vonlanthen-135ys6lOTOM-unsplash.jpg)
+![close up picture of a woman suffering from PTSD](/blog/2021/s-b-vonlanthen-135ys6lOTOM-unsplash.jpg)
 
 Photo by S B Vonlanthen on Unsplash
 
@@ -90,7 +90,7 @@ Using social media platforms is one swift and easy way to share information to a
 
 If you know anybody who has suffered from a traumatic life event, this is the time to reach out to them. Social re-integration is one of the ways to help people cope with such trauma and reduce their odds of having PTSD. It is also easier to look out for and spot red flags early in those who start to show signs. Help them understand that there is a treatment option for PTSD that works. People who have been through such have gone on to lead normal lives once again.
 
-![Reaching out to help people with PSTD](/src/assets/images/blog/2021/remi-walle-UOwvwZ9Dy6w-unsplash.jpg)
+![Reaching out to help people with PSTD](/blog/2021/remi-walle-UOwvwZ9Dy6w-unsplash.jpg)
 
 Photo by Remi Walle on Unsplash
 

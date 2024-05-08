@@ -2,7 +2,7 @@
 publishDate: 2023-03-30T00:00:00Z
 title: 'In-Home Senior Cares Guide to Planning & Execution'
 excerpt: In-home senior care can provide your loved one with the right care they need. Read more to learn on how to find the perfect caregiver for your senior.
-image: /src/assets/images/blog/2023/In-Home-Senior-Care.jpg
+image: /blog/2023/In-Home-Senior-Care.jpg
 tags:
   - In-Home Senior Care
 metadata:
@@ -22,7 +22,7 @@ But fear not, because in this article we will guide you through the steps of pla
 Assessing Your Loved One's Needs
 --------------------------------
 
-![caregiver beside her loved one at the beach](/src/assets/images/blog/2023/pexels-pixabay-160767.jpg)
+![caregiver beside her loved one at the beach](/blog/2023/pexels-pixabay-160767.jpg)
 
 Photo by Pixabay
 
@@ -76,7 +76,7 @@ Home care agencies employ caregivers who have been thoroughly vetted and trained
 
 When hiring a caregiver, it's important to conduct interviews and background checks to ensure that they are a good fit for your loved one. You should also set clear expectations and boundaries to ensure that everyone is on the same page.
 
-![elderly woman and her caregiver enjoying at the park](/src/assets/images/blog/2023/pexels-andrea-piacquadio-3791666.jpg)
+![elderly woman and her caregiver enjoying at the park](/blog/2023/pexels-andrea-piacquadio-3791666.jpg)
 
 Photo by Andrea Piacquadio on Pexels
 
@@ -118,7 +118,7 @@ Encouraging hobbies and interests can also help your loved one maintain their co
 Monitoring and Adjusting the Care Plan as Needed
 ------------------------------------------------
 
-![caregiver holding senior's hand](/src/assets/images/blog/2023/pexels-kampus-production-7551677.jpg)
+![caregiver holding senior's hand](/blog/2023/pexels-kampus-production-7551677.jpg)
 
 Photo by Kampus on Pexels
 

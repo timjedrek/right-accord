@@ -2,7 +2,7 @@
 publishDate: 2019-03-17T00:00:00Z
 title: 'What are the Early Signs of Dementia'
 excerpt: Dementia is a general term used to describe a decline in mental ability that is severe enough to interfere with daily life. The most well-known and most common type of dementia is Alzheimer’s disease.
-image: /src/assets/images/blog/2019/what-is-dementia-cover.jpg
+image: /blog/2019/what-is-dementia-cover.jpg
 tags:
   - dementia
   - aging

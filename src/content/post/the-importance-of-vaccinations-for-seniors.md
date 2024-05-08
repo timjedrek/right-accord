@@ -2,7 +2,7 @@
 publishDate: 2023-08-09T00:00:00Z
 title: 'The Importance of Vaccinations for Seniors Health and Well-being'
 excerpt: This blog aims to highlight the significance of vaccinations for seniors as a proactive step and encouragement towards a healthier and more vibrant life.
-image: /src/assets/images/blog/2023/Vaccination-for-Seniors.jpg
+image: /blog/2023/Vaccination-for-Seniors.jpg
 tags:
   - Vaccinations for Seniors
 metadata:
@@ -22,7 +22,7 @@ From influenza to pneumonia, shingles to tetanus, these vaccinations can prevent
 Understanding the immune system in seniors
 ------------------------------------------
 
-![vaccine syringe image](/src/assets/images/blog/2023/pexels-cottonbro-studio-3952236.jpg)
+![vaccine syringe image](/blog/2023/pexels-cottonbro-studio-3952236.jpg)
 
 Photo by Cottonbro on Pexels
 
@@ -53,7 +53,7 @@ Shingles, caused by the varicella-zoster virus, is a painful rash that can have 
 
 Tetanus, a bacterial infection that affects the nervous system, can cause severe muscle stiffness and spasms. While tetanus can affect individuals of any age, seniors may be more susceptible due to age-related changes in the immune system. Vaccination against tetanus, typically administered as part of a combination vaccine called Tdap, is recommended for adults aged 65 and older. By ensuring they are up to date with their tetanus vaccination, seniors can protect themselves from this potentially life-threatening infection.
 
-![senior man getting vaccine](/src/assets/images/blog/2023/pexels-kampus-production-8949917.jpg)
+![senior man getting vaccine](/blog/2023/pexels-kampus-production-8949917.jpg)
 
 Photo by Kampus Production on Pexels
 
@@ -79,7 +79,7 @@ Additionally, seniors should ensure they are up to date with their tetanus vacci
 
 It is important for seniors to consult with their healthcare providers to determine their specific vaccination needs and to develop a personalized vaccination plan based on their individual health status and risk factors.
 
-![vax and relax sign](/src/assets/images/blog/2023/belinda-fewings-yOloXSoR8vo-unsplash.jpg)
+![vax and relax sign](/blog/2023/belinda-fewings-yOloXSoR8vo-unsplash.jpg)
 
 Photo by Belinda Fewings on Unsplash
 
@@ -105,7 +105,7 @@ Additionally, outreach programs can be implemented to bring vaccinations directl
 
 Collaboration between healthcare providers, community organizations, and public health agencies is essential to ensure that vaccination services are accessible, affordable, and convenient for seniors. By working together, these stakeholders can identify and address barriers to access, develop targeted interventions, and promote equitable vaccine distribution for seniors.
 
-![elderly woman getting vaccinated](/src/assets/images/blog/2023/pexels-kampus-production-8949897.jpg)
+![elderly woman getting vaccinated](/blog/2023/pexels-kampus-production-8949897.jpg)
 
 Photo by Kampus Production on Pexels
 

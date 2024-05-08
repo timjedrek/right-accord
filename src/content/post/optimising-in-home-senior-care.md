@@ -2,7 +2,7 @@
 publishDate: 2020-09-01T00:00:00Z
 title: 'The 7 Ways to Optimize In-Home Senior Care During COVID-19'
 excerpt: Around 5 million In-Home Care seniors in the US are the most vulnerable to COVID-19. Learn how this 7 actionable steps will reshape our pandemic responses.
-image: /src/assets/images/blog/2020/senior-care-amid-pandemic.jpg
+image: /blog/2020/senior-care-amid-pandemic.jpg
 tags:
   - in-home care
   - senior care
@@ -36,7 +36,7 @@ Why the coronavirus pandemic has led to a rising need for home care
 
 Prior to the Covid-19 era, there was already a strain on adequate provision of elderly care services. There were not nearly enough elderly home care givers even before the coronavirus hit.
 
-![an elderly man getting his package in front of his house](/src/assets/images/blog/2020/andre-ouellet-FzECg2eNhj4-unsplash.jpg)
+![an elderly man getting his package in front of his house](/blog/2020/andre-ouellet-FzECg2eNhj4-unsplash.jpg)
 
 Photo by Andre Ouellet on Unsplash
 
@@ -63,7 +63,7 @@ About 60% of them are of an ethnic or racial minority where it's been noted that
 
 About one-fifth of these caregivers do not have health insurance, with only one-third of them having full time employment.
 
-![a caregiver assisting her elderly client on the backyard](/src/assets/images/blog/2020/dominik-lange-unsplash.jpg)
+![a caregiver assisting her elderly client on the backyard](/blog/2020/dominik-lange-unsplash.jpg)
 
 Photo by Dominik Lange on Unsplash
 
@@ -81,7 +81,7 @@ Also, some Caregivers have also drawn back from providing care due to concerns f
 
 Still on the average, the health sector has seen a continuous rise in the need for senior care services, with CEOs of private duty homes and other home care agencies reporting an increase in the number of persons seeking in-home care, the average number of hours of care per client, as well as an increase in the degree of their needs.
 
-![app, mask, gloves and other materials used to fight virus spread](/src/assets/images/blog/2020/roman-grachev-DC9d8HYI5IQ-unsplash.jpg)
+![app, mask, gloves and other materials used to fight virus spread](/blog/2020/roman-grachev-DC9d8HYI5IQ-unsplash.jpg)
 
 Photo by Roman Grachev on Unsplash
 
@@ -94,7 +94,7 @@ It is hoped that the crisis will pave the way for a new approach to both post-ac
 
 A much closer attention to elderly home care is certainly necessary during this time, and a more comprehensive investment into public health, an improved structure of payment, a re-design of physical space, a revamping of the regulatory framework, as well as a more cohesive care continuum is a few of what advocates are pushing for.
 
-![a group of seniors and caregivers get together](/src/assets/images/blog/2020/rusty-watson-TercK6ss7F4-unsplash.jpg)
+![a group of seniors and caregivers get together](/blog/2020/rusty-watson-TercK6ss7F4-unsplash.jpg)
 
 Photo by Rusty Watson on Unsplash
 

@@ -2,7 +2,7 @@
 publishDate: 2024-01-15T00:00:00Z
 title: 'The Role of Home Adaptations in Creating Safe Environments'
 excerpt: In this blog post, we will delve into the importance of creating safe spaces and explore how caregiver agencies play a pivotal role in achieving this goal.
-image: /src/assets/images/blog/2024/The-Role-of-Home-Adaptations.jpg
+image: /blog/2024/The-Role-of-Home-Adaptations.jpg
 tags:
   - home adaptation
 metadata:
@@ -20,7 +20,7 @@ This becomes even more crucial for individuals facing physical or cognitive chal
 The Significance of Safe Environments
 -------------------------------------
 
-![caregiver-and-elderly-reading-book](/src/assets/images/blog/2024/caregiver-and-elderly-reading-book.jpg)
+![caregiver-and-elderly-reading-book](/blog/2024/caregiver-and-elderly-reading-book.jpg)
 
 A safe environment is not just a physical concept; it encompasses the emotional, mental, and social aspects of an individual's well-being.
 
@@ -42,7 +42,7 @@ Emotional safety is about creating an environment that fosters a sense of securi
 
 True safety goes hand in hand with promoting independence. Adapting homes to individual needs empowers people to live more autonomously. Striking a balance between safety measures and the encouragement of self-sufficiency is essential for fostering confidence and self-esteem.
 
-![granddaughter-talking-with-her-grandmother](/src/assets/images/blog/2024/granddaughter-talking-with-her-grandmother.jpg)
+![granddaughter-talking-with-her-grandmother](/blog/2024/granddaughter-talking-with-her-grandmother.jpg)
 
 RIGHT ACCORD: A Partner in Creating Safe Environments
 -----------------------------------------------------
@@ -69,7 +69,7 @@ RIGHT ACCORD takes a holistic approach by collaborating with healthcare professi
 
 Recognizing that individuals' needs can change over time, RIGHT ACCORD offers continuous monitoring and adjustments to both the care plan and home modifications. This adaptability ensures that the environment remains conducive to the individual's evolving well-being.
 
-![older-woman-old-age-home](/src/assets/images/blog/2024/older-woman-old-age-home.jpg)
+![older-woman-old-age-home](/blog/2024/older-woman-old-age-home.jpg)
 
 Conclusion
 ----------

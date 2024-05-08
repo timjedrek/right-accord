@@ -2,7 +2,7 @@
 publishDate: 2023-12-15T00:00:00Z
 title: 'Making Christmas Meaningful for Seniors'
 excerpt: This Blog explains why making the Christmas season meaningful for seniors involves a thoughtful blend of tradition, personalization, and connection.
-image: /src/assets/images/blog/2023/christmas-for-seniors.jpg
+image: /blog/2023/christmas-for-seniors.jpg
 tags:
   - Christmas in Seniors
 metadata:
@@ -20,7 +20,7 @@ For our elderly loved ones, Christmas is not merely a holiday; it's a tapestry o
 Create a Nostalgic Atmosphere
 -----------------------------
 
-![senior couple dancing](/src/assets/images/blog/2023/senior-couple-dancing-christmas-day.jpg)
+![senior couple dancing](/blog/2023/senior-couple-dancing-christmas-day.jpg)
 
 Seniors often hold cherished memories of past Christmases. Embrace the nostalgia by incorporating familiar elements from their youth. Decorate with traditional ornaments, play classic holiday tunes, and if possible, recreate favorite family recipes. By tapping into the nostalgia of the season, you can transport seniors back to the magic of their own Christmases past.
 
@@ -29,7 +29,7 @@ Personalized Gift-Giving
 
 Make the act of giving and receiving gifts a personalized and thoughtful experience. Take the time to understand the individual preferences and interests of each senior. Consider gifting them items that reflect their hobbies, memories, or even a nostalgic keepsake. A thoughtful gift not only brings joy but also communicates a sense of understanding and appreciation.
 
-![senior couple decorating the christmas tree](/src/assets/images/blog/2023/senior-man-woman-christmas-tree.jpg)
+![senior couple decorating the christmas tree](/blog/2023/senior-man-woman-christmas-tree.jpg)
 
 Foster Intergenerational Connections
 ------------------------------------
@@ -71,7 +71,7 @@ Embrace Technology for Connection
 
 Recognize that some seniors may have loved ones who live far away. Leverage technology to facilitate virtual connections with family and friends. Organize video calls, share digital greetings, and encourage the exchange of messages and photos. Technology bridges distances, ensuring that seniors feel connected and valued during the holiday season.
 
-![senior couple greeting their family](/src/assets/images/blog/2023/senior-couple-greeting-their-family-christmas.jpg)
+![senior couple greeting their family](/blog/2023/senior-couple-greeting-their-family-christmas.jpg)
 
 Takeaways
 ---------

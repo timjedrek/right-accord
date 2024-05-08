@@ -2,7 +2,7 @@
 publishDate: 2021-03-01T00:00:00Z
 title: 'Ultimate Guide for Seniors Vaccination in Sarasota Florida'
 excerpt: To beat COVID-19, all elderly people 65 years and above and resident of Sarasota are advised to participate in the vaccination program by the government.
-image: /src/assets/images/blog/2021/senior-covid-vaccination.jpg
+image: /blog/2021/senior-covid-vaccination.jpg
 tags:
   - COVID-19 vaccination
   - elderly
@@ -19,7 +19,7 @@ Florida alone has had about 1.76 million cases of the COVID 19 and over 25,000 o
 
 As the United States of America heads towards a commendable start towards the COVID 19 vaccination program down to the states and counties, Florida has not been left out in the campaign. However, if you are 65 years and above or know someone who is and lives in the county of Sarasota, then this may interest you.
 
-![preparing the vaccine for injection](/src/assets/images/blog/2021/hakan-nural-9c3C_KojYMQ-unsplash.jpg)
+![preparing the vaccine for injection](/blog/2021/hakan-nural-9c3C_KojYMQ-unsplash.jpg)
 
 Photo by Hakan Nural from Unsplash
 
@@ -41,7 +41,7 @@ First, the vaccination program is made accessible to only three categories of pe
 *   People in long-term facilities.
 *   Elderly or disabled people residing in nursing homes as well as the workers who provide care to them.
 
-![health worker administering vaccine to elderly woman](/src/assets/images/blog/2021/senior-getting-vaccine-shot.jpg)
+![health worker administering vaccine to elderly woman](/blog/2021/senior-getting-vaccine-shot.jpg)
 
 Photo by RIGHT ACCORD
 
@@ -68,7 +68,7 @@ To stay updated on the latest information on the vaccination program in Sarasota
 
 For both first and second doses of the vaccination, the venue is at Sarasota square mall at 8201 S Tamiami Trail in Sarasota.
 
-![preparing the vaccine for injection](/src/assets/images/blog/2021/cdc-_zFRhU7jqzc-unsplash-(1).jpg)
+![preparing the vaccine for injection](/blog/2021/cdc-_zFRhU7jqzc-unsplash-(1).jpg)
 
 Photo by CDC on Unsplash
 
@@ -95,7 +95,7 @@ The answer to this is no. The vaccines are safe and do not interact with other m
 
 Frustrations have been expressed as to how the vaccines are being doled out in the county . Citizens have registered their displeasure on the issue and Mayor Hagen Brody has promised residents of Sarasota that he would go over the state for federal assistance if the need arises, to see to it that they get enough of the vaccines.
 
-![elderly senior in a happy mood](/src/assets/images/blog/2021/polox-hernandez-itGcCnMWPpQ-unsplash.jpg)
+![elderly senior in a happy mood](/blog/2021/polox-hernandez-itGcCnMWPpQ-unsplash.jpg)
 
 Photo by Polox Hernandez on Unsplash
 

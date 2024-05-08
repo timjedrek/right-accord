@@ -2,7 +2,7 @@
 publishDate: 2020-10-01T00:00:00Z
 title: '12 Smart Tips to Aid Vision and Hearing Loss in Older Adults'
 excerpt: Dual sensory impairment such as vision and hearing loss in older adults truly affects their quality of living. Here are 12 Smart Tips to help them cope with it.
-image: /src/assets/images/blog/2020/vision-and-hearing-loss.jpg
+image: /blog/2020/vision-and-hearing-loss.jpg
 tags:
   - vision and hearing loss in older adults
 metadata:
@@ -22,7 +22,7 @@ In the same vein, abnormal changes due to ear and eye pathology may be confused 
 
 When reductions in hearing and vision exceed normal age-related changes which are as a result of eye pathology, then they may start to compromise a senior person’s ability to carry out routine activities which define social roles and quality of life.
 
-![elderly couple holding each other while crossing on the street](/src/assets/images/blog/2020/rene-bohmer-1oDK5-RMatA-unsplash.jpg)
+![elderly couple holding each other while crossing on the street](/blog/2020/rene-bohmer-1oDK5-RMatA-unsplash.jpg)
 
 Photo by Rene Böhmer on Unsplash
 
@@ -43,7 +43,7 @@ In the meantime, here are some general tips regarding how to take care of elderl
 Vision Loss
 -----------
 
-![picture of an elderly woman wearing an eyeglass](/src/assets/images/blog/2020/aris-sfakianakis-9buzSG97yBQ-unsplash.jpg)
+![picture of an elderly woman wearing an eyeglass](/blog/2020/aris-sfakianakis-9buzSG97yBQ-unsplash.jpg)
 
 Photo by Aris Sfakianakis on Unsplash
 
@@ -87,7 +87,7 @@ Their environment should be one which promotes encouragement as well as honest c
 Hearing Loss
 ------------
 
-![an elderly man wearing a hearing aid](/src/assets/images/blog/2020/jd-mason-cKT0oJL9vMI-unsplash.jpg)
+![an elderly man wearing a hearing aid](/blog/2020/jd-mason-cKT0oJL9vMI-unsplash.jpg)
 
 Photo by JD Mason on Unsplash
 
