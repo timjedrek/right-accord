@@ -6,7 +6,7 @@ image: /src/assets/images/blog/2020/senior-care-options.jpg
 tags:
   - senior home care
   - senior care options
-  - home care options"
+  - home care options
 metadata:
   canonical: https://rightaccordhealth.com/5-crucial-senior-home-care-options
 ---
