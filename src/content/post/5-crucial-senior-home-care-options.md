@@ -2,7 +2,7 @@
 publishDate: 2020-04-26T00:00:00Z
 title: '5 Popular Senior Care Options That Boost Aging Parents Life'
 excerpt: Majority of people over 65 years old are entering life difficulties now more than ever. Here are 5 popular senior home care options that will boost their lives.
-image: /src/assets/images/blog/2020/senior-care-options.jpg
+image: /blog/2020/senior-care-options.jpg
 tags:
   - senior home care
   - senior care options
