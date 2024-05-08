@@ -3,7 +3,7 @@ publishDate: 2020-03-22T00:00:00Z
 title: 'When is it Time to Take Away the Keys from Mom and Dad'
 excerpt: When is the right time to stop driving? Should people be prevented from driving simply because of their age? 
     These are important questions that need to be answered for the benefit of the elderly and their loved ones.
-image: /src/assets/images/blog/2020/elderly-driving-cover.jpg
+image: /blog/2020/elderly-driving-cover.jpg
 tags:
   - senior home health care
   - independent living
@@ -24,7 +24,7 @@ Perhaps there was a time a had a medical condition or maybe it's just their age 
 
 When is the right time to stop driving? Should people be prevented from driving simply because of their age ( not considering minors in this case)? These are important questions that need to be answered for the benefit of the elderly and their loved ones .
 
-![Photo by Wonderlane on Unsplash](/src/assets/images/blog/2020/wonderlane-A9l24KbLQVs-unsplash.jpg)
+![Photo by Wonderlane on Unsplash](/blog/2020/wonderlane-A9l24KbLQVs-unsplash.jpg)
 
 Photo by Wonderlane on Unsplash
 
@@ -59,7 +59,7 @@ When these in exhaustive signs are in the air, it may be time to hand over the k
 •An outright recommendation from a doctor to stop driving because of a medical condition.
 -----------------------------------------------------------------------------------------
 
-![Photo by Brandon Hoogenboom on Unsplash](/src/assets/images/blog/2020/brandon-hoogenboom-M1w4aCQg084-unsplash.jpg)
+![Photo by Brandon Hoogenboom on Unsplash](/blog/2020/brandon-hoogenboom-M1w4aCQg084-unsplash.jpg)
 
 Photo by Brandon Hoogenboom on Unsplash
 
@@ -99,7 +99,7 @@ Elderly people tend to suffer from joint problems like arthritis and muscle atro
 •Patients recovering from debilitating illnesses or under recuperating conditions in the hospital or home care services.
 ------------------------------------------------------------------------------------------------------------------------
 
-![Photo by Logan Stone on Unsplash](/src/assets/images/blog/2020/logan-stone-5qkD3XwE1K8-unsplash.jpg)
+![Photo by Logan Stone on Unsplash](/blog/2020/logan-stone-5qkD3XwE1K8-unsplash.jpg)
 
 Photo by Logan Stone on Unsplash
 
@@ -113,7 +113,7 @@ HOW TO COPE WITH THESE CHALLENGES
 *   People who are above 65 years of age should regularly see their eye doctor an average of a year for proper assessment.
 *   Use prescription glasses when you drive if you have to. There is no point to prove in driving without one when you do need them .
 
-![Photo by Sacha T'Sas on Unsplash](/src/assets/images/blog/2020/sacha-t-sas-2cnTHSVTzew-unsplash.jpg)
+![Photo by Sacha T'Sas on Unsplash](/blog/2020/sacha-t-sas-2cnTHSVTzew-unsplash.jpg)
 
 Photo by Sacha T'Sas on Unsplash
 

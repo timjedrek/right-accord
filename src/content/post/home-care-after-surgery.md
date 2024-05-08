@@ -2,7 +2,7 @@
 publishDate: 2020-03-09T00:00:00Z
 title: 'Home Care After Surgery, Three Urgent Things You Need to Know Now'
 excerpt: After surgery patients are at risk of many things like falls and medication dosage. Home care after surgery needs a private nurse or a home health care aides.
-image: /src/assets/images/blog/2020/after-surgery-cover.jpg
+image: /blog/2020/after-surgery-cover.jpg
 tags:
   - after surgery
   - after surgery home care
@@ -24,7 +24,7 @@ These reasons and many more, have made surgery indispensable in modern medicine.
 
 First is the pre-surgical considerations - It is very important to plan ahead of a surgical procedure (on the condition that the procedure isn't an emergency, which may give a limited amount of time for adequate planning). Things like when and where to have the surgery done, selection of the right doctor, financial arrangements, and psychological preparedness. The patient may often need to get acquainted with the conditions for which they are being managed.
 
-![Photo by JAFAR AHMED on Unsplash](/src/assets/images/blog/2020/jafar-ahmed-E285pJbC4uE-unsplash.jpg)
+![Photo by JAFAR AHMED on Unsplash](/blog/2020/jafar-ahmed-E285pJbC4uE-unsplash.jpg)
 
 Photo by JAFAR AHMED on Unsplash
 
@@ -42,7 +42,7 @@ For some patients, they may choose to stay admitted at the hospital for in-patie
 
 In such cases, the services of a home health care agency like [in home senior care](https://rightaccordhealth.com/services/live-in-homecare.html) would have to be brought in to offer such professional services.
 
-![elderly-hospital-patient](/src/assets/images/blog/2020/elderly-hospital-patient.jpg)
+![elderly-hospital-patient](/blog/2020/elderly-hospital-patient.jpg)
 
 Photo by melodi2 from FreeImages
 
@@ -73,7 +73,7 @@ Patients may need to relearn how to carry out basic muscle functions after a sur
 
 In such cases, it may be quite difficult returning to mundane activities on their own and rehabilitation services would be required to restore their muscle tone, nerve function, and coordination of movement. Good Home care agencies have the provision for such services.
 
-![](/src/assets/images/blog/2020/elderly-in-bed.jpg)
+![](/blog/2020/elderly-in-bed.jpg)
 
 ### •Reminders and monitoring of medications
 
@@ -91,7 +91,7 @@ This will be of a lot comfort to the patient and makes the environment clean and
 
 Human company is good for mental health, and as most recovering patients would be required to stay in bed with limited amount of movement from their immediate confines, it is good to have a trained personnel who can provide effective communication and companionship in such times as these.
 
-![action-adult-affection-eldery](/src/assets/images/blog/2020/action-adult-affection-eldery.jpg)
+![action-adult-affection-eldery](/blog/2020/action-adult-affection-eldery.jpg)
 
 Photo by Matthias Zomer from Pexels
 

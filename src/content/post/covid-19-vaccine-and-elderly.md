@@ -2,7 +2,7 @@
 publishDate: 2021-01-18T00:00:00Z
 title: 'Is There an Effective COVID-19 Vaccine Available for Elderly Today?'
 excerpt: As COVID-19 vaccines arrived, CDC announced that adults aged 65 years and above will be first to receive the Covid-19 vaccination. But how effective can it be?
-image: /src/assets/images/blog/2021/covid-19-vaccine-and-the-elderly.jpg
+image: /blog/2021/covid-19-vaccine-and-the-elderly.jpg
 tags:
   - COVID-19 vaccine
   - vaccine for elderly
@@ -28,7 +28,7 @@ More importantly, elderly people need safe and easy access to Covid-19 vaccines 
 Is there an effective Covid-19 vaccine available for seniors?
 -------------------------------------------------------------
 
-![covid-19 test procedure](/src/assets/images/blog/2021/covid-test.jpg)
+![covid-19 test procedure](/blog/2021/covid-test.jpg)
 
 Since the early months of 2020, there has been a race among several pharmaceutical companies to produce a safe and effective vaccine for the novel coronavirus disease.
 
@@ -61,7 +61,7 @@ Even though plans for final distribution are still under way, an increased risk 
 
 An effective vaccine however, may not be of much benefit across the population if enough persons are not willing to receive it.
 
-![covid-19 vaccine bottles](/src/assets/images/blog/2021/daniel-schludi-mAGZNECMcUg-unsplash.jpg)
+![covid-19 vaccine bottles](/blog/2021/daniel-schludi-mAGZNECMcUg-unsplash.jpg)
 
 Photo by Daniel Schludi on Unsplash
 
@@ -106,7 +106,7 @@ Many seniors report difficulty however in getting Covid-19 shots as a result of 
 
 Regarding these difficulties, interestingly, some caregivers say they are willing to move their elderly loved ones into senior living facilities just to make sure that they are able to receive the vaccine as quickly as possible.
 
-![vaccine procedure being applied to an elderly](/src/assets/images/blog/2021/steven-cornfield-jWPNYZdGz78-unsplash.jpg)
+![vaccine procedure being applied to an elderly](/blog/2021/steven-cornfield-jWPNYZdGz78-unsplash.jpg)
 
 Photo by Steven Cornfield on Unsplash
 

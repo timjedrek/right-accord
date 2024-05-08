@@ -2,7 +2,7 @@
 publishDate: 2019-09-10T00:00:00Z
 title: 'Caregiver Stress and Burnout Syndrome'
 excerpt: Caregiver stress and burnout syndrome is an emotional or mental illness experienced by a caregiver. It's an alarming psychological disorder in every caregiver.
-image: /src/assets/images/blog/2019/caregiver-burnout-cover.jpg
+image: /blog/2019/caregiver-burnout-cover.jpg
 tags:
   - caregiver
   - caregiver stress
@@ -75,7 +75,7 @@ Furthermore, they suggested the need for early detection of Burnout Syndrome, in
 
   
 
-![caregiver crying beside bed](/src/assets/images/blog/2019/claudia-wolff-owBcefxgrIE-unsplash.jpg)
+![caregiver crying beside bed](/blog/2019/claudia-wolff-owBcefxgrIE-unsplash.jpg)
 
 Photo by Claudia Wolff on Unsplash
 

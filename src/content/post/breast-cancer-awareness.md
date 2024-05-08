@@ -2,7 +2,7 @@
 publishDate: 2021-10-18T00:00:00Z
 title: 'What You Should Know About Breast Cancer And How To Avoid It'
 excerpt: Breast cancer is fatal to women. As we mark the October Breast Cancer Awareness month, here's the thing you should know about the illness and how to avoid it.
-image: /src/assets/images/blog/2021/breast-cancer-month.jpg
+image: /blog/2021/breast-cancer-month.jpg
 tags:
   - breast cancer
   - breast cancer awareness month
@@ -15,7 +15,7 @@ Breast Cancer Awareness
 
 By: Rosemarie Tamunday Casanova — RN, BSN, MHA
 
-![breast cancer awareness cover design](/src/assets/images/blog/2021/breast-cancer-month.jpg)
+![breast cancer awareness cover design](/blog/2021/breast-cancer-month.jpg)
 
 Graphic Artwork by Tom Banogon
 
@@ -23,7 +23,7 @@ The challenges of the year 2020 have been numerous. Deaths and hospitalization f
 
 As a result, screening and early detection of the disease has suffered a major setback, leaving more people at the risk of finding out about their condition at a much later stage, and In many cases, making their prognosis poor. In that time, about 19.3 million cancer cases were recorded and over half of that number would go on to die from the same.
 
-![mid body photo of an elderly](/src/assets/images/blog/2021/sincerely-media-J4bW_khmiZQ-unsplash.jpg)
+![mid body photo of an elderly](/blog/2021/sincerely-media-J4bW_khmiZQ-unsplash.jpg)
 
 Of that population, approximately 2.3 million female breast cancer cases were recorded, and for the first time, breast cancer has surpassed lung cancer as the most diagnosed form of cancer. In 2020 alone, 11.7% of all cancer cases diagnosed were breast cancer, as against 11.4% of lung cancer.
 
@@ -36,7 +36,7 @@ History of breast cancer awareness
 
 Breast cancer awareness is an annual campaign carried out all over the world by health facilities, government agencies, non-profit organizations and many other bodies to increase the awareness and understanding of the disease as well as encourage its prevention and early detection. The breast cancer awareness month is marked from the 1st of October to the 31st. It is also an opportunity to raise funds for breast cancer research in order to better understand the cause, prevention and even a cure for the disease in the future.
 
-![blood artery](/src/assets/images/blog/2021/angiola-harry-SJCalEw-1LM-unsplash.jpg)
+![blood artery](/blog/2021/angiola-harry-SJCalEw-1LM-unsplash.jpg)
 
 Photo by Angiola Harry on Unsplash
 
@@ -49,7 +49,7 @@ What to know about breast cancer
 
 Breast cancer is an invasive and abnormal cell growth in the tissues of the breast. More commonly found among women and the leading cause of cancer-related death in the same gender. There is a 1 in 36 chance of a woman dying from breast cancer. Like every other cancer, it happens when the cells that make up the breast tissue start to grow and multiply uncontrollably. In doing so, they also defy the normal regulatory life cycle, living longer than usual and depriving other healthy tissues of blood, nutrients and energy.
 
-![Blood pressure device and medicines](/src/assets/images/blog/2021/national-cancer-institute-ICm-cEIFk4I-unsplash.jpg)
+![Blood pressure device and medicines](/blog/2021/national-cancer-institute-ICm-cEIFk4I-unsplash.jpg)
 
 Photo NCI Unsplash
 
@@ -108,7 +108,7 @@ What you should do
 
 It is important to know whether you fall under any of the high risk categories and start by cutting down on habits and lifestyle that could expose you.
 
-![a group of people doing exercise](/src/assets/images/blog/2021/national-cancer-institute-ofWV2r94qCc-unsplash.jpg)
+![a group of people doing exercise](/blog/2021/national-cancer-institute-ofWV2r94qCc-unsplash.jpg)
 
 Photo by NCI on Unsplash
 
@@ -118,7 +118,7 @@ Next to the above, is early diagnosis. Women are advised to regularly carry out 
 
 Breast Cancer can be treated with a variety of options available today. Not all cases are a death sentence, however, the earlier it is caught, the better the chances of survival and leading a fulfilling life.
 
-![doctor speaking to his patient](/src/assets/images/blog/2021/peter-boccia-LOyaOZu6g4Q-unsplash.jpg)
+![doctor speaking to his patient](/blog/2021/peter-boccia-LOyaOZu6g4Q-unsplash.jpg)
 
 Photo by Peter Boccia on Unsplash
 

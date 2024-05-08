@@ -2,7 +2,7 @@
 publishDate: 2024-03-02T00:00:00Z
 title: 'Conversation Starters With Your Elderly Loved Ones'
 excerpt: This blog will explore the significance of engaging dialogue with the elderly, provide practical conversation starters, and share valuable tips.
-image: /src/assets/images/blog/2024/Conversation-Starters-With-Your-Elderly-Loved-Ones.jpg
+image: /blog/2024/Conversation-Starters-With-Your-Elderly-Loved-Ones.jpg
 tags:
   - elderly
 metadata:
@@ -20,7 +20,7 @@ In this blog post, we will explore the significance of engaging dialogue with th
 The Significance of Meaningful Conversations:
 ---------------------------------------------
 
-![female nurse taking care elderly person](/src/assets/images/blog/2024/female-nurse-taking-care-elderly-person.jpg)
+![female nurse taking care elderly person](/blog/2024/female-nurse-taking-care-elderly-person.jpg)
 
 Engaging in meaningful conversations with elderly loved ones has numerous benefits, both for them and for us.
 
@@ -51,7 +51,7 @@ Show respect and value their life experiences by seeking advice on various matte
 
 Keep them engaged with the world by discussing current events, movies, or books. This ensures they feel connected to the present, preventing them from feeling isolated.
 
-![grandmother happy spend time with family](/src/assets/images/blog/2024/grandmother-happy-spend-time-with-family.jpg)
+![grandmother happy spend time with family](/blog/2024/grandmother-happy-spend-time-with-family.jpg)
 
 Valuable Tips for Effective Communication
 -----------------------------------------
@@ -91,7 +91,7 @@ In ensuring the well-being of your elderly loved ones, consider the support of p
 
 To learn more about how RIGHT ACCORD Home Health Care can provide the care and support your elderly family members deserve, visit [https://rightaccordhealth.com](https://rightaccordhealth.com) or call (941) 366-0801
 
-![smiling woman looking senior woman sitting wheel chair](/src/assets/images/blog/2024/smiling-woman-looking-senior-woman-sitting-wheel-chair.jpg)
+![smiling woman looking senior woman sitting wheel chair](/blog/2024/smiling-woman-looking-senior-woman-sitting-wheel-chair.jpg)
 
 Conclusion
 ----------

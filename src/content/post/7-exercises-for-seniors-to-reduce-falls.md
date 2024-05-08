@@ -2,7 +2,7 @@
 publishDate: 2023-08-28T00:00:00Z
 title: '7 Balance-Boosting Exercises for Seniors to Reduce Risk of Falls'
 excerpt: Maintaining balance is important to reduce the risk of falls to seniors. Here, we will explore the 7 balance-boosting exercises specifically designed for them.
-image: /src/assets/images/blog/2023/Balance-Boosting-Exercises-for-Seniors.jpg
+image: /blog/2023/Balance-Boosting-Exercises-for-Seniors.jpg
 tags:
   - falls to seniors
 metadata:
@@ -22,7 +22,7 @@ So, whether you're an active senior looking to maintain balance or a caregiver s
 The Importance of Balance for Seniors
 -------------------------------------
 
-![photo of an elderly woman doing balance exercise](/src/assets/images/blog/2023/balancing-old-woman.jpg)
+![photo of an elderly woman doing balance exercise](/blog/2023/balancing-old-woman.jpg)
 
 Maintaining balance is crucial for seniors as it directly affects their quality of life and independence. As we age, our sense of balance naturally declines, making us more prone to falls and injuries.
 
@@ -58,7 +58,7 @@ Exercise offers numerous benefits for seniors, particularly when it comes to bal
 
 By incorporating balance-boosting exercises into their routine, seniors can experience these benefits and reduce the likelihood of falls. Let's explore the top seven exercises specifically designed to improve balance in seniors.
 
-![elderly couple doing yoga](/src/assets/images/blog/2023/pexels-vlada-karpovich-8939923.jpg)
+![elderly couple doing yoga](/blog/2023/pexels-vlada-karpovich-8939923.jpg)
 
 Photo by Vlada Karpovich on Pexels
 
@@ -93,7 +93,7 @@ Begin by sitting in a chair with feet hip-width apart. Stand up without using yo
 
 Various balancing exercises can be incorporated into a routine to improve stability. Examples include standing on a foam pad or pillow, or using a balance board or stability ball. These exercises challenge the body's balance systems and promote improved stability over time.
 
-![group of seniors doing some stretching activities](/src/assets/images/blog/2023/pexels-centre-for-ageing-better-11674389.jpg)
+![group of seniors doing some stretching activities](/blog/2023/pexels-centre-for-ageing-better-11674389.jpg)
 
 Photo by CFAB on Pexels
 
@@ -123,7 +123,7 @@ To reap the benefits of balance exercises, it is important to incorporate them i
 
 By making balance exercises a part of your daily routine, you can maintain and improve your stability, reducing the risk of falls as you age.
 
-![elderly couple doing exercises at the gym](/src/assets/images/blog/2023/pexels-yan-krukau-6815698.jpg)
+![elderly couple doing exercises at the gym](/blog/2023/pexels-yan-krukau-6815698.jpg)
 
 Photo by Yan Krukau on Pexels
 
@@ -153,7 +153,7 @@ If you're a senior looking to find balance exercise programs, several resources 
 
 Remember, it's never too late to start incorporating balance exercises into your routine. With the right resources and guidance, you can improve your stability, reduce the risk of falls, and age gracefully.
 
-![elderly couple together](/src/assets/images/blog/2023/pexels-t-leish-6974991.jpg)
+![elderly couple together](/blog/2023/pexels-t-leish-6974991.jpg)
 
 Photo by T Leish on Pexels
 

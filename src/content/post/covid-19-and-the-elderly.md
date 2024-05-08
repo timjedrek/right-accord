@@ -2,7 +2,7 @@
 publishDate: 2020-01-27T00:00:00Z
 title: 'How to Care and Protect your Elderly Parent from COVID-19'
 excerpt: Updated May 2021 - Protect your elderly parent from COVID-19. Know about its symptom, treatment, vaccine and prevention to keep your elderly safe.
-image: /src/assets/images/blog/2020/ra-COVID-19-cover2.jpg
+image: /blog/2020/ra-COVID-19-cover2.jpg
 tags:
   - COVID-19 vaccine
   - covid19 and the elderly
@@ -212,7 +212,7 @@ The World Health Organization (WHO) recently commends the contributors of the br
 
 Dexamethasone is a steroid that has been used since the 1960s to reduce inflammation in a range of conditions, including inflammatory disorders and certain cancers. It has been listed on the WHO Model List of Essential Medicines since 1977 in multiple formulations, and is currently off-patent and affordably available in most countries. WHO clinical guidance will be updated to reflect how and when the drug should be used in COVID-19.
 
-![COVID-19 vaccine development](/src/assets/images/blog/2020/cdc-_zFRhU7jqzc-unsplash.jpg)
+![COVID-19 vaccine development](/blog/2020/cdc-_zFRhU7jqzc-unsplash.jpg)
 
 Photo by CDC on Unsplash
 

@@ -2,7 +2,7 @@
 publishDate: 2023-06-22T00:00:00Z
 title: 'Did Your Loved One Gets the Quality Senior Care They Need?'
 excerpt: Your elderly loved one deserves the quality care that they need. So it's crucial to select a provider that offers exceptional care and dedication to serve them.
-image: /src/assets/images/blog/2023/Quality-Senior-Care.jpg
+image: /blog/2023/Quality-Senior-Care.jpg
 tags:
   - senior care
 metadata:
@@ -22,7 +22,7 @@ Their compassionate and professional staff creates a warm and nurturing environm
 Understanding the Importance of Quality Senior Care
 ---------------------------------------------------
 
-![an elderly with a caregiver beside at the sea](/src/assets/images/blog/2023/pexels-pixabay-160767.jpg)
+![an elderly with a caregiver beside at the sea](/blog/2023/pexels-pixabay-160767.jpg)
 
 Photo by Kindel Media on Pexels
 
@@ -57,7 +57,7 @@ Transparency is key when it comes to senior care. Families want to know exactly 
 
 These challenges highlight the importance of thoroughly researching and selecting a reputable senior care provider that can address these concerns and provide the highest quality of care. Right Accord stands out as a trusted and reliable choice, addressing these challenges head-on.
 
-![elderly parents and their family](/src/assets/images/blog/2023/156876543_s.jpg)
+![elderly parents and their family](/blog/2023/156876543_s.jpg)
 
 Photo by Cedric Fauntleroy on Pexels
 
@@ -103,7 +103,7 @@ Right Accord's caregivers can provide transportation to medical appointments, so
 
 These services are flexible and can be adjusted based on the specific needs and preferences of each individual. Right Accord's commitment to personalized care ensures that seniors receive the assistance they require while maintaining their independence and dignity.
 
-![elderly showing love gesture](/src/assets/images/blog/2023/163424352_m.jpg)
+![elderly showing love gesture](/blog/2023/163424352_m.jpg)
 
 The Benefits of Choosing RIGHT ACCORD for Your Family
 -----------------------------------------------------
@@ -150,7 +150,7 @@ Right Accord's caregivers undergo comprehensive background checks to ensure the 
 
 Moreover, Right Accord's caregivers are not only qualified but also compassionate and empathetic individuals. They genuinely care about the well-being of seniors and strive to create a warm and nurturing environment. Their expertise and dedication enable them to provide personalized care that meets the unique needs of each individual.
 
-![RIGHT ACCORD CEO](/src/assets/images/blog/2023/rose-at-work2-copy.jpg)
+![RIGHT ACCORD CEO](/blog/2023/rose-at-work2-copy.jpg)
 
 Rosemarie Tamunday, RIGHT ACCORD owner and CEO
 

@@ -2,7 +2,7 @@
 publishDate: 2021-05-24T00:00:00Z
 title: '6 Effective Ways to Improve Hearing and Speech Impairments on Elderly'
 excerpt: Hearing and speech are such vital components of human life and communication. This May is Hearing and Speech month and this months theme focuses on building connections.
-image: /src/assets/images/blog/2021/hearing-and-speech-cover.jpg
+image: /blog/2021/hearing-and-speech-cover.jpg
 tags:
   - hearing impairment
   - speech impairment
@@ -26,7 +26,7 @@ Hearing and speech problems affect adults and children alike and in many cases, 
 Some Concerns Which come with Hearing and speech difficulties
 -------------------------------------------------------------
 
-![old woman having difficulty in hearing](/src/assets/images/blog/2021/william-krause-IL6M6cmhEpM-unsplash.jpg)
+![old woman having difficulty in hearing](/blog/2021/william-krause-IL6M6cmhEpM-unsplash.jpg)
 
 Photo by William Krause on Unsplash
 
@@ -58,7 +58,7 @@ Instructions that include life style modifications and medication use and their 
 
 Having a speech or hearing difficulty can limit the professional options available to the individual. Professions that require speech, for example on-air personalities (OAPs), voice over characters , show hosts and public speaking. Also, professions that require sound appreciation such as music production are some of the many which are likely not going to be viable options, especially when these impairmemts are not managed effectively in children before they become adults.
 
-![Senior male speaking with his son](/src/assets/images/blog/2021/logan-weaver-lK0l9pzxLps-unsplash.jpg)
+![Senior male speaking with his son](/blog/2021/logan-weaver-lK0l9pzxLps-unsplash.jpg)
 
 Photo by Logan-Weaver on Unsplash
 
@@ -91,7 +91,7 @@ Contrary to conventional acceptance, there is really no need for the use of cott
 
 Passing along the information gathered on hearing and speech challenges to others helps in creating further awareness. The more we understand these challenges, the easier it is for people with them to be interacted with.
 
-![elderly man trying to communicate](/src/assets/images/blog/2021/ozan-safak-qSUZjIEdhmU-unsplash.jpg)
+![elderly man trying to communicate](/blog/2021/ozan-safak-qSUZjIEdhmU-unsplash.jpg)
 
 Photo by Ozan Safak on Unsplash
 

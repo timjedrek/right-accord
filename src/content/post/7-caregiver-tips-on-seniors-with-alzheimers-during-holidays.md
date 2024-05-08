@@ -2,7 +2,7 @@
 publishDate: 2022-11-09T00:00:00Z
 title: '7 Caregiver Tips on Seniors with Alzheimers During Holidays'
 excerpt: This year, families can safely gather together once more for the holidays. Here's some caregiver tips to cope with your seniors with Alzheimer's during this event.
-image: /src/assets/images/blog/2022/holidays-coping-for-seniors-with-alzheimers.jpg
+image: /blog/2022/holidays-coping-for-seniors-with-alzheimers.jpg
 tags:
   - Coping Holidays on senior with alzheimer's
 metadata:
@@ -14,7 +14,7 @@ By: Rosemarie Tamunday Casanova — RN, BSN, MHA
 
 The constraints of the COVID pandemic wreaked havoc on the last 2 year's holiday season, forcing many families to remain isolated from one another. Thankfully, this year families are able to embrace the opportunity to safely gather together once more.
 
-![depressed person in isolation](/src/assets/images/blog/2022/oren-atias-PPNhNVZal8g-unsplash.jpg)
+![depressed person in isolation](/blog/2022/oren-atias-PPNhNVZal8g-unsplash.jpg)
 
 Photo by Oren Atias on Unsplash
 
@@ -33,7 +33,7 @@ Listed below are a few strategies that will help your seniors cope with holiday 
 
 Scheduling visits and inviting fewer individuals at a time instead of one overwhelming party with the entire family will most likely be easier for the individual to manage. Overstimulation, too much noise, and breaking from routine may cause frustration and agitation.
 
-![elderly senior celebrating with a cake](/src/assets/images/blog/2022/polox-hernandez-itGcCnMWPpQ-unsplash.jpg)
+![elderly senior celebrating with a cake](/blog/2022/polox-hernandez-itGcCnMWPpQ-unsplash.jpg)
 
 Photo by Polox Hernandez on Unsplash
 
@@ -53,7 +53,7 @@ Before the gathering, put together a list of things the older adult specifically
 
 Everyone can find the holiday season reflective, especially your elderly parents who have seen and experienced a lot. Allow them to enjoy nostalgic feelings. You can give them family photos of loved ones. You can also play old tunes on their request.
 
-![elderly senior playing with camera](/src/assets/images/blog/2022/tiago-muraro-pwMds57bapI-unsplash.jpg)
+![elderly senior playing with camera](/blog/2022/tiago-muraro-pwMds57bapI-unsplash.jpg)
 
 Photo by Tiago Muraro on Unsplash
 

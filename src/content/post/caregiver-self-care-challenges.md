@@ -2,7 +2,7 @@
 publishDate: 2023-03-03T00:00:00Z
 title: 'Caregiver Self-Care Challenges: How To Overcome Them'
 excerpt: Caregiving for someone with specialized needs can be physically and emotionally exhausting. But, the caregiver should also prioritize their own needs.
-image: /src/assets/images/blog/2023/Caregiver-Self-Care-Challenges.jpg
+image: /blog/2023/Caregiver-Self-Care-Challenges.jpg
 tags:
   - caregiver self-care
 metadata:
@@ -20,7 +20,7 @@ Doing this puts a heavy toll on the caregiver’s well-being and creates possibl
 Who are Caregivers?
 -------------------
 
-![caregiver with an elderly in wheelchair](/src/assets/images/blog/2023/119235008_s-copy.jpg)
+![caregiver with an elderly in wheelchair](/blog/2023/119235008_s-copy.jpg)
 
 [Johns Hopkins Bayview Medical Center](https://www.hopkinsmedicine.org/about/community_health/johns-hopkins-bayview/services/called_to_care/what_is_a_caregiver.html) defined caregivers as people who tend to the need of another for short or long periods of time due to sickness, injury, or disability.
 
@@ -48,7 +48,7 @@ To specify, these are some of the multiple Caregiving roles:
 *   Contacting and coordinating with health agencies.
 *   Making difficult decisions about the patient's needs.
 
-![caregiver helping elderly exercise](/src/assets/images/blog/2023/pexels-kampus-production-7551627.jpg)
+![caregiver helping elderly exercise](/blog/2023/pexels-kampus-production-7551627.jpg)
 
 Photo by Kampus on Pexels
 
@@ -61,7 +61,7 @@ As patient care is prolonged, without proper rest and recreation the caregiver d
 
 The Caregiver might experience a loss of appetite and interest in hobbies or social interaction, anxiety, depression, increased irritability, irrational anger toward the patient resulting in guilt, poor concentration, and the inability for decision-making, to name a few.
 
-![caregiver feeling fatigue](/src/assets/images/blog/2023/shane-hfvFunLkFgg-unsplash.jpg)
+![caregiver feeling fatigue](/blog/2023/shane-hfvFunLkFgg-unsplash.jpg)
 
 Photo by Shane on Unsplash
 
@@ -107,7 +107,7 @@ Taking care of Caregivers
 
 Taking a much-needed 15-minute break can go a long way. Sticking to the basics and making sure that Caregivers get their primary needs such as eating a healthy and balanced diet, regular exercise, getting enough sleep, or reaching out to friends and support groups already tackle a huge chunk of a Caregiver's concerns.
 
-![caregiver showing affection](/src/assets/images/blog/2023/pexels-gustavo-fring-4148994.jpg)
+![caregiver showing affection](/blog/2023/pexels-gustavo-fring-4148994.jpg)
 
 Photo by Gustavo Fring on Pexels
 

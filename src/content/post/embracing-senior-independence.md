@@ -2,7 +2,7 @@
 publishDate: 2024-02-23T00:00:00Z
 title: 'Embracing Senior Independence: A Guide to Empowerment'
 excerpt: The National Senior Independence Month is an opportunity to empower our seniors with the tools and support they need to live life to the fullest.
-image: /src/assets/images/blog/2024/Embracing-Senior-Independence-A-Guide-to-Empowerment.jpg
+image: /blog/2024/Embracing-Senior-Independence-A-Guide-to-Empowerment.jpg
 tags:
   - Senior Independence
 metadata:
@@ -20,7 +20,7 @@ This special month offers an excellent opportunity to focus not only on celebrat
 1\. Stay Active
 ---------------
 
-![ 2 elders dancing](/src/assets/images/blog/2024/2-elder-group-friends-partying.jpg)
+![ 2 elders dancing](/blog/2024/2-elder-group-friends-partying.jpg)
 
 Encouraging physical activity is a cornerstone for promoting senior independence.
 
@@ -43,7 +43,7 @@ A safe living space is crucial for senior independence. Simple modifications, su
 
 Loneliness can be a significant challenge for seniors, impacting both mental and physical health. Encourage participation in local senior clubs, community events, or hobby groups to foster social connections. Building a strong support network contributes to emotional well-being and a sense of belonging.
 
-![senior-woman-wearing-superwoman-costume](/src/assets/images/blog/2024/senior-woman-wearing-superwoman-costume.jpg)
+![senior-woman-wearing-superwoman-costume](/blog/2024/senior-woman-wearing-superwoman-costume.jpg)
 
 5\. Prioritize Mental Health
 ----------------------------

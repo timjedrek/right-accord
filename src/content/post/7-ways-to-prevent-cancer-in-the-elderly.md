@@ -2,7 +2,7 @@
 publishDate: 2022-02-28T00:00:00Z
 title: '7 Effective Ways to Prevent Cancer in the Elderly'
 excerpt: Cancers are more prevalent in older adults but there are ways to prevent it from happening. Read to learn the 7 ways to prevent cancer in the elderly.
-image: /src/assets/images/blog/2022/cancer-prevention.jpg
+image: /blog/2022/cancer-prevention.jpg
 tags:
   - cancer on elderly
 metadata:
@@ -22,7 +22,7 @@ Since 1971, cancer prevention has been imbued by the principles of reducing canc
 Cancers Are More Prevalent in Older Adults
 ------------------------------------------
 
-![figure of an old man](/src/assets/images/blog/2022/david-kristofer-Usq8nlcPOx4-unsplash.jpg)
+![figure of an old man](/blog/2022/david-kristofer-Usq8nlcPOx4-unsplash.jpg)
 
 Photo by David Kristofer on Unsplash
 
@@ -44,7 +44,7 @@ We should begin by noting the fact that just being aware is not enough. We all n
 Ways to Prevent Cancer
 ----------------------
 
-![person breaking a cigarette](/src/assets/images/blog/2022/non-smoking-g105524fbe_1920.jpg)
+![person breaking a cigarette](/blog/2022/non-smoking-g105524fbe_1920.jpg)
 
 Photo by Pixabay
 
@@ -56,7 +56,7 @@ Tobacco products and smoking in general, have been linked to so many cancers suc
 
 You should eat a lot of fruits and vegetables. In addition to that, limit the intake of red meat and more preferably, eliminate processed meats from your diet completely. It would also do you a lot of good to limit your alcohol intake as excessive alcohol intake can predispose to liver cancer and the likes.
 
-![eating a healthy diet food](/src/assets/images/blog/2022/june-liu-UVOG5EPgoA4-unsplash.jpg)
+![eating a healthy diet food](/blog/2022/june-liu-UVOG5EPgoA4-unsplash.jpg)
 
 Photo by June Liu on Usplash
 
@@ -91,7 +91,7 @@ It is important that we identify strategies to boost the dissemination and imple
 *   4\. February 4 is World Cancer Day: Since 2000 and led by the Union for International Cancer Control (UICC), February 4 has been set aside to increase worldwide awareness of cancer.
 *   5\. Smoking Increases Risk of Lung Cancer: the more you smoke, the more likely you are to have lung cancer. The most effective prevention against lung cancer is to quit smoking.
 
-![image of a smoking person](/src/assets/images/blog/2022/smoking-g3d56d70ce_1920.jpg)
+![image of a smoking person](/blog/2022/smoking-g3d56d70ce_1920.jpg)
 
 Photo by Mockup Graphics on Unsplash
 

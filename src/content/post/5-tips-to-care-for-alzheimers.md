@@ -2,7 +2,7 @@
 publishDate: 2020-10-28T00:00:00Z
 title: '5 In Home Care Tips on Elderly with Dementia & Alzheimers'
 excerpt: How do you care for elderly parent with Dementia and Alzheimer's at home? These 5 tips can help you optimize your strategy and reduce the burden of caregiving.
-image: /src/assets/images/blog/2020/caring-tips-for-alzheimers.jpg
+image: /blog/2020/caring-tips-for-alzheimers.jpg
 tags:
   - alzheimer's disease
   - elderly
@@ -24,7 +24,7 @@ In this case, we need to execute a good strategy. But to do so, first we need to
 WHAT IS DEMENTIA?
 -----------------
 
-![brain organ model](/src/assets/images/blog/2020/robina-weermeijer-iuuWGXEC50U-unsplash.jpg)
+![brain organ model](/blog/2020/robina-weermeijer-iuuWGXEC50U-unsplash.jpg)
 
 Photo by Robina Weermeijer on Unsplash
 
@@ -44,7 +44,7 @@ Here are the 5 In-Home care tips for caregivers of elderly with Alzheimer's and 
 TIP #1: HELP THEM FAMILIARIZE A DAILY ROUTINE
 ---------------------------------------------
 
-![elderly person eating inside the room](/src/assets/images/blog/2020/olga-bogdanova-GhKB74M4d4c-unsplash.jpg)
+![elderly person eating inside the room](/blog/2020/olga-bogdanova-GhKB74M4d4c-unsplash.jpg)
 
 Photo by Olga Bogdanova on Unsplash
 
@@ -66,7 +66,7 @@ You can also vary activities to avoid boredom. Try singing songs, dancing, paint
 TIP #3: HELP THEM TO REDUCE THEIR STRESS
 ----------------------------------------
 
-![an elderly man wearing a hearing aid](/src/assets/images/blog/2020/polox-hernandez-itGcCnMWPpQ-unsplash.jpg)
+![an elderly man wearing a hearing aid](/blog/2020/polox-hernandez-itGcCnMWPpQ-unsplash.jpg)
 
 Photo by Polox Hernandez on Unsplash
 

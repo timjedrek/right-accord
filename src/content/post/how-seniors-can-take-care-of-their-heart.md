@@ -2,7 +2,7 @@
 publishDate: 2022-03-14T00:00:00Z
 title: 'How Seniors Can Take Care of Their Heart and Avoid Heart Disease'
 excerpt: Seniors are prone to high blood pressure and heart disease due to age related factors. But heart disease can be prevented, here are some ways to avoid it.
-image: /src/assets/images/blog/2022/heart-month.jpg
+image: /blog/2022/heart-month.jpg
 tags:
   - high blood pressure on seniors
   - preventing heart disease on elderly
@@ -18,7 +18,7 @@ February is popular as the month of love. Well, it is also the American Heart Mo
 
 The first Friday of every February in the United States is National Wear Red Day, a day set apart to promote awareness of heart disease whilst wearing red clothing.
 
-![heart model image](/src/assets/images/blog/2022/robina-weermeijer-NIuGLCC7q54-unsplash.jpg)
+![heart model image](/blog/2022/robina-weermeijer-NIuGLCC7q54-unsplash.jpg)
 
 Photo by Robina Weermeijer on Unsplash
 
@@ -42,7 +42,7 @@ A major health problem common amongst the elderly, hypertension happens because 
 
 This makes it important that you check your blood pressure regularly as you may not know you have it until your blood pressure is checked. Failure to properly control high blood pressure can lead to serious heart disease and stroke.
 
-![man suffering from heart attack](/src/assets/images/blog/2022/man-gb372ae2ba_1280.jpg)
+![man suffering from heart attack](/blog/2022/man-gb372ae2ba_1280.jpg)
 
 Photo by Pixabay
 
@@ -55,7 +55,7 @@ Normal blood pressure for adults is usually a systolic of 120 or less and a dias
 
 Here, the systolic pressure is usually far higher than 130 while the diastolic pressure hovers around 80 or below. This goes to show that age, amongst other factors, is a major player in hypertension. If your blood pressure is high on two different occasions, your doctor may demand more regular checks at home.
 
-![monitoring blood pressure](/src/assets/images/blog/2022/blood-pressure-monitor-g9b0a45076_1280.jpg)
+![monitoring blood pressure](/blog/2022/blood-pressure-monitor-g9b0a45076_1280.jpg)
 
 Photo by Pixabay
 
@@ -116,7 +116,7 @@ How can I reduce my cholesterol levels?
 
 Just like in the case of hypertension, lowering already high cholesterol level is possible. Lifestyle and dietary modifications like that for hypertension will go a long way in reducing your cholesterol levels. In addition to these, your doctor may also place you on some medications.
 
-![image of plates full of fresh fruits](/src/assets/images/blog/2022/fresh-fruits-g02e61c0c1_1280.jpg)
+![image of plates full of fresh fruits](/blog/2022/fresh-fruits-g02e61c0c1_1280.jpg)
 
 Photo by Pixabay
 

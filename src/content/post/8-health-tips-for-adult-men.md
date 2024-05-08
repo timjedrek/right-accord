@@ -2,7 +2,7 @@
 publishDate: 2021-08-03T00:00:00Z
 title: '8 tips to stay healthy and well-being for adult men'
 excerpt: Adult men are constantly challenge with health problems and other diseases. These 8 health tips will guide them in taking control of their well-being.
-image: /src/assets/images/blog/2021/mens-health-cover.jpg
+image: /blog/2021/mens-health-cover.jpg
 tags:
   - men's health
 metadata:
@@ -22,7 +22,7 @@ In men above the age of 20, 51% have hypertension and not all of them are curren
 The Purpose of Men’s health awareness
 -------------------------------------
 
-![photo of an elderly couple](/src/assets/images/blog/2021/marisa-howenstine.jpg)
+![photo of an elderly couple](/blog/2021/marisa-howenstine.jpg)
 
 Photo by Marisa Howenstine on Unsplash
 
@@ -54,7 +54,7 @@ Group exercises can be arranged among colleagues at work, for employees and for 
 
 Using our social media space, we can share information and answer questions relating to men’s health. There are available materials and flyers that can help make the work easier. These materials can be downloaded from credible sites that promote men’s health and then used as a tool kit in passing the message across more efficiently.
 
-![Sad woman sitting on a couch](/src/assets/images/blog/2021/jenny-hill-unsplash.jpg)
+![Sad woman sitting on a couch](/blog/2021/jenny-hill-unsplash.jpg)
 
 Photo by Jenny Hill on Unsplash
 
@@ -79,7 +79,7 @@ You should also understand that as you grow older, the metabolic rate of the bod
 
 Cigarette smoking exposes you to carcinogens that put you at a risk of having lung cancer and other cancers later in life. Smoking is also associated with erectile dysfunction and many other disease conditions. A stick of cigarette contains thousands of harmful chemicals which makes it an unhealthy lifestyle to adopt.
 
-![cigarrete but](/src/assets/images/blog/2021/ray-reyes.jpg)
+![cigarrete but](/blog/2021/ray-reyes.jpg)
 
 Photo by Ray Reyes on Unsplash
 
@@ -99,7 +99,7 @@ Give as much attention to your mental health as the physical. If in need of help
 
 Do not fall for the trap of “sucking it up” as men are often told and expected to do. Being a man does not make you any less human. And being human means that it is okay to get tired, it is okay to feel pain and it is very much okay to get yourself evaluated for any health complaints or even as a routine. Ensure to keep a regular appointment with your physician.
 
-![Adult man preparing to sleep](/src/assets/images/blog/2021/somnox-sleep-NIBEmG9boGQ-unsplash.jpg)
+![Adult man preparing to sleep](/blog/2021/somnox-sleep-NIBEmG9boGQ-unsplash.jpg)
 
 Photo by Sommox on Unsplash
 

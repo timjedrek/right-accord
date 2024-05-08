@@ -2,7 +2,7 @@
 publishDate: 2022-12-28T00:00:00Z
 title: '7 Creative Ways to Help Senior Parent Celebrate New Years Eve'
 excerpt: New Year's Eve is one of the most celebrated nights of the year. Read on to discover creative ways to help senior loved ones celebrate this occasion.
-image: /src/assets/images/blog/2022/New-Year-With-Seniors.jpg   
+image: /blog/2022/New-Year-With-Seniors.jpg   
 tags:
   - new year in senior care
 metadata:
@@ -20,7 +20,7 @@ While it might not be possible to celebrate in the same way as before, there are
 1\. Host a Small Family Gathering
 ---------------------------------
 
-![elderly and kids enjoy making cakes](/src/assets/images/blog/2022/unsplash_Philip-Goldsberry.jpg)
+![elderly and kids enjoy making cakes](/blog/2022/unsplash_Philip-Goldsberry.jpg)
 
 Photo by Philip Goldsberry on Unsplash
 
@@ -37,7 +37,7 @@ Prepare a special New Year's Eve meal for your senior loved one that they can en
 
 Set up a cozy dinner table with their favorite decorations and candles, and make sure to keep the mood light and cheerful. With a bit of planning and some effort, you can give your senior loved one an unforgettable New Year's Eve dinner experience that they will be excited to enjoy!
 
-![images of festival foods](/src/assets/images/blog/2022/unsplash_Dylan-Nolte.jpg)
+![images of festival foods](/blog/2022/unsplash_Dylan-Nolte.jpg)
 
 Photo by Dylan Nolte on Unsplash
 
@@ -55,7 +55,7 @@ Nothing says New Year's Eve quite like a classic movie night. Choose a movie tha
 
 This is a great way to end 2022 on a positive note and start 2023 off with some laughs. Make sure you have a cozy spot set up for your senior loved one so they can enjoy the movie in comfort. Watching movies with your elderly loved ones is an excellent way to bond, make memories and show them how much you care.
 
-![family watching tv](/src/assets/images/blog/2022/unsplash_Philip-Goldsberry2.jpg)
+![family watching tv](/blog/2022/unsplash_Philip-Goldsberry2.jpg)
 
 Photo by Philip Goldsberry on Unsplash
 
@@ -73,7 +73,7 @@ Creating a scrapbook of memories is a great way to reflect on the past year and 
 
 There’s something so exciting and nostalgic about flipping through old memories that has a great way of lifting your mood. Plus, it’s an activity you can do together, which will allow your loved one to reminisce and share stories. Get creative with it by using colorful decorations, adding captions and writing notes. It’s sure to be a special project that both of you will treasure for years to come!
 
-![family gathering having a wine toast](/src/assets/images/blog/2022/krakenimages-7BpuzmcxlHU-unsplash.jpg)
+![family gathering having a wine toast](/blog/2022/krakenimages-7BpuzmcxlHU-unsplash.jpg)
 
 Photo by Krakenimages on Unsplash
 

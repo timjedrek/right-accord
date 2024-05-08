@@ -2,7 +2,7 @@
 publishDate: 2022-12-19T00:00:00Z
 title: 'Secret Benefits of Home Care During the Holidays Revealed'
 excerpt: The holiday can be a wonderful time of year, but also a bit overwhelming for elderly caregiver. So here's the unlocked homecare secrets that you need to know.
-image: /src/assets/images/blog/2022/Home-Health-Care-During-Holidays.jpg
+image: /blog/2022/Home-Health-Care-During-Holidays.jpg
 tags:
   - holiday homecare
 metadata:
@@ -22,7 +22,7 @@ Not only can caregivers help seniors with their daily activities, but they can a
 What is Home Health Care?
 -------------------------
 
-![caregiver helping an elderly](/src/assets/images/blog/2022/caregiver-help.jpg)
+![caregiver helping an elderly](/blog/2022/caregiver-help.jpg)
 
 Home health care is a type of non-medical care that enables seniors to remain in their homes as long as possible through the provision of services that address all aspects of daily living.
 
@@ -47,7 +47,7 @@ The holiday season can be a time of anxiety for seniors who may be uncertain abo
 
 From baking holiday treats to decorating the house, there is a lot that needs to get done this time of year. A professional caregiver can help with holiday preparation by getting involved, pitching in, and providing support.
 
-![elderly and caregiver in snow](/src/assets/images/blog/2022/holiday-vibe.jpg)
+![elderly and caregiver in snow](/blog/2022/holiday-vibe.jpg)
 
 How Home Health Care Can Help Seniors Enjoy the Holidays
 --------------------------------------------------------
@@ -79,7 +79,7 @@ How Professional Caregivers Can Provide Companionship and Emotional Support
 *   Caregivers can provide reassurance by helping the senior feel comfortable and secure in his or her home.
 *   Caregivers can provide emotional support by helping the senior manage his or her stress.
 
-![caregiver visiting an elderly](/src/assets/images/blog/2022/caregiver-visit.jpg)
+![caregiver visiting an elderly](/blog/2022/caregiver-visit.jpg)
 
 Conclusion
 ----------

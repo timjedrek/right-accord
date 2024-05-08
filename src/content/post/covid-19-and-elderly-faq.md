@@ -2,7 +2,7 @@
 publishDate: 2020-03-18T00:00:00Z
 title: 'Frequently Asked Questions and Answers on Covid19 and the Elderly'
 excerpt: How to protect our elderly people is our main concern. Here, we answer the most common question about COVID-19 and some precautions elderly people should take.
-image: /src/assets/images/blog/2020/covid-19-faq.jpg
+image: /blog/2020/covid-19-faq.jpg
 tags:
   - why older adults are more risk to coronavirus
   - covid19 and the elderly

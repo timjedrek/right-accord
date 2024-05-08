@@ -2,7 +2,7 @@
 publishDate: 2021-11-08T00:00:00Z
 title: 'How to Effectively Implement Diabetes Care in the Elderly'
 excerpt: Diabetes is a disease of unnatural glucose metabolism resulting in high blood sugar levels. Read more and learn about the proper diabetes care in the elderly.
-image: /src/assets/images/blog/2021/diabetes-care-in-elderly.jpg
+image: /blog/2021/diabetes-care-in-elderly.jpg
 tags:
   - diabetes
   - diabetes care in the elderly
@@ -21,7 +21,7 @@ There are basically two types of diabetes:
 *   Type 1, which results from the absence of insulin (the hormone that facilitates the metabolism of glucose), is noticed earlier in life.
 *   Type 2 diabetes, which occurs as a result of failure of the body to respond to available insulin, is the most common in elderly people.
 
-![physician attending a sick elderly patient](/src/assets/images/blog/2021/mathilde-langevin-ymEgsqhdOXw-unsplash.jpg)
+![physician attending a sick elderly patient](/blog/2021/mathilde-langevin-ymEgsqhdOXw-unsplash.jpg)
 
 The management of type 2 diabetes in the elderly patient is unique in that it requires certain provisions not commonly associated with the traditional diabetes management protocols. This is because the older population often present with certain health conditions that affect their diabetic care.
 
@@ -45,7 +45,7 @@ A well functioning patient might require a less supervised care regimen while a 
 
 Therefore, the main aim of diabetes care in the elderly is to take cognisance of the presence or absence of these co-morbidities as well as the patient's living conditions and availability of funding. Considering these peculiarities in the elderly, various guidelines for management have been created globally.
 
-![healthcare worker doing blood sugar test](/src/assets/images/blog/2021/matt-chesin-bRjpGjwmae8-unsplash.jpg)
+![healthcare worker doing blood sugar test](/blog/2021/matt-chesin-bRjpGjwmae8-unsplash.jpg)
 
 Photo by Matt Chesin Unsplash
 
@@ -74,7 +74,7 @@ Hypoglycemia (low blood sugar) is one of the most common limiting factors when f
 
 It is therefore crucial that in the elderly population, individualized care and treatment plans which recognize these risks associated with hypoglycemia, should be instituted. Dieting and exercise should instead be emphasized.
 
-![obese person](/src/assets/images/blog/2021/towfiqu-barbhuiya-J6g_szOtMF4-unsplash.jpg)
+![obese person](/blog/2021/towfiqu-barbhuiya-J6g_szOtMF4-unsplash.jpg)
 
 Photo by Towfiqu Barbhuiya on Unsplash
 
@@ -102,7 +102,7 @@ You can learn about the importance of early detection of diabetes, the role of p
 
 You can also learn the importance of routine finger prick blood sugar monitoring over other more complicated tests in detecting short term fluctuations in blood sugar. You can learn about risk factors of diabetes like obesity, sedentary life style and poor diet.
 
-![people attending seminar](/src/assets/images/blog/2021/neonbrand-1-aA2Fadydc-unsplash.jpg)
+![people attending seminar](/blog/2021/neonbrand-1-aA2Fadydc-unsplash.jpg)
 
 Photo by Neonbrand Unsplash
 

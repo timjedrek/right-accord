@@ -2,7 +2,7 @@
 publishDate: 2021-10-11T00:00:00Z
 title: '5 Best Practices in Caring for Elderly with Terminal Illness'
 excerpt: Taking care of the elderly is a challenging task, but it is even more difficult when the elderly are terminally ill. Here are some best tips to help you cope.
-image: /src/assets/images/blog/2021/caring-for-terminally-ill-elders.jpg
+image: /blog/2021/caring-for-terminally-ill-elders.jpg
 tags:
   - stroke prevention
   - stroke on elderly
@@ -28,7 +28,7 @@ Coping with Depression
 
 According to a clinical and research study, 25 percent of patients suffering from terminal disease suffer from depression for various reasons related to their illness. In addition to terminal illnesses, depression is a common problem for elderly people. They feel dependent, incapable of getting back on their feet, and burdensome to their families. This is a natural and emotional part of the aging process.
 
-![terminally ill woman lying in bed](/src/assets/images/blog/2021/terminally-ill-woman.jpg)
+![terminally ill woman lying in bed](/blog/2021/terminally-ill-woman.jpg)
 
 Many families prefer in-home elderly care, despite the difficulties of providing such care, than allowing their elderly loved ones to reside in facilities such as nursing homes or sheltered housing. By doing this, the older person's depression is reduced, and the concern of his or her family is reinforced. However, that still doesn't solve the problem of depression associated with terminal illness.
 
@@ -42,7 +42,7 @@ As one might imagine, caring for aging parents poses a major challenge to an ind
 
 In fact, this deprivation can have profound effects on a person, which is why supporting each other constantly within the family is extremely important. In case you're the one feeling the strain of having to take care of your aging parent, ask your siblings to help by taking their share of the work. If you are an only child, then hiring professional care should help you get out of this stressful and depressing situation.
 
-![illustrating the cost of health in the us](/src/assets/images/blog/2021/bermix-studio-Xmgxjy-TzU0-unsplash.jpg)
+![illustrating the cost of health in the us](/blog/2021/bermix-studio-Xmgxjy-TzU0-unsplash.jpg)
 
 Photo by Bermix Studio on Unsplash
 
@@ -56,7 +56,7 @@ Given the many needs that must be met when caring for an elder, there is no doub
 *   When purchasing medications, try purchasing generic medications to save a few dollars. Additionally, search for senior discounts, which can be beneficial if you are buying large quantities.
 *   Make sure you take care of your body. You would not want to become ill yourself and add to the already rising expenses.
 
-![hand offering help](/src/assets/images/blog/2021/compassion-help.jpg)
+![hand offering help](/blog/2021/compassion-help.jpg)
 
 Keeping Emotional Balance
 -------------------------
@@ -69,7 +69,7 @@ Consider these important factors to keep your emotions in check while providing 
 *   Rather than focusing on what you cannot change, think of what you can do now to help enrich their lives.
 *   Let them enjoy their remaining days to the fullest.
 
-![a caregiver assisting an impaled elderly](/src/assets/images/blog/2021/caregiver-aid.jpg)
+![a caregiver assisting an impaled elderly](/blog/2021/caregiver-aid.jpg)
 
 Seeking Outside Help
 --------------------

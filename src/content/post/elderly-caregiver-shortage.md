@@ -2,7 +2,7 @@
 publishDate: 2021-03-23T00:00:00Z
 title: 'What Causes Elderly Caregiver Shortage and How to Solve It?'
 excerpt: Caregivers are an integral part on the lives of the elderly in the US. Seeing a caregiver shortage in the country strikes an alarm and needs full attention.
-image: /src/assets/images/blog/2021/caregiver-shortage.jpg
+image: /blog/2021/caregiver-shortage.jpg
 tags:
   - caregiver shortage
   - gray tsunami
@@ -20,7 +20,7 @@ As we enter into the period referred to as the “The Gray tsunami”, where all
 
 Today, there are about 7 care givers available for every person who is 80 years and above. As baby boomers approach their 80's in 2030, it is projected that the number of caregivers that will be available per elderly person within that age range will be about 4. Then comes the generation X. As they hit their 80's in 2050, they’ll have about 3 caregivers available to each person if the current trends are maintained.
 
-![caregiver to elderly ratio infographic](/src/assets/images/blog/2021/caregiver-ratio.jpg)
+![caregiver to elderly ratio infographic](/blog/2021/caregiver-ratio.jpg)
 
 Infographic by RIGHT ACCORD
 
@@ -33,7 +33,7 @@ According to [Forbes](https://www.forbes.com/sites/howardgleckman/2019/10/18/a-s
 What do care givers do?
 -----------------------
 
-![caregiver helping elderly in a wheelchair](/src/assets/images/blog/2021/caregiver-helping-elderly-in-a-wheelchair.jpg)
+![caregiver helping elderly in a wheelchair](/blog/2021/caregiver-helping-elderly-in-a-wheelchair.jpg)
 
 Caregivers are an integral part of the lives of the aging population in any country. Since the elderly are either too old to carry out certain routine activities or have been incapacitated by age-related health conditions, some form of guidance, company and assisted living is sometimes required. Many of these services require specific professional training and can not be provided by family or loved ones. Hence, the need for professional caregivers.
 
@@ -71,7 +71,7 @@ As this situation spirals out of control, certain outcomes are expected (some of
 
 Secondly, insurance companies will see a need to raise the cost of their packages, or reduce the options of service and benefits catered for. In states like Washington, insurance now implements a policy of buying fewer hours of caregiving services for the elderly. Also, people who pay out of their pockets either in full or partly, will now be unable to continue with the inflating trend. This development could hurt the aging population greatly.
 
-![caregiver accompanying a female elderly](/src/assets/images/blog/2021/caregiver-accompanying-a-female-elderly.jpg)
+![caregiver accompanying a female elderly](/blog/2021/caregiver-accompanying-a-female-elderly.jpg)
 
 Photo by Cristina Seri on Unsplash
 

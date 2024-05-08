@@ -2,7 +2,7 @@
 publishDate: 2023-10-26T00:00:00Z
 title: '7 Profound Tips and Benefits of Respiratory Care for Seniors'
 excerpt: In celebration of the Respiratory Care Week on the month of October, this Blog covers the 7 Profound Tips and Benefits of Respiratory Care for Seniors.
-image: /src/assets/images/blog/2023/Respiratory-Care-for-Seniors.jpg
+image: /blog/2023/Respiratory-Care-for-Seniors.jpg
 tags:
   - Respiratory Care for seniors
 metadata:
@@ -20,7 +20,7 @@ Respiratory Care Week, observed in the last full week of October, is a time to a
 Understanding Respiratory Care
 ------------------------------
 
-![outdoor yoga](/src/assets/images/blog/2023/outdoor-yoga.jpg)
+![outdoor yoga](/blog/2023/outdoor-yoga.jpg)
 
 Before we delve into the myriad of benefits associated with respiratory care, it's essential to grasp the scope and importance of this specialized field. Respiratory therapists are highly trained healthcare professionals who focus on preventing, diagnosing, and treating patients with breathing disorders, ranging from common conditions like asthma and chronic obstructive pulmonary disease (COPD) to life-threatening conditions requiring ventilatory support.
 
@@ -52,7 +52,7 @@ The Profound Benefits of Respiratory Care
 
 Now that we understand the significance of Respiratory Care Week, let's explore the profound benefits of respiratory care, both in general and in the context of in-home care provided by RIGHT Accord Private Duty.
 
-![woman with raised hands](/src/assets/images/blog/2023/portrait-happy-senior-woman-standing-with-raised-arms.jpg)
+![woman with raised hands](/blog/2023/portrait-happy-senior-woman-standing-with-raised-arms.jpg)
 
 ### 1\. Enhanced Quality of Life
 
@@ -70,7 +70,7 @@ Oxygen therapy is a common treatment for those with respiratory conditions. Admi
 
 Our caregivers are trained to provide expert assistance with oxygen therapy, ensuring that individuals receive the correct dosage to maintain their respiratory health. This is especially valuable for individuals who prefer to receive care at home, allowing them to maintain a sense of normalcy and independence.
 
-![senior using oxygen](/src/assets/images/blog/2023/153604404_s.jpg)
+![senior using oxygen](/blog/2023/153604404_s.jpg)
 
 ### 4\. Medication Management
 
@@ -92,7 +92,7 @@ The ultimate goal of respiratory care is to improve patient outcomes. Through pr
 
 In the context of in-home care, RIGHT ACCORD Private Duty's dedicated caregivers work hand in hand with respiratory therapists to ensure the best possible outcomes for our clients. This collaborative approach allows individuals to receive comprehensive care tailored to their specific needs, resulting in better health and an improved quality of life.
 
-![senior facing green outdoor](/src/assets/images/blog/2023/dominik-lange-VUOiQW4OeLI-unsplash.jpg)
+![senior facing green outdoor](/blog/2023/dominik-lange-VUOiQW4OeLI-unsplash.jpg)
 
 Photo by Dominik Lange on Unsplash
 

@@ -37,7 +37,7 @@ The elderly (over 65 years) individuals make up about 16% of the American popula
 
 With the increasing number of the aged population comes a greater demand for healthcare, in-home care giving, as well as assisted living facilities. Today in America, there are about 40 million unpaid caregivers of individuals aged 65 years or more.
 
-![elderly couple sharing moments with each other in the park](/src/assets/images/blog/2020/elderl-couple-in-a-park.jpg)
+![elderly couple sharing moments with each other in the park](/blog/2020/elderl-couple-in-a-park.jpg)
 
 Even in the best of situations, it can be a daunting task caring for your aging parents, especially if a crisis occurs when it is least expected, leaving you with no time to adequately adjust and make suitable plans. This crisis may be in the form of a sudden illness or an accidental fall.
 
@@ -71,7 +71,7 @@ Would they both need to be moved into a care facility? If yes, what available ca
 
 The reason for this assessment is so that you can have an idea of the scope of care that your parents will need and be able to determine your limits.
 
-![A doctor holding the elderly's hand](/src/assets/images/blog/2020/doctor-holding-elderly.jpg)
+![A doctor holding the elderly's hand](/blog/2020/doctor-holding-elderly.jpg)
 
 Signs that you Should Start Getting Involved
 --------------------------------------------
@@ -133,7 +133,7 @@ You can enlist the help of a financial planner and an elder lawyer to sort throu
 
 Alternatively, if your budget is tight, try contacting the local office in your Area Agency on Aging who should be able to send you a case manager for a free assessment.
 
-![elderly couple taking some advise from the health advisor](/src/assets/images/blog/2020/taking-advise-from-advisor.jpg)
+![elderly couple taking some advise from the health advisor](/blog/2020/taking-advise-from-advisor.jpg)
 
 What are the Different Care Options?
 ------------------------------------
@@ -182,7 +182,7 @@ Bear in mind that the wish or desire of your parents to live at home is not enou
 
 Unlike before when nursing homes seemed to be the only option for seniors requiring some form of help, a lot of options are now available. Now if a senior does not have special medical and health needs, they do not need to be moved to nursing homes. Any basic assistance they require can be arranged to be offered in-house.
 
-![caregiver visiting an elderly for the in-home care service](/src/assets/images/blog/2020/in-home-care.jpg)
+![caregiver visiting an elderly for the in-home care service](/blog/2020/in-home-care.jpg)
 
 What Elderly Care In-Home Services is Available?
 ------------------------------------------------
@@ -222,7 +222,7 @@ An alternative to having your parents stay at home is moving them to your own ho
 
 They have access to the same elderly care services that are available to them just as if they were living in their own homes. On the occasions where you would not be available at home, an added service is the adult day care.
 
-![An elderly sharing moments with her grandaughter](/src/assets/images/blog/2020/family-care.jpg)
+![An elderly sharing moments with her grandaughter](/blog/2020/family-care.jpg)
 
 ### Adult Day Care
 
@@ -268,7 +268,7 @@ Just like in independent living facilities, there is assistance with instrumenta
 
 They are made to have home-like settings as much as possible and encourage residents' independence. Bear in mind that the costs of supportive services like help with bathing, brushing, laundry, meal preparation, companionship, etc are not covered by most health insurance plans except under very special circumstances.
 
-![Woman accompanying her mother inside the building facility](/src/assets/images/blog/2020/assited-living-facility.jpg)
+![Woman accompanying her mother inside the building facility](/blog/2020/assited-living-facility.jpg)
 
 ### Things to Consider When Choosing a Care Facility
 
@@ -301,7 +301,7 @@ While some medical services may be provided for a short-term stay, for example d
 *   Speech therapy
 *   Respiratory therapy
 
-![female nurse assisting the elderly patient inside the nursing room](/src/assets/images/blog/2020/nursing-facility.jpg)
+![female nurse assisting the elderly patient inside the nursing room](/blog/2020/nursing-facility.jpg)
 
 Categories of Nursing Care
 --------------------------

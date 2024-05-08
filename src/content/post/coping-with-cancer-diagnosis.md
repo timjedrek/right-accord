@@ -2,7 +2,7 @@
 publishDate: 2020-02-04T00:00:00Z
 title: 'Coping with Cancer Diagnosis and Keep Living a Normal Life'
 excerpt: Having a diagnosis of any type of cancer is not an easy news to take in and it is important to know how best to cope with the condition.
-image: /src/assets/images/blog/2020/blog-coping-with-cancer.jpg
+image: /blog/2020/blog-coping-with-cancer.jpg
 tags:
   - coping with cancer
   - cancer diagnosis
@@ -29,7 +29,7 @@ It is so important an issue that the World Health Organization (WHO), has descri
 
 Having a diagnosis of any type of cancer is not an easy news to take in and it is important to know how best to cope with the condition.
 
-![Photo by National Cancer Institute on Unsplash](/src/assets/images/blog/2020/national-cancer-institute-sIqWYiNLiJU-unsplash-copy-2.jpg)
+![Photo by National Cancer Institute on Unsplash](/blog/2020/national-cancer-institute-sIqWYiNLiJU-unsplash-copy-2.jpg)
 
 FINDING OUT ABOUT YOUR CONDITION
 --------------------------------
@@ -85,7 +85,7 @@ Furthermore, people are willing to help in situations like this; family, friends
 
 **CONNECT WITH GROUPS:** Find people, groups, and fora made up of cancer survivors. Interact and learn from their experiences and their stories. Understand how they best fought theirs and the mistakes they made. Be encouraged by them and implement their techniques.
 
-![Photo by Peter Boccia on Unsplash](/src/assets/images/blog/2020/peter-boccia-LOyaOZu6g4Q-unsplash.jpg)
+![Photo by Peter Boccia on Unsplash](/blog/2020/peter-boccia-LOyaOZu6g4Q-unsplash.jpg)
 
 Photo by Peter Boccia on Unsplash
 
@@ -97,7 +97,7 @@ Professional help could be offered in-home by a doctor, a private nurse, physica
 
 **LIVE YOUR BEST LIFE:** Cancer is not always a death sentence. And equally important as the treatment is the mental approach to the treatment. You do not necessarily have to shut down your life because you are battling the condition, so as much as you are capable, do get involved in life, your career, learning and experiencing. Do not let life pass you by.
 
-![Photo by Pablo Heimplatz on Unsplash](/src/assets/images/blog/2020/pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg)
+![Photo by Pablo Heimplatz on Unsplash](/blog/2020/pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg)
 
 Photo by Pablo Heimplatz on Unsplash
 

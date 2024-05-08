@@ -2,7 +2,7 @@
 publishDate: 2021-12-08T00:00:00Z
 title: 'Best Ways to Prevent Caregiver Stress and Burnout During the Holidays'
 excerpt: Caregivers who are sacrificing their time and energy during this holiday season is reminded to take care of themselves as well as to take care of the others.
-image: /src/assets/images/blog/2021/caregiver-stress-and-holidays.jpg
+image: /blog/2021/caregiver-stress-and-holidays.jpg
 tags:
   - caregiver stress
   - caregiver burnout during holidays
@@ -19,7 +19,7 @@ Existing data shows that 2 in every 5 caregiver in the United States of America 
 What is Caregiver burnout?
 --------------------------
 
-![caregiver sitting alone in a room](/src/assets/images/blog/2021/annie-spratt-d_mzrEx6ytY-unsplash.jpg)
+![caregiver sitting alone in a room](/blog/2021/annie-spratt-d_mzrEx6ytY-unsplash.jpg)
 
 This is a situation whereby a caregiver feels exhausted physically, mentally and emotionally as a result of the job they do. This can lead them to unintentionally exhibit negative attitude and feelings towards the care job and the patients they take care of.
 
@@ -38,7 +38,7 @@ Caregivers help with the following:
 
 As the holiday season approaches, chances are that many caregivers will have to put in more shifts and work hours. With many families traveling for the holidays, there is usually a statistical rise in the number of elderly population who cannot, because of age-related conditions, travel with their families over long distances. As a result of this, they will require the services of care givers.
 
-![woman having some anxiety mood](/src/assets/images/blog/2021/stacey-gabrielle-koenitz-rozells-pV_ixbLn4QU-unsplash.jpg)
+![woman having some anxiety mood](/blog/2021/stacey-gabrielle-koenitz-rozells-pV_ixbLn4QU-unsplash.jpg)
 
 Factors that contribute to Caregiver stress
 -------------------------------------------
@@ -55,7 +55,7 @@ Elderly people can sometimes place demands on the caregivers they are attached t
 
 Like most other health care providers, too much expectation is placed on the caregiver by the people who rely on them. We must remember that a caregiver is first a human with their own physical and emotional needs, their own life and responsibilities that they need to meet with.
 
-![image of a stressed caregiver](/src/assets/images/blog/2021/claudia-wolff-owBcefxgrIE-unsplash.jpg)
+![image of a stressed caregiver](/blog/2021/claudia-wolff-owBcefxgrIE-unsplash.jpg)
 
 Photo by Matt Chesin Unsplash
 
@@ -94,7 +94,7 @@ There are other physical signs of caregiver fatigue and stress and they include:
 *   Low immunity
 *   Insomnia
 
-![happy caregiver with the elderly](/src/assets/images/blog/2021/december/69787822_s.jpg)
+![happy caregiver with the elderly](/blog/2021/december/69787822_s.jpg)
 
 What can be done about Caregiver stress and fatigue?
 ----------------------------------------------------

@@ -2,7 +2,7 @@
 publishDate: 2023-04-12T00:00:00Z
 title: '5 Simple Techniques to Help Seniors Manage Stress'
 excerpt: This Blog will explore the 5 simple techniques that can help seniors discover how they can take control of their stress levels and live their best life.
-image: /src/assets/images/blog/2023/Techniques-to-Help-Seniors-Manage-Stress.jpg
+image: /blog/2023/Techniques-to-Help-Seniors-Manage-Stress.jpg
 tags:
   - stress management for seniors
 metadata:
@@ -22,7 +22,7 @@ In this article, we'll explore five techniques that can help seniors reduce stre
 Causes and Effects of Stress Among Seniors
 ------------------------------------------
 
-![stressed image of a male senior](/src/assets/images/blog/2023/pexels-t-leish-6975209.jpg)
+![stressed image of a male senior](/blog/2023/pexels-t-leish-6975209.jpg)
 
 Photo by T Leish on Pexels
 
@@ -34,7 +34,7 @@ Chronic stress can lead to a range of health problems, including heart disease, 
 
 One of the most common causes of stress among seniors is the feeling of being alone or disconnected from others. This can be due to the loss of a spouse or close friends, or simply the fact that many seniors live alone. Social isolation can lead to feelings of depression and anxiety, which can exacerbate stress levels. Another common cause of stress among seniors is financial insecurity. Many seniors live on a fixed income, and the rising cost of healthcare and living expenses can be a source of constant worry.
 
-![elderly couple doing breathing exercise at the park](/src/assets/images/blog/2023/april/pexels-vlada-karpovich-8939923.jpg)
+![elderly couple doing breathing exercise at the park](/blog/2023/april/pexels-vlada-karpovich-8939923.jpg)
 
 Photo by Andrea Piacquadio on Pexels
 
@@ -55,7 +55,7 @@ Deep breathing exercises are another simple and effective technique for managing
 
 To practice deep breathing exercises, find a quiet and comfortable place to sit or lie down. Close your eyes and take a slow, deep breath in through your nose. Hold the breath for a few seconds, then slowly exhale through your mouth. Repeat this process several times, focusing on the sensation of the breath as you inhale and exhale.
 
-![seniors having yoga exercise altogether](/src/assets/images/blog/2023/pexels-rodnae-productions-8172912.jpg)
+![seniors having yoga exercise altogether](/blog/2023/pexels-rodnae-productions-8172912.jpg)
 
 Photo by Kampus on Pexels
 
@@ -71,7 +71,7 @@ Spending time with loved ones is another effective way to reduce stress levels a
 
 To stay connected with loved ones, consider scheduling regular phone calls or video chats. Plan social outings or activities that you can enjoy together, such as going for a walk or having a meal together. If you're feeling isolated or alone, consider joining a social group or community organization to meet new people and make new friends.
 
-![male senior having a good sleep](/src/assets/images/blog/2023/pexels-shvets-production-8899461.jpg)
+![male senior having a good sleep](/blog/2023/pexels-shvets-production-8899461.jpg)
 
 Photo by Kampus on Pexels
 

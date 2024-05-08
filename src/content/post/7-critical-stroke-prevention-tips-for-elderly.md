@@ -2,7 +2,7 @@
 publishDate: 2021-09-07T00:00:00Z
 title: '7 critical stroke prevention and treatment tips for elderly'
 excerpt: Stroke is the 5th highest killer disease worldwide. These 7 life-saving tips to prevent stroke aims to help the elderly and other vulnerable groups in America.
-image: /src/assets/images/blog/2021/strokes-prevention-on-elderly.jpg
+image: /blog/2021/strokes-prevention-on-elderly.jpg
 tags:
   - stroke prevention
   - stroke on elderly
@@ -21,7 +21,7 @@ With over 40 million people currently having suffered from stroke at some point 
 How does stroke happen?
 -----------------------
 
-![mid body photo of an elderly](/src/assets/images/blog/2021/body-116585_1280.jpg)
+![mid body photo of an elderly](/blog/2021/body-116585_1280.jpg)
 
 Stroke is a medical condition that occurs when the arteries that supply blood, oxygen and nutrients to the brain or those leading to it are blocked or ruptured.
 
@@ -44,7 +44,7 @@ About 13% of all strokes happen this way and more often than not, the weakened b
 
 Up to 87% of all strokes are ischemic. In this type of stroke, a blood clot or a mass obstructs the free passage of blood from the vessel to the tissues they supply. In some cases, the blood clot can form just at the site where it eventually causes an occlusion and in some other cases, it would have travelled from a different part of the body where the diameter of the vessels are much larger to the brain vessels that are smaller in diameter, also resulting in an occlusion.
 
-![blood artery](/src/assets/images/blog/2021/created-by-starline.jpg)
+![blood artery](/blog/2021/created-by-starline.jpg)
 
 Photo by Starline on Freepik
 
@@ -98,7 +98,7 @@ It is perhaps interesting to note that up to 80% of strokes are preventable. Yes
 
 A stroke can occur at any age, regardless of the person's race or family history. However, you can take steps to lower your stroke risk. Ask your doctor what you may be able to do. Take a look at these tips, even if you're in great health:
 
-![Blood pressure device and medicines](/src/assets/images/blog/2021/hypertension-867855_1280.jpg)
+![Blood pressure device and medicines](/blog/2021/hypertension-867855_1280.jpg)
 
 Photo on Unsplash
 
@@ -122,7 +122,7 @@ You should eat foods without cholesterol and that are low in saturated fat. Make
 
 Smoking increases your risk for stroke. It's never too late to quit, the earlier you quit, the greater the health benefit. In the first few months after quitting, your health will improve. This will be beneficial to your heart and lungs. As a result, your hands and feet will be able to receive more blood, and your immune system will improve.
 
-![a group of people doing exercise](/src/assets/images/blog/2021/anupam-mahapatra-Vz0RbclzG_w-unsplash.jpg)
+![a group of people doing exercise](/blog/2021/anupam-mahapatra-Vz0RbclzG_w-unsplash.jpg)
 
 Photo by Anupam-Mahapatra on Unsplash
 
@@ -138,7 +138,7 @@ In the event that you've had a stroke in the past, reducing your risk of having 
 
 Except in cases that are due to a previous health condition, most of the risk factors of stroke can be prevented. By simply making adjustments to your lifestyle, including some physical activity in your daily or weekly routine or by eating healthy and reducing or eliminating the exposure to toxins from smoking, you can extend your life expectancy by 5 more years (if you are above 50). One in three people with high blood pressure are not even aware that they have it. Hence, the need for regular medical checks as early diagnosis and treatment is the key to a better outcome.
 
-![doctor speaking to his patient](/src/assets/images/blog/2021/national-cancer-institute-DK--4VWK1tw-unsplash.jpg)
+![doctor speaking to his patient](/blog/2021/national-cancer-institute-DK--4VWK1tw-unsplash.jpg)
 
 Photo by NCI on Unsplash
 

@@ -2,7 +2,7 @@
 publishDate: 2021-04-21T00:00:00Z
 title: '7 Transitional Care Strategy From Hospital To Home Recovery'
 excerpt: Transitional Care is a term where patient is discharged entirely from the hospital to return home. Here's our exclusive tips on Transitional Care for elderly.
-image: /src/assets/images/blog/2021/hospital-to-home2.jpg
+image: /blog/2021/hospital-to-home2.jpg
 tags:
   - transitional care
   - hospital to home
@@ -19,7 +19,7 @@ Aging is associated with an increased prevalence of age-related diseases. As a m
 
 As an elderly person who is being managed in a hospital or a health care facility for any of these health conditions, a time will come when it will be considered safe enough to let you return home.
 
-![attending physician and his patient](/src/assets/images/blog/2021/annie-spratt-mS-rLvPyAl4-unsplash.jpg)
+![attending physician and his patient](/blog/2021/annie-spratt-mS-rLvPyAl4-unsplash.jpg)
 
 Photo by Annie Spratt on Unsplash
 
@@ -38,7 +38,7 @@ During the course of managing a patient for a healthcare condition, the treatmen
 
 For example from the intensive care unit to the outpatient department or they could be discharged entirely from the hospital to return home. Patient handover is an important factor in transitional care and this involves the transfer of patient information, appropriate communication between the managing healthcare staff as well as transfer of the responsibility of care to the caregivers at home during discharge.
 
-![doctor visiting his patient in her bed](/src/assets/images/blog/2021/national-cancer-institute-gO-iULv-qbU-unsplash.jpg)
+![doctor visiting his patient in her bed](/blog/2021/national-cancer-institute-gO-iULv-qbU-unsplash.jpg)
 
 Photo by NCI on Unsplash
 
@@ -62,7 +62,7 @@ The chances are that there will be prescription medicines provided for you as yo
 
 Many medications have contraindications and some also may interact with other medications if taken together. These are some of the information you should be armed with when leaving the hospital as any error in adhering to them could have you back in the hospital, if not even leading to a very serious or even fatal outcome.
 
-![physician explaining proper medication to his patient](/src/assets/images/blog/2021/national-cancer-institute-NNpo-liY5aU-unsplash.jpg)
+![physician explaining proper medication to his patient](/blog/2021/national-cancer-institute-NNpo-liY5aU-unsplash.jpg)
 
 Photo by NCI on Unsplash
 
@@ -92,7 +92,7 @@ The love and support that family members can give during this transitioning can 
 
 Family members can play multiple roles by helping out with chores, providing company and even being the first responders in cases of emergencies, making the necessary calls and appointments should the sick person become incapacitated to do so.
 
-![attending physician explaining to family members](/src/assets/images/blog/2021/national-cancer-institute-duNbFJRhaJQ-unsplash.jpg)
+![attending physician explaining to family members](/blog/2021/national-cancer-institute-duNbFJRhaJQ-unsplash.jpg)
 
 Photo by NCI on Unsplash
 

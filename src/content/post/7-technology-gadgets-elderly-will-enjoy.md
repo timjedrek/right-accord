@@ -2,7 +2,7 @@
 publishDate: 2020-11-10T00:00:00Z
 title: '10 New Tech Gadgets for Elderly to Make Life Easier in 2023'
 excerpt: Finally we have a new technology breakthrough gadgets and devices available in 2023 to help the elderly with Alzheimer's, hearing problems and frequent falls.
-image: /src/assets/images/blog/2020/tech-gadgets-and-devices-for-elderly.jpg
+image: /blog/2020/tech-gadgets-and-devices-for-elderly.jpg
 tags:
   - technology for elderly
   - gadgets
@@ -25,7 +25,7 @@ Now, Elisa regularly logs into a website to check her Mom's activity, captured v
 
 "By using the full potential of this new technology, it allows me to feel emotionally confident and secure that my Mom can stay in her home longer," said Elisa.
 
-![gps smartsole](/src/assets/images/blog/2020/zoom-meeting.jpg)
+![gps smartsole](/blog/2020/zoom-meeting.jpg)
 
 Technology today is designed to answer Elisa's concern about her mom's safety. Thanks to the development of AI powered devices and the cloud connectivity features of these devices, families of an elderly person still living in home and away from them can finally breathe a sigh of relief and can have a peace of mind.
 
@@ -35,7 +35,7 @@ There are many devices suitable for any given use or purposes. Like, a device to
 
 Check out these 10 innovative products for the elderly to simplify chores, enhance safety, and provide entertainment. These are the products that can make life easier for the elderly.
 
-![amazon echo dot](/src/assets/images/blog/2020/amazon-echo-dot-3rd-generation.jpg)
+![amazon echo dot](/blog/2020/amazon-echo-dot-3rd-generation.jpg)
 
 Amazon Echo Dot
 ---------------
@@ -48,7 +48,7 @@ You can set it up in their bedroom, living room, kitchen, and in their bathroom.
 
 Amazon isn't the only game in town for this sort of thing: Google, Apple, and Microsoft does offer the same voice commands feature that can do a variety of tasks. OK Google, Siri, and Cortana use the same approach but most aren't as flexible or as integrated with other services as Alexa is.
 
-![apple watch](/src/assets/images/blog/2020/apple-watch.jpg)
+![apple watch](/blog/2020/apple-watch.jpg)
 
 Apple Watch
 -----------
@@ -63,7 +63,7 @@ You have the option to inform your emergency contacts or you can dismiss the ale
 
 If you're immobile and there are multiple emergency numbers in your country or region, Apple Watch automatically chooses a single emergency number to dial.
 
-![gps smartsole](/src/assets/images/blog/2020/smartsole.jpg)
+![gps smartsole](/blog/2020/smartsole.jpg)
 
 GPS SmartSole
 -------------
@@ -76,7 +76,7 @@ This tracker is developed especially for an elderly person living with Dementia 
 
 SmartSoles let you remotely monitor loved ones at risk of becoming disoriented. No need for them to remember to carry a separate device, they just slip on their shoes and go – like they normally would. This wearable GPS tracker system capitalizes on procedural memory, which means even those with advanced memory disorders typically remember to wear shoes!
 
-![apple airpods](/src/assets/images/blog/2020/airpods.jpg)
+![apple airpods](/blog/2020/airpods.jpg)
 
 Apple AirPods
 -------------
@@ -89,7 +89,7 @@ Once you download the new operating system, and enable the Live Listen feature (
 
 Note that if you have significant hearing impairment, AirPods may not be an appropriate substitute for a doctor or audiologist’s assessment. But, if you are looking for a simple hearing boost, the AirPods can be a cost-efficient substitute.
 
-![nanny cam](/src/assets/images/blog/2020/nanny-cam.jpg)
+![nanny cam](/blog/2020/nanny-cam.jpg)
 
 Surveillance Camera
 -------------------
@@ -115,7 +115,7 @@ With a nanny cam installed in your home, you can chat to your elderly loved one 
 *   Ring Stick Up Cam
 *   Lighthouse
 
-![gps smartsole](/src/assets/images/blog/2020/grandpad.jpg)
+![gps smartsole](/blog/2020/grandpad.jpg)
 
 GrandPad
 --------
@@ -126,7 +126,7 @@ The large buttons and intuitive interface make the GrandPad a simple tablet for 
 
 Family members can also upload photos and adjust settings for the GrandPad user. The device's essential apps and services remove the clutter, distractions, and complications of other devices allowing seniors to simply and instantly connect with loved ones.
 
-![gps smartsole](/src/assets/images/blog/2020/tile-sticker.jpg)
+![gps smartsole](/blog/2020/tile-sticker.jpg)
 
 Tile Sticker
 ------------
@@ -137,7 +137,7 @@ It helps prevent the elderly from losing everyday items like remote controls, ke
 
 You can set it and forget it. Just use the company's app on your phone when you need to find your things. The Pro version is ideal for valuable items and has a Bluetooth range of 400 feet.
 
-![apple air tag](/src/assets/images/blog/2020/apple-airtag.jpg)
+![apple air tag](/blog/2020/apple-airtag.jpg)
 
 Apple AirTag
 ------------
@@ -150,7 +150,7 @@ Like all Apple gadgets, the AirTag is accompanied by cool accessories like key r
 
 To be fair, Tile products do come in various form factors and price points, and generally work really well. They also have accessories, too. But that being said, AirTag is simply easier to use, which is why it's the tracker to get especially if you are an iPhone user.
 
-![Dodow Sleep Aid Device](/src/assets/images/blog/2020/dodow-sleep-aid-device2.jpg)
+![Dodow Sleep Aid Device](/blog/2020/dodow-sleep-aid-device2.jpg)
 
 DODOW Sleep Aid Device
 ----------------------
@@ -159,7 +159,7 @@ Sleep problems are a common thing in every age category. However, the prevalence
 
 Thankfully, there are so many cool tech gadgets coming out in the sleep space, and the Dodow device is no different. Dodow is a metronome with a light system that teaches you how to fall asleep naturally, without taking any medicine. It isn't hard to learn to sync your breath with the light, and once you get used to the process, you'll feel the results. The brand's website claims that more than a million people are already using and loving the product.
 
-![Click and Grow Smart Garden](/src/assets/images/blog/2020/Smart-Garden.jpg)
+![Click and Grow Smart Garden](/blog/2020/Smart-Garden.jpg)
 
 Click and Grow Smart Garden
 ---------------------------

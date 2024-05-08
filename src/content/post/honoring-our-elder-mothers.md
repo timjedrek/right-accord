@@ -2,7 +2,7 @@
 publishDate: 2023-05-09T00:00:00Z
 title: 'Honoring the Legacy of Our Elder Mothers This Mothers Day'
 excerpt: Mother's Day is a time to honor the elder mothers who have played a significant role in our lives. Read more to reflect on the love of our elder mothers.
-image: /src/assets/images/blog/2023/Elder-Mothers-Legacy.jpg
+image: /blog/2023/Elder-Mothers-Legacy.jpg
 tags:
   - Mother's Day
 metadata:
@@ -22,7 +22,7 @@ This Mother's Day, let's take a moment to reflect on the strength, resilience, a
 The Importance of Honoring Our Elder Mothers
 --------------------------------------------
 
-![mother's day poster design](/src/assets/images/blog/2023/mothers-day.jpg)
+![mother's day poster design](/blog/2023/mothers-day.jpg)
 
 Honoring our elder mothers is essential because they are the ones who have shaped our families and communities. They have lived through difficult times and have provided us with valuable lessons on how to navigate life's challenges.
 
@@ -35,7 +35,7 @@ Lastly, honoring our elder mothers is an opportunity to learn from them. They ha
 The Legacy of Motherhood
 ------------------------
 
-![profile of an elderly woman](/src/assets/images/blog/2023/old-woman.jpg)
+![profile of an elderly woman](/blog/2023/old-woman.jpg)
 
 Photo by Pixabay
 
@@ -70,7 +70,7 @@ Lastly, elder mothers often sacrifice their own dreams and aspirations to ensure
 Ways to Honor and Show Gratitude to Elder Mothers
 -------------------------------------------------
 
-![elder mother and her daughter](/src/assets/images/blog/2023/pexels-andrea-piacquadio-3768114.jpg)
+![elder mother and her daughter](/blog/2023/pexels-andrea-piacquadio-3768114.jpg)
 
 There are many ways to honor and show gratitude to elder mothers. Here are a few ideas:
 
@@ -97,7 +97,7 @@ Create a memory book that includes pictures, stories, and memories of your elder
 Mother's Day Traditions and Celebrations
 ----------------------------------------
 
-![elderly women celebrating birthday](/src/assets/images/blog/2023/pexels-anna-shvets-5257426.jpg)
+![elderly women celebrating birthday](/blog/2023/pexels-anna-shvets-5257426.jpg)
 
 Mother's Day is celebrated in many different ways around the world. Here are a few traditions and celebrations:
 

@@ -2,7 +2,7 @@
 publishDate: 2019-12-11T00:00:00Z
 title: 'Dealing With Grief: Coping Strategies'
 excerpt: Coping with death is important for your mental health. It is very natural to experience grief with the death of a loved one. Allow yourself to grieve. There are several strategies to cope effectively with your pain and grief.
-image: /src/assets/images/blog/2019/sharon-mccutcheon-_L3KpEED4UQ-unsplash.jpg
+image: /blog/2019/sharon-mccutcheon-_L3KpEED4UQ-unsplash.jpg
 tags:
   - grief
   - caregiver
@@ -28,7 +28,7 @@ Mourning is a natural process that you pass through to in order to accept a majo
 
 Grieving is the outward expression of your loss. You are likely to express it physically, emotionally, and psychologically. For example, crying is a physical expression, while on the other hand, depression is a form of psychological expression. It is very important to give yourself leave to express these feelings.
 
-![Photo by Ben White on Unsplash](/src/assets/images/blog/2019/ben-white-e92L8PwcHD4-unsplash.jpg)
+![Photo by Ben White on Unsplash](/blog/2019/ben-white-e92L8PwcHD4-unsplash.jpg)
 
 Photo by Ben White on Unsplash
 

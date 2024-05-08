@@ -2,7 +2,7 @@
 publishDate: 2021-07-21T00:00:00Z
 title: 'What is Caregiver Fatigue and How to Deal with It?'
 excerpt: Caregiver fatigue is a serious physical and emotional disorder that affects caregivers. Here are the 7 top caregiver tips that will help them cope with it.
-image: /src/assets/images/blog/2021/caregiver-fatigue.jpg
+image: /blog/2021/caregiver-fatigue.jpg
 tags:
   - caregiver fatigue
   - caregiver fatigue syndrome
@@ -34,7 +34,7 @@ While many of these caregivers dedicate their professional lives to this labor, 
 What is Caregiver Fatigue?
 --------------------------
 
-![photo of a tired caregiver](/src/assets/images/blog/2021/mulyadi-JeCNRxGLSp4-unsplash.jpg)
+![photo of a tired caregiver](/blog/2021/mulyadi-JeCNRxGLSp4-unsplash.jpg)
 
 Photo by Gift Habeshaw on Unsplash
 
@@ -61,7 +61,7 @@ Other factors that can lead to caregiver fatigue include:
 
 **Other Factors:** There are many other factors that also contribute to caregiver fatigue and eventually make them unable to function. In some cases, they may become ill themselves.
 
-![Sad woman sitting on a couch](/src/assets/images/blog/2021/annie-spratt-d_mzrEx6ytY-unsplash.jpg)
+![Sad woman sitting on a couch](/blog/2021/annie-spratt-d_mzrEx6ytY-unsplash.jpg)
 
 Photo by Micheile Henderson on Unsplash
 
@@ -84,7 +84,7 @@ Healthcare providers may erroneously assume that caregivers are suffering from d
 
 HealthinAging.org, created by the American Geriatrics Society’s Health in Aging Foundation developed the Caregiver Self Assessment Online to identify caregivers with high levels of stress. You can check out the assessment tool at [Caregiver Self Assessment Interactive Tool](https://www.healthinaging.org/tools-and-tips/caregiver-self-assessment-interactive). Based on the result of the questionnaire, the assessment tool can accurately identify caregiver fatigue and depression and can provide helpful recommendations.
 
-![Reaching out to help people with a caregiver fatigue syndrome](/src/assets/images/blog/2021/priscilla-du-preez-WFBVn6fSgys-unsplash.jpg)
+![Reaching out to help people with a caregiver fatigue syndrome](/blog/2021/priscilla-du-preez-WFBVn6fSgys-unsplash.jpg)
 
 Photo by S B Vonlanthen on Unsplash
 
@@ -129,7 +129,7 @@ In most places, respite care is available for just a few hours or for a few week
 
 Short-term nursing homes. Some assisted living homes, memory care homes and nursing homes accept people needing care for short stays while caregivers are away. For those who need a longer break, a residential care facility may provide overnight care. There is a drawback, though, since you must pay a fee for these services that is usually not covered by Medicare or insurance.
 
-![man busy taking care of his plants](/src/assets/images/blog/2021/vadim-kaipov-tZE2tTDQ6Zo-unsplash.jpg)
+![man busy taking care of his plants](/blog/2021/vadim-kaipov-tZE2tTDQ6Zo-unsplash.jpg)
 
 Photo by Remi Walle on Unsplash
 

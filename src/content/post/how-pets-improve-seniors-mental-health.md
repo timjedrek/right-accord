@@ -2,7 +2,7 @@
 publishDate: 2023-04-24T00:00:00Z
 title: 'How Pets Can Improve the Seniors Mental Health and Wellbeing'
 excerpt: Companion animals can provide a variety of benefits for seniors, from reducing loneliness and social isolation to improving physical health and reducing stress.
-image: /src/assets/images/blog/2023/Animals-and-Seniors-Mental-Health.jpg
+image: /blog/2023/Animals-and-Seniors-Mental-Health.jpg
 tags:
   - seniors and companion animal
 metadata:
@@ -22,7 +22,7 @@ So, if you're a senior looking for a way to improve your mental health and wellb
 The benefits of companion animals for seniors
 ---------------------------------------------
 
-![elderly couple strolling with their pets](/src/assets/images/blog/2023/pexels-darya-sannikova-2927557.jpg)
+![elderly couple strolling with their pets](/blog/2023/pexels-darya-sannikova-2927557.jpg)
 
 Companion animals can provide a variety of benefits for seniors. One of the most significant benefits is that they can reduce feelings of loneliness and social isolation. Many seniors live alone or have limited social interaction, which can lead to depression and other mental health issues.
 
@@ -35,7 +35,7 @@ Companion animals can also provide a source of entertainment and joy. Pets are k
 How companion animals can reduce loneliness and social isolation
 ----------------------------------------------------------------
 
-![elderly man with his pet dog](/src/assets/images/blog/2023/centre-for-ageing-better-LDbxOjVNxec-unsplash.jpg)
+![elderly man with his pet dog](/blog/2023/centre-for-ageing-better-LDbxOjVNxec-unsplash.jpg)
 
 Photo by CFAGB on Unsplash
 
@@ -69,7 +69,7 @@ Tips for introducing a companion animal to seniors
 
 Introducing a companion animal to a senior can be a delicate process. It's important to take things slow and give the senior time to adjust to their new companion. Here are a few tips for introducing a pet to a senior:
 
-![elderly partner with their pet](/src/assets/images/blog/2023/pexels-anna-tarazevich-5763534.jpg)
+![elderly partner with their pet](/blog/2023/pexels-anna-tarazevich-5763534.jpg)
 
 Photo by Anna Tarazevich on Pexels
 
@@ -92,7 +92,7 @@ Offer support and guidance to the senior as they adjust to their new companion. 
 Caring for companion animals as a senior
 ----------------------------------------
 
-![elderly man riding with his dogs](/src/assets/images/blog/2023/tim-mossholder-HCZ7Y1PGpho-unsplash.jpg)
+![elderly man riding with his dogs](/blog/2023/tim-mossholder-HCZ7Y1PGpho-unsplash.jpg)
 
 Photo by Tim Mossholder on Unsplash
 

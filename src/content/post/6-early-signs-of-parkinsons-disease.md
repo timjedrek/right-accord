@@ -2,7 +2,7 @@
 publishDate: 2022-02-07T00:00:00Z
 title: '6 Early Signs of Parkinsons Disease — When to See a Doctor?'
 excerpt: Parkinson's disease is a progressive neurological disorder affecting the brain. Check out these 6 early symptoms before you decide to seek the help of a doctor.
-image: /src/assets/images/blog/2022/Parkinsons-Disease.jpg
+image: /blog/2022/Parkinsons-Disease.jpg
 tags:
   - Early Signs of Parkinson's Disease
 metadata:
@@ -22,7 +22,7 @@ The key to a better prognosis is in finding out early when to seek the services 
 What is Parkinson's disease?
 ----------------------------
 
-![parkinson's disease diagram](/src/assets/images/blog/2022/bret-kavanaugh-_af0_qAh4K4-unsplash.jpg)
+![parkinson's disease diagram](/blog/2022/bret-kavanaugh-_af0_qAh4K4-unsplash.jpg)
 
 Photo by Bret Kavanaugh on Unsplash
 
@@ -37,7 +37,7 @@ If you have been experiencing two or more of these major symptoms, then you shou
 What are the symptoms and signs of Parkinson's?
 -----------------------------------------------
 
-![image of a hand tremors](/src/assets/images/blog/2022/parkinsons-gc3f17d244_1280.jpg)
+![image of a hand tremors](/blog/2022/parkinsons-gc3f17d244_1280.jpg)
 
 Photo by Pixabay
 
@@ -89,7 +89,7 @@ In addition to low levels of important neurotransmitters, some abnormal clumps o
 What are the risk factors of Parkinson's disease?
 -------------------------------------------------
 
-![group of elderl males](/src/assets/images/blog/2022/egor-myznik-GFHKMW6KiJ0-unsplash.jpg)
+![group of elderl males](/blog/2022/egor-myznik-GFHKMW6KiJ0-unsplash.jpg)
 
 Photo by Egor Myznik on Unsplash
 
@@ -104,7 +104,7 @@ A number of risk factors have been discovered to enhance the development of Park
 How is Parkinson's disease diagnosed?
 -------------------------------------
 
-![mural painting of Mohammad Ali](/src/assets/images/blog/2022/nelson-ndongala-vLcu3Lcvkq4-unsplash.jpg)
+![mural painting of Mohammad Ali](/blog/2022/nelson-ndongala-vLcu3Lcvkq4-unsplash.jpg)
 
 Photo by Towfiqu Barbhuiya on Unsplash
 
@@ -115,7 +115,7 @@ Some imaging techniques could help the doctor rule out other possible diseases t
 What treatment options are available when you see the doctor?
 -------------------------------------------------------------
 
-![elderly with Parkinson's eating diet food](/src/assets/images/blog/2022/138436592_s.jpg)
+![elderly with Parkinson's eating diet food](/blog/2022/138436592_s.jpg)
 
 The treatment for Parkinson's disease involves lifestyle adjustments, pharmaceutical medications and non-pharmaceutical therapies.
 

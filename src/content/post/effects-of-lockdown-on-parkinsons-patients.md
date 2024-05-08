@@ -2,7 +2,7 @@
 publishDate: 2022-05-23T00:00:00Z
 title: 'The Negative Effects of Lockdown on Parkinsons Patients'
 excerpt: Parkinson's is a medical condition affecting the central nervous system. It affects the neurons in the brain that play vital roles in body movements.
-image: /src/assets/images/blog/2022/parkinsons-month.jpg
+image: /blog/2022/parkinsons-month.jpg
 tags:
   - Parkinson's disease
 metadata:
@@ -22,7 +22,7 @@ Although rarely seen in younger people, in which case it is called early-onset P
 WHAT IS PARKINSON'S DISEASE?
 ----------------------------
 
-![elderly man holding a mobile phone](/src/assets/images/blog/2022/adam-niescioruk-9ChfwZzv4ys-unsplash.jpg)
+![elderly man holding a mobile phone](/blog/2022/adam-niescioruk-9ChfwZzv4ys-unsplash.jpg)
 
 Parkinson's is a medical condition affecting the central nervous system (the brain). Specifically, it affects the neurons (nerves) in the brain that play vital roles in body movements. These neurons also release a neuro-chemical called dopamine. Dopamine is responsible for pleasurable feelings and can also affect moods. In the case of a reduction in production, dopamine causes changes in gait (in this case, the gait becomes shuffled), hand movements, and fine motor skills that otherwise come naturally.
 
@@ -47,7 +47,7 @@ Most people living with Parkinson's disease are 60 years and above, making the c
 
 Some toxic chemical from industrial manufacturing and waste products as seen in fertilizer and pesticide production plants have been linked to Parkinson;s.
 
-![elderly man single profile](/src/assets/images/blog/2022/robin-noguier-lgFQ6TLxDZY-unsplash.jpg)
+![elderly man single profile](/blog/2022/robin-noguier-lgFQ6TLxDZY-unsplash.jpg)
 
 What to look out for in Parkinson's
 -----------------------------------
@@ -61,7 +61,7 @@ As the disease progresses, the symptoms begin to worsen. The person living with 
 
 There is currently no known cure for Parkinson's, but there is considerable research ongoing to find a solution to this challenge. Hopefully, in the no-distant future, Parkinson's will become a curable condition. However, for now, it can only be managed with symptomatic treatment and physiotherapy.
 
-![caregiver assisting a parkinson's disease patient](/src/assets/images/blog/2022/iStock-849182416.jpg)
+![caregiver assisting a parkinson's disease patient](/blog/2022/iStock-849182416.jpg)
 
 Managing Parkinson's at home
 ----------------------------
@@ -94,7 +94,7 @@ Because sleep patterns can be altered with Parkinson's disease, it can sometimes
 
 Exercising regularly can help maintain muscle tone and function. This also reduces the progression of the disease. Exercising up to 4 hours before bedtime can also help with improved sleeping.
 
-![group of elderly biking together](/src/assets/images/blog/2022/42311763_m.jpg)
+![group of elderly biking together](/blog/2022/42311763_m.jpg)
 
 ### • Eat healthy meals
 

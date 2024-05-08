@@ -2,7 +2,7 @@
 publishDate: 2021-01-08T00:00:00Z
 title: '7 Tips To Cope With Depression, Isolation On Elderly During COVID-19'
 excerpt: For the past 12 months, the effect of crisis from the pandemic has been challenging for many, including the elderly. We hope that these tips will truly benefit them.
-image: /src/assets/images/blog/2021/depression-and-isolation-among-elderly.jpg
+image: /blog/2021/depression-and-isolation-among-elderly.jpg
 tags:
   - depression
   - isolation
@@ -27,7 +27,7 @@ But humans are social creatures, hence the challenges that are expected with mea
 What are the risks of depression associated with COVID 19 induced isolation and what can be done about it?
 ----------------------------------------------------------------------------------------------------------
 
-![elderly woman face in focus](/src/assets/images/blog/2021/grandma.jpg)
+![elderly woman face in focus](/blog/2021/grandma.jpg)
 
 Photo by David Clode on Unsplash
 
@@ -61,7 +61,7 @@ Interaction and socialization is required for brain activity especially in the e
 
 Such as hypertension from limited physical activity and resultant gain in weight.
 
-![senior man doing selfie](/src/assets/images/blog/2021/depressed-person.jpg)
+![senior man doing selfie](/blog/2021/depressed-person.jpg)
 
 Photo by Pixabay
 
@@ -80,7 +80,7 @@ An elderly person with depression will likely show many of these signs:
 *   Feeling of hopelessness
 *   Suicidal thoughts (in worse cases, suicidal attempts)
 
-![image of a lonely elderly woman](/src/assets/images/blog/2021/woman-beside-the-glass-wall.jpg)
+![image of a lonely elderly woman](/blog/2021/woman-beside-the-glass-wall.jpg)
 
 Photo by Cytonn Photography on Unsplash
 

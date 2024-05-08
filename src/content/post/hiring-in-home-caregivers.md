@@ -2,7 +2,7 @@
 publishDate: 2020-09-21T00:00:00Z
 title: '10 Tips To Increase Your Chance of Hiring In Home Caregivers'
 excerpt: Increase your chance of hiring in home caregiver in your area. Know these tips and practices that senior care industries are implementing in hiring caregivers.
-image: /src/assets/images/blog/2020/hiring-caregivers-for-home-care.jpg
+image: /blog/2020/hiring-caregivers-for-home-care.jpg
 tags:
   - hiring in home caregivers
   - in home caregiver hiring
@@ -22,7 +22,7 @@ Home Care agencies continue to identify shortage of caregivers as their top thre
 
 With the current growth of the senior care industry, Caregivers are now allowed to make their choice of which agencies to work for.
 
-![A caregiver helping an elderly](/src/assets/images/blog/2020/caregiver-helping-a-senior.jpg)
+![A caregiver helping an elderly](/blog/2020/caregiver-helping-a-senior.jpg)
 
 Photo by Freepik
 
@@ -37,7 +37,7 @@ These are some of the things you can do to help you in hiring more caregivers, b
 10 BEST PRACTICES FOR HIRING CAREGIVERS FOR IN HOME CARE
 --------------------------------------------------------
 
-![group of female caregivers](/src/assets/images/blog/2020/group-of-caregivers.jpg)
+![group of female caregivers](/blog/2020/group-of-caregivers.jpg)
 
 Photo by Freepik
 
@@ -87,7 +87,7 @@ This gives you a chance to observe how well they get along on the job, and also 
 
 In addition, it gives the caregiver the opportunity to ensure that the job meets their own expectations.
 
-![caregiver writing a progress report](/src/assets/images/blog/2020/caregiver-writing-a-report.jpg)
+![caregiver writing a progress report](/blog/2020/caregiver-writing-a-report.jpg)
 
 Photo by Freepik
 

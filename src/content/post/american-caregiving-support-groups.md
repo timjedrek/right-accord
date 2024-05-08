@@ -2,7 +2,7 @@
 publishDate: 2020-07-14T00:00:00Z
 title: 'The Plight of Caregivers in America: Caregiving Support Groups 2020'
 excerpt: According to the Caregiving Support Groups research study for 2020, the number of Americans providing unpaid care has increased over the last five years. Read more of that information here.
-image: /src/assets/images/blog/2020/caregiving-in-the-us.jpg
+image: /blog/2020/caregiving-in-the-us.jpg
 tags:
   - caregiving support groups
   - caregiver
@@ -42,7 +42,7 @@ There is also a higher number of adult caregivers today that are providing care 
 THE CAREGIVERS AND THE CARE RECIPIENTS
 --------------------------------------
 
-![the caregiver and caregiving recipient in outdoor](/src/assets/images/blog/2020/josh-appel-0nkFvdcM-X4-unsplash.jpg)
+![the caregiver and caregiving recipient in outdoor](/blog/2020/josh-appel-0nkFvdcM-X4-unsplash.jpg)
 
 Photo by Josh Appel on Unsplash
 
@@ -58,7 +58,7 @@ The health care and LTSS systems in the United States are often dispersed or fra
 
 It also appears that beyond the estimated 48 million caregivers in the United States, another 3.4 million children are tasked to care for the adults. This may be due to the impact of disease or disability that ripple beyond the caregiver and recipient.
 
-![joyful adult daughter greeting happy surprised senior mother](/src/assets/images/blog/2020/joyful-adult-daughter-greeting-happy-surprised-senior-mother-3768131.jpg)
+![joyful adult daughter greeting happy surprised senior mother](/blog/2020/joyful-adult-daughter-greeting-happy-surprised-senior-mother-3768131.jpg)
 
 Photo by Andrea Piacquadio from Pexels
 
@@ -84,7 +84,7 @@ Caregivers reported that they rely on some caregiving support groups, doctors, n
 THE ECONOMIC EFFECTS ON FAMILY CAREGIVING
 -----------------------------------------
 
-![an elderly woman taking notes while using a laptop](/src/assets/images/blog/2020/an-elderly-woman-taking-notes-while-using-a-laptop-4057764.jpg)
+![an elderly woman taking notes while using a laptop](/blog/2020/an-elderly-woman-taking-notes-while-using-a-laptop-4057764.jpg)
 
 Caregivers were heavily affected by the financial consequences of caring for the family members. About 1 in 5 caregivers report high financial strain as a result of caregiving. Most common result is that they have stopped saving, they have taken on more debt, they have left bills unpaid or paid late.
 

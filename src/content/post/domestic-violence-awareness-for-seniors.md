@@ -2,7 +2,7 @@
 publishDate: 2023-10-11T00:00:00Z
 title: 'Exploring the Domestic Violence Awareness for Seniors'
 excerpt: This Blog delve into the overlooked issue of domestic violence among seniors and the importance of raising awareness to protect this vulnerable group.
-image: /src/assets/images/blog/2023/Domestic-Violence-on-Seniors.jpg
+image: /blog/2023/Domestic-Violence-on-Seniors.jpg
 tags:
   - omestic violence on seniors
 metadata:
@@ -19,7 +19,7 @@ In this article, we delve into the often overlooked issue of domestic violence a
 
 While society tends to associate domestic violence with younger individuals, studies have shown that it affects seniors as well. The impact of domestic violence on these individuals can be particularly devastating, as many face physical limitations, health issues, and social isolation, making it difficult for them to seek help or escape abusive situations.
 
-![wellness gallery photo](/src/assets/images/blog/2023/pexels-alessio-cesario-1906859.jpg)
+![wellness gallery photo](/blog/2023/pexels-alessio-cesario-1906859.jpg)
 
 Photo by Alessio Cesario on Pexels
 
@@ -43,7 +43,7 @@ The prevalence of domestic violence among seniors is often underestimated due to
 
 It is also important to note that domestic violence among seniors can take various forms, including physical, emotional, sexual, and financial abuse, as well as neglect. Each type of abuse can have severe consequences on the overall well-being and quality of life for seniors.
 
-![abused male elderly](/src/assets/images/blog/2023/pexels-kindel-media-7298867.jpg)
+![abused male elderly](/blog/2023/pexels-kindel-media-7298867.jpg)
 
 Photo by Kindel Media on Pexels
 
@@ -54,7 +54,7 @@ Recognizing the signs and indicators of domestic violence in seniors is crucial 
 
 It is essential to approach the topic sensitively when discussing concerns with a senior loved one. They may be hesitant to disclose abuse due to fear of retaliation or because they may have normalized the abusive behavior. Creating a safe and supportive environment where they feel comfortable opening up is key to promoting disclosure and seeking help.
 
-![injured person](/src/assets/images/blog/2023/pexels-cottonbro-studio-6191128.jpg)
+![injured person](/blog/2023/pexels-cottonbro-studio-6191128.jpg)
 
 Photo by Cottonbro Studio on Pexels
 
@@ -79,7 +79,7 @@ If you suspect that a senior loved one is in an abusive relationship, it is cruc
 
 Listening without judgment and offering support can create a safe space for them to open up about their experiences. Encouraging them to connect with local resources and professionals who specialize in elder abuse can provide the necessary guidance and assistance.
 
-![counselling group](/src/assets/images/blog/2023/priscilla-du-preez-F9DFuJoS9EU-unsplash.jpg)
+![counselling group](/blog/2023/priscilla-du-preez-F9DFuJoS9EU-unsplash.jpg)
 
 Photo by Priscilla Du Preez on Unsplash
 
@@ -97,7 +97,7 @@ Community organizations and government agencies play a crucial role in addressin
 
 Collaboration between healthcare providers, law enforcement agencies, social service organizations, and legal professionals is key to creating a comprehensive response system. By working together, these entities can ensure that seniors receive the necessary support and protection they deserve.
 
-![We Hear You](/src/assets/images/blog/2023/we-hear-you.jpg)
+![We Hear You](/blog/2023/we-hear-you.jpg)
 
 Photo by Jon Tyson on Unsplash
 

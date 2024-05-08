@@ -2,7 +2,7 @@
 publishDate: 2024-03-06T00:00:00Z
 title: 'Honoring Caregivers: The Heroes on International Womens Day'
 excerpt: This Blog shine a spotlight on the compassionate and resilient women caregivers who make a significant difference in the lives of their senior clients.
-image: /src/assets/images/blog/2024/Honoring-Caregivers.jpg
+image: /blog/2024/Honoring-Caregivers.jpg
 tags:
   - Caregivers
 metadata:
@@ -20,7 +20,7 @@ This year, let's take a moment to recognize and honor a group of remarkable wome
 The Essential Role of Caregivers:
 ---------------------------------
 
-![old man doing exercises](/src/assets/images/blog/2024/old-man-doing-exercises.jpg)
+![old man doing exercises](/blog/2024/old-man-doing-exercises.jpg)
 
 Caregivers play a vital role in society, providing invaluable support to individuals who need assistance due to aging, illness, or disability. Many of these caregivers are women, showcasing their compassion, empathy, and selflessness in ensuring the well-being of those under their care.
 
@@ -33,7 +33,7 @@ While caregiving is a noble and rewarding profession, it comes with its fair sha
 
 Caregivers working with senior clients face unique challenges, such as managing chronic health conditions, providing assistance with daily activities, and addressing the emotional and mental well-being of their clients. These challenges highlight the need for recognition and support for caregivers, especially on a day dedicated to celebrating women's achievements.
 
-![caregiver pushing senior woman wheelchair](/src/assets/images/blog/2024/caregiver-pushing-senior-woman-wheelchair.jpg)
+![caregiver pushing senior woman wheelchair](/blog/2024/caregiver-pushing-senior-woman-wheelchair.jpg)
 
 The Role of Caregiver Agencies:
 -------------------------------
@@ -63,7 +63,7 @@ To ensure the well-being of both caregivers and their senior clients, it is impe
 
 By acknowledging the crucial role of caregivers and caregiver agencies, we can contribute to creating a more supportive and sustainable caregiving ecosystem. This International Women's Day, let's pledge to uplift and empower the women who dedicate their lives to caring for others.
 
-![closeup support hands](/src/assets/images/blog/2024/closeup-support-hands.jpg)
+![closeup support hands](/blog/2024/closeup-support-hands.jpg)
 
 Conclusion
 ----------

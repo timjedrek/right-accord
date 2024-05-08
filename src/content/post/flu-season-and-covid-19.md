@@ -2,7 +2,7 @@
 publishDate: 2020-10-07T00:00:00Z
 title: 'This FS Protects Your Seniors During Flu Season and COVID-19 Pandemic'
 excerpt: Fall months bring us the Flu Season. As COVID-19 still a serious health threat, experts are wary about our seniors. Here's what you need to know to protect them from Flu.
-image: /src/assets/images/blog/2020/flu-season.jpg
+image: /blog/2020/flu-season.jpg
 tags:
   - flu season
   - flu-vaccine
@@ -23,7 +23,7 @@ So what's the point of saying this? Well, it's because the Flu season starts in 
 
 Flu is a contagious respiratory illness caused by influenza viruses. It can infect the nose, throat, and sometimes the lungs.
 
-![picture of an elderly woman wearing an eyeglass](/src/assets/images/blog/2020/kelly-sikkema-xN0INdwHAs4-unsplash.jpg)
+![picture of an elderly woman wearing an eyeglass](/blog/2020/kelly-sikkema-xN0INdwHAs4-unsplash.jpg)
 
 Photo by Kelly Sikkema on Unsplash
 
@@ -36,7 +36,7 @@ Senior people are at high risk of serious Flu complications. Young children unde
 HOW ARE THESE VIRUSES SPREAD?
 -----------------------------
 
-![picture of an elderly woman wearing an eyeglass](/src/assets/images/blog/2020/united-nations-covid-19-response-lbWcHW6KAyI-unsplash.jpg)
+![picture of an elderly woman wearing an eyeglass](/blog/2020/united-nations-covid-19-response-lbWcHW6KAyI-unsplash.jpg)
 
 Photo by UN COVID-19 Response on Unsplash
 
@@ -51,7 +51,7 @@ Some infections can be spread by exposure to viruses in small droplets and parti
 WHAT ARE THE SYMPTOMS OF FLU?
 -----------------------------
 
-![elderly couple holding each other while crossing on the street](/src/assets/images/blog/2020/picspree-716054.jpg)
+![elderly couple holding each other while crossing on the street](/blog/2020/picspree-716054.jpg)
 
 Photo by Picspree
 
@@ -78,7 +78,7 @@ If you or your elderly have a fever, cough, congestion, sneezing, sore throat, r
 FLU PREVENTION DURING CORONAVIRUS PANDEMIC
 ------------------------------------------
 
-![an elderly man wearing a hearing aid](/src/assets/images/blog/2020/hyttalo-souza-a1p0Z7RSkL8-unsplash.jpg)
+![an elderly man wearing a hearing aid](/blog/2020/hyttalo-souza-a1p0Z7RSkL8-unsplash.jpg)
 
 Photo by Hyttalo Souza on Unsplash
 

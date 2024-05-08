@@ -2,7 +2,7 @@
 publishDate: 2023-07-11T00:00:00Z
 title: 'How Right Accord Home Care Provides Assistance After Discharge'
 excerpt: Transitioning from a hospital stay to the comfort of your own home can be a challenging process. That's where Right Accord Home Health Care steps in.
-image: /src/assets/images/blog/2023/From-Hospital-to-Home.jpg
+image: /blog/2023/From-Hospital-to-Home.jpg
 tags:
   - senior care
 metadata:
@@ -22,7 +22,7 @@ By offering a wide range of services tailored to meet your unique needs, Right A
 The Importance of Post-Discharge Care
 -------------------------------------
 
-![a doctor and a petient](/src/assets/images/blog/2023/national-cancer-institute-4SiOVKH3DYA-unsplash.jpg)
+![a doctor and a petient](/blog/2023/national-cancer-institute-4SiOVKH3DYA-unsplash.jpg)
 
 Photo by NCI on Unsplash
 
@@ -38,7 +38,7 @@ Furthermore, post-discharge care enhances medication management. It is common to
 
 In summary, post-discharge care is essential for a successful recovery after a hospital stay. Right Accord Home Health Care recognizes the importance of this transitional period and provides a wide range of services to support your physical and emotional well-being. By reducing hospital readmissions, promoting independence, and ensuring proper medication management, Right Accord Home Health Care plays a crucial role in your journey towards full recovery.
 
-![patient in a hospital bed](/src/assets/images/blog/2023/olga-kononenko-98__MsKaUsI-unsplash.jpg)
+![patient in a hospital bed](/blog/2023/olga-kononenko-98__MsKaUsI-unsplash.jpg)
 
 Photo by Olga Kononenko on Unsplash
 
@@ -69,7 +69,7 @@ Right Accord Home Health Care understands the importance of proper medication ma
 
 These are just a few examples of the services provided by Right Accord Home Health Care. They tailor their care plans to meet your specific needs and work collaboratively with your healthcare team to ensure a holistic and personalized approach to your recovery.
 
-![elderly and her caregiver having a conversation](/src/assets/images/blog/2023/192406158_xl_normal_none.jpg)
+![elderly and her caregiver having a conversation](/blog/2023/192406158_xl_normal_none.jpg)
 
 Benefits of Choosing Right Accord Home Health Care
 --------------------------------------------------
@@ -96,7 +96,7 @@ Right Accord Home Health Care provides care in the comfort of your own home, all
 
 Right Accord Home Health Care offers cost-effective solutions for post-discharge care. They work with various insurance providers to ensure that their services are covered, minimizing out-of-pocket expenses for you. By choosing Right Accord Home Health Care, you can receive high-quality care without incurring excessive financial burdens.
 
-![doctor and a nurse checking on a patient](/src/assets/images/blog/2023/national-cancer-institute-dkZQfm1LLQE-unsplash.jpg)
+![doctor and a nurse checking on a patient](/blog/2023/national-cancer-institute-dkZQfm1LLQE-unsplash.jpg)
 
 Photo by NCI on Unsplash
 

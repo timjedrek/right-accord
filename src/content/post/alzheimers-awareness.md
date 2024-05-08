@@ -2,7 +2,7 @@
 publishDate: 2021-06-18T00:00:00Z
 title: '8 New Ways to Protect Yourself and Elderly from Alzheimers Disease'
 excerpt: Alzheimer's is termed as a condition of public health concern that affects the elderly. Here's the 8 new ways to protect yourself from this brain degenerative disease.
-image: /src/assets/images/blog/2021/Alzheimers-awareness.jpg
+image: /blog/2021/Alzheimers-awareness.jpg
 tags:
   - Alzheimer’s disease
   - elderly
@@ -22,7 +22,7 @@ Because it is a disease condition of public health concern, Alzheimer’s is des
 What is Alzheimer’s disease?
 ----------------------------
 
-![old man looking at the photographs](/src/assets/images/blog/2021/looking-a-photograph.jpg)
+![old man looking at the photographs](/blog/2021/looking-a-photograph.jpg)
 
 Alzheimer’s is termed neurodegenerative and this is because it causes a gradual destruction of the neurons in the brain. This gradual destruction leads to loss in memory among other presentations. Alzheimer’s is mostly seen in the elderly although there are rare cases of early onset Alzheimer’s seen in people younger than 65 years.
 
@@ -36,7 +36,7 @@ As memory loss progresses, people with the condition tend to forget basic things
 *   Delusions
 *   Mood swings and aggression. This is usually caused by the confusion and sometimes frustration brought on by not remembering anything.
 
-![a rose and collection of photographs](/src/assets/images/blog/2021/laura-louise-grimsley-JZiO8Rd8tlQ-unsplash.jpg)
+![a rose and collection of photographs](/blog/2021/laura-louise-grimsley-JZiO8Rd8tlQ-unsplash.jpg)
 
 Photo by Laura Louise on Unsplash
 
@@ -72,7 +72,7 @@ You can make use of workplaces, schools or town halls to host a purple-themed ev
 
 Currently, Alzheimer’s disease can only be symptomatically managed. There is no established cure for the disease. However, medical science is relentlessly working on the subject and there are multiple ongoing researches and projects with the sole goal of eventually finding a cure. Research is fueled by funds and you can be a part of the multiple donors who are contributing to make sure that the near future will be one with a cure for the disease. Seek credible organizations and bodies that collect donations for this purpose and be a part of history.
 
-![woman wearing purple shirt with alzheimer's slogan](/src/assets/images/blog/2021/awareness-rally.jpg)
+![woman wearing purple shirt with alzheimer's slogan](/blog/2021/awareness-rally.jpg)
 
 How to protect yourself from Alzheimer’s
 ----------------------------------------

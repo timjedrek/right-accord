@@ -2,7 +2,7 @@
 publishDate: 2023-12-07T00:00:00Z
 title: 'Navigating the Flu Season: A Guide for Caregivers and Seniors'
 excerpt: This blog aims to shed light on the importance of flu prevention and provide practical tips for caregivers and seniors in this very challenging season.
-image: /src/assets/images/blog/2023/Flu-Season-Guide-for-Seniors.jpg
+image: /blog/2023/Flu-Season-Guide-for-Seniors.jpg
 tags:
   - Flu Prevention for Seniors
 metadata:
@@ -20,7 +20,7 @@ In the midst of a global health landscape, it becomes crucial for caregivers and
 Understanding the Flu
 ---------------------
 
-![sick senior in a couch](/src/assets/images/blog/2023/medium-shot-sick-man-couch-with-laptop_23-2148998294.jpg)
+![sick senior in a couch](/blog/2023/medium-shot-sick-man-couch-with-laptop_23-2148998294.jpg)
 
 Influenza, commonly known as the flu, is a contagious respiratory illness caused by influenza viruses. Symptoms range from mild to severe and can include fever, cough, sore throat, body aches, and fatigue.
 
@@ -31,7 +31,7 @@ The Importance of Vaccination
 
 One of the most effective ways to prevent the flu and its complications is through vaccination. Caregivers and seniors should prioritize getting the annual flu vaccine, as it provides protection against the most prevalent strains of the virus. The flu vaccine not only reduces the risk of infection but also lessens the severity of symptoms in case of exposure.
 
-![vaccine fight illness](/src/assets/images/blog/2023/covid-vaccine-fight-illness_23-2149134157.jpg)
+![vaccine fight illness](/blog/2023/covid-vaccine-fight-illness_23-2149134157.jpg)
 
 Creating a Flu Prevention Plan
 ------------------------------
@@ -64,7 +64,7 @@ In situations where flu activity is high, consider practicing social distancing 
 
 Stay informed about the latest developments in flu activity and public health recommendations. Regularly check updates from reliable sources such as the Centers for Disease Control and Prevention (CDC) to make informed decisions about preventive measures.
 
-![doctor taking care senior woman](/src/assets/images/blog/2023/doctor-taking-care-senior-woman_23-2148962367.jpg)
+![doctor taking care senior woman](/blog/2023/doctor-taking-care-senior-woman_23-2148962367.jpg)
 
 Caring for Seniors During Flu Season
 ------------------------------------
@@ -89,7 +89,7 @@ Educate caregivers on recognizing early signs of the flu in seniors. Prompt acti
 
 If a senior exhibits flu-like symptoms, encourage them to isolate themselves to prevent the spread of the virus. Provide necessary care and seek medical attention if symptoms worsen.
 
-![side view seniors taking push ups](/src/assets/images/blog/2023/side-view-woman-doing-push-ups_23-2148247194.jpg)
+![side view seniors taking push ups](/blog/2023/side-view-woman-doing-push-ups_23-2148247194.jpg)
 
 Conclusion
 ----------

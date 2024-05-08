@@ -2,7 +2,7 @@
 publishDate: 2023-11-22T00:00:00Z
 title: 'How Caregivers Empower Families to Prioritize Senior Care'
 excerpt: Caregivers play a pivotal role in empowering families ensuring that no one has to sacrifice time or miss on the well-being of their senior loved ones.
-image: /src/assets/images/blog/2023/How-Caregivers-Empower-Busy-Families.jpg
+image: /blog/2023/How-Caregivers-Empower-Busy-Families.jpg
 tags:
   - Caregiver services
 metadata:
@@ -20,7 +20,7 @@ For many, the role of caregiver becomes a delicate balancing act, especially for
 The Modern Balancing Act
 ------------------------
 
-![happy old woman talking with her caretaker](/src/assets/images/blog/2023/portrait-elderly-man-woman-together.jpg)
+![happy old woman talking with her caretaker](/blog/2023/portrait-elderly-man-woman-together.jpg)
 
 In the hustle and bustle of contemporary life, families often find themselves caught in a whirlwind of commitments – from demanding careers to the daily responsibilities of parenting. The emergence of the sandwich generation has added another layer of complexity, as individuals are increasingly tasked with caring for both their growing children and aging parents. The challenge lies not just in meeting the physical needs of seniors but also in ensuring their emotional well-being and maintaining a semblance of normalcy within the family dynamic.
 
@@ -29,7 +29,7 @@ The Need for Professional Care
 
 Recognizing the strain this balancing act can impose on families, there has been a growing reliance on professional caregivers specializing in private duty home health care. These caregivers offer a lifeline to families attempting to strike a balance between their hectic schedules and the compassionate care their senior members require.
 
-![cheerful grandparents](/src/assets/images/blog/2023/cheerful-grandparents-granddaughter-having-fun-together-home.jpg)
+![cheerful grandparents](/blog/2023/cheerful-grandparents-granddaughter-having-fun-together-home.jpg)
 
 Empowering Families Through Caregivers
 --------------------------------------
@@ -46,7 +46,7 @@ Private duty home health care, including the services offered by Right Accord, p
 
 Caregivers go beyond just assisting with daily tasks. They offer a range of services, from medication management to companionship. Right Accord's caregivers, in particular, are trained to handle various medical conditions, ensuring that seniors receive comprehensive and quality care in the comfort of their homes.
 
-![caregiver feeding elderly senior man](/src/assets/images/blog/2023/nurse-feeding-elderly-senior-man-eat-breakfast-nursing-home.jpg)
+![caregiver feeding elderly senior man](/blog/2023/nurse-feeding-elderly-senior-man-eat-breakfast-nursing-home.jpg)
 
 Choosing the Right Care with Right Accord
 -----------------------------------------
@@ -65,7 +65,7 @@ What sets Right Accord apart is its client-centered approach. In the collaborati
 
 Beyond addressing the immediate physical needs of seniors, Right Accord places a strong emphasis on enhancing their overall quality of life. This involves not only medical care but also activities that bring joy and fulfillment to the seniors. The goal is to ensure that seniors age with dignity and continue to enjoy a meaningful life.
 
-![caregiver taken good care on elderly woman](/src/assets/images/blog/2023/nurses-are-well-good-taken-care-elderly-woman-patients-hospital-bed-patients-feel-happiness-medical-healthcare-concept.jpg)
+![caregiver taken good care on elderly woman](/blog/2023/nurses-are-well-good-taken-care-elderly-woman-patients-hospital-bed-patients-feel-happiness-medical-healthcare-concept.jpg)
 
 Conclusion
 ----------

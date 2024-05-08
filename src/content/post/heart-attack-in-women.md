@@ -2,7 +2,7 @@
 publishDate: 2020-02-17T00:00:00Z
 title: 'Why Heart Attack on American Women is More Alarming than Cancer'
 excerpt: Heart disease in women is now a major cause of death in American females. Heart disease in women trumps cancer as a leading cause of morbidity and mortality.
-image: /src/assets/images/blog/2020/heart-disease-women.jpg
+image: /blog/2020/heart-disease-women.jpg
 tags:
   - women heart attack
   - women high blood pressure
@@ -92,7 +92,7 @@ Having a heart disease means that you are at an increased risk of having the fol
 PROMOTING YOUR HEART HEALTH
 ---------------------------
 
-![green tea pic](/src/assets/images/blog/2020/green-tea.jpg)
+![green tea pic](/blog/2020/green-tea.jpg)
 
 Certain things like genetics and biological factors like pre-existing diseases may not be changeable, but studies have shown that healthy lifestyle modifications go a long way towards greatly lowering your risk of a heart attack.
 

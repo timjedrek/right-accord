@@ -2,7 +2,7 @@
 publishDate: 2021-08-23T00:00:00Z
 title: '7 Best Practical Tips for Effective Elderly Home Care Today'
 excerpt: Providing elderly effective caregiving means addressing their needs and improving their lives without ruining your own. Here's the 7 best tips you can use today.
-image: /src/assets/images/blog/2021/effective-elder-home-care.jpg
+image: /blog/2021/effective-elder-home-care.jpg
 tags:
   - elderly home care
   - elderly care
@@ -17,7 +17,7 @@ By: Rosemarie Tamunday Casanova — RN, BSN, MHA
 
 Providing elderly effective caregiving means addressing their needs and improving their lives without ruining your own. In fact, some people can become so devoted to providing for the needs of the elderly that they tend to ignore their own needs.
 
-![caregiver attending to an elderly in a wheelchair](/src/assets/images/blog/2021/119235008_s.jpg)
+![caregiver attending to an elderly in a wheelchair](/blog/2021/119235008_s.jpg)
 
 Despite the difficulty of the task, proper knowledge of effective caregiving methods can help provide a more convenient and healthy life for your elderly family members. Getting started with effective caregiving involves learning as much as you can about how it works. After all, as a caregiver, you hold a great deal of responsibility for another human being.
 
@@ -45,7 +45,7 @@ You also need to set limits when it comes to the type of service you are going t
 
 You can take them on various activities to make the most of their remaining years together. There are several agencies or non-profit organizations that offer activities and services for the elderly that you cannot find on your own. You can find professional caregivers here who can assist you in any way possible so that you can improve how you take care of yourself.
 
-![nurse applying protection to the vaccinated arm of a patient](/src/assets/images/blog/2021/84799962_m.jpg)
+![nurse applying protection to the vaccinated arm of a patient](/blog/2021/84799962_m.jpg)
 
 ### 4\. Keep A Positive Attitude Towards Their Complaints
 
@@ -59,7 +59,7 @@ Aging people tend to exhibit extreme behaviors that might make people lacking pa
 
 In cases of extreme behavior, inform the elder about the behavior so that they can prevent it from happening again. If someone uses foul language or raises their voice, never respond with foul language yourself. When you can't hold your temper, walk away and let your mind calm down until you are capable of handling the situation calmly.
 
-![happy girl looking at her vaccinated arm sticker](/src/assets/images/blog/2021/38199425_s.jpg)
+![happy girl looking at her vaccinated arm sticker](/blog/2021/38199425_s.jpg)
 
 ### 6\. Learn To Use And Implement Mindful Communication
 
@@ -71,7 +71,7 @@ The elderly person you care for probably does not want you in their house 24 hou
 
 These activities create a bond between you and the person you care for by leveraging your common interests and developing a strong basis on which to coexist. When caring for a stranger, it is fundamental to getting to know them properly. If you're looking after a family member, it's likely you're giving him or her joy just by spending time there.
 
-![elderly and companion doing some gardening](/src/assets/images/blog/2021/marcel-strauss-X20w904N_Z4-unsplash.jpg)
+![elderly and companion doing some gardening](/blog/2021/marcel-strauss-X20w904N_Z4-unsplash.jpg)
 
 Photo by Marcel Strauss on Unsplash
 

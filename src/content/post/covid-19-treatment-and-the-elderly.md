@@ -2,7 +2,7 @@
 publishDate: 2020-04-17T00:00:00Z
 title: 'COVID-19 Treatment and the Elderly'
 excerpt: There are still no drugs or biologics have been proved effective for the treatment of this new disease, coronavirus but people are not losing hope to find one.
-image: /src/assets/images/blog/2020/protecting-elderly-from-covid.jpg
+image: /blog/2020/protecting-elderly-from-covid.jpg
 tags:
   - covid-19 treatment
   - covid19 and the elderly
@@ -19,7 +19,7 @@ By: Rosemarie Tamunday Casanova
 
 As the world leaders, scientist and health experts struggle to find COVID-19 treatment, the objective of minimizing the health risk of coronavirus to the elderly people are among their top priorities. Elder people over the age of 80 are more susceptible to coronavirus disease. The risk to get coronavirus increases with age. In the children of the age group of 0-9 no fatalities recorded. In contrast, 15% of infected people over the age of 80 dies. Cope up with this disease is only possible if the person has a good immune system.
 
-![An elderly man observing social distancing in the park](/src/assets/images/blog/2020/mojtaba-mosayebzadeh-ZSPiDjI7FGk-unsplash.jpg)
+![An elderly man observing social distancing in the park](/blog/2020/mojtaba-mosayebzadeh-ZSPiDjI7FGk-unsplash.jpg)
 
 Photo by mojtaba mosayebzadeh on Unsplash
 
@@ -45,7 +45,7 @@ The name coronavirus is suggested due to their crown-like spikes when observed u
 
 The recent coronavirus was first time identified by Chinese authorities on January 7. The virus was originated from Wuhan city, China where wildlife was also traded illegally. Research studies said that the virus transmitted to humans from the animal through illegal pangolins.
 
-![A coronavirus image in 3D model](/src/assets/images/blog/2020/viktor-forgacs-FcDqdJUM6B4-unsplash.jpg)
+![A coronavirus image in 3D model](/blog/2020/viktor-forgacs-FcDqdJUM6B4-unsplash.jpg)
 
 Photo by Viktor Forgacs on Unsplash
 
@@ -76,7 +76,7 @@ Keep clean the hands. Wash hands with soaps or alcohol-based hand rub for 20 sec
 
 Good hygiene is the number one prevention for coronavirus. Elder people are themselves very much concerned about their hygiene, but you need to take extra care of them in the case of any lag. A slight lack of care may prove dangerous.
 
-![Clean hands thoroughly and regularly](/src/assets/images/blog/2020/claudio-schwarz-purzlbaum-muq_ej7p9s0-unsplash.jpg)
+![Clean hands thoroughly and regularly](/blog/2020/claudio-schwarz-purzlbaum-muq_ej7p9s0-unsplash.jpg)
 
 Photo by 🇨🇭 Claudio Schwarz | @purzlbaum on Unsplash
 
@@ -109,7 +109,7 @@ There are many fatal diseases, but people are not afraid of it. There are two re
 
 Avoid physical contact, take care, so it doesn’t spread because once it starts spreading, it multiplies and a whole population of an area is infected from this pandemic. Therefore, despite the economic and business losses to a large extent, governments of many countries opted for the lockdown so the spreading of this disease can be controlled. Until now the treatment of COVID-19 is recommended by anti-virals with no specificity.
 
-![images of vials and medicine bottles](/src/assets/images/blog/2020/national-cancer-institute-KMvoHcB-w5g-unsplash.jpg)
+![images of vials and medicine bottles](/blog/2020/national-cancer-institute-KMvoHcB-w5g-unsplash.jpg)
 
 Photo by NCI on Unsplash
 
@@ -166,7 +166,7 @@ Nitrous Oxide is a supportive measure for the coronavirus treatment. Inhaled nit
 COVID-19 VACCINE: A NEW HOPE
 ----------------------------
 
-![images of vials and medicine bottles](/src/assets/images/blog/2020/cdc-GnLuuG9crEY-unsplash.jpg)
+![images of vials and medicine bottles](/blog/2020/cdc-GnLuuG9crEY-unsplash.jpg)
 
 Photo by NCI on Unsplash
 

@@ -2,7 +2,7 @@
 publishDate: 2019-08-28T00:00:00Z
 title: 'Top 10 Warning Signs an Aging Parent Needs In-Home Care Support'
 excerpt: Admitting the need for In-Home Care and accepting assistance is not easy for people as they age. The responsibility often falls on family members to recognize the signs that an aging loved one might need support.
-image: /src/assets/images/blog/2019/warning-signs-cover.jpg
+image: /blog/2019/warning-signs-cover.jpg
 tags:
   - In-Home Care
   - Aging Parent

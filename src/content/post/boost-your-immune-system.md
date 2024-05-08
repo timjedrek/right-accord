@@ -2,7 +2,7 @@
 publishDate: 2020-08-07T00:00:00Z
 title: 'How to Boost your Immune Health and Beat Coronavirus Disease'
 excerpt: Know the different ways and supplements to take in order to strengthen your immune health and reduce the risk of infection against COVID-19.
-image: /src/assets/images/blog/2020/immune-booster.jpg
+image: /blog/2020/immune-booster.jpg
 tags:
   - covid-19 immunity
   - coronavirus immunity boost
@@ -23,7 +23,7 @@ How can you reduce your risk of infection?
 Strengthening Your Immunity
 ---------------------------
 
-![an elderly woman staying alone inside the room](/src/assets/images/blog/2020/kamila-maciejewska-uR-vuWzmRjA-unsplash.jpg)
+![an elderly woman staying alone inside the room](/blog/2020/kamila-maciejewska-uR-vuWzmRjA-unsplash.jpg)
 
 Photo by Kamila Maciejewska on Unsplash
 
@@ -72,7 +72,7 @@ The chronic stressed state is associated with a suppression of immunity due to t
 
 One of the infections which a person who is stressed is likely to get is the common cold, according to a classic study conducted in 1991 at the Carnegie Mellon University, United States.
 
-![caregiver helps the elderly woman watch on the mobile phone](/src/assets/images/blog/2020/ekta-agarwal-QgCl-pNkfPc-unsplash.jpg)
+![caregiver helps the elderly woman watch on the mobile phone](/blog/2020/ekta-agarwal-QgCl-pNkfPc-unsplash.jpg)
 
 Photo by Ekta Agarwal from Unsplash
 
@@ -94,7 +94,7 @@ Generally, improving your immunity goes a long way in offering you protection fr
 
 These same groups of persons have also recorded the highest case mortality.
 
-![elderly couple leaving together in a nursing home facility](/src/assets/images/blog/2020/kayla-maurais-EZWTMjwAWls-unsplash.jpg)
+![elderly couple leaving together in a nursing home facility](/blog/2020/kayla-maurais-EZWTMjwAWls-unsplash.jpg)
 
 Photo by Kayla Maurais from Unsplash
 
@@ -128,7 +128,7 @@ Potential Immune Boosters
 
 Some Nutrients and supplements which are popular for their potential to boost the immune system include:
 
-![an old man in the room peeking through a window](/src/assets/images/blog/2020/carissa-gan-YlwOMESLPQo-unsplash.jpg)
+![an old man in the room peeking through a window](/blog/2020/carissa-gan-YlwOMESLPQo-unsplash.jpg)
 
 Photo by Carissa Gan on Unsplash
 
@@ -152,7 +152,7 @@ As the word essential implies, it is not produced by the body and is therefore n
 
 Common sources of zinc include: Oysters, beef roast, crab, lobsters, baked beans, pumpkin seeds, etc.
 
-![elderly couple leaving together in a nursing home facility](/src/assets/images/blog/2020/wang-xi-yinOyCr4Jmc-unsplash.jpg)
+![elderly couple leaving together in a nursing home facility](/blog/2020/wang-xi-yinOyCr4Jmc-unsplash.jpg)
 
 Photo by wang xi from Unsplash
 
@@ -170,7 +170,7 @@ These old purple coloured berries are quite known for their versatile use in mak
 
 Some experts recommend taking elderberry as a part of a healthy diet which includes foods rich in vitamins B & E.
 
-![elderly couple leaving together in a nursing home facility](/src/assets/images/blog/2020/bruna-branco-7r1HxvVC7AY-unsplash.jpg)
+![elderly couple leaving together in a nursing home facility](/blog/2020/bruna-branco-7r1HxvVC7AY-unsplash.jpg)
 
 Photo by Bruna Branco from Unsplash
 
@@ -204,7 +204,7 @@ In a large clinical trial, it was found that the people who consumed 400 IU of V
 
 Common sources of vitamin E include: Almond nuts, peanuts, hazelnuts, wheat germ oil, sunflower oil, corn, soybean, sunflower seeds, spinach, broccoli, etc.
 
-![elderly couple leaving together in a nursing home facility](/src/assets/images/blog/2020/maksim-shutov-pUa1On18Jno-unsplash.jpg)
+![elderly couple leaving together in a nursing home facility](/blog/2020/maksim-shutov-pUa1On18Jno-unsplash.jpg)
 
 Photo by Maksim Shutov from Unsplash
 

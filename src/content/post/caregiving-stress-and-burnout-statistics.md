@@ -2,7 +2,7 @@
 publishDate: 2023-06-11T00:00:00Z
 title: 'The Alarming Statistics About Caregiving Stress And Burnout'
 excerpt: Caregiving Stress And Burnout is at alarming stage based on new statistics. This calls a need for a drastic action to help caregivers overcome these challenges.
-image: /src/assets/images/blog/2023/Caregiving-Stress-Statistics.jpg
+image: /blog/2023/Caregiving-Stress-Statistics.jpg
 tags:
   - Caregiving Stress And Burnout
 metadata:
@@ -23,7 +23,7 @@ It's important to recognize that caregiver stress and burnout are real and serio
 The Physical Toll Of Caregiving On The Body
 -------------------------------------------
 
-![an elderly having a stressful time](/src/assets/images/blog/2023/pexels-kindel-media-8172285.jpg)
+![an elderly having a stressful time](/blog/2023/pexels-kindel-media-8172285.jpg)
 
 Photo by Kindel Media on Pexels
 
@@ -36,7 +36,7 @@ All of these physical demands can add up over time, leading to chronic health pr
 The Mental Health Effects Of Caregiving
 ---------------------------------------
 
-![stressed caregiver sitting in a sofa](/src/assets/images/blog/2023/pexels-cedric-fauntleroy-4270365.jpg)
+![stressed caregiver sitting in a sofa](/blog/2023/pexels-cedric-fauntleroy-4270365.jpg)
 
 Photo by Cedric Fauntleroy on Pexels
 
@@ -86,7 +86,7 @@ Resources For Caregivers - Support Groups, Respite Care, And Counseling
 
 There are many resources available to caregivers who need help managing stress and burnout. These include:
 
-![caregiver group discussion](/src/assets/images/blog/2023/52544940_s.jpg)
+![caregiver group discussion](/blog/2023/52544940_s.jpg)
 
 ### Support Groups
 
@@ -105,7 +105,7 @@ Caregivers should not be afraid to seek out these resources, as they can provide
 The Role Of Technology In Caregiving
 ------------------------------------
 
-![tele medicine session](/src/assets/images/blog/2023/pexels-anna-shvets-4225920.jpg)
+![tele medicine session](/blog/2023/pexels-anna-shvets-4225920.jpg)
 
 Photo by Anna Shvets on Pexels
 

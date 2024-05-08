@@ -2,7 +2,7 @@
 publishDate: 2019-09-30T00:00:00Z
 title: 'Falls in the Elderly Risk Factors and Prevention'
 excerpt: Falls in the elderly is one of the points of concern for the elderly and their caregivers. Knowing the risk factors and early prevention is the only best way to keep your elderly safe from falls.
-image: /src/assets/images/blog/2019/falls-in-elderly-cover.jpg
+image: /blog/2019/falls-in-elderly-cover.jpg
 tags:
   - elderly falls
   - protecting senior from falls
@@ -24,7 +24,7 @@ Getting old is a beautiful thing. It’s something we all hope to experience wit
 HOW CAN FALLS BE PREVENTED?
 ---------------------------
 
-![](/src/assets/images/blog/2019/clean-interior.jpg)
+![](/blog/2019/clean-interior.jpg)
 
 Photo by Kara Eads on Unsplash
 
@@ -69,7 +69,7 @@ Asides from these safety tips for the [in home senior care,](https://rightaccord
 COMMON FALLS INJURY AMONG ELDERLY
 ---------------------------------
 
-![](/src/assets/images/blog/2019/patient-in-bed.jpg)
+![](/blog/2019/patient-in-bed.jpg)
 
 Photo by Ali Yahya on Unsplash
 
@@ -117,7 +117,7 @@ Some of the risk factors associated with fall at home among elderly include:
 WHAT TO DO IF AN ELDERLY PERSON FALLS AT HOME
 ---------------------------------------------
 
-![](/src/assets/images/blog/2019/cpr-procedure.jpg)
+![](/blog/2019/cpr-procedure.jpg)
 
 Image by succo from Pixabay
 

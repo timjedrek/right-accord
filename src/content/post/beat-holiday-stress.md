@@ -2,7 +2,7 @@
 publishDate: 2019-11-20T00:00:00Z
 title: 'How to Beat Holiday Stress with Aging Parents'
 excerpt: Elderly persons are sometimes known to get grouchy or irritable especially when they have to deal with large family gatherings. Here are a few strategies that you can adopt to help you prepare and better cope with the stress of holidays.
-image: /src/assets/images/blog/2019/party-Kristina-Evstifeeva-.jpg
+image: /blog/2019/party-Kristina-Evstifeeva-.jpg
 tags:
   - health insurance
   - healthcare
@@ -54,7 +54,7 @@ In order to enjoy the holiday which you equally need and have certainly earned, 
 
 You may either use a hired help or you could arrange with a family member or friend to help with the care giving. They could take turns to do this so that you are able to catch a deserved rest.
 
-![](/src/assets/images/blog/2019/Outdoor-Kyle-Head.jpg)
+![](/blog/2019/Outdoor-Kyle-Head.jpg)
 
 Photo by Kyle Head on Unsplash
 

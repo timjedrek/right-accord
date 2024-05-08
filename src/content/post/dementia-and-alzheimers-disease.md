@@ -2,7 +2,7 @@
 publishDate: 2020-01-13T00:00:00Z
 title: 'What is Dementia, What is Alzheimers, are they Related to Each'
 excerpt: Many people uses the terms Dementia and Alzheimers disease interchangeably but are they the same? No they are not. So this article comprehensively discusses the difference between Dementia and Alzheimers as well as other Dementia related diseases.
-image: /src/assets/images/blog/2020/camellia-ys3QKjoF_Bk-unsplash.jpg
+image: /blog/2020/camellia-ys3QKjoF_Bk-unsplash.jpg
 tags:
   - alzheimer's
   - parkinson’s
@@ -52,7 +52,7 @@ This is by far the commonest type of dementia. It typically sets in in the mid-s
 
 The underlying cause is the development of plaques in the brain as a result of protein abnormalities and the loss of inter-neural connections in the brain.
 
-![](/src/assets/images/blog/2020/david-kristofer-Usq8nlcPOx4-unsplash.jpg)
+![](/blog/2020/david-kristofer-Usq8nlcPOx4-unsplash.jpg)
 
 Photo by David Kristofer on Unsplash
 
@@ -109,7 +109,7 @@ Other psychological changes include;
 
 As the individual ages, the late-stage symptoms of dementia tend to get worse.
 
-![](/src/assets/images/blog/2020/steven-hwg-zBsdRTHIIm4-unsplash.jpg)
+![](/blog/2020/steven-hwg-zBsdRTHIIm4-unsplash.jpg)
 
 Photo by Steven HWG on Unsplash
 

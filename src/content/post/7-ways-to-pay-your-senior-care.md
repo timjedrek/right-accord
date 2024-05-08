@@ -2,7 +2,7 @@
 publishDate: 2020-03-26T00:00:00Z
 title: '7 Ways to Pay for Your In-Home Senior Care'
 excerpt: There are many options when it comes to covering the cost of In-Home Senior Care. They come from various government, private, and non-profit sources. We have put together a list of those sources; what and how much they cover, and how you qualify for them.
-image: /src/assets/images/blog/2020/paying-for-senior-care-hero.jpg
+image: /blog/2020/paying-for-senior-care-hero.jpg
 tags:
   - senior care
   - in-home care
@@ -21,12 +21,12 @@ In-Home Senior Care can be expensive, especially if you require to have a full-t
 
 There are many options when it comes to covering the cost of Senior Care. They come from various government, private, and non-profit sources. We have put together a list of those sources; what and how much they cover, and how you qualify for them.
 
-![couple studying care payment option](/src/assets/images/blog/2020/couple-doing-payment.jpg)
+![couple studying care payment option](/blog/2020/couple-doing-payment.jpg)
 
 1\. MEDICARE
 ------------
 
-![Medicare Logo](/src/assets/images/blog/2020/medicare-logo-png-8.png) Medicare is the federal health insurance program for people who are 65 or older. Medicare also covers certain younger people with disabilities and people with End-Stage Renal Disease (permanent kidney failure requiring dialysis or a transplant, sometimes called ESRD).
+![Medicare Logo](/blog/2020/medicare-logo-png-8.png) Medicare is the federal health insurance program for people who are 65 or older. Medicare also covers certain younger people with disabilities and people with End-Stage Renal Disease (permanent kidney failure requiring dialysis or a transplant, sometimes called ESRD).
 
 ### Medicare Health Plan
 
@@ -132,7 +132,7 @@ In May 2019, the agency told Congress that it is still encountering issues and h
 
 ### Getting Paid By A Family Member
 
-![family paying privately for in-home senior care](/src/assets/images/blog/2020/private-pay2.jpg)If the person needing assistance is mentally sound and has sufficient financial resources, that person can choose to compensate a family member for the same services a professional home health care worker would provide. This is sometimes referred to as private pay.
+![family paying privately for in-home senior care](/blog/2020/private-pay2.jpg)If the person needing assistance is mentally sound and has sufficient financial resources, that person can choose to compensate a family member for the same services a professional home health care worker would provide. This is sometimes referred to as private pay.
 
 Also known as paying “out-of-pocket,” private pay means your loved one or their family will use existing savings and assets to cover the cost of elderly care services. Private pay is one of the most common forms of payment and is accepted by nearly every elderly care service.
 

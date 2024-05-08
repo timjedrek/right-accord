@@ -2,7 +2,7 @@
 publishDate: 2020-08-21T00:00:00Z
 title: 'How The Support Group Online Eases Dementia Care at Home'
 excerpt: Providing Care to elderly with Dementia can be challenging to Caregivers. Here's a detailed information about how Support Group Online makes it a lot easier.
-image: /src/assets/images/blog/2020/challenging-dementia-care-cover.jpg
+image: /blog/2020/challenging-dementia-care-cover.jpg
 tags:
   - dementia care
   - support group
@@ -41,7 +41,7 @@ This specialised care is what helps them to stay active and bubbly, which effect
 
 However, taking care of an elderly loved one who has Alzheimer's or dementia comes with its own set of specific needs and challenges.
 
-![elderly couple holding hands together](/src/assets/images/blog/2020/couple-holding-hands.jpg)
+![elderly couple holding hands together](/blog/2020/couple-holding-hands.jpg)
 
 Photo by Picspree
 
@@ -66,7 +66,7 @@ Almost a half of all the caregivers who provide help to the elderly do so for in
 
 Statistics also show that:
 
-![caregiver feeding an elderly man](/src/assets/images/blog/2020/woman-feeding-man-soup.jpg)
+![caregiver feeding an elderly man](/blog/2020/woman-feeding-man-soup.jpg)
 
 Photo by Picspree
 
@@ -91,7 +91,7 @@ The caregiver must not only provide the senior individual with a variety of care
 
 An example of some of the duties expected of an elderly caregiver in this instance include:
 
-![senior woman caring for her sick husband](/src/assets/images/blog/2020/wife-caring-for-her-elderly-husband.jpg)
+![senior woman caring for her sick husband](/blog/2020/wife-caring-for-her-elderly-husband.jpg)
 
 Photo by Picspree
 
@@ -126,7 +126,7 @@ And for many family caregivers, having this education may also mean having to ma
 
 Every caregiver must be able to necessarily plan and look ahead, being always prepared for every eventuality.
 
-![caregiver preparing cookies for elderly woman](/src/assets/images/blog/2020/caregiver-preparing-cookies-for-elderly.jpg)
+![caregiver preparing cookies for elderly woman](/blog/2020/caregiver-preparing-cookies-for-elderly.jpg)
 
 Photo by Picspree
 
@@ -144,7 +144,7 @@ Dealing with dementia and and its attendant problems can be difficult on both th
 
 It is imperative therefore, that caregivers are emotionally, physically, and intellectually ready for all of the various challenges that are associated with dementia caregiving.
 
-![elderly couple talking with the counselor](/src/assets/images/blog/2020/elderly-couple-with-counselor.jpg)
+![elderly couple talking with the counselor](/blog/2020/elderly-couple-with-counselor.jpg)
 
 Photo by Picspree
 

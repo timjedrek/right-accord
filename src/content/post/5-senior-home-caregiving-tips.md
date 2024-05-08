@@ -2,7 +2,7 @@
 publishDate: 2020-06-09T00:00:00Z
 title: '5 Senior In-Home Caregiving Tips in the New Normal'
 excerpt: Today's current situation has prompted family members to care for their senior parent at their own home. Here are 5 helpful tips to maximize your care for your seniors at home.
-image: /src/assets/images/blog/2020/tips-for-senior-care.jpg
+image: /blog/2020/tips-for-senior-care.jpg
 tags:
   - senior care
   - in-home care

@@ -2,7 +2,7 @@
 publishDate: 2023-01-09T00:00:00Z
 title: '7 Strategies to Achieve Work-Life Balance as a Caregiver'
 excerpt: This article explores seven ways that you can balance your life as a family caregiver and at the same time feeling being confident, supported, and successful.
-image: /src/assets/images/blog/2023/Balancing-Your-Life-as-a-Family-Caregiver.jpg
+image: /blog/2023/Balancing-Your-Life-as-a-Family-Caregiver.jpg
 tags:
   - caregiver
   - work-life balance
@@ -21,7 +21,7 @@ With the right strategies, you can achieve a healthy work-life balance and be th
 What is work-life balance?
 --------------------------
 
-![elderly and her family caregiver](/src/assets/images/blog/2023/arty-FoPARf1hQY8-unsplash.jpg)
+![elderly and her family caregiver](/blog/2023/arty-FoPARf1hQY8-unsplash.jpg)
 
 Photo by arty on Unsplash
 
@@ -36,7 +36,7 @@ Before you can start to explore ways to achieve work-life balance, it’s import
 
 When you start to understand your own needs, you’ll be able to identify where you might be putting too much or not enough emphasis on different aspects of your life. Once you’ve identified what needs more attention and what needs less, you can start to make small changes to create a more balanced life. Remember, you don’t have to make big, drastic changes all at once. Small changes are just as effective and can help you to sustain work-life balance over time.
 
-![image of a hand with flower](/src/assets/images/blog/2023/lina-trochez-ktPKyUs3Qjs-unsplash.jpg)
+![image of a hand with flower](/blog/2023/lina-trochez-ktPKyUs3Qjs-unsplash.jpg)
 
 Photo by Lina Trochez on Unsplash
 
@@ -54,7 +54,7 @@ Setting boundaries isn’t the same as prioritizing self-care, but they do go ha
 
 This can be challenging when you’re trying to juggle caring for loved ones with other responsibilities and commitments, but it’s an important part of achieving work-life balance. It can be difficult to set boundaries when you’re feeling overwhelmed or over-committed, but it’s important that you try. You may need to accept that there are certain things that you can’t do, but by setting boundaries, you can help to create space in your life and give yourself the support that you need.
 
-![family caregiver with an elderly in the park](/src/assets/images/blog/2023/dario-valenzuela-PAGBeJrLiDA-unsplash.jpg)
+![family caregiver with an elderly in the park](/blog/2023/dario-valenzuela-PAGBeJrLiDA-unsplash.jpg)
 
 Photo by Dario Valenzuela on Unsplash
 
@@ -72,7 +72,7 @@ As a family caregiver, you may find that certain aspects of your life need more 
 
 When you’re exploring ways to support yourself, it’s important to find a resource that resonates with you. Trying out a few different things and seeing what works best for you can help to establish a healthy and sustainable support network.
 
-![image of a holding hands](/src/assets/images/blog/2023/national-cancer-institute-BxXgTQEw1M4-unsplash.jpg)
+![image of a holding hands](/blog/2023/national-cancer-institute-BxXgTQEw1M4-unsplash.jpg)
 
 Photo by NCI on Unsplash
 

@@ -2,7 +2,7 @@
 publishDate: 2020-07-25T00:00:00Z
 title: 'How is Elderly Nursing Home Care Lockdown Affecting your Loved Ones?'
 excerpt: In the midst of the Covid-19 pandemic, many nursing home care for elderly facilities have had to shut down in order to help contain the spread of the deadly viral disease.
-image: /src/assets/images/blog/2020/lockdown-on-senior.jpg
+image: /blog/2020/lockdown-on-senior.jpg
 tags:
   - Elderly
   - Nursing Home Care
@@ -29,7 +29,7 @@ The potentially life threatening disease is now responsible for thousands of dea
 
 As a result of this, it becomes paramount that this cherished population is protected as much as possible.
 
-![elderly couple leaving together in a nursing home facility](/src/assets/images/blog/2020/elien-dumon-zdvrozV4Lr8-unsplash.jpg)
+![elderly couple leaving together in a nursing home facility](/blog/2020/elien-dumon-zdvrozV4Lr8-unsplash.jpg)
 
 Photo by Elien Dumon from Unsplash
 
@@ -44,7 +44,7 @@ A lot of senior citizens residing in elderly homes now battle with depression as
 
 Many facilities are now reportedly treating them to overcome the period of mentally challenging times.
 
-![an elderly woman staying alone inside the room](/src/assets/images/blog/2020/old-woman-alone-in-a-room.jpg)
+![an elderly woman staying alone inside the room](/blog/2020/old-woman-alone-in-a-room.jpg)
 
 Photo by perelka1230 on Reshot
 
@@ -60,7 +60,7 @@ Going beyond the psychological aspects of the situation, there is also the fear 
 
 Many facilities fear that their residents would lose their autonomy if they continue with the restrictions, backsliding into dependency, which is something they strive to maintain for them - autonomy, independence, and dignity.
 
-![an old man in the room peeking through a window](/src/assets/images/blog/2020/alex-boyd-6-H23dfH7Qo-unsplash.jpg)
+![an old man in the room peeking through a window](/blog/2020/alex-boyd-6-H23dfH7Qo-unsplash.jpg)
 
 Photo by Alex Boyd on Unsplash
 
@@ -112,7 +112,7 @@ As a matter of fact, many elderly health facilities have taken to this as a mean
 
 They now organize mini in-house shows where the seniors get to engage with themselves more, share their stories with each other and bond more.
 
-![caregiver helps the elderly woman watch on the mobile phone](/src/assets/images/blog/2020/georg-arthur-pflueger-TeWwYARfcM4-unsplash.jpg)
+![caregiver helps the elderly woman watch on the mobile phone](/blog/2020/georg-arthur-pflueger-TeWwYARfcM4-unsplash.jpg)
 
 Photo by Georg Arthur Pflueger from Unsplash
 
@@ -189,7 +189,7 @@ Should You Remove Your Elderly Lover One From A Care Facility?
 
 In as much as there is some concern about the safety of the seniors in elderly care home health facilities, mostly as a result of ease of viral spread, a lack of definitive treatment, as well as a vaccine for prevention, it is still not far from the truth to say that they are safer in these facilities as the Caregivers are already trained to give care in similar conditions.
 
-![an worried older woman wearing a face mask](/src/assets/images/blog/2020/worried-elderly-woman-wearing-a-face-mask.jpg)
+![an worried older woman wearing a face mask](/blog/2020/worried-elderly-woman-wearing-a-face-mask.jpg)
 
 It is customary for some facilities to go on lockdowns during the flu season, and so they already have reasonable experience in containing the spread of viral illnesses in elderly home care facilities.
 

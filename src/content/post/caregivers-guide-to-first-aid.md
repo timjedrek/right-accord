@@ -2,7 +2,7 @@
 publishDate: 2023-03-15T00:00:00Z
 title: 'The Caregivers Essential Guide to First Aid Basics'
 excerpt: This guide will help Caregivers gain the right knowledge and skills about first aid and help them provide the best possible care for their loved ones.
-image: /src/assets/images/blog/2023/Caregivers-Guide-to-First-Aid.jpg
+image: /blog/2023/Caregivers-Guide-to-First-Aid.jpg
 tags:
   - scaregiver first aid
 metadata:
@@ -22,7 +22,7 @@ With clear, concise instructions and helpful illustrations, this guide will give
 The Basics of First Aid
 -----------------------
 
-![2 caregivers with an elderly in wheelchair](/src/assets/images/blog/2023/pexels-kampus-production-7551583.jpg)
+![2 caregivers with an elderly in wheelchair](/blog/2023/pexels-kampus-production-7551583.jpg)
 
 Photo by Kampus on Pexels
 
@@ -73,7 +73,7 @@ While it's important to have a basic understanding of first aid, it's equally im
 *   The person has a suspected fracture
 *   The person is having a seizure
 
-![emergency ambulance](/src/assets/images/blog/2023/mat-napo-ejWJ3a92FEs-unsplash.jpg)
+![emergency ambulance](/blog/2023/mat-napo-ejWJ3a92FEs-unsplash.jpg)
 
 Photo by Mat Napo on Unsplash
 
@@ -119,7 +119,7 @@ Tilt the person's head back and lift their chin. Pinch their nose shut and give 
 
 Continue performing chest compressions and rescue breaths until medical help arrives or the person begins to breathe on their own.
 
-![first aid kits](/src/assets/images/blog/2023/pexels-roger-brown-5673523.jpg)
+![first aid kits](/blog/2023/pexels-roger-brown-5673523.jpg)
 
 Photo by Roger Brown on Pexels
 
@@ -163,7 +163,7 @@ Cover the burn with a sterile, non-adhesive dressing.
 
 Over-the-counter pain medication can help to relieve pain and reduce inflammation.
 
-![caregiver applying first aid to wound](/src/assets/images/blog/2023/pexels-vidal-balielo-jr-4005313.jpg)
+![caregiver applying first aid to wound](/blog/2023/pexels-vidal-balielo-jr-4005313.jpg)
 
 Photo by Vidal Balielo Jr on Pexels
 

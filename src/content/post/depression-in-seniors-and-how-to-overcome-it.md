@@ -2,7 +2,7 @@
 publishDate: 2022-09-24T00:00:00Z
 title: 'Signs of Depression in Seniors and How to Help them Overcome It'
 excerpt: Depression is an issue among seniors. Learn the signs of depression in elderly and help them manage their feelings to avoid any self inflicting harm.
-image: /src/assets/images/blog/2022/depression-in-seniors.jpg
+image: /blog/2022/depression-in-seniors.jpg
 tags:
   - Depression in Seniors
 metadata:
@@ -17,14 +17,14 @@ Anyone who has lived through the Great Depression, or any other challenging peri
 
 The elderly can struggle with depression for a variety of reasons. They may no longer have the support of friends and family who previously helped them through hard times. They may see their lives as though they have nothing to look forward to. Or perhaps they've experienced too much pain and sadness for too long. If you know a senior or an older adult who is struggling with these challenges, there are ways you can help them find peace and happiness again.
 
-![depression shown in a collage artwork](/src/assets/images/blog/2022/micheile-dot-com--YIlVDQ65rQ-unsplash.jpg)
+![depression shown in a collage artwork](/blog/2022/micheile-dot-com--YIlVDQ65rQ-unsplash.jpg)
 
 Read on for more information on recognizing the signs of depression in elderly adults, helping them manage their feelings, and keeping an eye out for potential red flags that could indicate more profound issues.
 
 Know the Signs of Depression in Elderly Adults
 ----------------------------------------------
 
-![depressed person in isolation](/src/assets/images/blog/2022/rene-muller-uhRx4uGR9_c-unsplash.jpg)
+![depressed person in isolation](/blog/2022/rene-muller-uhRx4uGR9_c-unsplash.jpg)
 
 If you suspect that an older adult in your life is struggling with depression, you'll want to be able to recognize the signs.
 
@@ -48,7 +48,7 @@ An older adult struggling with depression may need extra support and attention. 
 
 You can also help them find ways to stay in touch with old friends and family members. Perhaps they could use social media to stay connected with distant friends and family, or you could invite them to visit or stay with you when they travel to your city. Senior centres and support groups are great places to meet new people. They can also help seniors feel like they're contributing to the community and getting back the social interaction they need.
 
-![seniors playing chess together](/src/assets/images/blog/2022/vlad-sargu-ItphH2lGzuI-unsplash.jpg)
+![seniors playing chess together](/blog/2022/vlad-sargu-ItphH2lGzuI-unsplash.jpg)
 
 Help Through Caregiver Training and Support Groups
 --------------------------------------------------
@@ -59,7 +59,7 @@ You can also work with other caregivers to share ideas and support one another. 
 
 If they've seen a doctor, ask them if they're taking any medication, and let them know that it's important to take it as directed so they can get better as quickly as possible. They may also need extra help with daily tasks as they recover. Be sure to let them know you're there to help, and check in with them regularly to ensure they're doing okay.
 
-![caregiver and an elderly sitting in a park](/src/assets/images/blog/2022/dario-valenzuela-PAGBeJrLiDA-unsplash.jpg)
+![caregiver and an elderly sitting in a park](/blog/2022/dario-valenzuela-PAGBeJrLiDA-unsplash.jpg)
 
 Conclusion
 ----------

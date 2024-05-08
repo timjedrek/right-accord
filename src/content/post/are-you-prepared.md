@@ -2,7 +2,7 @@
 publishDate: 2019-07-4T00:00:00Z
 title: 'Are You Prepared, How To Get Your Affairs in Order'
 excerpt: Make sure that all of your affairs are in order now. Don’t wait for tragedy to strike. Be prepared.
-image: /src/assets/images/blog/2019/are-you-prepared-cover.jpg
+image: /blog/2019/are-you-prepared-cover.jpg
 tags:
   - health insurance
   - healthcare

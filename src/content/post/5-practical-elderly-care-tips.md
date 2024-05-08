@@ -2,7 +2,7 @@
 publishDate: 2021-04-07T00:00:00Z
 title: '5 Practical Elderly Care Tips To Caregivers During Pandemic'
 excerpt: Getting started with caregiving is best done by knowing how to do it effectively. Here iss the 5 best practical tips in caring for your elderly during pandemic.
-image: /src/assets/images/blog/2021/elderly-care-tips-cover.jpg
+image: /blog/2021/elderly-care-tips-cover.jpg
 tags:
   - elderly care
   - caregiver
@@ -19,7 +19,7 @@ Over the past 12 months, the world has been continuously bombarded with the cris
 
 As individuals reach a certain age, they tend to be less capable and their functions tend to decrease. In situations where they cannot perform their regular duties, they often need assistance from someone else. If the needs of an elderly person may involve a great deal of difficulty requiring physical assistance from another person, then the same level of difficulty should be expected of those tasked with caring for the elderly.
 
-![an elderly woman talking her caregiver](/src/assets/images/blog/2021/william-krause-IL6M6cmhEpM-unsplash.jpg)
+![an elderly woman talking her caregiver](/blog/2021/william-krause-IL6M6cmhEpM-unsplash.jpg)
 
 Photo by William Krause on Unsplash
 
@@ -64,7 +64,7 @@ It is important to check and address the following factors in order to ensure th
 *   Dealing with health issues that most aging people had to suffer.
 *   Keeping the elders active and living their remaining years to its fullest potential.
 
-![caregiver reading a book to elderly](/src/assets/images/blog/2021/caregiver-reading-a-book-for-elder.jpg)
+![caregiver reading a book to elderly](/blog/2021/caregiver-reading-a-book-for-elder.jpg)
 
 Photo by RIGHT ACCORD
 
@@ -87,7 +87,7 @@ Don't take on this responsibility alone. Seek the help of your other family memb
 
 Assign someone to replace your spot in caring, whether it be your husband, your brother or sister, or other relatives. This should allow you to rest and ensure that you have enough strength and vitality to provide the utmost care your elder needs.
 
-![elderly man talking to his male caregiver](/src/assets/images/blog/2021/logan-weaver-lK0l9pzxLps-unsplash.jpg)
+![elderly man talking to his male caregiver](/blog/2021/logan-weaver-lK0l9pzxLps-unsplash.jpg)
 
 Photo by Logan Weaver on Unsplash
 

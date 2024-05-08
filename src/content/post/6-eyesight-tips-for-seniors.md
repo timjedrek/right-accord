@@ -2,7 +2,7 @@
 publishDate: 2023-07-28T00:00:00Z
 title: '6 Essential Tips for Seniors to Maintain A Healthy Eyesight'
 excerpt: Vision changes are part of the aging process that's why it's crucial for seniors to take proactive steps to optimize their vision and keep healthy eyes.
-image: /src/assets/images/blog/2023/Eyesight-Tips-for-Seniors.jpg
+image: /blog/2023/Eyesight-Tips-for-Seniors.jpg
 tags:
   - vision care
 metadata:
@@ -22,7 +22,7 @@ In this article, we will explore essential tips and strategies that can help sen
 The Importance of Maintaining Healthy Eyesight as a Senior
 ----------------------------------------------------------
 
-![patient undergoing eye examination](/src/assets/images/blog/2023/pexels-karolina-grabowska-5201875.jpg)
+![patient undergoing eye examination](/blog/2023/pexels-karolina-grabowska-5201875.jpg)
 
 Photo by Karolina Grabowska on Pexels
 
@@ -51,7 +51,7 @@ While age-related vision changes are inevitable, there are several proactive ste
 
 A healthy diet plays a crucial role in maintaining good eye health. Certain nutrients, such as vitamins C and E, zinc, lutein, zeaxanthin, and omega-3 fatty acids, have been linked to a lower risk of age-related eye diseases. Here are some eye-friendly foods that seniors should consider incorporating into their diet:
 
-![fruits and vegetables photo](/src/assets/images/blog/2023/pexels-photo-3025236.jpg)
+![fruits and vegetables photo](/blog/2023/pexels-photo-3025236.jpg)
 
 Photo by Abet Llacer on Unsplash
 
@@ -68,7 +68,7 @@ Regular exercise is not only good for cardiovascular health but also plays a rol
 
 Additionally, regular exercise can help manage certain systemic conditions, such as diabetes and high blood pressure, which are known risk factors for eye diseases like diabetic retinopathy and glaucoma. By keeping these conditions under control, seniors can reduce their risk of developing vision problems.
 
-![hand holding an eyeglass](/src/assets/images/blog/2023/pexels-karolina-grabowska-4468154.jpg)
+![hand holding an eyeglass](/blog/2023/pexels-karolina-grabowska-4468154.jpg)
 
 Photo by Karolina Grabowska on Pexels
 
@@ -87,7 +87,7 @@ Regular eye exams are essential for seniors to monitor their eye health and dete
 
 Seniors should schedule comprehensive eye exams at least once a year or as recommended by their eye care professional. During these exams, the eye doctor will assess vision, check for signs of eye diseases, and prescribe corrective measures if necessary. By prioritizing regular eye exams, seniors can take a proactive approach to maintain healthy eyesight and catch any potential problems early.
 
-![elderly undergoing eye checkup](/src/assets/images/blog/2023/pexels-mike-sangma-7179236.jpg)
+![elderly undergoing eye checkup](/blog/2023/pexels-mike-sangma-7179236.jpg)
 
 Photo by Mike Sangma on Pexels
 

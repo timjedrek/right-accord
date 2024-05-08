@@ -2,7 +2,7 @@
 publishDate: 2022-06-20T00:00:00Z
 title: 'How Occupational Therapy Can Help Seniors at Home'
 excerpt: Occupational therapy helps and enables people in all age brackets to lead fulfilling lives, whether these are people living with disabilities or aged.
-image: /src/assets/images/blog/2022/occupational-therapy.jpg
+image: /blog/2022/occupational-therapy.jpg
 tags:
   - Occupational therapy
 metadata:
@@ -17,7 +17,7 @@ Occupational Therapy awareness month is a great time for us all to reflect on th
 
 Occupational therapy helps and enables people in all age brackets to lead fulfilling lives, whether these are people living with disabilities, are aged, or injured. However, today we will be looking specifically at how occupational therapy has and can help seniors at home. When old age comes, sometimes it does so with many challenges, some of which may secondarily lead to injuries.
 
-![elderly man holding a mobile phone](/src/assets/images/blog/2022/jeshoots-com-l0j0DHVWcIE-unsplash.jpg)
+![elderly man holding a mobile phone](/blog/2022/jeshoots-com-l0j0DHVWcIE-unsplash.jpg)
 
 Occupational therapy provides the required rehabilitation to help you get back on your feet and back to your daily routines. Occupational therapists can also help to slow down the progress of degenerative disease that are common in the elderly. Seniors are more likely to suffer from degenerative conditions such as arthritis, Parkinson's, and strokes that can leave them partially or completely incapacitated. It is with the help of occupational therapists that rehabilitation can occur.
 
@@ -30,7 +30,7 @@ At about the 1800s, medical practitioners started to recommend and prescribe mor
 
 After the war, there was a need for cohesion to properly organize and promote the profession to both medical professionals and to the public. In the United States in 1917, it emerged as a profession in its own right when the National Society for the Promotion of Occupational Therapy was first established. Today, the same society is known as American Occupation Therapy Association (AOTA).
 
-![occupational therapist comforting a patient](/src/assets/images/blog/2022/national-cancer-institute-BxXgTQEw1M4-unsplash.jpg)
+![occupational therapist comforting a patient](/blog/2022/national-cancer-institute-BxXgTQEw1M4-unsplash.jpg)
 
 The association played an important role in the management of people suffering with tuberculosis, polio and AIDS. Schools began to adopt the idea of employing occupational therapists in 1975 to increase the abilities of children with disabilities to actively participate in regular activities in school. These actions birthed the enactment of a legislation known as the Enactment for all handicapped children act (PL 94-142).
 
@@ -49,7 +49,7 @@ Aging can be challenging for some persons, losing that ability to carry out usua
 
 A significant part of their job is to help you overcome the struggles of adapting to the new normal of everyday life. Activities such as walking, eating , bathing, self grooming may now be done with the help of professional assistance. Occupational therapist teach the elderly new life hacks to live by. They learn easier, modifications and exercise techniques that help them adapt to doing things for themselves as well.
 
-![caregiver assisting a dementia patient](/src/assets/images/blog/2022/vladimir-soares-Ch4xaYIQ8dc-unsplash.jpg)
+![caregiver assisting a dementia patient](/blog/2022/vladimir-soares-Ch4xaYIQ8dc-unsplash.jpg)
 
 ### Prevention of Falls
 
@@ -63,7 +63,7 @@ We have come to believe that memory and the ability to recall comes easily and n
 
 Occupational therapist can help improve the cognitive abilities of their patients. This they do by helping you map your strengths and weaknesses and then go ahead to develop modules that help strengthen those strong attributes in your cognitive rehabilitation journey. Some examples of the techniques employed in doing this is the use of memory enhancing activities like crossword and jigsaw puzzles. Other methods include the use of signs and posts on doors, handles, cabinets and other enclosed areas. In times of confusion, these memory cards are a quick way to jumpstart recall.
 
-![therapist helping elderly talk to her relative via phone](/src/assets/images/blog/2022/georg-arthur-pflueger-eO_JhqabBY0-unsplash.jpg)
+![therapist helping elderly talk to her relative via phone](/blog/2022/georg-arthur-pflueger-eO_JhqabBY0-unsplash.jpg)
 
 ### Home Modifications
 

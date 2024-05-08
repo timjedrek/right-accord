@@ -2,7 +2,7 @@
 publishDate: 2023-12-31T00:00:00Z
 title: 'Welcoming 2024: Aging Gracefully as Seniors'
 excerpt: As we stand on the threshold of 2024 by welcoming the New Year, let’s explore some ways seniors can age gracefully and make the most of the upcoming year.
-image: /src/assets/images/blog/2023/Aging-Gracefully-as-Seniors.jpg
+image: /blog/2023/Aging-Gracefully-as-Seniors.jpg
 tags:
   - Senior Aging
 metadata:
@@ -20,7 +20,7 @@ For seniors, the transition into a new year can be particularly poignant. It’s
 Embrace Change with an Open Heart
 ---------------------------------
 
-![senior popping confetti](/src/assets/images/blog/2023/senior-listening-music-popping-confetti.jpg)
+![senior popping confetti](/blog/2023/senior-listening-music-popping-confetti.jpg)
 
 Change is an inevitable part of life. As we age, our bodies and minds undergo transformations, and it’s essential to embrace these changes with positivity. Rather than viewing aging as a decline, see it as an opportunity for growth, reflection, and renewed purpose.
 
@@ -39,7 +39,7 @@ Regular exercise, even simple activities like walking or yoga, can improve mobil
 
 Eat a balanced diet rich in fruits, vegetables, lean proteins, and whole grains. Stay hydrated and limit processed foods and sugary drinks.
 
-![seniors doing exercises](/src/assets/images/blog/2023/seniors-doing-exercises.jpg)
+![seniors doing exercises](/blog/2023/seniors-doing-exercises.jpg)
 
 Cultivate Relationships and Stay Connected
 ------------------------------------------
@@ -93,7 +93,7 @@ Regular check-ups, screenings, and consultations can help in maintaining optimal
 
 If you or a loved one requires additional support, consider seeking assistance from reputable senior care services. They offer personalized care, ensuring safety, comfort, and quality of life.
 
-![senior people having fun party](/src/assets/images/blog/2023/senior-people-having-fun-party.jpg)
+![senior people having fun party](/blog/2023/senior-people-having-fun-party.jpg)
 
 Embracing 2024 with RIGHT ACCORD
 --------------------------------

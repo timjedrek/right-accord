@@ -2,7 +2,7 @@
 publishDate: 2022-07-11T00:00:00Z
 title: 'A Caregiver Tips and Checklist to 4 Common Elderly Illnesses'
 excerpt: If you're caring for an elderly with illnesses, this tips to manage their disease will help you support them live in the best quality of life possible.
-image: /src/assets/images/blog/2022/elderly-illnesses.jpg
+image: /blog/2022/elderly-illnesses.jpg
 tags:
   - caregiver tips
   - elderly illness
@@ -18,7 +18,7 @@ The elderly are more vulnerable to illnesses, diseases, and ailments that may le
 
 In some cases elderly may not even recover from them. It is a sad fact, but we will all eventually shake hands with the very thing that is going to kill us. However, this does not mean that all illnesses in older adults are incurable.
 
-![caregiver holding the hand of an elderly person](/src/assets/images/blog/2022/picspree-386685.jpg)
+![caregiver holding the hand of an elderly person](/blog/2022/picspree-386685.jpg)
 
 In fact, there are very few that are untreatable. When you are a caregiver and care for an elderly individual on a daily basis, you may come into contact with several diseases and learn how to deal with them through them. It can be difficult watching someone you care about succumb to illness at any age, but with seniors it is inevitable.
 
@@ -37,7 +37,7 @@ Tips for caring for a loved one with cancer:
 *   Look for a doctor that you will trust and who best suited your loved one's type of cancer. Give your doctor the most comprehensive information about your loved one's medical situation such as new symptoms they exhibit like changes in sleep, mood, bowel habits or appetite. These indications may interrupt your loved one's treatment and hinder his or her quality of life. Also, having your loved one's doctors in the same location provides greater convenience and more streamlined care.
 *   Keep organized your loved one's medical history, test results and medications. These will guide you about the new side effects that may occur or that they may experience so you can prioritize what needs to be done. Contact their doctors immediately whenever you feel that this side effect is an important issue and life threatening.
 
-![doctor talking to a cancer patient](/src/assets/images/blog/2022/national-cancer-institute-DK--4VWK1tw-unsplash.jpg)
+![doctor talking to a cancer patient](/blog/2022/national-cancer-institute-DK--4VWK1tw-unsplash.jpg)
 
 DEMENTIA
 --------
@@ -52,7 +52,7 @@ Caregiver tips for elderly people with dementia include:
 *   Make sure that a person with dementia is in a safe environment by keeping scatter rugs, extension cords, and any clutter out of the way that might cause them to fall. Ensure that cabinets containing potentially dangerous items, such as medicine, alcohol, firearms, toxic cleaning solutions, and dangerous utensils and tools, are locked. Heaters should be set at a lower temperature to prevent burns, and matches and lighters should be kept out of their reach.
 *   It is important to remember that a person with dementia might become agitated when once-simple tasks become challenging. So, to reduce their frustrations you have to clearly establish a daily routine. In some cases, such as bathing or doctor's appointments, it is easier when the person is alert and refreshed. Allow some flexibility for spontaneous activities or particularly difficult days. Schedule more time for tasks that may take longer than normal. When performing tasks, remember to give them time to rest. Taking regular walks together can help improve their communication skills and prevent wandering.
 
-![illustration of an elderly person with Dementia](/src/assets/images/blog/2022/dementia-g7ba867665_1280.jpg)
+![illustration of an elderly person with Dementia](/blog/2022/dementia-g7ba867665_1280.jpg)
 
 PARKINSON'S DISEASE
 -------------------
@@ -67,7 +67,7 @@ Here are some caregiver tips for a person with Parkinson's disease:
 *   It is crucial that if your loved one is forgetting his or her medicine, he or she may not be functioning as well as possible, so be sure that scheduled medications are taken regularly. To avoid making mistakes or having to bug or nag your loved one, develop a tool you both agree works, such as a smartphone reminder or a hard-to-miss wall calendar. Being consistent with medication can make a difference in both of your lives and lifestyles.
 *   Exercise is important for everyone, but it's especially helpful for people with Parkinson's disease. Several studies have demonstrated that exercise increases the brain's ability to use dopamine, a chemical that plays a role in movement. Fitness improves strength, balance, memory, and quality of life in people with this condition. Encourage your friend or loved one to get moving by taking a walk together every day. Or, sign up for a dance or yoga class together. Both of these exercise programs are helpful for improving coordination.
 
-![elderly with Parkinson's Disease having difficulty eating](/src/assets/images/blog/2022/138436592_s.jpg)
+![elderly with Parkinson's Disease having difficulty eating](/blog/2022/138436592_s.jpg)
 
 DIABETES
 --------
@@ -82,4 +82,4 @@ To help older people with diabetes to stay healthy and active, here are the foll
 *   One of the most important ways to control blood sugar is through diet so get yourself creative in the kitchen. Your loved one's doctor will most likely recommend an eating plan that includes fewer sugars and carbohydrates, which are found in pasta, potatoes, rice, tortillas and desserts. Instead, people with diabetes should eat more veggies and proteins. Portion size and timing of meals also matter. But changing the eating patterns of a lifetime can be distressing! Help your loved one give their fridge and pantry a makeover, and adapt recipes to be healthier.
 *   It is important to get the flu vaccine each fall and the pneumonia vaccine if your loved one is over 65 years old or if he or she received a pneumonia vaccine before the age of 60. These vaccines are important for all older people, but are especially important for older people with diabetes who are at higher risk for complications from the flu.
 
-![diabetes testing kit](/src/assets/images/blog/2022/matt-chesin-bRjpGjwmae8-unsplash.jpg)
+![diabetes testing kit](/blog/2022/matt-chesin-bRjpGjwmae8-unsplash.jpg)

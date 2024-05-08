@@ -2,7 +2,7 @@
 publishDate: 2020-02-10T00:00:00Z
 title: 'What Are Home Care, Private Duty Home and Senior Home Healthcare'
 excerpt: The terms Home Care, Senior Home Health Care and Private Duty Home Care are very often confused with each other and used interchangeably by some people.
-image: /src/assets/images/blog/2020/hc-header-image.jpg
+image: /blog/2020/hc-header-image.jpg
 tags:
   - home care
   - private duty home care
@@ -32,7 +32,7 @@ Under the Home Care umbrella, there are two categories:
 *   In-home care
 *   Home Health Care
 
-![home care umbrella system](/src/assets/images/blog/2020/hc-umbrella.jpg)
+![home care umbrella system](/blog/2020/hc-umbrella.jpg)
 
 These two this may sound similar but are certainly different in terms of the types of services offered.
 
@@ -43,7 +43,7 @@ Having a good understanding of their differences would be very beneficial in you
 IN-HOME CARE
 ------------
 
-![home care image](/src/assets/images/blog/2020/hc-home-care.jpg)
+![home care image](/blog/2020/hc-home-care.jpg)
 
 In-home care services are either skilled or non-skilled care that are essentially non medical in nature.
 
@@ -77,7 +77,7 @@ In-home care services can be provided on an intermittent basis, or for as long a
 HOME HEALTH CARE
 ----------------
 
-![home-health-care image](/src/assets/images/blog/2020/hc-home-health-care.jpg)
+![home-health-care image](/blog/2020/hc-home-health-care.jpg)
 
 Home Health Care involves a varied range of professional nursing care which are typically rendered by licensed nurse practitioners (LPNs), registered nurses (RNs), or licensed vocational nurses.
 

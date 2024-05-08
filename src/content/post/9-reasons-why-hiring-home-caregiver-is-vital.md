@@ -2,7 +2,7 @@
 publishDate: 2022-11-24T00:00:00Z
 title: '9 Reasons Why Hiring Home Caregiver Is Vital To Your Family'
 excerpt: Hiring home caregiver for your elderly is a vital decision you can make. Here, we'll discuss the 9 reasons why caregivers are important to your family
-image: /src/assets/images/blog/2022/Professional-Home-Caregivers.jpg
+image: /blog/2022/Professional-Home-Caregivers.jpg
 tags:
   - home caregiver
 metadata:
@@ -17,7 +17,7 @@ Are you currently looking for help to manage the care of an aging parent, spouse
 
 These services offer many benefits to those who need help with day-to-day tasks as well as personal care. There are many reasons why professional home caregivers are important. They can allow you to continue working, go to school, or simply have more time for yourself and your family.
 
-![happy halloween picture](/src/assets/images/blog/2022/caregiver-with-elderly-in-wheelchair.jpg)
+![happy halloween picture](/blog/2022/caregiver-with-elderly-in-wheelchair.jpg)
 
 A caregiver can also provide companionship and support for your loved one, which is extremely beneficial during this time when they may be experiencing stress or anxiety about the future. These professionals can assist with activities like bathing, dressing, eating, and walking that may become challenging as we age.
 
@@ -37,7 +37,7 @@ If you hire a professional caregiver, they can provide assistance with personal 
 
 If your loved one is losing their sight or hearing, a caregiver can help them to bathe and use the toilet. This is important because these tasks can be extremely difficult with hearing aids in and can lead to health issues like UTIs and infections. If the elderly is having trouble eating, a caregiver can help them with their eating. This can be as simple as sitting at the right height, having enough light, and opening food containers.
 
-![elderly senior's hands](/src/assets/images/blog/2022/hands.jpg)
+![elderly senior's hands](/blog/2022/hands.jpg)
 
 Photo by Pixabay
 
@@ -62,7 +62,7 @@ If your senior parent is struggling to be social and active, a caregiver can hel
 
 If they struggles with balance and falls, a caregiver can help them to exercise at home. They can help them with simple exercises that can improve their strength and balance.
 
-![caregiver with elderly group](/src/assets/images/blog/2022/caregiver-with-elderly.jpg)
+![caregiver with elderly group](/blog/2022/caregiver-with-elderly.jpg)
 
 6\. Professional Caregivers Can Offer Companionship and Support for Your Loved One
 ----------------------------------------------------------------------------------

@@ -2,7 +2,7 @@
 publishDate: 2021-09-17T00:00:00Z
 title: '7 Best Ways To Maximize The Healthy Aging Month This Year'
 excerpt: September celebrates the healthy aging month. It's also best time to learn about the 7 ways aging population can maximize their health and live their best life.
-image: /src/assets/images/blog/2021/healthy-aging.jpg   
+image: /blog/2021/healthy-aging.jpg   
 tags:
   - healthy aging
   - graceful aging
@@ -21,7 +21,7 @@ We have now, like never before perhaps in human history, the largest aging popul
 
 This observed increase in longevity is the product of advances in medical science. There are better drugs and management options for disease conditions and injuries that would have otherwise been a more or less guaranteed cause of death. Surgical procedures and medical equipments to sustain and prolong life are more advanced than ever before.
 
-![a group of elderly people walking together](/src/assets/images/blog/2021/philippe-leone-Y5VBtBgswLQ-unsplash.jpg)
+![a group of elderly people walking together](/blog/2021/philippe-leone-Y5VBtBgswLQ-unsplash.jpg)
 
 Photo by Philippe Leone on Unsplash
 
@@ -29,7 +29,7 @@ Standards of living keep improving across many parts of the world and all these 
 
 The number is almost twice that for the next generation. With this rising population, there is a pressing need to count the costs and discuss how the best can be gotten out of life at this stage.
 
-![a picture of an apple in front of the calendar desk](/src/assets/images/blog/2021/manasvita-s-9q5vptiE2TY-unsplash-copy.jpg)
+![a picture of an apple in front of the calendar desk](/blog/2021/manasvita-s-9q5vptiE2TY-unsplash-copy.jpg)
 
 September was selected for the celebration of the healthy aging month because of its uniqueness as a period where people usually start new things after the summer. The awareness was started 20 years ago when the baby boomers (people born between 1946 to 1964) first turned 50. Many people tend to dread aging.
 
@@ -42,7 +42,7 @@ It is a period for reinventing yourself, knowing that you will not be able to do
 How to make the most of this period
 -----------------------------------
 
-![picture of a person eating a healthy meal](/src/assets/images/blog/2021/louis-hansel--9CjvlbUGhY-unsplash.jpg)
+![picture of a person eating a healthy meal](/blog/2021/louis-hansel--9CjvlbUGhY-unsplash.jpg)
 
 Photo by Louis Hansel on Unsplash
 
@@ -58,7 +58,7 @@ For most people, aging comes with retirement. The elderly usually don’t make u
 
 It is strongly advised that a healthy social circle should be maintained among peers. Such interactions will help with the general mood and mental health of the elderly as they navigate their way through this phase of life.
 
-![a group of elder women doing exercise](/src/assets/images/blog/2021/sriyoga-ashram-QgCl-pNkfPc-unsplash.jpg)
+![a group of elder women doing exercise](/blog/2021/sriyoga-ashram-QgCl-pNkfPc-unsplash.jpg)
 
 Photo by Sriyoga Ashram on Unsplash
 
@@ -80,7 +80,7 @@ Aging will require you to always keep tabs on your health. So it is always best 
 
 Enjoying this phase of your life requires having the right perspective to life. Always remember that aging is a part of the life process and it is nothing peculiar to you. Aging is not a disease and even the health conditions that may come with it can be well managed. Having a positive outlook to life can generally enhance your quality of life. Wear a smile, stay positive and keep the right association. See a psychologist if you have to and if you need professional help adjusting to new realities.
 
-![the word explore written in a flag](/src/assets/images/blog/2021/andrew-neel-z55CR_d0ayg-unsplash.jpg)
+![the word explore written in a flag](/blog/2021/andrew-neel-z55CR_d0ayg-unsplash.jpg)
 
 Photo by Andrew Neel on Unsplash
 
