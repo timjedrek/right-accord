@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-03-02T00:00:00Z
 title: 'Conversation Starters With Your Elderly Loved Ones'
-excerpt: This blog will explore the significance of engaging dialogue with the elderly, provide practical conversation starters, and share valuable tips.
+excerpt: As our loved ones age, nurturing strong connections becomes vital. Join us as we delve into the significance of engaging dialogue with the elderly, offering practical conversation starters, valuable tips, and key takeaways. We'll also spotlight the importance of professional caregiving services, with a focus on RIGHT ACCORD Home Health Care.
 image: /blog/2024/Conversation-Starters-With-Your-Elderly-Loved-Ones.jpg
 tags:
   - elderly

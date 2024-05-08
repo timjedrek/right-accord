@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-03-06T00:00:00Z
 title: 'Honoring Caregivers: The Heroes on International Womens Day'
-excerpt: This Blog shine a spotlight on the compassionate and resilient women caregivers who make a significant difference in the lives of their senior clients.
+excerpt: This International Women's Day, we honor the often unnoticed heroes - caregivers. Join us in recognizing the remarkable women who dedicate themselves to enhancing the lives of senior clients. From companionship to advocacy, their resilience and empathy shine through in their essential caregiving roles.
 image: /blog/2024/Honoring-Caregivers.jpg
 tags:
   - Caregivers

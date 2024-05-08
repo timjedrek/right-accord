@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-02-06T00:00:00Z
 title: 'Nurturing Healthy Hearts: A Guide for Seniors In Heart Month'
-excerpt: This blog aims to define the alarming statistics about heart disease in America and provide useful tips for aging individuals to keep a healthy heart.
+excerpt: As February unfolds, we shift our focus from expressions of love to matters of the heart in a literal sense. Join us in marking American Heart Month by delving into the importance of heart health awareness. This blog post highlights staggering statistics about heart disease in America and offers valuable tips for aging individuals to prioritize a healthy heart.
 image: /blog/2024/Nurturing-Healthy-Hearts-for-Seniors.jpg  
 tags:
   - healthy heart for seniors

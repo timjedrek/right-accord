@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-01-30T00:00:00Z
 title: 'A Guide for Nurturing Thyroid Health in Aging Loved Ones'
-excerpt: This Blog recognize the importance of thyroid health especially for aging individuals and raise awareness about its impact on their overall well-being.
+excerpt: As we embark on a new year, let's highlight crucial health concerns, particularly for our elderly loved ones. January marks Thyroid Awareness Month, spotlighting the often underestimated thyroid's pivotal role in well-being. Join us at RIGHT ACCORD Private Duty Home Health Care as we emphasize the importance of thyroid health for aging individuals and aim to enhance awareness of its profound impact on their overall well-being.
 image: /blog/2024/Thyroid-Health-in-Aging-Loved-Ones.jpg  
 tags:
   - thyroid health in aging loved ones
