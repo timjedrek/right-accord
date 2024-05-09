@@ -445,21 +445,23 @@ import Booklet from '/src/assets/images/booklet.png';
     </Fragment>
   </BlogLatestPosts>
 
-  <CallToAction
-    id="download"
-    title="Download our booklet now!"
-    subtitle="Get to know more about our services and how we can help you and your loved ones."
-  >
-    <div slot="actions" class="flex max-w-sm gap-4">
-      <Button
-        variant="link"
-        target="_blank"
-        href="https://rightaccordhealth.com/download-materials/2020/pdf/Survival-Guide-For-Parent-Care.pdf?inf_contact_key=110de0d98ad9baacbcd047d93293680a680f8914173f9191b1c0223e68310bb1"
-      >
-        <Image src={Booklet} alt="Survival Guide For Parent Care Image" width={400} />
-      </Button>
-    </div>
-  </CallToAction>
+  <a href="https://forms.rightaccordhealthcare.com/book-download" target="_blank">
+    <CallToAction
+      id="download"
+      title="Download our booklet now!"
+      subtitle="Get to know more about our services and how we can help you and your loved ones."
+    >
+      <div slot="actions" class="flex max-w-sm gap-4">
+        <Button
+          variant="link"
+          target="_blank"
+          href="https://forms.rightaccordhealthcare.com/book-download"
+        >
+          <Image src={Booklet} alt="Survival Guide For Parent Care Image" width={400} />
+        </Button>
+      </div>
+    </CallToAction>
+  </a>
 
   <!-- FAQs Widget ******************* -->
 </Layout>
