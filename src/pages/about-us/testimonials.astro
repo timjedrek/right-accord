@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
+import TestimonialComponent from '~/components/widgets/Testimonials.astro';
 
 const metadata = {
   title: 'Testimonials',
@@ -8,7 +8,7 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <Testimonials
+  <TestimonialComponent
     title="Family Testimonials"
     subtitle="Discover what clients and their families have to say about our services."
     testimonials={[
