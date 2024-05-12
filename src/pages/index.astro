@@ -64,8 +64,14 @@ import Booklet from '/src/assets/images/booklet.png';
     title="We care for your family with the respect and dignity they deserve"
     subtitle="RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family."
     actions={[
-      { variant: 'primary', text: 'Schedule Appointment', href: 'https://forms.rightaccordhealthcare.com/schedule', icon: 'tabler:calendar-heart' , target: '_blank' },
-      { text: 'Contact Us', href: '/contact' , target: '_blank'},
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
@@ -82,6 +88,7 @@ import Booklet from '/src/assets/images/booklet.png';
         description:
           'Right Accord team of certified dementia caregivers understands the disease and they develop skills and attitudes that are helpful when working with seniors with alzheimer’s disease',
         icon: 'flat-color-icons:document',
+        link: '/specialty-care/alzheimers-dementia-care',
         image: {
           src: Alz,
           alt: 'Alzheimer’s Care.',
@@ -92,6 +99,7 @@ import Booklet from '/src/assets/images/booklet.png';
         description:
           'Our caregivers help elderly with parkinson’s disease through personal care and the activities of daily living.',
         icon: 'flat-color-icons:template',
+        link: '/specialty-care/parkinsons-disease-care',
         image: {
           src: Park,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
@@ -102,6 +110,7 @@ import Booklet from '/src/assets/images/booklet.png';
         description:
           'Right Accord’s caregiver experts create strategies to help stroke survivors go through their recovery very quickly.',
         icon: 'flat-color-icons:voice-presentation',
+        link: '/specialty-care/after-stroke-in-home-care',
         image: {
           src: Stroke,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
@@ -112,6 +121,7 @@ import Booklet from '/src/assets/images/booklet.png';
         description:
           'Right Accord’s in-home care helps client to recuperate after hospitalization or after the surgery.',
         icon: 'flat-color-icons:voice-presentation',
+        link: '/specialty-care/post-surgical-recovery-and-rehabilitation-care',
         image: {
           src: Surg,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
@@ -121,6 +131,7 @@ import Booklet from '/src/assets/images/booklet.png';
         title: 'Hospice Care',
         description: 'Our caregivers receives special training from tidewell hospice team of professionals.',
         icon: 'flat-color-icons:voice-presentation',
+        link: '/specialty-care/hospice-end-of-life-care',
         image: {
           src: Hospice,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
@@ -452,11 +463,7 @@ import Booklet from '/src/assets/images/booklet.png';
       subtitle="Get to know more about our services and how we can help you and your loved ones."
     >
       <div slot="actions" class="flex max-w-sm gap-4">
-        <Button
-          variant="link"
-          target="_blank"
-          href="https://forms.rightaccordhealthcare.com/book-download"
-        >
+        <Button variant="link" target="_blank" href="https://forms.rightaccordhealthcare.com/book-download">
           <Image src={Booklet} alt="Survival Guide For Parent Care Image" width={400} />
         </Button>
       </div>
