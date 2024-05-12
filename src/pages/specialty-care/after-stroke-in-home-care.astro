@@ -6,7 +6,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
-  title: 'SaaS Landing Page',
+  title: 'After Stroke In-Home Care',
 };
 
 import HeroImage from '~/assets/images/main-image_after-stroke.jpg';
@@ -30,7 +30,13 @@ import CaregiversImage from '/src/assets/images/sub-image1_after-stroke.jpg';
     }}
   />
 
-  <Features2 id="learn-more">
+  <Features2
+    id="learn-more"
+    callToAction={{
+      text: 'Contact Us',
+      href: '/contact',
+    }}
+  >
     <Fragment slot="subtitle">
       <p class="text-lg">
         Stroke symptoms can be from mild to severe and varies with each experience, depending on which side of the brain

@@ -79,18 +79,18 @@ export const headerData = {
           text: 'Application for Employment',
           href: getPermalink('/caregivers/application-for-employment'),
         },
-        {
-          text: 'Caregiver Continuing Education',
-          href: getPermalink('/caregivers/caregiver-continuing-education'),
-        },
-        {
-          text: 'Caregiver Resources',
-          href: getPermalink('/caregivers/caregiver-resources'),
-        },
-        {
-          text: 'Caregiver Support',
-          href: getPermalink('/caregivers/caregiver-support'),
-        },
+        // {
+        //   text: 'Caregiver Continuing Education',
+        //   href: getPermalink('/caregivers/caregiver-continuing-education'),
+        // },
+        // {
+        //   text: 'Caregiver Resources',
+        //   href: getPermalink('/caregivers/caregiver-resources'),
+        // },
+        // {
+        //   text: 'Caregiver Support',
+        //   href: getPermalink('/caregivers/caregiver-support'),
+        // },
         // {
         //   text: 'Coming Soon or Pre-Launch',
         //   href: getPermalink('/landing/pre-launch'),
@@ -262,18 +262,18 @@ export const footerData = {
           text: 'Application for Employment',
           href: getPermalink('/caregivers/application-for-employment'),
         },
-        {
-          text: 'Caregiver Continuing Education',
-          href: getPermalink('/caregivers/caregiver-continuing-education'),
-        },
-        {
-          text: 'Caregiver Resources',
-          href: getPermalink('/caregivers/caregiver-resources'),
-        },
-        {
-          text: 'Caregiver Support',
-          href: getPermalink('/caregivers/caregiver-support'),
-        },
+        // {
+        //   text: 'Caregiver Continuing Education',
+        //   href: getPermalink('/caregivers/caregiver-continuing-education'),
+        // },
+        // {
+        //   text: 'Caregiver Resources',
+        //   href: getPermalink('/caregivers/caregiver-resources'),
+        // },
+        // {
+        //   text: 'Caregiver Support',
+        //   href: getPermalink('/caregivers/caregiver-support'),
+        // },
         // {
         //   text: 'Coming Soon or Pre-Launch',
         //   href: getPermalink('/landing/pre-launch'),

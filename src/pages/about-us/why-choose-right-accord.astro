@@ -18,8 +18,14 @@ import Reason3Image from '~/assets/images/sub-image2_why-choose.jpg';
     tagline=""
     title="Why Choose RIGHT ACCORD?"
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
-      { text: 'Learn more', href: '#features' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
   />
 
@@ -64,7 +70,7 @@ import Reason3Image from '~/assets/images/sub-image2_why-choose.jpg';
     ]}
     image={{
       src: Reason2Image,
-      alt: 'SaaS Businesses Image',
+      alt: 'Elder holding hands with caregiver',
     }}
   >
     <Fragment slot="bg">
@@ -102,23 +108,23 @@ import Reason3Image from '~/assets/images/sub-image2_why-choose.jpg';
     subtitle="Have questions? Feel free to contact us using the form below. We're here to help!"
     callToAction={{
       text: 'Contact us',
-      href: '/',
+      href: '/contact',
     }}
     items={[
       {
         title: 'Email us',
-        description: 'contact@support.com',
+        description: 'admin@rightaccordhealth.com',
         icon: 'tabler:mail',
       },
       {
         title: 'Call us',
-        description: '+1 (234) 567-890',
+        description: '(941) 366-0801',
         icon: 'tabler:headset',
       },
       {
-        title: 'Follow us',
-        description: '@example',
-        icon: 'tabler:brand-twitter',
+        title: 'Visit us',
+        description: '3900 Clark Road Suite B5, Sarasota, FL 34233',
+        icon: 'tabler:map-2',
       },
     ]}
   />

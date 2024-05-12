@@ -14,7 +14,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import ItemGrid from '~/components/ui/ItemGrid.astro';
 
 const metadata = {
-  title: 'SaaS Landing Page',
+  title: 'Hourly Care or 24-Hour Care',
 };
 
 const benefits = [
@@ -151,8 +151,14 @@ import ServicesImage from '/src/assets/images/sub-image1_hourly-care2.jpg';
     title="Customized, Flexible Family and Client-Directed Care"
     subtitle="RIGHT ACCORD Private Duty-Home Health Care is a senior care provider and helps at home who cares about you. We can provide you or your family with senior helpers whether the need is short-term or long-term care for your loved one. You are in control. We work together to plan and design the care. Each client and family has unique needs and wants."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#features' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
@@ -169,7 +175,7 @@ import ServicesImage from '/src/assets/images/sub-image1_hourly-care2.jpg';
     <p>
       Sometimes the need is minimal and sometimes more care is necessary. At RIGHT ACCORD, we customize your care based
       on your needs. Hiring a caregiver from RIGHT ACCORD means you are in control and you are carefully matched to the
-      right caregiver that best suit your needs. Caregivers are available from as little as 4 hours to 24 hours. There
+      right caregiver that best suit your needs. Caregivers are available from as little as 6 hours to 24 hours. There
       are no limits to the number of visits you can have per week or month. We will assist you in customizing schedule
       that will best benefit you and your loved one.
     </p>
