@@ -11,11 +11,7 @@ metadata:
   canonical: https://rightaccordhealth.com/elderly-nursing-home-care-lockdown
 ---
 
-
-
 By: Rosemarie Tamunday Casanova — RN, BSN, MHA
-
-
 
 In the midst of the Covid-19 pandemic, many nursing home care for elderly facilities have had to shut down in order to help contain the spread of the deadly viral disease.
 
@@ -33,8 +29,7 @@ As a result of this, it becomes paramount that this cherished population is prot
 
 Photo by Elien Dumon from Unsplash
 
-In What Ways has the Elderly Nursing Home Care Facility Lockdown Due to Coronavirus Affected our Elderly Loved Ones?
---------------------------------------------------------------------------------------------------------------------
+## In What Ways has the Elderly Nursing Home Care Facility Lockdown Due to Coronavirus Affected our Elderly Loved Ones?
 
 Unfortunately, as altruistic as the decision to keep our vulnerable seniors indoors is, most of them have not found it to be a very pleasant situation.
 
@@ -64,18 +59,13 @@ Many facilities fear that their residents would lose their autonomy if they cont
 
 Photo by Alex Boyd on Unsplash
 
-* * *
-
-  
+---
 
 "The health of our elderly residents in the community are paramount to us, and so we will do all we can to safeguard it."
 
-  
+---
 
-* * *
-
-Helping Our Senior Loved Ones Through Covid-19
-----------------------------------------------
+## Helping Our Senior Loved Ones Through Covid-19
 
 As much uncertainty swirls around the Covid-19 pandemic especially regarding how long it may last, many facilities are getting ready to remain in a lockdown for as long as is necessary, in order to ensure that their residents are kept as safe as possible.
 
@@ -87,22 +77,21 @@ That the rules of elderly care facilities be adhered to by the residents as it i
 
 This includes:
 
-*   Respecting the lockdown protocols
-*   Ramping up cleaning of surfaces
-*   The need for staff of the facilities to carefully check their own temperature, so that they don't inadvertently contribute to spread
+- Respecting the lockdown protocols
+- Ramping up cleaning of surfaces
+- The need for staff of the facilities to carefully check their own temperature, so that they don't inadvertently contribute to spread
 
 They also advise that long term elderly care facilities should have staff who are solely in charge of caring for residents who are positive to the virus, in order to limit possible spread.
 
 These facilities should also assess the well-being of their new residents especially regarding their respiratory health.
 
-Even as the lockdown restrictions are easing up for other businesses, at Right Accord Home Health Agency, extreme caution is still being taken because of the particular vulnerability of the aging population to the disease.
+Even as the lockdown restrictions are easing up for other businesses, at RIGHT ACCORD Home Health Agency, extreme caution is still being taken because of the particular vulnerability of the aging population to the disease.
 
-"The health of our elderly residents in the community are paramount to us, and so we will do all we can to safeguard it." says Rosemarie Tamunday, the director of Right Accord Home Health Agency, Sarasota, Florida.
+"The health of our elderly residents in the community are paramount to us, and so we will do all we can to safeguard it." says Rosemarie Tamunday, the director of RIGHT ACCORD Home Health Agency, Sarasota, Florida.
 
 This is a wise decision considering how easily one case can spread to others in a very short time.
 
-Improvised Engagement
----------------------
+## Improvised Engagement
 
 In-house entertainment provided by the residents themselves can be used as a means of warding off boredom.
 
@@ -116,8 +105,7 @@ They now organize mini in-house shows where the seniors get to engage with thems
 
 Photo by Georg Arthur Pflueger from Unsplash
 
-Safer, Non-physical Connection
-------------------------------
+## Safer, Non-physical Connection
 
 ### PHONE CALLS
 
@@ -137,8 +125,7 @@ For seniors who are more used to this means of communication, this is as good a 
 
 Also, this solves the problem of lack of tech savviness on the part of some seniors.
 
-How Caregivers Can Help
------------------------
+## How Caregivers Can Help
 
 Caregivers and home healthcare providers have been indispensable and arguably the heroes of the pandemic season.
 
@@ -162,17 +149,17 @@ Beyond the need for communication and companionship, the elderly often also have
 
 Some of these needs include:
 
-*   Pain management
-*   Wound care and management
-*   Help taking their medication when due
-*   Occupational and physical therapy
-*   Education of patient and caregivers
-*   Assistance with Exercise programs
-*   Help with personal care like bathing, dressing, and grooming
-*   Basic hygiene and toileting
-*   Assistance with getting home after discharge and with hospital appointments
-*   Assistance with Activities of daily living (ADL)
-*   Occupational / Speech therapy
+- Pain management
+- Wound care and management
+- Help taking their medication when due
+- Occupational and physical therapy
+- Education of patient and caregivers
+- Assistance with Exercise programs
+- Help with personal care like bathing, dressing, and grooming
+- Basic hygiene and toileting
+- Assistance with getting home after discharge and with hospital appointments
+- Assistance with Activities of daily living (ADL)
+- Occupational / Speech therapy
 
 ### HEALTH EDUCATION
 
@@ -184,8 +171,7 @@ Caregivers come in handy here, as they patiently explain all they need to know a
 
 They also educate them on the need for the maintenance of adequate hand hygiene and other precautionary measures that they're capable of carrying out.
 
-Should You Remove Your Elderly Lover One From A Care Facility?
---------------------------------------------------------------
+## Should You Remove Your Elderly Lover One From A Care Facility?
 
 In as much as there is some concern about the safety of the seniors in elderly care home health facilities, mostly as a result of ease of viral spread, a lack of definitive treatment, as well as a vaccine for prevention, it is still not far from the truth to say that they are safer in these facilities as the Caregivers are already trained to give care in similar conditions.
 

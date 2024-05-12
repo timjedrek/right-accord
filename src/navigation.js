@@ -125,8 +125,8 @@ export const headerData = {
           href: getPermalink('/family-services/community-care-resources'),
         },
         {
-          text: 'Payers for Home Care',
-          href: getPermalink('/family-services/payers-for-home-care'),
+          text: 'Payors for Home Care',
+          href: getPermalink('/family-services/payors-for-home-care'),
         },
         // {
         //   text: 'Getting Started',
@@ -154,7 +154,7 @@ export const headerData = {
       text: 'About Us',
       links: [
         {
-          text: 'About Right Accord',
+          text: 'About RIGHT ACCORD',
           href: getPermalink('/about-us/about-right-accord'),
         },
         {
@@ -166,7 +166,7 @@ export const headerData = {
           href: getPermalink('/about-us/our-mission'),
         },
         {
-          text: 'Why Choose Right Accord?',
+          text: 'Why Choose RIGHT ACCORD?',
           href: getPermalink('/about-us/why-choose-right-accord'),
         },
         {
@@ -308,8 +308,8 @@ export const footerData = {
           href: getPermalink('/family-services/community-care-resources'),
         },
         {
-          text: 'Payers for Home Care',
-          href: getPermalink('/family-services/payers-for-home-care'),
+          text: 'Payors for Home Care',
+          href: getPermalink('/family-services/payors-for-home-care'),
         },
         // {
         //   text: 'Getting Started',
@@ -337,7 +337,7 @@ export const footerData = {
       title: 'About Us',
       links: [
         {
-          text: 'About Right Accord',
+          text: 'About RIGHT ACCORD',
           href: getPermalink('/about-us/about-right-accord'),
         },
         {
@@ -349,7 +349,7 @@ export const footerData = {
           href: getPermalink('/about-us/our-mission'),
         },
         {
-          text: 'Why Choose Right Accord?',
+          text: 'Why Choose RIGHT ACCORD?',
           href: getPermalink('/about-us/why-choose-right-accord'),
         },
         {

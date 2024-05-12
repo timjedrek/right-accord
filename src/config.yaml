@@ -1,5 +1,5 @@
 site:
-  name: Right Accord
+  name: RIGHT ACCORD
   site: 'https://rightaccordhealth.com'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Right Accord
-    template: '%s — Right Accord'
-  description: "\U0001F680 Right Accord Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family."
+    default: RIGHT ACCORD
+    template: '%s — RIGHT ACCORD'
+  description: "\U0001F680 RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Right Accord
+    site_name: RIGHT ACCORD
     images:
       - url: '~/assets/images/default.png'
         width: 1200
