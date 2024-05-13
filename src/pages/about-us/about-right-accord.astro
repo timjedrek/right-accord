@@ -21,7 +21,16 @@ import ReadersChoice2014Image from '/src/assets/images/readers-choice-2014b.jpg'
     tagline="About Us"
     title="RIGHT ACCORD Home Care"
     subtitle="Home Health Agency licensed by the Florida Agency for Health Care Administration (AHCA) who is responsible for health care organization licensure and regulation. (HHA29993655)"
-    actions={[{ text: 'Learn more', href: '#learn-more' }]}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
+    ]}
     image={{
       src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',

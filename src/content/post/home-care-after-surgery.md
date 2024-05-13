@@ -11,10 +11,7 @@ metadata:
   canonical: https://rightaccordhealth.com/home-care-after-surgery
 ---
 
-
-
 By: Rosemarie Tamunday Casanova
-
 
 Surgery has become a mainstay in the diagnosis, treatment and even prevention of many disease conditions in the 21st century.
 
@@ -46,8 +43,7 @@ In such cases, the services of a home health care agency like [in home senior ca
 
 Photo by melodi2 from FreeImages
 
-Why there may be need for home care post-surgery
-------------------------------------------------
+## Why there may be need for home care post-surgery
 
 Post-surgical patients are at risk of many things, these include falls, medication dosage and timing challenges, complications of the surgical procedure, dietary needs and requirements . Sometimes too, -depending on the type of surgery done- a patient may be required to make certain modifications at their homes.
 
@@ -55,13 +51,11 @@ For example, a man recovering from hip replacement surgery may be required to mo
 
 The above mentioned challenges and more , calls for the need for a professional hand such a private nurse or a home health care aide.
 
-Home Care Services that are Beneficial post-surgery
----------------------------------------------------
+## Home Care Services that are Beneficial post-surgery
 
 In the services of a home health care agency, there are certain expectations one may have. And a good agency should be able to provide such services. These may include but are not limited to the following:
 
-•Transportation to and from the hospital for regular review with the doctor
----------------------------------------------------------------------------
+## •Transportation to and from the hospital for regular review with the doctor
 
 Many post-surgical cases can be managed as out-patients. For this reason, they will be required to come to the hospital for regular follow up appointments in monitoring their recovery process.
 
@@ -99,10 +93,8 @@ Photo by Matthias Zomer from Pexels
 
 The right kind of food is almost as important as the drugs the patient will have to take. Surgical procedures drain the body of its reserves as it may cause metabolic stress, loss of blood, loss of appetite, etc. Choosing the right diet with the adequate amount of nutrients helps to replenish lost ones and aid faster recovery.
 
-
-
 The most important reason for a post-surgical patient to consider the services of a health care agency is perhaps the fact that they afford the patient exclusive care service. Unlike hospital-based management, the private duty nurse or the home health care aide has the one individual alone to cater for and does not need to juggle between many other patients. This provides more care time with better details to the recovery process.
 
-When a patient chooses to go with home care agencies during their recovery journey after surgery, it's best to pick a trained and trusted agency with a track record of professional services and positive outcomes. Agencies like Right Accord Private Duty Home, a Sarasota Home Health Care Agency, provides impeccable services to patients recovering form surgeries.
+When a patient chooses to go with home care agencies during their recovery journey after surgery, it's best to pick a trained and trusted agency with a track record of professional services and positive outcomes. Agencies like RIGHT ACCORD Private Duty Home, a Sarasota Home Health Care Agency, provides impeccable services to patients recovering form surgeries.
 
 Any of the our agents will be willing and available to provide the services you need on your journey to recovery. The recovery from surgery may be a challenging one as earlier established, but you don't have to do it alone.

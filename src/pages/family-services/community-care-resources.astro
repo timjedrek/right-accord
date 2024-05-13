@@ -211,7 +211,10 @@ import HeroImage from '~/assets/images/main-image_community-care.jpg';
   <Hero
     title="Community Care Resources"
     subtitle="Navigating care networks: our commitment to community care coordination"
-    actions={[{ text: 'Learn more', href: '#learn-more' }]}
+    actions={[
+      { text: 'Contact Us', href: '/contact', target: '_blank', variant: 'primary' },
+      { text: 'Learn more', href: '#learn-more' },
+    ]}
     image={{
       src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',

@@ -14,6 +14,7 @@ const {
   title: titleClass = '',
   description: descriptionClass = '',
   icon: defaultIconClass = 'text-primary',
+  link: linkClass = '',
 } = classes;
 ---
 
@@ -33,10 +34,11 @@ const {
         containerClass
       )}
     >
-      {items.map(({ title, description, icon, callToAction, image, classes: itemClasses = {} }) => (
-        <div
+      {items.map(({ title, description, icon, link, callToAction, image, classes: itemClasses = {} }) => (
+        <a
+          href={link}
           class={twMerge(
-            'relative flex flex-col sm:first:col-span-2 overflow-hidden group cursor-pointer',
+            'relative flex flex-col sm:first:col-span-2 overflow-hidden group',
             panelClass,
             itemClasses?.panel
           )}
@@ -68,7 +70,7 @@ const {
               <Button {...callToAction} />
             </div>
           )}
-        </div>
+        </a>
       ))}
     </div>
   )

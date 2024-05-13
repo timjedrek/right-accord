@@ -17,7 +17,16 @@ import HeroImage from '~/assets/images/main-image_faq2.jpg';
     tagline="Frquently Asked Questions"
     title="Home health care center FAQ’s"
     subtitle="Your comprehensive faqs resource for clarity and understanding"
-    actions={[{ text: 'Learn more', href: '#faq' }]}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
+    ]}
     image={{
       src: HeroImage,
       alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',

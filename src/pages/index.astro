@@ -7,7 +7,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
 const metadata = {
-  title: 'Home Health Care Sarasota, FL | Right Accord',
+  title: 'Home Health Care Sarasota, FL | RIGHT ACCORD',
   ignoreTitleTemplate: true,
 };
 import IconTime from '~/assets/icons/icon-time.svg?raw';
@@ -64,8 +64,14 @@ import Booklet from '/src/assets/images/booklet.png';
     title="We care for your family with the respect and dignity they deserve"
     subtitle="RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family."
     actions={[
-      { variant: 'primary', text: 'Schedule Appointment', href: 'https://forms.rightaccordhealthcare.com/schedule', icon: 'tabler:calendar-heart' , target: '_blank' },
-      { text: 'Contact Us', href: '/contact' , target: '_blank'},
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
@@ -74,14 +80,15 @@ import Booklet from '/src/assets/images/booklet.png';
   />
 
   <Features6
-    title="Right Accord specialty care services"
-    subtitle="We highly specialized in 24 hour care for cases such as in Dementia and Alzheimer's Care, Parkinsons, Stroke and End of Life Care or Hospice Care. Our caregivers have extensive trainings and receive ongoing training while working at Right Accord. Our Seniors and Caregiver Wellness Program focuses on Holistic Approach to total well being that embraces natural balance on mind, body, spirit, food and sleep."
+    title="RIGHT ACCORD specialty care services"
+    subtitle="We highly specialized in 24 hour care for cases such as in Dementia and Alzheimer's Care, Parkinsons, Stroke and End of Life Care or Hospice Care. Our caregivers have extensive trainings and receive ongoing training while working at RIGHT ACCORD. Our Seniors and Caregiver Wellness Program focuses on Holistic Approach to total well being that embraces natural balance on mind, body, spirit, food and sleep."
     items={[
       {
         title: `Alzheimer's Care`,
         description:
-          'Right Accord team of certified dementia caregivers understands the disease and they develop skills and attitudes that are helpful when working with seniors with alzheimer’s disease',
+          'RIGHT ACCORD team of certified dementia caregivers understands the disease and they develop skills and attitudes that are helpful when working with seniors with alzheimer’s disease',
         icon: 'flat-color-icons:document',
+        link: '/specialty-care/alzheimers-dementia-care',
         image: {
           src: Alz,
           alt: 'Alzheimer’s Care.',
@@ -92,6 +99,7 @@ import Booklet from '/src/assets/images/booklet.png';
         description:
           'Our caregivers help elderly with parkinson’s disease through personal care and the activities of daily living.',
         icon: 'flat-color-icons:template',
+        link: '/specialty-care/parkinsons-disease-care',
         image: {
           src: Park,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
@@ -100,8 +108,9 @@ import Booklet from '/src/assets/images/booklet.png';
       {
         title: 'Afterstroke Care',
         description:
-          'Right Accord’s caregiver experts create strategies to help stroke survivors go through their recovery very quickly.',
+          'RIGHT ACCORD’s caregiver experts create strategies to help stroke survivors go through their recovery very quickly.',
         icon: 'flat-color-icons:voice-presentation',
+        link: '/specialty-care/after-stroke-in-home-care',
         image: {
           src: Stroke,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
@@ -110,8 +119,9 @@ import Booklet from '/src/assets/images/booklet.png';
       {
         title: 'Post-Surgical Care',
         description:
-          'Right Accord’s in-home care helps client to recuperate after hospitalization or after the surgery.',
+          'RIGHT ACCORD’s in-home care helps client to recuperate after hospitalization or after the surgery.',
         icon: 'flat-color-icons:voice-presentation',
+        link: '/specialty-care/post-surgical-recovery-and-rehabilitation-care',
         image: {
           src: Surg,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
@@ -121,6 +131,7 @@ import Booklet from '/src/assets/images/booklet.png';
         title: 'Hospice Care',
         description: 'Our caregivers receives special training from tidewell hospice team of professionals.',
         icon: 'flat-color-icons:voice-presentation',
+        link: '/specialty-care/hospice-end-of-life-care',
         image: {
           src: Hospice,
           alt: 'Children telling a story. Long-form Sales Landing Page demo',
@@ -130,7 +141,7 @@ import Booklet from '/src/assets/images/booklet.png';
   />
 
   <FAQs
-    title="Why is Right Accord your caregiver and companion company of choice?"
+    title="Why is RIGHT ACCORD your caregiver and companion company of choice?"
     items={[
       {
         description:
@@ -158,7 +169,7 @@ import Booklet from '/src/assets/images/booklet.png';
   </FAQs>
 
   <Features4
-    title="Right Accord is a proud member of"
+    title="RIGHT ACCORD is a proud member of"
     columns={2}
     classes={{
       container: 'max-w-xs sm:max-w-3xl',
@@ -192,7 +203,7 @@ import Booklet from '/src/assets/images/booklet.png';
     id="features"
     tagline="Services"
     title="Our services customized to your needs"
-    subtitle="Right Accord believes that home care service must be delivered as if it were being provided by the family. We know that everyone is different so we provide customized service programs, each of our clients receives care based upon his or her individual needs."
+    subtitle="RIGHT ACCORD believes that home care service must be delivered as if it were being provided by the family. We know that everyone is different so we provide customized service programs, each of our clients receives care based upon his or her individual needs."
     items={[
       {
         title: 'Houly Care or 24-Hour Care',
@@ -334,7 +345,7 @@ import Booklet from '/src/assets/images/booklet.png';
         },
       },
       {
-        testimonial: `Yes, I would recommend Right Accord for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
+        testimonial: `Yes, I would recommend RIGHT ACCORD for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
         name: 'J.U.',
         job: 'Sarasota, FL',
         image: {
@@ -344,7 +355,7 @@ import Booklet from '/src/assets/images/booklet.png';
       },
       {
         testimonial:
-          'I will definitely use Right Accord again. It is a very well run organization and all the people I was in contact with were very kind and considerate.',
+          'I will definitely use RIGHT ACCORD again. It is a very well run organization and all the people I was in contact with were very kind and considerate.',
         name: 'L.A.',
         job: 'Sarasota, FL',
         image: {
@@ -435,16 +446,6 @@ import Booklet from '/src/assets/images/booklet.png';
   >
   </iframe>
 
-  <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`
-                `}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </BlogLatestPosts>
-
   <a href="https://forms.rightaccordhealthcare.com/book-download" target="_blank">
     <CallToAction
       id="download"
@@ -452,16 +453,18 @@ import Booklet from '/src/assets/images/booklet.png';
       subtitle="Get to know more about our services and how we can help you and your loved ones."
     >
       <div slot="actions" class="flex max-w-sm gap-4">
-        <Button
-          variant="link"
-          target="_blank"
-          href="https://forms.rightaccordhealthcare.com/book-download"
-        >
+        <Button variant="link" target="_blank" href="https://forms.rightaccordhealthcare.com/book-download">
           <Image src={Booklet} alt="Survival Guide For Parent Care Image" width={400} />
         </Button>
       </div>
     </CallToAction>
   </a>
+
+  <BlogLatestPosts title="Find out more content in our Blog" information={``}>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestPosts>
 
   <!-- FAQs Widget ******************* -->
 </Layout>

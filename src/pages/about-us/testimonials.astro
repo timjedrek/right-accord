@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
+import TestimonialComponent from '~/components/widgets/Testimonials.astro';
+import ProfilePlaceHolder from '/src/assets/images/profile-placeholder.webp';
 
 const metadata = {
   title: 'Testimonials',
@@ -8,7 +9,7 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <Testimonials
+  <TestimonialComponent
     title="Family Testimonials"
     subtitle="Discover what clients and their families have to say about our services."
     testimonials={[
@@ -17,7 +18,7 @@ const metadata = {
         name: 'M. A. (Client relative)',
         job: 'Sarasota, FL',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Mark Thompson Image',
         },
       },
@@ -26,7 +27,7 @@ const metadata = {
         name: 'B. P. (Client)',
         job: 'Sarasota, FL',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Emily Martinez Image',
         },
       },
@@ -35,7 +36,7 @@ const metadata = {
         name: 'T. C. (Client relative)',
         job: 'Indiana',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Laura Simmons Image',
         },
       },
@@ -44,7 +45,7 @@ const metadata = {
         name: 'L. A. (Client)',
         job: 'Director of web services',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Alex Foster Image',
         },
       },
@@ -53,16 +54,16 @@ const metadata = {
         name: 'D. K. (Client relative)',
         job: '',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Jessica Collins Image',
         },
       },
       {
-        testimonial: `It was so beautiful to see you and so many Right Accord girls at Dad's service. Thank you! The care that Dad and all of us received from you and the crew was outstanding! We are all touched by the patience and compassion of all of you. My father was very blessed!`,
+        testimonial: `It was so beautiful to see you and so many RIGHT ACCORD girls at Dad's service. Thank you! The care that Dad and all of us received from you and the crew was outstanding! We are all touched by the patience and compassion of all of you. My father was very blessed!`,
         name: 'C. S. (Client relative)',
         job: 'Vienna, VA',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Michael Carter Image',
         },
       },
@@ -71,7 +72,7 @@ const metadata = {
         name: 'S. R. (Client relative)',
         job: 'Siesta Key, FL',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Michael Carter Image',
         },
       },
@@ -80,7 +81,7 @@ const metadata = {
         name: 'C. E. (Client relative)',
         job: 'Vienna, VA',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Michael Carter Image',
         },
       },
@@ -89,16 +90,16 @@ const metadata = {
         name: '',
         job: 'Sarasota, FL',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Michael Carter Image',
         },
       },
       {
-        testimonial: `I will definitely use Right Accord again. It is a very well run organization and all the people I was in contact with were very kind and considerate.`,
+        testimonial: `I will definitely use RIGHT ACCORD again. It is a very well run organization and all the people I was in contact with were very kind and considerate.`,
         name: 'L. A. (Client)',
         job: 'Sarasota, FL',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Michael Carter Image',
         },
       },
@@ -107,16 +108,16 @@ const metadata = {
         name: 'W. G. (Client relative)',
         job: 'Sarasota, FL',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Michael Carter Image',
         },
       },
       {
-        testimonial: `Yes, I would recommend Right Accord for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
+        testimonial: `Yes, I would recommend RIGHT ACCORD for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
         name: 'J. U. (Client)',
         job: 'Sarasota, FL',
         image: {
-          src: '/src/assets/images/profile-placeholder.webp',
+          src: ProfilePlaceHolder,
           alt: 'Michael Carter Image',
         },
       },
