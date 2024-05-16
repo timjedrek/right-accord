@@ -1,0 +1,78 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import HeroImage from '~/assets/images/main-image_our-mission.jpg';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Our Locations',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Our Mission"
+    title="One of Sarasota's Top In-Home Senior Care Provider"
+    subtitle="The RIGHT ACCORD mission is a commitment to help the seniors in our community to age gracefully. We ensure them of their dignity, security and social connections that will enhance their lives."
+    actions={[{ text: 'Learn more', href: '#learn-more' }]}
+    image={{
+      src: HeroImage,
+      alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
+    }}
+  />
+  <Features2
+    id="locations"
+    title="Right Accord Locations"
+    tagline="Select a City to Explore Our Services"
+    columns={3}
+    items={[
+      {
+        title: 'Sarasota',
+        icon: 'tabler:map-pin',
+        callToAction: {
+          variant: 'secondary',
+          text: 'Explore',
+          href: '/about-us/sarasota',
+        },
+        classes: {
+          panel: 'bg-slate-200 flex flex-col justify-between items-center align-center',
+          title: 'text-slate-700 text-2xl lg:text-3xl font-black m-0 p-0 uppercase dark:text-white',
+          description: 'text-slate-600 tracking-tighter font-bold text-md lg:text-lg uppercase dark:text-white',
+          icon: 'text-slate-700 dark:text-white',
+        },
+      },
+      {
+        title: 'Venice',
+        icon: 'tabler:map-pin',
+        callToAction: {
+          variant: 'secondary',
+          text: 'Explore',
+          href: '/about-us/venice',
+        },
+        classes: {
+          panel: 'bg-slate-200 flex flex-col justify-between items-center align-center',
+          title: 'text-slate-700 text-2xl lg:text-3xl font-black m-0 p-0 uppercase dark:text-white',
+          description: 'text-slate-600 tracking-tighter font-bold text-lg lg:text-xl uppercase dark:text-white',
+          icon: 'text-slate-700 dark:text-white',
+        },
+      },
+      {
+        title: 'Lakewood Ranch',
+        icon: 'tabler:map-pin',
+        callToAction: {
+          variant: 'secondary',
+          text: 'Explore',
+          href: '/about-us/lakewood-ranch',
+        },
+        classes: {
+          panel: 'bg-slate-200 flex flex-col justify-between items-center align-center',
+          title: 'text-slate-700 text-2xl lg:text-3xl font-black m-0 p-0 uppercase dark:text-white',
+          description: 'text-slate-600 tracking-tighter font-bold text-lg lg:text-xl uppercase dark:text-white',
+          icon: 'text-slate-700 dark:text-white',
+        },
+      },
+    ]}
+  />
+</Layout>
