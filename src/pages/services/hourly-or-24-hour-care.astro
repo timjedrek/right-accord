@@ -1,16 +1,9 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Header from '~/components/widgets/Header.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
-import Features from '~/components/widgets/Features.astro';
-import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
-import Pricing from '~/components/widgets/Pricing.astro';
 
-import { headerData } from '~/navigation';
-import FAQs from '~/components/widgets/FAQs.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import ItemGrid from '~/components/ui/ItemGrid.astro';
 
 const metadata = {
@@ -139,8 +132,8 @@ const companionship = [
   },
 ];
 
-import HeroImage from '/src/assets/images/main-image_hourly-care.jpg';
-import ServicesImage from '/src/assets/images/sub-image1_hourly-care2.jpg';
+import HeroImage from '/src/assets/images/HC1.jpg';
+import ServicesImage from '/src/assets/images/HC2.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -162,7 +155,7 @@ import ServicesImage from '/src/assets/images/sub-image1_hourly-care2.jpg';
     ]}
     image={{
       src: HeroImage,
-      alt: 'AstroWind Hero Image',
+      alt: 'Hourly Care or 24-Hour Care',
     }}
   />
 
@@ -232,7 +225,7 @@ import ServicesImage from '/src/assets/images/sub-image1_hourly-care2.jpg';
     ]}
     image={{
       src: ServicesImage,
-      alt: 'Startup Image',
+      alt: 'Hourly Care or 24-Hour Care',
     }}
   >
     <Fragment slot="content">

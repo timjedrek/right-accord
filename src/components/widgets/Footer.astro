@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { SITE } from '~/utils/config';
+
 import { getHomePermalink } from '~/utils/permalinks';
 
 interface Link {
@@ -33,7 +33,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       <div class="col-span-12 lg:col-span-2">
         <div class="mb-2">
           <a class="inline-block font-bold text-xl" href={getHomePermalink()}
-            >RIGHT ACCORD Private Duty Home Health Care</a
+            >RIGHT ACCORD<br /><small class="text-xs font-light"> Private Duty Home Health Care</small></a
           >
         </div>
         <div class="text-sm text-muted">

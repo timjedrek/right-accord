@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -164,6 +164,10 @@ export const headerData = {
         {
           text: 'Our Mission',
           href: getPermalink('/about-us/our-mission'),
+        },
+        {
+          text: 'Our Locations',
+          href: getPermalink('/about-us/our-locations'),
         },
         {
           text: 'Why Choose RIGHT ACCORD?',
@@ -347,6 +351,10 @@ export const footerData = {
         {
           text: 'Our Mission',
           href: getPermalink('/about-us/our-mission'),
+        },
+        {
+          text: 'Our Locations',
+          href: getPermalink('/about-us/our-locations'),
         },
         {
           text: 'Why Choose RIGHT ACCORD?',

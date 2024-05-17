@@ -1,0 +1,24 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import HeroImage from '~/assets/images/main-image_our-mission.jpg';
+
+const metadata = {
+  title: "Sarasota's Top In-Home Senior Care Provider | RIGHT ACCORD",
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Our Mission"
+    title="One of Lakewood Ranch's Top In-Home Senior Care Provider"
+    subtitle="The RIGHT ACCORD mission is a commitment to help the seniors in our community to age gracefully. We ensure them of their dignity, security and social connections that will enhance their lives."
+    actions={[{ text: 'Learn more', href: '#learn-more' }]}
+    image={{
+      src: HeroImage,
+      alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
+    }}
+  />
+</Layout>
