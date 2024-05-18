@@ -4,11 +4,11 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
-  title: 'Long Term Care Insurance',
+  title: 'Long Term Care Insurance | RIGHT ACCORD Health',
 };
 
-import HeroImage from '~/assets/images/INSURANCE1.jpg';
-import InsuranceImage from '~/assets/images/INSURANCE2.jpg';
+import HeroImage from '~/assets/images/right-accord-health-florida-INSURANCE1.jpg';
+import InsuranceImage from '~/assets/images/right-accord-health-florida-INSURANCE2.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -19,12 +19,18 @@ import InsuranceImage from '~/assets/images/INSURANCE2.jpg';
     title="Long Term Care Insurance"
     subtitle="As you continue to age and about to reach your senior years, purchasing long term care insurance now can have some form of benefits. It is most likely that someone who waits too long to buy long term care insurance has a greater chance of developing a health condition in the future."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
-      alt: 'As you continue to age and about to reach your senior years, purchasing long term care insurance now can have some form of benefits. It is most likely that someone who waits too long to buy long term care insurance has a greater chance of developing a health condition in the future',
+      alt: 'right-accord-health-florida-long-term-care-insurance-hero-image',
     }}
   />
 
@@ -67,7 +73,7 @@ import InsuranceImage from '~/assets/images/INSURANCE2.jpg';
         width={400}
         height={400}
         src={InsuranceImage}
-        alt="Long Term Care Insurance"
+        alt="right-accord-health-florida-long-term-care-insurance-image"
       />
     </div>
 

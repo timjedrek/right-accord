@@ -25,12 +25,12 @@ import Button from '~/components/ui/Button.astro';
 import Image from '~/components/common/Image.astro';
 
 // Image variables
-import HeroImage from '/src/assets/images/HOMEPAGE_FIRSTPICTURE.jpg';
-import Alz from '/src/assets/images/HOMEPAGE_ALZHAIMERS.jpg';
-import Park from '/src/assets/images/HOMEPAGE_PARKINSONS.jpg';
-import Stroke from '/src/assets/images/HOMEPAGE_AFTERSTROKE.jpg';
-import Surg from '/src/assets/images/HOMEPAGE_POSTSURGICAL.jpg';
-import Hospice from '/src/assets/images/HOMEPAGE_HOSPICE.jpg';
+import HeroImage from '/src/assets/images/right-accord-health-florida-HOMEPAGE_FIRSTPICTURE.jpg';
+import Alz from '/src/assets/images/right-accord-health-florida-HOMEPAGE_ALZHAIMERS.jpg';
+import Park from '/src/assets/images/right-accord-health-florida-HOMEPAGE_PARKINSONS.jpg';
+import Stroke from '/src/assets/images/right-accord-health-florida-HOMEPAGE_AFTERSTROKE.jpg';
+import Surg from '/src/assets/images/right-accord-health-florida-HOMEPAGE_POSTSURGICAL.jpg';
+import Hospice from '/src/assets/images/right-accord-health-florida-HOMEPAGE_HOSPICE.jpg';
 import LWRBALogo from '/src/assets/images/LWRBA-Logo-WEB.png';
 import IFALogo from '/src/assets/images/IFA-Logo-300x209.png';
 import SarasotaMemorial from '/src/assets/partners/sarasota-memorial.webp';
@@ -48,11 +48,10 @@ import AlzheimerAssociation from '/src/assets/partners/alz.webp';
 import LernerCohen from '/src/assets/partners/lerner-cohen.webp';
 import PayneLawGroup from '/src/assets/partners/payne-lawgroup.webp';
 import ITNSuncoast from '/src/assets/partners/itn-suncoast.webp';
-import ProfilePlaceHolder from '/src/assets/images/profile-placeholder.webp';
 import Booklet from '/src/assets/images/booklet.png';
 
 const metadata = {
-  title: 'Home Health Care Sarasota, FL | RIGHT ACCORD',
+  title: 'Home Health Care Sarasota, FL | RIGHT ACCORD Health',
   ignoreTitleTemplate: true,
 };
 ---
@@ -76,7 +75,7 @@ const metadata = {
     ]}
     image={{
       src: HeroImage,
-      alt: 'Children telling a story. Long-form Sales Landing Page demo',
+      alt: 'right-accord-health-florida-homepage-hero-image',
     }}
   />
 
@@ -92,7 +91,7 @@ const metadata = {
         link: '/specialty-care/alzheimers-dementia-care',
         image: {
           src: Alz,
-          alt: 'Alzheimer’s Care.',
+          alt: 'right-accord-health-florida-Alzheimer’s Care.',
         },
       },
       {
@@ -103,7 +102,7 @@ const metadata = {
         link: '/specialty-care/parkinsons-disease-care',
         image: {
           src: Park,
-          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+          alt: 'right-accord-health-florida-Parkinson’s Care.',
         },
       },
       {
@@ -114,7 +113,7 @@ const metadata = {
         link: '/specialty-care/after-stroke-in-home-care',
         image: {
           src: Stroke,
-          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+          alt: 'right-accord-health-florida-Post-Stroke Care.',
         },
       },
       {
@@ -125,7 +124,7 @@ const metadata = {
         link: '/specialty-care/post-surgical-recovery-and-rehabilitation-care',
         image: {
           src: Surg,
-          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+          alt: 'right-accord-health-florida-Post-Surgical Care.',
         },
       },
       {
@@ -135,7 +134,7 @@ const metadata = {
         link: '/specialty-care/hospice-end-of-life-care',
         image: {
           src: Hospice,
-          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+          alt: 'right-accord-health-florida-Hospice Care.',
         },
       },
     ]}
@@ -338,31 +337,19 @@ const metadata = {
     testimonials={[
       {
         testimonial: `Thank you for the cooperative and professional way that Rosemarie and the Caregivers have served us. We look forward to a long future and pleasant relationship with you.`,
-        name: 'w.G.',
+        name: 'Cary Kennedy',
         job: 'Sarasota, FL',
-        image: {
-          src: ProfilePlaceHolder,
-          alt: 'Cary Kennedy Image',
-        },
       },
       {
         testimonial: `Yes, I would recommend RIGHT ACCORD for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
-        name: 'J.U.',
+        name: 'Josh Wilkinson',
         job: 'Sarasota, FL',
-        image: {
-          src: ProfilePlaceHolder,
-          alt: 'Josh Wilkinson Image',
-        },
       },
       {
         testimonial:
           'I will definitely use RIGHT ACCORD again. It is a very well run organization and all the people I was in contact with were very kind and considerate.',
-        name: 'L.A.',
+        name: 'Sidney Hansen',
         job: 'Sarasota, FL',
-        image: {
-          src: ProfilePlaceHolder,
-          alt: 'Sidney Hansen Image',
-        },
       },
     ]}
     callToAction={{
@@ -438,17 +425,20 @@ const metadata = {
     ]}
   />
 
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14185.55753792691!2d-82.4930632!3d27.2696738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd63ddd79e3387a8c!2sRight%20Accord%20Private%20Duty-Home%20Health%20Care%20-%20Caregivers%20%26%20Companions!5e0!3m2!1sen!2sph!4v1573807050260!5m2!1sen!2sph"
-    width="100%"
-    height="500"
-    style="border:0;"
-    allowfullscreen="true"
-  >
-  </iframe>
+  <section id="google-maps">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14185.55753792691!2d-82.4930632!3d27.2696738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd63ddd79e3387a8c!2sRight%20Accord%20Private%20Duty-Home%20Health%20Care%20-%20Caregivers%20%26%20Companions!5e0!3m2!1sen!2sph!4v1573807050260!5m2!1sen!2sph"
+      width="100%"
+      height="500"
+      style="border:0;"
+      allowfullscreen="true"
+    >
+    </iframe>
+  </section>
 
   <a href="https://forms.rightaccordhealthcare.com/book-download" target="_blank">
     <CallToAction
+      bg="<div class='absolute inset-0 bg-blue-100'></div>"
       id="download"
       title="Download our booklet now!"
       subtitle="Get to know more about our services and how we can help you and your loved ones."

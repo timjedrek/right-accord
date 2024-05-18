@@ -18,8 +18,14 @@ import HeroImage from '~/assets/images/STAFFINGSERVICES.jpg';
     title="Relief, Flexible, Staffing Solutions"
     subtitle="At RIGHT ACCORD, we understand the impact of nursing shortage in the delivery of health care services. We believe in maintaining the safety and quality of care for your clients that’s why we are here to support your mission in the community. Our A-Team of care providers is ready to help you."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#features' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,

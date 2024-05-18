@@ -59,8 +59,8 @@ const conditions = [
     title: 'Living isolated and alone.',
   },
 ];
-import HeroImage from '~/assets/images/LI1.jpg';
-import BenefitsImage from '~/assets/images/LI2.jpg';
+import HeroImage from '~/assets/images/right-accord-health-florida-live-in-home-1.jpg';
+import BenefitsImage from '~/assets/images/right-accord-health-florida-live-in-home-2.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -71,8 +71,14 @@ import BenefitsImage from '~/assets/images/LI2.jpg';
     title="Live-in Home Care Program"
     subtitle="There is no place like home. Home is a better place for a loved one to receive care. If you or your loved one suffers from a chronic condition or is recovering from an injury, illness, or surgical procedure, live in-home care can help maintain your lifestyle, independence, freedom, and peace of mind."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,

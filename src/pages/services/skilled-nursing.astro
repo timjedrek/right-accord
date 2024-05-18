@@ -8,8 +8,8 @@ const metadata = {
   title: 'Skilled Nursing Services',
 };
 
-import HeroImage from '~/assets/images/SN1.jpg';
-import benefitsImage from '~/assets/images/SN2.jpg';
+import HeroImage from '~/assets/images/right-accord-health-florida-skilled-nursing-1.jpg';
+import benefitsImage from '~/assets/images/right-accord-health-florida-skilled-nursing-2.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -20,8 +20,14 @@ import benefitsImage from '~/assets/images/SN2.jpg';
     title="Our Skilled Nursing Services"
     subtitle="(Not available in Manatee County) Our skilled nursing services are provided by a registered professional nurse in your loved one's home. RIGHT ACCORD employs Registered Nurses (RN) or Licensed Practical Nurse (LPN) who perform Free of charge the initial evaluation to determine the care your family need. RNs and LPNs are able to assist you design the plan of care."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#features' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,

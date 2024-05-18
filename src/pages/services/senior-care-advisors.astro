@@ -7,7 +7,7 @@ const metadata = {
   title: 'Senior Care Advisors',
 };
 
-import HeroImage from '~/assets/images/SCADVISOR.jpeg';
+import HeroImage from '~/assets/images/right-accord-health-florida-senior-care-advisor-1.jpeg';
 ---
 
 <Layout metadata={metadata}>
@@ -18,8 +18,14 @@ import HeroImage from '~/assets/images/SCADVISOR.jpeg';
     title="What are senior care advisors?"
     subtitle="The Senior Care Advisors are individuals who are able to provide clients and families guidance in times of difficulty in making health care decisions."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#features' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,

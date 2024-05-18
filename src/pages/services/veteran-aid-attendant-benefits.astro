@@ -18,8 +18,14 @@ import HeroImage from '~/assets/images/VETERANAID.jpg';
     title="We Salute You. Thank You To Our Veterans"
     subtitle="RIGHT ACCORD understand that many elderly veterans in our community could use help at home from their disabilities."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,

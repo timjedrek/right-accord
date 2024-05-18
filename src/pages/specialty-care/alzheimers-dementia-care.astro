@@ -5,7 +5,7 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
-  title: 'Alzheimer’s & Dementia Care',
+  title: 'Alzheimer’s & Dementia Care | RIGHT ACCORD Health Care',
 };
 
 import HeroImage from '~/assets/images/main-image_alzheimers-care.jpg';
@@ -20,8 +20,14 @@ import CaregiversImage from '~/assets/images/sub-image1_alzheimers-care.jpg';
     title="Alzheimer’s Disease is the most common form of Dementia."
     subtitle="It is a progressive, degenerative, irreversible disease of the brain. Progressive and degenerative means the disease gets worse causing greater loss of health and abilities."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
