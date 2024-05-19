@@ -2,14 +2,14 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
-import Image from '~/components/common/Image.astro';
+/* import Image from '~/components/common/Image.astro'; */
 
 const metadata = {
   title: 'Personal Homepage Demo',
 };
 
 import RosemarieTamundayImage from '~/assets/images/Rosemarie-Tamunday-Casanova2.jpg';
-import RosemarieTamundayImage2 from '~/assets/images/rose_tamunday-casanova.jpg';
+/* import RosemarieTamundayImage2 from '~/assets/images/rose_tamunday-casanova.jpg'; */
 ---
 
 <Layout metadata={metadata}>
@@ -45,20 +45,18 @@ import RosemarieTamundayImage2 from '~/assets/images/rose_tamunday-casanova.jpg'
         then her mother, Rosemarie developed a deep interest in the Healthcare industry with special regard to elderly
         long-term care.
       </p>
-      <br />
-      <p>
+
+      <p class="mt-3">
         Her practical experience coupled with this zeal for a medical caregiving fuelled her passion and she went on to
         earn a Bachelor's degree in Nursing with a special qualification in Critical Care Nursing, another degree in
         Legal Nurse Consulting, and then a master's degree in Health Administration.
       </p>
-      <br />
-      <p>
+      <p class="mt-3">
         She realized that just like her ailing parents and grandmother had needed assistance, very many American senior
         citizens equally have a great need for assistance with activities of daily living (ADL) as well as a need for
         compassionate, quality home care and companionship.
       </p>
-      <br />
-      <p>
+      <p class="mt-3">
         Propelled by the passion and desire to fill this need for more healthcare professionals in geriatric care, she
         was spurred on to establish RIGHT ACCORD Duty Home Healthcare in Sarasota, Florida in May 2007, one of the first
         Private Duty companies to be accredited and certified by the Joint Commission in Sarasota, a nationally
@@ -72,14 +70,14 @@ import RosemarieTamundayImage2 from '~/assets/images/rose_tamunday-casanova.jpg'
       "We’ve been developing our set of specialized senior care services over the past years. Now we’re ready for more
       growth, and are seeking motivated professionals to join our program"
     </blockquote>
-    <p class="text-sm self-end">- Rosemarie Tamunday-Casanova</p>
+    <p class="text-sm self-end italic">Rosemarie Tamunday-Casanova</p>
   </div>
 
   <div class="py-16 max-w-7xl px-5 mx-auto">
     <h2 class="font-semibold text-2xl bg-main-blue p-3 text-white w-fit uppercase mb-3">
       Right accord's commitment to service
     </h2>
-    <Image
+    <!--   <Image
       class="mx-auto rounded-md w-full ml-3 float-end"
       widths={[400, 768, 1024, 2040]}
       sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
@@ -88,7 +86,7 @@ import RosemarieTamundayImage2 from '~/assets/images/rose_tamunday-casanova.jpg'
       height={700}
       src={RosemarieTamundayImage2}
       alt="Children telling a story. Long-form Sales Landing Page demo"
-    />
+    /> -->
     <p>
       RIGHT ACCORD understands that seniors cherish their independence and would rather remain in the comfort of their
       own homes, so is dedicated to providing them with the needed support and assistance in the most dignified manner

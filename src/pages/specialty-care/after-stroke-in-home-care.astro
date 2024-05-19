@@ -6,11 +6,11 @@ import Features2 from '~/components/widgets/Features2.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
-  title: 'After Stroke In-Home Care',
+  title: 'After Stroke In-Home Care | RIGHT ACCORD Private Duty Home Health Care',
 };
 
-import HeroImage from '~/assets/images/main-image_after-stroke.jpg';
-import CaregiversImage from '/src/assets/images/sub-image1_after-stroke.jpg';
+import HeroImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_AFTERSTROKE.jpg';
+import CaregiversImage from '/src/assets/images/main-image_after-stroke.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -38,9 +38,12 @@ import CaregiversImage from '/src/assets/images/sub-image1_after-stroke.jpg';
 
   <Features2
     id="learn-more"
-    callToAction={{
-      text: 'Contact Us',
-      href: '/contact',
+    callToAction1={{
+      variant: 'primary',
+      text: 'Schedule Appointment',
+      href: 'https://forms.rightaccordhealthcare.com/schedule',
+      icon: 'tabler:calendar-heart',
+      target: '_blank',
     }}
   >
     <Fragment slot="subtitle">

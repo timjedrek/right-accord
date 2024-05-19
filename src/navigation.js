@@ -6,12 +6,12 @@ export const headerData = {
       text: 'Services',
       links: [
         {
-          text: 'Hourly or 24-Hour Care',
-          href: getPermalink('/services/hourly-or-24-hour-care'),
+          text: 'Hourly Care',
+          href: getPermalink('/services/hourly-care'),
         },
         {
-          text: 'Live-in Home Care',
-          href: getPermalink('/services/live-in-home-care'),
+          text: '24-Hour Care',
+          href: getPermalink('/services/24-hour-care'),
         },
         {
           text: 'Skilled Nursing',
@@ -116,10 +116,10 @@ export const headerData = {
           text: 'Family Portal - ERSP',
           href: getPermalink('/family-services/family-portal-ersp'),
         },
-        {
+        /* {
           text: 'Family Caregiver Support',
           href: getPermalink('/family-services/family-caregiver-support'),
-        },
+        }, */
         {
           text: 'Community Care Resources',
           href: getPermalink('/family-services/community-care-resources'),
@@ -193,12 +193,12 @@ export const footerData = {
       title: 'Services',
       links: [
         {
-          text: 'Hourly or 24-Hour Care',
-          href: getPermalink('/services/hourly-or-24-hour-care'),
+          text: 'Hourly Care',
+          href: getPermalink('/services/hourly-care'),
         },
         {
-          text: 'Live-in Home Care',
-          href: getPermalink('/services/live-in-home-care'),
+          text: '24-Hour Care',
+          href: getPermalink('/services/24-hour-care'),
         },
         {
           text: 'Skilled Nursing',
@@ -303,10 +303,10 @@ export const footerData = {
           text: 'Family Portal - ERSP',
           href: getPermalink('/family-services/family-portal-ersp'),
         },
-        {
+        /* {
           text: 'Family Caregiver Support',
           href: getPermalink('/family-services/family-caregiver-support'),
-        },
+        }, */
         {
           text: 'Community Care Resources',
           href: getPermalink('/family-services/community-care-resources'),

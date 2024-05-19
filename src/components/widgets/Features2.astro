@@ -8,6 +8,7 @@ const {
   title = await Astro.slots.render('title'),
   subtitle = await Astro.slots.render('subtitle'),
   tagline = await Astro.slots.render('tagline'),
+  callToAction1 = await Astro.slots.render('callToAction1'),
   items = [],
   columns = 3,
   defaultIcon,
@@ -20,7 +21,13 @@ const {
 ---
 
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
-  <Headline title={title} subtitle={subtitle} tagline={tagline} classes={classes?.headline} />
+  <Headline
+    title={title}
+    subtitle={subtitle}
+    tagline={tagline}
+    callToAction={callToAction1}
+    classes={classes?.headline}
+  />
   <ItemGrid2
     items={items}
     columns={columns}
