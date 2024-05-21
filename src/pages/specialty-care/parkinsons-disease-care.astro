@@ -5,10 +5,10 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
-  title: 'Parkinsons Disease In-Home Care',
+  title: 'Parkinsons Disease In-Home Care | RIGHT ACCORD Private Duty Home Health Care',
 };
 
-import HeroImage from '~/assets/images/main-image_parkinsons-care.jpg';
+import HeroImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_PARKINSONS.jpg';
 import HomeCareImage from '~/assets/images/sub-image1_parkinsons-care.jpg';
 ---
 
@@ -20,12 +20,18 @@ import HomeCareImage from '~/assets/images/sub-image1_parkinsons-care.jpg';
     title="What is Parkinsons Disease?"
     subtitle="Parkinson’s Disease is a slow, progressive, debilitating disease where sections of the brain degenerate causing the muscles to become stiff. It can cause stoop posture and shuffling gait or walk."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
-      alt: 'AstroWind Hero Image',
+      alt: 'right-accord-health-florida-HOMEPAGE_PARKINSONS',
     }}
   />
 

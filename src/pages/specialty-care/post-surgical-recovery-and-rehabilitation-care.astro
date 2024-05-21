@@ -5,10 +5,10 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
-  title: 'Post Surgical/Recovery Care',
+  title: 'Post Surgical/Recovery Care | RIGHT ACCORD Private Duty Home Health Care',
 };
 
-import HeroImage from '~/assets/images/main-image_post-surgery.jpg';
+import HeroImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_POSTSURGICAL.jpg';
 import HomeCareImage from '~/assets/images/sub-image1_post-surgery.jpg';
 ---
 
@@ -20,12 +20,18 @@ import HomeCareImage from '~/assets/images/sub-image1_post-surgery.jpg';
     title="Post Surgical/Recovery or Rehabilitation Care"
     subtitle="There’s no doubt, home is the best place to be especially when recuperating after hospitalization or after surgery. However, According to the Medicare payment advisory committee, almost 1 in 5 Medicare patients will be readmitted to the within 30 days of discharge."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
-      alt: 'AstroWind Hero Image',
+      alt: 'right-accord-health-florida-HOMEPAGE_POSTSURGICAL',
     }}
   />
 

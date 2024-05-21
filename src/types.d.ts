@@ -105,6 +105,7 @@ export interface Headline {
   subtitle?: string;
   tagline?: string;
   classes?: Record<string, string>;
+  callToAction?: CallToAction;
 }
 
 interface TeamMember {

@@ -5,14 +5,14 @@ import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Home Care Packages',
+  title: 'Home Care Packages | RIGHT ACCORD Health',
 };
 
-import HeroImage from '/src/assets/images/HCP1.jpg';
-import SunrisePackage from '/src/assets/images/HCP2.jpg';
-import SunsetPackage from '/src/assets/images/HCP3.jpg';
-import WellnessPackage from '/src/assets/images/HCP4.jpg';
-import WelcomePackage from '/src/assets/images/HCP5.jpg';
+import HeroImage from '/src/assets/images/right-accord-health-florida-home-health-care-package-1.jpg';
+import SunrisePackage from '/src/assets/images/right-accord-health-florida-home-health-care-package-2.jpg';
+import SunsetPackage from '/src/assets/images/right-accord-health-florida-home-health-care-package-3.jpg';
+import WellnessPackage from '/src/assets/images/right-accord-health-florida-home-health-care-package-4.jpg';
+import WelcomePackage from '/src/assets/images/right-accord-health-florida-home-health-care-package-5.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -23,12 +23,18 @@ import WelcomePackage from '/src/assets/images/HCP5.jpg';
     title="Experienced Health Aides in providing in-home support as part of your home health care package"
     subtitle="Our Home Care Packages are customized to a typical event or client requirement. They are cost-efficient and affordable for any budget. Packages are detailed below in scope of care and services provided."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#features' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
-      alt: 'Experienced Health Aides in providing in-home support as part of your home health care package',
+      alt: 'right-accord-health-florida-home-health-care-package-hero-image',
     }}
   />
 
@@ -42,7 +48,7 @@ import WelcomePackage from '/src/assets/images/HCP5.jpg';
     items={[
       {
         description:
-          'Rise and Shine. Sunrise Package is a morning care service starting at 6 hours of care to assist your loved ones with morning routine. We all have routines for personal care and activities of daily living.',
+          'Rise and Shine. Sunrise Package is a morning care service starting at 6 hours( 8am to 2pm ) of care to assist your loved ones with morning routine. We all have routines for personal care and activities of daily living. Avaiable Mondays to Fridays',
       },
       {
         description:
@@ -96,7 +102,7 @@ import WelcomePackage from '/src/assets/images/HCP5.jpg';
     }}
     image={{
       src: SunrisePackage,
-      alt: 'Experienced Health Aides in providing in-home support as part of your home health care package',
+      alt: 'right-accord-health-florida-home-health-care-package-sunrise-package',
     }}
   >
     <Fragment slot="content">
@@ -119,7 +125,7 @@ import WelcomePackage from '/src/assets/images/HCP5.jpg';
       },
       {
         description:
-          'RIGHT ACCORD Sunset package at a minimum of 6 hours of care provide efforts to help clients lead more independent lives at home despite their disabilities.',
+          'RIGHT ACCORD Sunset package at a minimum of 6 hours( 2pm to 8pm )  of care provide efforts to help clients lead more independent lives at home despite their disabilities. Available Mondays to Fridays',
       },
       {
         description:
@@ -165,7 +171,7 @@ import WelcomePackage from '/src/assets/images/HCP5.jpg';
     }}
     image={{
       src: SunsetPackage,
-      alt: 'Experienced Health Aides in providing in-home support as part of your home health care package',
+      alt: 'right-accord-health-florida-home-health-care-package-sunset-package',
     }}
   >
     <Fragment slot="content">
@@ -246,7 +252,7 @@ import WelcomePackage from '/src/assets/images/HCP5.jpg';
     }}
     image={{
       src: WellnessPackage,
-      alt: 'Experienced Health Aides in providing in-home support as part of your home health care package',
+      alt: 'right-accord-health-florida-home-health-care-package-wellness-check-in-service',
     }}
   >
     <Fragment slot="content">
@@ -271,7 +277,7 @@ import WelcomePackage from '/src/assets/images/HCP5.jpg';
       },
       {
         description:
-          'Welcome Home Package can be a minimum of 2-hour visit that can be done for a day or a week and may be extended as requested. RIGHT ACCORD clients who used this package have proven to help seniors with reducing the incidence of falls in the home and the risk of being readmitted to the hospital.',
+          'Welcome Home Package can be a minimum of 6-hour visit that can be done for a day or a week and may be extended as requested. RIGHT ACCORD clients who used this package have proven to help seniors with reducing the incidence of falls in the home and the risk of being readmitted to the hospital.',
       },
     ]}
   />
@@ -325,7 +331,7 @@ import WelcomePackage from '/src/assets/images/HCP5.jpg';
     }}
     image={{
       src: WelcomePackage,
-      alt: 'Experienced Health Aides in providing in-home support as part of your home health care package',
+      alt: 'right-accord-health-florida-home-health-care-package-welcome-home-package',
     }}
   >
     <Fragment slot="content">

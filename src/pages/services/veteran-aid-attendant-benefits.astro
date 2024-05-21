@@ -18,8 +18,14 @@ import HeroImage from '~/assets/images/VETERANAID.jpg';
     title="We Salute You. Thank You To Our Veterans"
     subtitle="RIGHT ACCORD understand that many elderly veterans in our community could use help at home from their disabilities."
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
@@ -70,14 +76,20 @@ import HeroImage from '~/assets/images/VETERANAID.jpg';
     <ItemGrid
       items={[
         {
-          title: 'Aid and Attendance without Dependents $1,788/month',
+          title: 'Surviving Spouse:',
+          description: '$1,478 Monthly / $17,743 Annually',
         },
         {
-          title: 'Aid and Attendance With One Dependent $2,120/month',
+          title: 'Single Veteran:',
+          description: '$2,300 Monthly / $27,609 Annually',
         },
         {
-          title:
-            'If you have questions if you qualify for VA Benefits, give us a call: 941.366.0801. We will be happy to discuss your options.',
+          title: 'Married Veteran:',
+          description: '$2,727 Monthly / $32,729 Annually',
+        },
+        {
+          title: 'Two Vets Married:',
+          description: '$3,649 Monthly / $43,791 Annually',
         },
       ]}
       columns={1}
@@ -85,8 +97,8 @@ import HeroImage from '~/assets/images/VETERANAID.jpg';
       classes={{
         container: 'gap-y-1 md:gap-y-1',
         panel: 'max-w-none',
-        title: 'lg:text-lg font-normal dark:text-slate-400 leading-6 ml-2 rtl:ml-0 rtl:mr-2',
-        description: '',
+        title: 'lg:text-lg font-normal dark:text-slate-400 leading-2 ml-2 rtl:ml-0 rtl:mr-2',
+        description: 'text-base font-normal -mt-0 ml-5 mb-3',
         icon: 'flex h-4 w-4 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mt-1',
         action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
       }}

@@ -1,7 +1,9 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
-import HeroImage from '~/assets/images/main-image_our-mission.jpg';
+import HeroImage from '~/assets/images/right-accord-health-florida-home-health-care-package-6.jpg';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
 
 const metadata = {
   title: "Sarasota's Top In-Home Senior Care Provider | RIGHT ACCORD",
@@ -15,10 +17,89 @@ const metadata = {
     tagline="Our Mission"
     title="One of Sarasota's Top In-Home Senior Care Provider"
     subtitle="The RIGHT ACCORD mission is a commitment to help the seniors in our community to age gracefully. We ensure them of their dignity, security and social connections that will enhance their lives."
-    actions={[{ text: 'Learn more', href: '#learn-more' }]}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
+    ]}
     image={{
       src: HeroImage,
-      alt: 'Store with a Coming Soon sign. Pre-launch Landing Page',
+      alt: 'right-accord-health-florida-home-health-care-sarasota-elderly-caregiver',
     }}
   />
+
+  <FAQs
+    title="Why is RIGHT ACCORD your caregiver and companion company of choice?"
+    items={[
+      {
+        description:
+          'RIGHT ACCORD Private Duty Home Health Care is a Home Care agency licensed by the Florida Agency for Health Care Administration (AHCA). We are nurse owned, and independently operating in the business for more than 12 years.',
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        description: `We offer our clients the best and compassionate care they deserve like meal preparation and other private duty care services at the comfort of their homes. Our Electronic Caregiver Technology is a state of the art modern personal emergency response system available to our clients.`,
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        description:
+          'Our mission is to provide consistent caregivers for every senior clients, who are struggling with independence, helping them anywhere from few hours to 24 hours of care. We firmly believe that Home Care service must be delivered as if it were being provided by the family.',
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        description: `We helped many seniors in our community and most remained with us until the end. Our longest client we helped for 10 years is allowing her to remain at home safely and comfortably with the help of our 24-hour caregivers.`,
+        icon: 'tabler:chevrons-right',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </FAQs>
+
+  <Testimonials
+    title="What our clients say about us"
+    testimonials={[
+      {
+        testimonial: `Thank you for the cooperative and professional way that Rosemarie and the Caregivers have served us. We look forward to a long future and pleasant relationship with you.`,
+        name: 'Cary Kennedy',
+        job: 'Sarasota, FL',
+      },
+      {
+        testimonial: `Yes, I would recommend RIGHT ACCORD for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
+        name: 'Josh Wilkinson',
+        job: 'Sarasota, FL',
+      },
+      {
+        testimonial:
+          'I will definitely use RIGHT ACCORD again. It is a very well run organization and all the people I was in contact with were very kind and considerate.',
+        name: 'Sidney Hansen',
+        job: 'Sarasota, FL',
+      },
+    ]}
+    callToAction={{
+      text: 'Read more testimonials',
+      href: '/about-us/testimonials',
+      icon: 'tabler:chevron-right',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Testimonials>
+
+  <section id="google-maps">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14185.55753792691!2d-82.4930632!3d27.2696738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd63ddd79e3387a8c!2sRight%20Accord%20Private%20Duty-Home%20Health%20Care%20-%20Caregivers%20%26%20Companions!5e0!3m2!1sen!2sph!4v1573807050260!5m2!1sen!2sph"
+      width="100%"
+      height="500"
+      style="border:0;"
+      allowfullscreen="true"
+    >
+    </iframe>
+  </section>
 </Layout>

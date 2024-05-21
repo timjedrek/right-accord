@@ -5,11 +5,11 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
-  title: 'Hospice & End of Life Support Care',
+  title: 'Hospice & End of Life Support Care | RIGHT ACCORD Private Duty Home Health Care',
 };
 
 import HeroImage from '~/assets/images/main-image_hospice-care.jpg';
-import HomeCareImage from '~/assets/images/sub-image1_hospice-care.jpg';
+import HomeCareImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_HOSPICE.jpg';
 ---
 
 <Layout metadata={metadata}>
@@ -20,12 +20,18 @@ import HomeCareImage from '~/assets/images/sub-image1_hospice-care.jpg';
     title="What is Hospice Care?"
     subtitle="Hospice is the term used for the special care that a dying person needs. It is a compassionate way to care for dying person and their families. "
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: '/contact' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
-      alt: 'AstroWind Hero Image',
+      alt: 'right-accord-health-florida-HOMEPAGE_HOSPICE',
     }}
   />
 
@@ -102,7 +108,7 @@ import HomeCareImage from '~/assets/images/sub-image1_hospice-care.jpg';
         width={600}
         height={400}
         src={HomeCareImage}
-        alt="Long Term Care Insurance"
+        alt="right-accord-health-florida-HOMEPAGE_HOSPICE"
       />
     </div>
 

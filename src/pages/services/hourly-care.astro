@@ -1,13 +1,17 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
+import HeroImage from '/src/assets/images/right-accord-health-florida-home-health-care-package-1.jpg';
+import ServicesImage from '/src/assets/images/right-accord-health-florida-home-health-care-package-2.jpg';
+import Button from '~/components/ui/Button.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
 import Content from '~/components/widgets/Content.astro';
-
 import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Booklet from '/src/assets/images/booklet.png';
+import Image from 'astro/components/Image.astro';
 
 const metadata = {
-  title: 'Hourly Care or 24-Hour Care',
+  title: 'Hourly Care or 24-Hour Care | RIGHT ACCORD Health',
 };
 
 const benefits = [
@@ -131,16 +135,13 @@ const companionship = [
     title: 'Pet care',
   },
 ];
-
-import HeroImage from '/src/assets/images/HC1.jpg';
-import ServicesImage from '/src/assets/images/HC2.jpg';
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="Hourly Care or 24-Hour Care"
+    tagline="Hourly Care"
     title="Customized, Flexible Family and Client-Directed Care"
     subtitle="RIGHT ACCORD Private Duty-Home Health Care is a senior care provider and helps at home who cares about you. We can provide you or your family with senior helpers whether the need is short-term or long-term care for your loved one. You are in control. We work together to plan and design the care. Each client and family has unique needs and wants."
     actions={[
@@ -155,7 +156,7 @@ import ServicesImage from '/src/assets/images/HC2.jpg';
     ]}
     image={{
       src: HeroImage,
-      alt: 'Hourly Care or 24-Hour Care',
+      alt: 'Hourly Care',
     }}
   />
 
@@ -198,7 +199,7 @@ import ServicesImage from '/src/assets/images/HC2.jpg';
   <!-- Content Widget **************** -->
 
   <Content
-    title="Services provided by an hourly or 24 hour in-home caregiver"
+    title="Services provided by an hourly in-home caregiver"
     isReversed
     items={[
       {
@@ -278,4 +279,19 @@ import ServicesImage from '/src/assets/images/HC2.jpg';
       and peace of mind you deserve.
     </p>
   </div>
+
+  <a href="https://forms.rightaccordhealthcare.com/book-download" target="_blank">
+    <CallToAction
+      bg="<div class='absolute inset-0 bg-blue-100'></div>"
+      id="download"
+      title="Download our booklet now!"
+      subtitle="Get to know more about our services and how we can help you and your loved ones."
+    >
+      <div slot="actions" class="flex max-w-sm gap-4">
+        <Button variant="link" target="_blank" href="https://forms.rightaccordhealthcare.com/book-download">
+          <Image src={Booklet} alt="Survival Guide For Parent Care Image" width={400} />
+        </Button>
+      </div>
+    </CallToAction>
+  </a>
 </Layout>

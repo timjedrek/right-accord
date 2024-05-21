@@ -212,8 +212,14 @@ import HeroImage from '~/assets/images/main-image_community-care.jpg';
     title="Community Care Resources"
     subtitle="Navigating care networks: our commitment to community care coordination"
     actions={[
-      { text: 'Contact Us', href: '/contact', target: '_blank', variant: 'primary' },
-      { text: 'Learn more', href: '#learn-more' },
+      {
+        variant: 'primary',
+        text: 'Schedule Appointment',
+        href: 'https://forms.rightaccordhealthcare.com/schedule',
+        icon: 'tabler:calendar-heart',
+        target: '_blank',
+      },
+      { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
     image={{
       src: HeroImage,
