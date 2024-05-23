@@ -28,7 +28,7 @@ const {
         images.map(
           (image) =>
             image.src && (
-              <div class="flex justify-center my-2 lg:my-4 py-2 px-3 rounded-md dark:bg-white max-h-24">
+              <div class="flex justify-center my-2 lg:my-4 py-2 px-3 rounded-md dark:bg-white min-w-36 max-h-24 max-w-44">
                 <Image src={image.src} alt={image.alt || ''} layout="contained" class="object-contain" />
               </div>
             )
