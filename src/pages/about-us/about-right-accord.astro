@@ -12,6 +12,7 @@ import GoldSealImage from '/src/assets/images/accreditation-gold-seal.jpg';
 import ReadersChoice2009Image from '/src/assets/images/readers-choice-2009.jpg';
 import ReadersChoice2010Image from '/src/assets/images/readers-choice-2010b.jpg';
 import ReadersChoice2014Image from '/src/assets/images/readers-choice-2014b.jpg';
+import Brands from '~/components/widgets/Brands.astro';
 ---
 
 <Layout metadata={metadata}>
@@ -37,7 +38,7 @@ import ReadersChoice2014Image from '/src/assets/images/readers-choice-2014b.jpg'
     }}
   />
 
-  <div id="learn-more" class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 px-5 flex flex-col scroll-m-24">
+  <section id="learn-more" class="max-w-7xl mx-auto text-xl gap-5 leading-relaxed mb-10 px-5 flex flex-col scroll-m-24">
     <h2 class="font-semibold text-2xl pb-3 bg-main-blue p-3 text-white w-fit uppercase">
       About RIGHT ACCORD Home Health Care
     </h2>
@@ -109,5 +110,29 @@ import ReadersChoice2014Image from '/src/assets/images/readers-choice-2014b.jpg'
         />
       </div>
     </div>
-  </div>
+  </section>
+
+  <Brands
+    title="Our Awards and Recognitions"
+    subtitle="Quality Care starts with caregivers. We are commited to excellence through consistent, high-quality educations for our staff."
+    icons={[]}
+    images={[
+      {
+        src: '~/assets/images/right-accord-health-care-is-2023-Leader-in-Training.png',
+        alt: 'right-accord-health-care-is-2023-Leader-in-Training',
+      },
+      {
+        src: '~/assets/images/right-accord-health-care-HCP-Training-Customer-Badge_High-Res.png',
+        alt: 'right-accord-health-care-HCP-Training-Customer-Badge',
+      },
+      {
+        src: '~/assets/images/right-accord-health-care-Employer-of-Choice-2024_High-Res.png',
+        alt: 'right-accord-health-care-Employer-of-Choice-2024_High-Res',
+      },
+      {
+        src: '~/assets/images/right-accord-health-care-HCP-Experience-Management-Customer-Badge_High-Res.png',
+        alt: 'right-accord-health-care-HCP-Experience-Management-Customer-Badge_High-Res',
+      },
+    ]}
+  />
 </Layout>
