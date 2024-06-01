@@ -1,10 +1,20 @@
 ---
-import { GoogleAnalytics } from '@astrolib/analytics';
-import { ANALYTICS } from '~/utils/config';
+//import { GoogleAnalytics } from '@astrolib/analytics';
+//import { ANALYTICS } from '~/utils/config';
 ---
 
-{
+<!-- {
   ANALYTICS?.vendors?.googleAnalytics?.id ? (
     <GoogleAnalytics id={String(ANALYTICS.vendors.googleAnalytics.id)} partytown={ANALYTICS?.vendors?.googleAnalytics?.partytown} />
   ) : null
-}
+} -->
+
+
+<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-4XDM9JGY28"></script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', "G-4XDM9JGY28");
+</script>
