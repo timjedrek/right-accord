@@ -92,4 +92,17 @@ export default defineConfig({
       },
     },
   },
+  redirects: {
+    "/manatee": "/about-us/sarasota",
+    "/services" : "/services/hourly-care",
+    "/testimonials" : "/about-us/testimonials",
+    "/caregivers" : "/caregivers/application-for-employment",
+    "family-services" : "/family-services/getting-started",
+    "contact-us" : "/contact",
+    "about-us" : "/about-us/about-right-accord",
+    "specialty-care" : "/specialty-care/alzheimers-dementia-care",
+    "privacy-policy" : "/privacy",
+    "/family-services/faq" : "/family-services/frequently-asked-questions",
+    "/sitemap" : "/about-us/why-choose-right-accord",
+  },
 });
