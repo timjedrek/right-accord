@@ -105,6 +105,7 @@ export default defineConfig({
     "/family-services/faq" : "/family-services/frequently-asked-questions",
     "/sitemap" : "/about-us/why-choose-right-accord",
     "/caregivers/continuing-education" : "/caregivers/application-for-employment",
+    "/about-us/about-homecare" : "/about-us/about-right-accord"
     // "/blog/[...slug]": "/[...slug]"
   },
 });
