@@ -16,7 +16,6 @@ import IconVeteran from '~/assets/icons/icon-veteran.svg?raw';
 import IconInsurance from '~/assets/icons/icon-insurance.svg?raw';
 import IconFacility from '~/assets/icons/icon-facility.svg?raw';
 
-import Brands from '~/components/widgets/Brands.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Features4 from '~/components/widgets/Features4.astro';
@@ -32,22 +31,9 @@ import Stroke from '/src/assets/images/right-accord-health-florida-HOMEPAGE_AFTE
 import Surg from '/src/assets/images/right-accord-health-florida-HOMEPAGE_POSTSURGICAL.jpg';
 import Hospice from '/src/assets/images/right-accord-health-florida-HOMEPAGE_HOSPICE.jpg';
 import LWRBALogo from '/src/assets/images/LWRBA-Logo-WEB.png';
-import IFALogo from '/src/assets/images/IFA-Logo-300x209.png';
-import SarasotaMemorial from '/src/assets/partners/sarasota-memorial.webp';
-import AmericanCancerSociety from '/src/assets/partners/american-cancer-society.webp';
-import DoctorsHospital from '/src/assets/partners/doctors-hospital.webp';
-import LakewoodRanchMC from '/src/assets/partners/lakewood-ranch-mc.webp';
-import ParkinsonPlace from '/src/assets/partners/parkinson-place.webp';
-import TidewellHospice from '/src/assets/partners/tidewell-hospice.webp';
-import DepartmentOfElderAffairs from '/src/assets/partners/department-of-elder-affairs.webp';
-import USDVA from '/src/assets/partners/us-department-of-veterans-affairs.webp';
-import LighthouseOfManasota from '/src/assets/partners/lighthouse-of-manasota.webp';
-import FriendshipCenters from '/src/assets/partners/friendship-centers.webp';
-import SCAT from '/src/assets/partners/scat.webp';
-import AlzheimerAssociation from '/src/assets/partners/alz.webp';
-import LernerCohen from '/src/assets/partners/lerner-cohen.webp';
-import PayneLawGroup from '/src/assets/partners/payne-lawgroup.webp';
-import ITNSuncoast from '/src/assets/partners/itn-suncoast.webp';
+import ManateeChamberLogo from 'src/assets/images/Chamber-Logo-Homepage-1.png';
+import LongboatkeyChamberLogo from 'src/assets/images/Longboat-Key-Rebrand-1.jpg';
+
 import Booklet from '/src/assets/images/booklet.png';
 
 const metadata = {
@@ -172,25 +158,33 @@ const metadata = {
     title="RIGHT ACCORD is a proud member of"
     columns={2}
     classes={{
-      container: 'max-w-xs sm:max-w-3xl',
+      container: 'sm:max-w-3xl',
       items: {
-        panel: 'p-0',
+        panel: 'p-3 bg-white rounded-xl flex items-center justify-center',
       },
     }}
     items={[
       {
         image: {
           src: LWRBALogo,
-          alt: 'Children telling a story. Long-form Sales Landing Page demo',
+          alt: 'Lakewood Ranch Business Alliance Logo',
           width: '400',
           height: 'auto',
         },
       },
       {
         image: {
-          src: IFALogo,
-          alt: 'Children telling a story. Long-form Sales Landing Page demo',
-          width: 'auto',
+          src: LongboatkeyChamberLogo,
+          alt: 'Longboat Key Chamber of Commerce Logo',
+          width: '400',
+          height: 'auto',
+        },
+      },
+      {
+        image: {
+          src: ManateeChamberLogo,
+          alt: 'Manatee Chamber of Commerce Logo',
+          width: '400',
           height: 'auto',
         },
       },
@@ -263,74 +257,6 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features5>
-
-  <Brands
-    title="Trusted Partners"
-    subtitle="Trusted Services and Organizations we like and recommend!"
-    icons={[]}
-    images={[
-      {
-        src: SarasotaMemorial,
-        alt: 'Sarasota Memorial Health Care System',
-      },
-      {
-        src: AmericanCancerSociety,
-        alt: 'American Cancer Society',
-      },
-      {
-        src: DoctorsHospital,
-        alt: 'Doctors Hospital of Sarasota',
-      },
-      {
-        src: LakewoodRanchMC,
-        alt: 'Lakewood Ranch Medical Center',
-      },
-      {
-        src: ParkinsonPlace,
-        alt: 'Parkinson Place',
-      },
-      {
-        src: TidewellHospice,
-        alt: 'Tidewell Hospice',
-      },
-      {
-        src: DepartmentOfElderAffairs,
-        alt: 'Department of Elder Affairs',
-      },
-      {
-        src: USDVA,
-        alt: 'US Department of Veterans Affairs',
-      },
-      {
-        src: LighthouseOfManasota,
-        alt: 'Lighthouse of Manasota',
-      },
-      {
-        src: FriendshipCenters,
-        alt: 'Friendship Centers',
-      },
-      {
-        src: SCAT,
-        alt: 'Sarasota County Area Transit',
-      },
-      {
-        src: AlzheimerAssociation,
-        alt: 'Alzheimer’s Association',
-      },
-      {
-        src: LernerCohen,
-        alt: 'Lerner Cohen',
-      },
-      {
-        src: PayneLawGroup,
-        alt: 'Payne Law Group',
-      },
-      {
-        src: ITNSuncoast,
-        alt: 'ITN Suncoast',
-      },
-    ]}
-  />
 
   <Testimonials
     title="What our clients say about us"
