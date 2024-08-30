@@ -8,7 +8,7 @@ tags:
   - Veterans
   - Venice
 metadata:
-  canonical: https://rightaccordhealth.com/when-homecare-becomes-essential
+  canonical: https://rightaccordhealth.com/sarasota-top-home-care-services-alzheimer-dementia-care.md
 ---
 
 By: Rosemarie Tamunday Casanova — RN, BSN, MHA
