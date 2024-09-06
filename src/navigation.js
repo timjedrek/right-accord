@@ -374,6 +374,7 @@ export const footerData = {
   secondaryLinks: [
     /* { text: 'Terms', href: getPermalink('/terms') }, */
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Terms and Conditions', href: getPermalink('/terms') },
   ],
   socialLinks: [
     {

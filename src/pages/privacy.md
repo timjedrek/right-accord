@@ -11,7 +11,7 @@ The Program and our collection and use of your personal information is also subj
 
 We may send promotional and transactional mobile messages in various formats through the Program. Promotional messages advertise and promote our products and services and may include promotions, specials, and other marketing offers. Transactional messages relate to an existing or ongoing transaction and may include order notifications and updates, appointment reminders, and other transaction-related information. Mobile messages may be sent using an automated technology, including an autodialer, automated system, or automatic telephone dialing system. Message frequency will vary but will not exceed the maximum allotted messages.
 
-You agree that we, our affiliates, and any third-party service providers may send you messages regarding the foregoing topics or any topic and that such messages and/or calls may be made or placed using different telephone numbers or short codes. We do not charge for mobile messages sent through the Program but you are responsible for any message and data rates imposed by your mobile provider, as standard data and message rates may apply for SMS and MMS alerts.
+We do not charge for mobile messages sent through the Program but you are responsible for any message and data rates imposed by your mobile provider, as standard data and message rates may apply for SMS and MMS alerts.
 
 ## 2. User Opt-In
 
