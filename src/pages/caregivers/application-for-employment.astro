@@ -11,6 +11,9 @@ const metadata = {
 import CNAImage from '/src/assets/images/certified-nursing-assistant2.jpg';
 import HHAImage from '/src/assets/images/home-health-aide2.jpg';
 import HomemakerImage from '/src/assets/images/home-maker-companion.jpg';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Image from '~/components/common/Image.astro';
+import CTABook from '/src/assets/images/cta_book2.webp';
 ---
 
 <Layout metadata={metadata}>
@@ -31,6 +34,20 @@ import HomemakerImage from '/src/assets/images/home-maker-companion.jpg';
       { text: 'Contact Us', href: '/contact', target: '_blank' },
     ]}
   />
+
+  <a href="https://forms.rightaccordhealthcare.com/how-to-be-the-best-caregiver" target="_blank">
+    <CallToAction
+      bg="<div class='absolute inset-0 bg-blue-100'></div>"
+      id="download"
+      title="Download our Caregivers' Guide"
+      subtitle="Get your free copy of our Caregivers' Guide"
+    >
+      <div slot="actions" class="">
+        <Image src={CTABook} alt="Caregivers' Guide" class="h-[16rem]" />
+        <p class="btn-primary mt-5">Download Now</p>
+      </div>
+    </CallToAction>
+  </a>
 
   <Features7
     id="jobs"
@@ -106,14 +123,13 @@ import HomemakerImage from '/src/assets/images/home-maker-companion.jpg';
         class="text-blue-800 hover:underline">recruiter@rightaccordhealth.com</a
       > , call or text at <a href="tel:(941)-256-3528" class="text-blue-800 hover:underline">(941)-256-3528</a>
     </p>
+    <Button
+      variant="primary"
+      text="Apply Here"
+      href="https://rightaccordhealth.isolvedhire.com/jobs/"
+      icon="tabler:square-rounded-arrow-right"
+      class="w-fit sm:mb-0"
+      target="_blank"
+    />
   </div>
-
-  <Button
-    variant="primary"
-    text="Apply Here"
-    href="https://rightaccordhealth.isolvedhire.com/jobs/"
-    icon="tabler:square-rounded-arrow-right"
-    class="w-fit sm:mb-0"
-    target="_blank"
-  />
 </Layout>
