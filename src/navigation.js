@@ -79,6 +79,10 @@ export const headerData = {
           text: 'Application for Employment',
           href: getPermalink('/caregivers/application-for-employment'),
         },
+        {
+          text: "Caregivers' Guide",
+          href: 'https://forms.rightaccordhealthcare.com/how-to-be-the-best-caregiver',
+        },
         // {
         //   text: 'Caregiver Continuing Education',
         //   href: getPermalink('/caregivers/caregiver-continuing-education'),
@@ -265,6 +269,10 @@ export const footerData = {
         {
           text: 'Application for Employment',
           href: getPermalink('/caregivers/application-for-employment'),
+        },
+        {
+          text: "Caregivers' Guide",
+          href: 'https://forms.rightaccordhealthcare.com/how-to-be-the-best-caregiver',
         },
         // {
         //   text: 'Caregiver Continuing Education',
