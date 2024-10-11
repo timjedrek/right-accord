@@ -4,7 +4,6 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import HeroImage from '~/assets/images/right-accord-health-florida-home-health-care-package-3.jpg';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
-import { Icon } from 'astro-icon/components';
 
 const metadata = {
   title: "Sarasota's Top In-Home Senior Care Provider",
@@ -12,23 +11,6 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="bg-blue-50 dark:bg-slate-800 not-prose flex md:flex-row flex-col justify-around z-50 relative">
-    <a
-      href="https://maps.app.goo.gl/47wNrsHrivEiAjQCA"
-      target="_blank"
-      class="block max-w-6xl mx-auto px-4 sm:px-6 py-4 text-md text-center font-medium"
-    >
-      <span class="font-bold">
-        <Icon name="tabler:current-location" class="w-5 h-5 inline-block align-text-bottom" /> Address:</span
-      > 1872 S Tamiami Trail Suite A
-    </a>
-    <a href="tel:(941) 549-7628" class="block max-w-6xl mx-auto px-4 sm:px-6 py-4 text-md text-center font-medium">
-      <span class="font-bold">
-        <Icon name="tabler:phone-call" class="w-5 h-5 inline-block align-text-bottom" /> Phone:</span
-      > (941) 549-7628
-    </a>
-  </section>
-
   <Hero2
     tagline="Our Mission"
     title="One of Venice's Top In-Home Senior Care Provider"
@@ -47,6 +29,9 @@ const metadata = {
       src: HeroImage,
       alt: 'right-accord-health-florida-home-health-care-venice-senior-caregiver',
     }}
+    address="1872 S Tamiami Trail Suite A, Venice, FL 34293"
+    googleMaps="https://maps.app.goo.gl/47wNrsHrivEiAjQCA"
+    phone="(941) 549-7628"
   />
 
   <FAQs
