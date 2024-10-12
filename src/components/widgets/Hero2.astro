@@ -2,12 +2,16 @@
 import Image from '~/components/common/Image.astro';
 import type { CallToAction } from '~/types';
 import Button from '~/components/ui/Button.astro';
+import { Icon } from 'astro-icon/components';
 
 export interface Props {
   title?: string;
   subtitle?: string;
   tagline?: string;
   content?: string;
+  address?: string;
+  phone?: string;
+  googleMaps?: string;
   actions?: string | CallToAction[];
   image?: string | any; // TODO: find HTMLElementProps
 }
@@ -19,6 +23,9 @@ const {
   content = await Astro.slots.render('content'),
   actions = await Astro.slots.render('actions'),
   image = await Astro.slots.render('image'),
+  address = await Astro.slots.render('address'),
+  phone = await Astro.slots.render('phone'),
+  googleMaps = await Astro.slots.render('googleMaps'),
 } = Astro.props;
 ---
 
@@ -46,7 +53,26 @@ const {
         }
         <div class="max-w-3xl mx-auto lg:max-w-none">
           {subtitle && <p class="text-xl text-muted mb-6 dark:text-slate-300" set:html={subtitle} />}
-
+          {
+            address && (
+              <a href={googleMaps} target="_blank" class="block max-w-6xl px-4 sm:px-6 py-4 text-md font-medium">
+                <span class="font-bold">
+                  <Icon name="tabler:current-location" class="w-5 h-5 inline-block align-text-bottom" /> Address:
+                </span>
+                {address}
+              </a>
+            )
+          }
+          {
+            phone && (
+              <a href="tel:(941) 366-0801" class="block max-w-6xl px-4 sm:px-6 py-4 text-md font-medium mb-5">
+                <span class="font-bold">
+                  <Icon name="tabler:phone-call" class="w-5 h-5 inline-block align-text-bottom" /> Phone:
+                </span>
+                {phone}
+              </a>
+            )
+          }
           {
             actions && (
               <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
