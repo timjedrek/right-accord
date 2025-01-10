@@ -22,7 +22,7 @@ At RIGHT ACCORD, we understand that health concerns can arise at any time. That�
 - Family Peace of Mind: Knowing that a Registered Nurse supervises care offers reassurance and confidence in your loved one’s well-being.
   What Makes RIGHT ACCORD Different?
   Our commitment to providing expert, compassionate, and comprehensive care sets us apart. Here’s why families trust us:
-- Expertise You Can Rely OnRIGHT ACCORD is nurse-led, meaning every aspect of care is backed by clinical expertise and thoughtful healthcare management. With years of experience, our team ensures seamless coordination of medical and non-medical care.
+- Expertise You Can Rely On RIGHT ACCORD is nurse-led, meaning every aspect of care is backed by clinical expertise and thoughtful healthcare management. With years of experience, our team ensures seamless coordination of medical and non-medical care.
 - Safety as a PriorityHaving a Registered Nurse on-call around the clock means health issues are addressed quickly and effectively. This proactive approach minimizes risks and maximizes comfort for your loved ones.
 - Comprehensive Care SolutionsFrom assisting with daily tasks to coordinating medical care, we offer a complete range of home care services. Whether it’s personal care, companionship, or health monitoring, we’re your one-stop solution.
   Why Families Choose RIGHT ACCORD
