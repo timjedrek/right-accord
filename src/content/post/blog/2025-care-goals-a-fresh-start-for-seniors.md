@@ -20,7 +20,7 @@ strategies to help seniors thrive in 2025.
 
 ## 1. Evaluate Current Care Needs
 
-The first step in crafting a comprehensive care plan is assessing the current situation. T ake
+The first step in crafting a comprehensive care plan is assessing the current situation. Take
 stock of your loved one’s physical, emotional, and social needs, as well as the support systems
 in place. Consider the following:
 
