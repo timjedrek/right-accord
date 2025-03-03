@@ -11,7 +11,7 @@ metadata:
   canonical: https://rightaccordhealth.com/veterans-and-home-care-resources-and-benefits
 ---
 
-By: RIGHT ACCORD Home Health Care
+By: Rosemarie Tamunday Casanova
 
 ### Home Care Benefits Available to Veterans
 
