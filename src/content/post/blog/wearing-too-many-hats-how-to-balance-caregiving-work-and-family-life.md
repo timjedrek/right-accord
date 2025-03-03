@@ -11,7 +11,7 @@ metadata:
   canonical: https://rightaccordhealth.com/wearing-too-many-hats-how-to-balance-caregiving-work-and-family-life
 ---
 
-By: RIGHT ACCORD Home Health Care
+By: Rosemarie Tamunday Casanova
 
 ### The Emotional Toll of Caregiving and Work Responsibilities
 
