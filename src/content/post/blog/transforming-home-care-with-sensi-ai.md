@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-02-01T00:00:00Z
+publishDate: 2025-02-12T00:00:00Z
 title: 'Transforming Home Care with SENSI AI: The Future of Senior Well-Being'
 excerpt: 'The way we care for our seniors is evolving, and RIGHT ACCORD Home Health Care is leading the way with SENSI AI, an advanced smart technology designed to provide continuous safety, proactive support, and real-time insights.'
 image: /blog/2025/transforming-home-care-with-sensi-ai.png

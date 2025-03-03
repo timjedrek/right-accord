@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-02-01T00:00:00Z
+publishDate: 2025-02-27T00:00:00Z
 title: 'Wearing Too Many Hats? How to Balance Caregiving, Work, and Family Life'
 excerpt: 'Balancing caregiving, work, and family life is like juggling glass balls—each one fragile, precious, and demanding your attention. Many family caregivers struggle with this impossible balancing act, but you don’t have to do it alone.'
 image: /blog/2025/wearing-too-many-hats-how-to-balance-caregiving-work-and-family-life.png
