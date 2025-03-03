@@ -12,7 +12,7 @@ metadata:
   canonical: https://rightaccordhealth.com/transforming-home-care-with-sensi-ai
 ---
 
-By: RIGHT ACCORD Home Health Care
+By: Rosemarie Tamunday Casanova
 
 ### 24/7 Smart Monitoring for Ultimate Safety
 
