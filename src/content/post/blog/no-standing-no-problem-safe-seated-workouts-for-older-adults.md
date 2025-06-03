@@ -124,7 +124,7 @@ These small daily efforts add up to big health gains—and a better quality of l
 
 ## 📞 Let’s Get Moving—Together!
 
-At **RIGHT ACCORD Private Duty – Home Health Care** , we believe that everyone deserves to move safely, confidently, and comfortably—regardless of age or ability. Our compassionate caregivers are trained to incorporate wellness and exercise into our daily care services, helping seniors thrive at home.
+At **RIGHT ACCORD Private Duty – Home Health Care**, we believe that everyone deserves to move safely, confidently, and comfortably—regardless of age or ability. Our compassionate caregivers are trained to incorporate wellness and exercise into our daily care services, helping seniors thrive at home.
 
 We proudly serve **Sarasota, Venice, Manatee, Lee, and Charlotte** Counties.
 
