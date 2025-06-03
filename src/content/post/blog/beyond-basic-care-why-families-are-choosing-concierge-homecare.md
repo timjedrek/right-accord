@@ -144,4 +144,4 @@ Whether you’re seeking traditional homecare or want to explore a concierge-lev
 
 🏠 Serving **Sarasota, Venice, Manatee, Lee, and Charlotte** Counties.
 
-Let’s talk about what your loved one really needs and how we can deliver care that feels like a privilege, not a compromise
+Let’s talk about what your loved one really needs and how we can deliver care that feels like a privilege, not a compromise.
