@@ -63,6 +63,21 @@ const postCollection = defineCollection({
   }),
 });
 
+const locationCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    city: z.string(),
+    stateShort: z.string(),
+    stateLong: z.string(),
+    description: z.string(),
+    baseLocation: z.string(),
+    keyPlace1: z.string(),
+    keyPlace2: z.string(),
+    headerImages: z.array(z.string()),
+    headlines: z.array(z.string()),
+  }),
+});
+
 export const collections = {
   post: postCollection,
 };
