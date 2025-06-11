@@ -80,4 +80,5 @@ const locationCollection = defineCollection({
 
 export const collections = {
   post: postCollection,
+  location: locationCollection,
 };
