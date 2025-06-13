@@ -75,9 +75,13 @@ const nearbyText = extractCityNames(data.nearbyLocations).join(', ');
     <br />
     We serve families in <strong>residential homes, retirement communities, assisted living apartments, and memory care facilities</strong> throughout the region. Whether you’re near ${data.city}'s main hospital, parks, or schools—or closer to quiet beachside communities—our team can bring quality care directly to your doorstep.
     <br />
-    To learn more about private duty nursing, Alzheimer’s and dementia care, post-surgical assistance, or 24-hour companion care in <strong>${data.city}, ${data.stateShort}</strong>, contact RIGHT ACCORD today.
+    To learn more about private duty nursing, Alzheimer’s and dementia care, post-surgical assistance, or 24-hour companion care in <strong>${data.city}, ${data.stateShort}</strong>, <a href="/contact" class="hover:text-blue-500 duration-300">contact RIGHT ACCORD</a> today.
   `}
-/>
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features6>
 
 <Features6
   title={`Specialized Home Care Services in ${data.city}, ${data.stateShort}`}
