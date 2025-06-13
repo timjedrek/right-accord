@@ -17,11 +17,18 @@ const data = {
     "<a href=\"/locations/venice-fl\">Venice</a>"
   ],
   "headerImages": [
-    "/src/assets/images/right-accord-health-florida-HOMEPAGE_FIRSTPICTURE.jpg",
-    "/src/assets/images/right-accord-health-florida-HOMEPAGE_ALZHAIMERS.jpg",
-    "/src/assets/images/right-accord-health-florida-HOMEPAGE_PARKINSONS.jpg",
-    "/src/assets/images/right-accord-health-florida-HOMEPAGE_AFTERSTROKE.jpg",
-    "/src/assets/images/right-accord-health-florida-HOMEPAGE_HOSPICE.jpg"
+    "/images/right-accord-health-florida-HOMEPAGE_FIRSTPICTURE.jpg",
+    "/images/right-accord-health-florida-HOMEPAGE_ALZHAIMERS.jpg",
+    "/images/right-accord-health-florida-HOMEPAGE_PARKINSONS.jpg",
+    "/images/right-accord-health-florida-HOMEPAGE_AFTERSTROKE.jpg",
+    "/images/right-accord-health-florida-HOMEPAGE_HOSPICE.jpg",
+    "/images/right-accord-health-florida-home-health-care-package-1.jpg",    
+    "/images/right-accord-health-florida-home-health-care-package-2.jpg",    
+    "/images/right-accord-health-florida-home-health-care-package-3.jpg",    
+    "/images/right-accord-health-florida-home-health-care-package-4.jpg",    
+    "/images/right-accord-health-florida-home-health-care-package-5.jpg",    
+    "/images/right-accord-health-florida-home-health-care-package-6.jpg",    
+    "/images/right-accord-health-florida-home-health-care-package-7.jpg",    
   ],
   "headLines": [
     "In-Home Senior Care in North Port, FL",
