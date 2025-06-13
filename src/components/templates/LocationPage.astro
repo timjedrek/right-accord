@@ -1,0 +1,95 @@
+---
+const { data } = Astro.props;
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features5 from '~/components/widgets/Features5.astro';
+import Features6 from '~/components/widgets/Features6.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Features4 from '~/components/widgets/Features4.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Button from '~/components/ui/Button.astro';
+import Image from '~/components/common/Image.astro';
+---
+
+<Hero2
+  tagline="Compassionate In-Home Support"
+  title={`Home Health Care in ${data.city}, ${data.stateShort}`}
+  subtitle={data.description}
+  actions={[
+    {
+      variant: 'primary',
+      text: 'Schedule Appointment',
+      href: 'https://forms.rightaccordhealthcare.com/schedule',
+      icon: 'tabler:calendar-heart',
+      target: '_blank',
+    },
+    { text: 'Contact Us', href: '/contact', target: '_blank' },
+  ]}
+  image={{
+    src: data.headerImages?.[0] || '/src/assets/images/right-accord-health-florida-HOMEPAGE_FIRSTPICTURE.jpg',
+    alt: `Home health care ${data.city} hero image`,
+  }}
+/>
+
+<Features6
+  title="Specialized Home Care Services"
+  subtitle="From Alzheimer's care to post-surgical recovery, our caregivers are trained to provide the support you or your loved one needs."
+  items={data.specialties}
+/>
+
+<FAQs title={`FAQs for ${data.city}`} items={data.faqs} />
+
+<Features4
+  title="Proud Affiliations"
+  columns={2}
+  items={data.affiliations}
+/>
+
+<Features5
+  tagline="Services"
+  title="Our services customized to your needs"
+  subtitle="Each care plan is built to suit the specific needs of our clients and their families."
+  items={data.services}
+/>
+
+<Testimonials title="What our clients say" testimonials={data.testimonials} callToAction={{
+  text: 'Read more testimonials',
+  href: '/about-us/testimonials',
+  icon: 'tabler:chevron-right',
+}} />
+
+<Features3
+  title="Nearby Communities We Serve"
+  subtitle={`RIGHT ACCORD also supports families in nearby areas around ${data.city}`}
+  columns={3}
+  items={data.nearbyLocations.map((loc) => ({ title: loc }))}
+  defaultIcon="tabler:point-filled"
+/>
+
+<section id="google-maps">
+  <iframe
+    src={data.googleMapEmbed || ''}
+    width="100%"
+    height="500"
+    style="border:0;"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+</section>
+
+<CallToAction
+  id="download"
+  title="Download our Survival Guide for Parent Care"
+  subtitle="Learn more about our services and how we support families like yours."
+  bg="<div class='absolute inset-0 bg-blue-100'></div>"
+>
+  <div slot="actions" class="flex max-w-sm gap-4">
+    <Button variant="link" target="_blank" href="https://forms.rightaccordhealthcare.com/book-download">
+      <Image src="/src/assets/images/booklet.png" alt="Download Survival Guide" width={400} />
+    </Button>
+  </div>
+</CallToAction>
+
+<BlogLatestPosts title={`More Helpful Articles for Families in ${data.city}`} />
