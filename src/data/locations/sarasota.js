@@ -1,3 +1,13 @@
+import IconTime from '~/assets/icons/icon-time.svg?raw';
+import IconHome from '~/assets/icons/icon-home.svg?raw';
+import IconNurse from '~/assets/icons/icon-nurse.svg?raw';
+import IconStaff from '~/assets/icons/icon-staff.svg?raw';
+import IconElder from '~/assets/icons/icon-elder.svg?raw';
+import IconPackage from '~/assets/icons/icon-package.svg?raw';
+import IconVeteran from '~/assets/icons/icon-veteran.svg?raw';
+import IconInsurance from '~/assets/icons/icon-insurance.svg?raw';
+import IconFacility from '~/assets/icons/icon-facility.svg?raw';
+
 const data = {
   metaData: {
     title: 'Home Health Care Sarasota, FL | RIGHT ACCORD Private Duty Home Health Care',
@@ -101,30 +111,58 @@ const data = {
     }
   ],
   services: [
-    {
-      title: "Hourly Care or 24-Hour Care",
-      description:
-        "Flexible hourly or full-time caregiver support, tailored to changing needs.",
-      icon: "tabler:clock-hour-4"
-    },
-    {
-      title: "Live-in Home Care",
-      description:
-        "Continuous support with a live-in caregiver for round-the-clock assistance.",
-      icon: "tabler:home"
-    },
-    {
-      title: "Skilled Nursing",
-      description:
-        "Licensed nurses provide medication management, wound care, and vital monitoring.",
-      icon: "tabler:stethoscope"
-    },
-    {
-      title: "Home Care Packages",
-      description:
-        "Affordable bundled services to simplify in-home care planning and costs.",
-      icon: "tabler:package"
-    }
+      {
+        title: 'Hourly Care or 24-Hour Care',
+        description:
+          'We provide hourly care or 24-hour care. Our caregivers are available 24/7 to provide the care and support you need.',
+        icon: IconTime,
+      },
+      {
+        title: 'Live-in Home Care',
+        description:
+          'Our live-in home care services are a great option for those who need around-the-clock care and support.',
+        icon: IconHome,
+      },
+      {
+        title: 'Skilled Nursing',
+        description:
+          'Our skilled nursing services are provided by licensed and certified nurses who are experienced in providing care to seniors.',
+        icon: IconNurse,
+      },
+      {
+        title: 'Staffing Services',
+        description:
+          'We provide staffing services to hospitals, nursing homes, and other healthcare facilities in Sarasota, FL.',
+        icon: IconStaff,
+      },
+      {
+        title: 'Senior Care Advisors',
+        description:
+          "Our senior care advisors are available to help you find the right care solution for your loved one's needs.",
+        icon: IconElder,
+      },
+      {
+        title: 'Home Care Packages',
+        description:
+          'We offer home care packages that are designed to meet the needs of our clients and their families.',
+        icon: IconPackage,
+      },
+      {
+        title: 'Veteran Aid & Attendant Benefits',
+        description:
+          'We provide assistance to veterans and their spouses in applying for the VA Aid & Attendance benefits.',
+        icon: IconVeteran,
+      },
+      {
+        title: 'Long Term Care Insurance',
+        description: 'We work with long term care insurance companies to help you get the most out of your policy.',
+        icon: IconInsurance,
+      },
+      {
+        title: 'Senior Facility Relocation',
+        description: 'We provide assistance to seniors who are moving to a new home or senior living facility.',
+        icon: IconFacility,
+      },
   ],
   faqs: [
     {
@@ -141,24 +179,22 @@ const data = {
     }
   ],
   testimonials: [
-    {
-      testimonial:
-        "Thank you for the cooperative and professional way that Rosemarie and the caregivers have served us.",
-      name: "Cary Kennedy",
-      job: "Sarasota, FL"
-    },
-    {
-      testimonial:
-        "Yes, I would recommend RIGHT ACCORD for obtaining professional and skilled care providers.",
-      name: "Josh Wilkinson",
-      job: "Sarasota, FL"
-    },
-    {
-      testimonial:
-        "It’s a very well-run organization and all the people I was in contact with were very kind and considerate.",
-      name: "Sidney Hansen",
-      job: "Sarasota, FL"
-    }
+      {
+        testimonial: `Thank you for the cooperative and professional way that Rosemarie and the Caregivers have served us. We look forward to a long future and pleasant relationship with you.`,
+        name: 'Cary Kennedy',
+        job: 'Sarasota, FL',
+      },
+      {
+        testimonial: `Yes, I would recommend RIGHT ACCORD for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
+        name: 'Josh Wilkinson',
+        job: 'Sarasota, FL',
+      },
+      {
+        testimonial:
+          'I will definitely use RIGHT ACCORD again. It is a very well run organization and all the people I was in contact with were very kind and considerate.',
+        name: 'Sidney Hansen',
+        job: 'Sarasota, FL',
+      },
   ],
   affiliations: [
     {
