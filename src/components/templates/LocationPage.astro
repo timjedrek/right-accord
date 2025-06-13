@@ -39,6 +39,11 @@ function randomItem(arr: string[]) {
 
 const title = randomItem(data.headLines);
 const heroImage = randomItem(data.headerImages);
+
+const extractCityNames = (arr) =>
+  arr.map((link) => link.replace(/<a [^>]*>(.*?)<\/a>/, '$1'));
+const nearbyText = extractCityNames(data.nearbyLocations).join(', ');
+
 ---
 
 <Hero2
@@ -59,6 +64,19 @@ const heroImage = randomItem(data.headerImages);
     src: heroImage || HeroImage,
     alt: `Home health care ${data.city} hero image`,
   }}
+/>
+<Features6
+  title={`Local Senior Home Care Services in ${data.city}, ${data.stateShort}`}
+  subtitle={`
+    RIGHT ACCORD proudly delivers personalized home health care services to seniors and families in and around <strong>${data.city}, ${data.stateLong}</strong>. Whether you’re in central ${data.city} or nearby communities like 
+    <span class="font-semibold">${nearbyText}</span>, our caregivers are ready to support your loved ones with compassionate and professional care.
+    <br />
+    Our licensed caregivers provide in-home assistance throughout <strong>${data.county}</strong>, including neighborhoods near <em>downtown ${data.city}</em>, coastal areas, and surrounding zip codes. If you’re searching for trusted senior home care near you, RIGHT ACCORD is the local agency families across <strong>${data.stateLong}</strong> rely on.
+    <br />
+    We serve families in <strong>residential homes, retirement communities, assisted living apartments, and memory care facilities</strong> throughout the region. Whether you’re near ${data.city}'s main hospital, parks, or schools—or closer to quiet beachside communities—our team can bring quality care directly to your doorstep.
+    <br />
+    To learn more about private duty nursing, Alzheimer’s and dementia care, post-surgical assistance, or 24-hour companion care in <strong>${data.city}, ${data.stateShort}</strong>, contact RIGHT ACCORD today.
+  `}
 />
 
 <Features6
