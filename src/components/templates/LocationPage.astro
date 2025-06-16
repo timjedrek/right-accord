@@ -1,0 +1,336 @@
+---
+const { data } = Astro.props;
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features5 from '~/components/widgets/Features5.astro';
+import Features6 from '~/components/widgets/Features6.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Features4 from '~/components/widgets/Features4.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Button from '~/components/ui/Button.astro';
+import Image from '~/components/common/Image.astro';
+
+import IconTime from '~/assets/icons/icon-time.svg?raw';
+import IconHome from '~/assets/icons/icon-home.svg?raw';
+import IconNurse from '~/assets/icons/icon-nurse.svg?raw';
+import IconStaff from '~/assets/icons/icon-staff.svg?raw';
+import IconElder from '~/assets/icons/icon-elder.svg?raw';
+import IconPackage from '~/assets/icons/icon-package.svg?raw';
+import IconVeteran from '~/assets/icons/icon-veteran.svg?raw';
+import IconInsurance from '~/assets/icons/icon-insurance.svg?raw';
+import IconFacility from '~/assets/icons/icon-facility.svg?raw';
+
+import HeroImage from '/src/assets/images/right-accord-health-florida-HOMEPAGE_FIRSTPICTURE.jpg';
+import Alz from '/src/assets/images/right-accord-health-florida-HOMEPAGE_ALZHAIMERS.jpg';
+import Park from '/src/assets/images/right-accord-health-florida-HOMEPAGE_PARKINSONS.jpg';
+import Stroke from '/src/assets/images/right-accord-health-florida-HOMEPAGE_AFTERSTROKE.jpg';
+import Surg from '/src/assets/images/right-accord-health-florida-HOMEPAGE_POSTSURGICAL.jpg';
+import Hospice from '/src/assets/images/right-accord-health-florida-HOMEPAGE_HOSPICE.jpg';
+import LWRBALogo from '/src/assets/images/LWRBA-Logo-WEB.png';
+import ManateeChamberLogo from 'src/assets/images/Chamber-Logo-Homepage-1.png';
+import LongboatkeyChamberLogo from 'src/assets/images/Longboat-Key-Rebrand-1.jpg';
+import Booklet from '/src/assets/images/booklet.png';
+
+function randomItem(arr: string[]) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+const title = randomItem(data.headLines);
+const heroImage = randomItem(data.headerImages);
+
+const extractCityNames = (arr) =>
+  arr.map((link) => link.replace(/<a [^>]*>(.*?)<\/a>/, '$1'));
+const nearbyText = extractCityNames(data.nearbyLocations).join(', ');
+
+---
+
+<Hero2
+  tagline="Compassionate In-Home Support"
+  title={title}
+  subtitle={data.description}
+  actions={[
+    {
+      variant: 'primary',
+      text: 'Schedule Appointment',
+      href: 'https://forms.rightaccordhealthcare.com/schedule',
+      icon: 'tabler:calendar-heart',
+      target: '_blank',
+    },
+    { text: 'Contact Us', href: '/contact', target: '_blank' },
+  ]}
+  image={{
+    src: heroImage || HeroImage,
+    alt: `Home health care ${data.city} hero image`,
+  }}
+/>
+<Features6
+  title={`Local Senior Home Care Services in ${data.city}, ${data.stateShort}`}
+  subtitle={`
+    RIGHT ACCORD proudly delivers personalized home health care services to seniors and families in and around <strong>${data.city}, ${data.stateLong}</strong>. Whether you’re in central ${data.city} or nearby communities like 
+    <span class="font-semibold">${nearbyText}</span>, our caregivers are ready to support your loved ones with compassionate and professional care.
+    <br />
+    Our licensed caregivers provide in-home assistance throughout <strong>${data.county}</strong>, including neighborhoods near <em>downtown ${data.city}</em>, coastal areas, and surrounding zip codes. If you’re searching for trusted senior home care near you, RIGHT ACCORD is the local agency families across <strong>${data.stateLong}</strong> rely on.
+    <br />
+    We serve families in <strong>residential homes, retirement communities, assisted living apartments, and memory care facilities</strong> throughout the region. Whether you’re near ${data.city}'s main hospital, parks, or schools—or closer to quiet beachside communities—our team can bring quality care directly to your doorstep.
+    <br />
+    To learn more about private duty nursing, Alzheimer’s and dementia care, post-surgical assistance, or 24-hour companion care in <strong>${data.city}, ${data.stateShort}</strong>, <a href="/contact" class="hover:text-blue-500 duration-300">contact RIGHT ACCORD</a> today.
+  `}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features6>
+
+<Features3
+  title="Nearby Communities We Serve"
+  subtitle={`RIGHT ACCORD also supports families in nearby areas around ${data.city} and all across ${data.county}.`}
+  columns={3}
+  items={data.nearbyLocations.map((loc) => ({ title: loc }))}
+  defaultIcon="tabler:point-filled"
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features3>
+
+<Features6
+  title={`Specialized Home Care Services in ${data.city}, ${data.stateShort}`}
+  subtitle="We highly specialized in 24 hour care for cases such as in Dementia and Alzheimer's Care, Parkinsons, Stroke and End of Life Care or Hospice Care. Our caregivers have extensive trainings and receive ongoing training while working at RIGHT ACCORD. Our Seniors and Caregiver Wellness Program focuses on Holistic Approach to total well being that embraces natural balance on mind, body, spirit, food and sleep."
+  items={[
+    {
+      title: `Alzheimer's Care`,
+      description:
+        'RIGHT ACCORD team of certified dementia caregivers understands the disease and they develop skills and attitudes that are helpful when working with seniors with alzheimer’s disease',
+      icon: 'flat-color-icons:document',
+      link: '/specialty-care/alzheimers-dementia-care',
+      image: {
+        src: Alz,
+        alt: 'right-accord-health-florida-Alzheimer’s Care.',
+      },
+    },
+    {
+      title: 'Parkinson’s Care',
+      description:
+        'Our caregivers help elderly with parkinson’s disease through personal care and the activities of daily living.',
+      icon: 'flat-color-icons:template',
+      link: '/specialty-care/parkinsons-disease-care',
+      image: {
+        src: Park,
+        alt: 'right-accord-health-florida-Parkinson’s Care.',
+      },
+    },
+    {
+      title: 'Afterstroke Care',
+      description:
+        'RIGHT ACCORD’s caregiver experts create strategies to help stroke survivors go through their recovery very quickly.',
+      icon: 'flat-color-icons:voice-presentation',
+      link: '/specialty-care/after-stroke-in-home-care',
+      image: {
+        src: Stroke,
+        alt: 'right-accord-health-florida-Post-Stroke Care.',
+      },
+    },
+    {
+      title: 'Post-Surgical Care',
+      description: 'RIGHT ACCORD’s in-home care helps client to recuperate after hospitalization or after the surgery.',
+      icon: 'flat-color-icons:voice-presentation',
+      link: '/specialty-care/post-surgical-recovery-and-rehabilitation-care',
+      image: {
+        src: Surg,
+        alt: 'right-accord-health-florida-Post-Surgical Care.',
+      },
+    },
+    {
+      title: 'Hospice Care',
+      description: 'Our caregivers receives special training from tidewell hospice team of professionals.',
+      icon: 'flat-color-icons:voice-presentation',
+      link: '/specialty-care/hospice-end-of-life-care',
+      image: {
+        src: Hospice,
+        alt: 'right-accord-health-florida-Hospice Care.',
+      },
+    },
+  ]}
+/>
+
+<FAQs
+  title={`Why is RIGHT ACCORD your caregiver and companion company of choice in ${data.city}, ${data.stateShort}?`}
+  items={[
+    {
+      description:
+        'RIGHT ACCORD Private Duty Home Health Care is a Home Care agency licensed by the Florida Agency for Health Care Administration (AHCA). We are nurse owned, and independently operating in the business for more than 12 years.',
+      icon: 'tabler:chevrons-right',
+    },
+    {
+      description: `We offer our clients the best and compassionate care they deserve like meal preparation and other private duty care services at the comfort of their homes. Our Electronic Caregiver Technology is a state of the art modern personal emergency response system available to our clients.`,
+      icon: 'tabler:chevrons-right',
+    },
+    {
+      description:
+        'Our mission is to provide consistent caregivers for every senior clients, who are struggling with independence, helping them anywhere from few hours to 24 hours of care. We firmly believe that Home Care service must be delivered as if it were being provided by the family.',
+      icon: 'tabler:chevrons-right',
+    },
+    {
+      description: `We helped many seniors in our community and most remained with us until the end. Our longest client we helped for 10 years is allowing her to remain at home safely and comfortably with the help of our 24-hour caregivers.`,
+      icon: 'tabler:chevrons-right',
+    },
+  ]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</FAQs>
+
+<Features4
+  title="RIGHT ACCORD is a proud member of"
+  columns={2}
+  classes={{
+    container: 'sm:max-w-3xl',
+    items: {
+      panel: 'p-3 bg-white rounded-xl flex items-center justify-center',
+    },
+  }}
+  items={[
+    {
+      image: {
+        src: LWRBALogo,
+        alt: 'Lakewood Ranch Business Alliance Logo',
+        width: '400',
+        height: 'auto',
+      },
+    },
+    {
+      image: {
+        src: LongboatkeyChamberLogo,
+        alt: 'Longboat Key Chamber of Commerce Logo',
+        width: '400',
+        height: 'auto',
+      },
+    },
+    {
+      image: {
+        src: ManateeChamberLogo,
+        alt: 'Manatee Chamber of Commerce Logo',
+        width: '400',
+        height: 'auto',
+      },
+    },
+  ]}
+/>
+
+<Features5
+  id="features"
+  tagline="Services"
+  title="Our services customized to your needs"
+  subtitle="RIGHT ACCORD believes that home care service must be delivered as if it were being provided by the family. We know that everyone is different so we provide customized service programs, each of our clients receives care based upon his or her individual needs."
+  items={[
+    {
+      title: 'Hourly Care or 24-Hour Care',
+      description:
+        'We provide hourly care or 24-hour care. Our caregivers are available 24/7 to provide the care and support you need.',
+      icon: IconTime,
+    },
+    {
+      title: 'Live-in Home Care',
+      description:
+        'Our live-in home care services are a great option for those who need around-the-clock care and support.',
+      icon: IconHome,
+    },
+    {
+      title: 'Skilled Nursing',
+      description:
+        'Our skilled nursing services are provided by licensed and certified nurses who are experienced in providing care to seniors.',
+      icon: IconNurse,
+    },
+    {
+      title: 'Staffing Services',
+      description:
+        'We provide staffing services to hospitals, nursing homes, and other healthcare facilities in Sarasota, FL.',
+      icon: IconStaff,
+    },
+    {
+      title: 'Senior Care Advisors',
+      description:
+        "Our senior care advisors are available to help you find the right care solution for your loved one's needs.",
+      icon: IconElder,
+    },
+    {
+      title: 'Home Care Packages',
+      description: 'We offer home care packages that are designed to meet the needs of our clients and their families.',
+      icon: IconPackage,
+    },
+    {
+      title: 'Veteran Aid & Attendant Benefits',
+      description:
+        'We provide assistance to veterans and their spouses in applying for the VA Aid & Attendance benefits.',
+      icon: IconVeteran,
+    },
+    {
+      title: 'Long Term Care Insurance',
+      description: 'We work with long term care insurance companies to help you get the most out of your policy.',
+      icon: IconInsurance,
+    },
+    {
+      title: 'Senior Facility Relocation',
+      description: 'We provide assistance to seniors who are moving to a new home or senior living facility.',
+      icon: IconFacility,
+    },
+  ]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features5>
+
+<Testimonials
+  title="What our clients say about us"
+  testimonials={[
+    {
+      testimonial: `Thank you for the cooperative and professional way that Rosemarie and the Caregivers have served us. We look forward to a long future and pleasant relationship with you.`,
+      name: 'Cary Kennedy',
+      job: 'Sarasota, FL',
+    },
+    {
+      testimonial: `Yes, I would recommend RIGHT ACCORD for obtaining professional and skilled Care Providers. I am pleased with the service and I know that I have skilled help on a daily basis.`,
+      name: 'Josh Wilkinson',
+      job: 'Sarasota, FL',
+    },
+    {
+      testimonial:
+        'I will definitely use RIGHT ACCORD again. It is a very well run organization and all the people I was in contact with were very kind and considerate.',
+      name: 'Sidney Hansen',
+      job: 'Sarasota, FL',
+    },
+  ]}
+  callToAction={{
+    text: 'Read more testimonials',
+    href: '/about-us/testimonials',
+    icon: 'tabler:chevron-right',
+  }}
+>
+</Testimonials>
+
+
+
+<a href="https://forms.rightaccordhealthcare.com/book-download" target="_blank">
+  <CallToAction
+    bg="<div class='absolute inset-0 bg-blue-100'></div>"
+    id="download"
+    title="Download our Survival Guide for Parent Care!"
+    subtitle="Get to know more about our services and how we can help you and your loved ones."
+  >
+    <div slot="actions" class="flex max-w-sm gap-4">
+      <Button variant="link" target="_blank" href="https://forms.rightaccordhealthcare.com/book-download">
+        <Image src={Booklet} alt="Survival Guide For Parent Care Image" width={400} />
+      </Button>
+    </div>
+  </CallToAction>
+</a>
+
+<BlogLatestPosts title={`Find out more content in our Blog`} information={``}>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</BlogLatestPosts>

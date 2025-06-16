@@ -1,0 +1,18 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import locations from '~/data/locations/locations.js';
+import LocationPage from '~/components/templates/LocationPage.astro';
+
+export function getStaticPaths() {
+  return locations.map(({ data }) => ({
+    params: { slug: data.slug },
+    props: { data },
+  }));
+}
+
+const { data } = Astro.props;
+---
+
+<Layout metadata={data.metaData}>
+  <LocationPage data={data} />
+</Layout>
