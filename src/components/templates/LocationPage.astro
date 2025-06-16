@@ -83,6 +83,18 @@ const nearbyText = extractCityNames(data.nearbyLocations).join(', ');
   </Fragment>
 </Features6>
 
+<Features3
+  title="Nearby Communities We Serve"
+  subtitle={`RIGHT ACCORD also supports families in nearby areas around ${data.city} and all across ${data.county}.`}
+  columns={3}
+  items={data.nearbyLocations.map((loc) => ({ title: loc }))}
+  defaultIcon="tabler:point-filled"
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features3>
+
 <Features6
   title={`Specialized Home Care Services in ${data.city}, ${data.stateShort}`}
   subtitle="We highly specialized in 24 hour care for cases such as in Dementia and Alzheimer's Care, Parkinsons, Stroke and End of Life Care or Hospice Care. Our caregivers have extensive trainings and receive ongoing training while working at RIGHT ACCORD. Our Seniors and Caregiver Wellness Program focuses on Holistic Approach to total well being that embraces natural balance on mind, body, spirit, food and sleep."
@@ -298,30 +310,9 @@ const nearbyText = extractCityNames(data.nearbyLocations).join(', ');
     icon: 'tabler:chevron-right',
   }}
 >
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
 </Testimonials>
 
-<Features3
-  title="Nearby Communities We Serve"
-  subtitle={`RIGHT ACCORD also supports families in nearby areas around ${data.city} and all across ${data.county}.`}
-  columns={3}
-  items={data.nearbyLocations.map((loc) => ({ title: loc }))}
-  defaultIcon="tabler:point-filled"
-/>
 
-<section id="google-maps">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14185.55753792691!2d-82.4930632!3d27.2696738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd63ddd79e3387a8c!2sRight%20Accord%20Private%20Duty-Home%20Health%20Care%20-%20Caregivers%20%26%20Companions!5e0!3m2!1sen!2sph!4v1573807050260!5m2!1sen!2sph"
-    width="100%"
-    height="500"
-    style="border:0;"
-    allowfullscreen="true"
-    loading="lazy"
-  >
-  </iframe>
-</section>
 
 <a href="https://forms.rightaccordhealthcare.com/book-download" target="_blank">
   <CallToAction
