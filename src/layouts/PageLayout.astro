@@ -10,12 +10,29 @@ import type { MetaData } from '~/types';
 
 export interface Props {
   metadata?: MetaData;
+  schemaData?: {
+    page: {
+      type: 'home' | 'service' | 'location' | 'article' | 'specialty' | 'about' | 'contact';
+      title: string;
+      description: string;
+      url: string;
+    };
+    organization?: any;
+    website?: any;
+    service?: any;
+    location?: any;
+    article?: any;
+    reviews?: any[];
+    faqs?: any[];
+    aggregateRating?: any;
+    medicalProcedure?: any;
+  };
 }
 
-const { metadata } = Astro.props;
+const { metadata, schemaData } = Astro.props;
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <slot name="announcement">
     <Announcement isSticky />
   </slot>

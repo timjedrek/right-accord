@@ -1,0 +1,140 @@
+---
+// Local Business Schema for location-specific pages
+import { SITE } from '~/utils/config';
+
+export interface Props {
+  locationData: {
+    city: string;
+    state: string;
+    county?: string;
+    address?: string;
+    phone?: string;
+    coordinates?: {
+      latitude: number;
+      longitude: number;
+    };
+    servicesOffered?: string[];
+  };
+}
+
+const { locationData } = Astro.props;
+
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalBusiness',
+  name: `RIGHT ACCORD Home Health Care - ${locationData.city}`,
+  description: `Professional home health care services in ${locationData.city}, ${locationData.state}. Providing compassionate senior care, Alzheimer's care, post-surgical care, and companion services.`,
+  url: `${SITE.site}/locations/${locationData.city.toLowerCase().replace(/\s+/g, '-')}-${locationData.state.toLowerCase()}`,
+  parentOrganization: {
+    '@type': 'Organization',
+    name: 'RIGHT ACCORD Home Health Care',
+    url: SITE.site,
+  },
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: locationData.city,
+    addressRegion: locationData.state,
+    addressCountry: 'US',
+    ...(locationData.address && { streetAddress: locationData.address }),
+  },
+  areaServed: [
+    {
+      '@type': 'City',
+      name: locationData.city,
+      addressRegion: locationData.state,
+    },
+    ...(locationData.county
+      ? [
+          {
+            '@type': 'AdministrativeArea',
+            name: locationData.county,
+          },
+        ]
+      : []),
+  ],
+  serviceType: 'Home Health Care',
+  medicalSpecialty: [
+    'Senior Care',
+    "Alzheimer's and Dementia Care",
+    'Post-Surgical Care',
+    'Companion Care',
+    'Personal Care Services',
+    'Respite Care',
+    'Live-in Care',
+    'Hourly Care',
+  ],
+  ...(locationData.servicesOffered && {
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Home Health Care Services',
+      itemListElement: locationData.servicesOffered.map((service) => ({
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: service,
+        },
+      })),
+    },
+  }),
+  ...(locationData.phone && { telephone: locationData.phone }),
+  ...(locationData.coordinates && {
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: locationData.coordinates.latitude,
+      longitude: locationData.coordinates.longitude,
+    },
+  }),
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '17:00',
+    },
+  ],
+  sameAs: ['https://www.facebook.com/RightAccordHealth', 'https://www.linkedin.com/company/right-accord-home-care/'],
+};
+
+// Service Area Schema
+const serviceAreaSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: `Home Health Care Services in ${locationData.city}`,
+  provider: {
+    '@type': 'MedicalBusiness',
+    name: 'RIGHT ACCORD Home Health Care',
+  },
+  areaServed: {
+    '@type': 'City',
+    name: locationData.city,
+    addressRegion: locationData.state,
+    addressCountry: 'US',
+  },
+  serviceType: 'Home Health Care',
+  description: `Comprehensive home health care services including senior care, Alzheimer's care, post-surgical care, and companion services in ${locationData.city}, ${locationData.state}.`,
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceAreaSchema)} />
+
+<!-- Geo Meta Tags -->
+<meta name="geo.region" content={`US-${locationData.state}`} />
+<meta name="geo.placename" content={locationData.city} />
+{
+  locationData.coordinates && (
+    <meta name="ICBM" content={`${locationData.coordinates.latitude}, ${locationData.coordinates.longitude}`} />
+  )
+}
+
+<!-- Local Business Microdata -->
+<div itemscope itemtype="https://schema.org/MedicalBusiness" style="display: none;">
+  <span itemprop="name">RIGHT ACCORD Home Health Care - {locationData.city}</span>
+  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <span itemprop="addressLocality">{locationData.city}</span>
+    <span itemprop="addressRegion">{locationData.state}</span>
+    <span itemprop="addressCountry">US</span>
+  </div>
+  {locationData.phone && <span itemprop="telephone">{locationData.phone}</span>}
+  <span itemprop="serviceType">Home Health Care</span>
+</div>

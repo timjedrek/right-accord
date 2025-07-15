@@ -1,0 +1,195 @@
+---
+// Enhanced SEO Component for improved search engine optimization
+import { SITE } from '~/utils/config';
+
+export interface Props {
+  pageType?: 'homepage' | 'service' | 'location' | 'blog' | 'about';
+  breadcrumbs?: Array<{ name: string; url: string }>;
+  services?: string[];
+  location?: {
+    city: string;
+    state: string;
+    address?: string;
+    phone?: string;
+  };
+}
+
+const { breadcrumbs = [], services = [], location } = Astro.props;
+
+// Generate BreadcrumbList schema
+const breadcrumbSchema =
+  breadcrumbs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: breadcrumbs.map((crumb, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: crumb.name,
+          item: `${SITE.site}${crumb.url}`,
+        })),
+      }
+    : null;
+
+// Generate Service schema for service pages
+const serviceSchema =
+  services.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'MedicalBusiness',
+        name: 'RIGHT ACCORD Home Health Care',
+        url: SITE.site,
+        medicalSpecialty: services,
+        serviceType: 'Home Health Care Services',
+        areaServed: location
+          ? [
+              {
+                '@type': 'City',
+                name: location.city,
+                addressRegion: location.state,
+              },
+            ]
+          : undefined,
+      }
+    : null;
+
+// Organization schema with enhanced details
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': ['Organization', 'MedicalBusiness'],
+  name: 'RIGHT ACCORD Home Health Care',
+  alternateName: 'RIGHT ACCORD',
+  url: SITE.site,
+  logo: `${SITE.site}/right-accord-logo-solo.svg`,
+  description:
+    'RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family.',
+  foundingDate: '2008',
+  founder: {
+    '@type': 'Person',
+    name: 'Rosemarie Tamunday-Casanova',
+    jobTitle: 'Founder & CEO',
+  },
+  address: [
+    {
+      '@type': 'PostalAddress',
+      streetAddress: '1541 S Tuttle Ave',
+      addressLocality: 'Sarasota',
+      addressRegion: 'FL',
+      postalCode: '34239',
+      addressCountry: 'US',
+    },
+    {
+      '@type': 'PostalAddress',
+      streetAddress: '9040 Town Center Parkway',
+      addressLocality: 'Lakewood Ranch',
+      addressRegion: 'FL',
+      postalCode: '34202',
+      addressCountry: 'US',
+    },
+  ],
+  telephone: '(941) 366-0801',
+  email: 'info@rightaccordhealth.com',
+  sameAs: [
+    'https://www.facebook.com/RightAccordHealth',
+    'https://www.linkedin.com/company/right-accord-home-care/',
+    'https://www.youtube.com/channel/UCmh8k82geMZD2RQOlNkNQ3w',
+  ],
+  serviceArea: [
+    {
+      '@type': 'GeoCircle',
+      geoMidpoint: {
+        '@type': 'GeoCoordinates',
+        latitude: 27.270490288676417,
+        longitude: -82.492179,
+      },
+      geoRadius: 50000,
+    },
+  ],
+  medicalSpecialty: [
+    'Home Health Care',
+    'Senior Care',
+    "Alzheimer's Care",
+    'Dementia Care',
+    'Post-Surgical Care',
+    'Companion Care',
+    'Personal Care',
+    'Respite Care',
+  ],
+  hasCredential: [
+    {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'Accreditation',
+      recognizedBy: {
+        '@type': 'Organization',
+        name: 'The Joint Commission',
+      },
+    },
+  ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.8',
+    reviewCount: '53',
+    bestRating: '5',
+  },
+};
+
+const currentYear = new Date().getFullYear();
+---
+
+<!-- Enhanced Structured Data -->{
+  breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+}
+
+{serviceSchema && <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />}
+
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+
+<!-- Additional SEO Meta Tags -->
+<meta name="author" content="RIGHT ACCORD Home Health Care" />
+<meta name="copyright" content={`© ${currentYear} RIGHT ACCORD Home Health Care`} />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+<!-- Geo Meta Tags for Local SEO -->
+{
+  location && (
+    <>
+      <meta name="geo.region" content={`US-${location.state}`} />
+      <meta name="geo.placename" content={location.city} />
+      <meta name="ICBM" content="27.270490288676417, -82.492179" />
+    </>
+  )
+}
+
+<!-- Enhanced Open Graph -->
+<meta property="og:site_name" content="RIGHT ACCORD Home Health Care" />
+<meta property="og:locale" content="en_US" />
+<meta property="business:contact_data:locality" content="Sarasota" />
+<meta property="business:contact_data:region" content="FL" />
+<meta property="business:contact_data:country_name" content="USA" />
+
+<!-- Performance Hints -->
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+
+<!-- Additional Link Relations -->
+<link rel="canonical" href={Astro.url.href} />
+<link rel="publisher" href="https://rightaccordhealth.com" />
+
+<!-- Mobile App Links (if applicable) -->
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+<!-- Contact Information Microdata -->
+<div itemscope itemtype="https://schema.org/Organization" style="display: none;">
+  <span itemprop="name">RIGHT ACCORD Home Health Care</span>
+  <span itemprop="telephone">(941) 366-0801</span>
+  <span itemprop="email">info@rightaccordhealth.com</span>
+  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <span itemprop="streetAddress">1541 S Tuttle Ave</span>
+    <span itemprop="addressLocality">Sarasota</span>
+    <span itemprop="addressRegion">FL</span>
+    <span itemprop="postalCode">34239</span>
+  </div>
+</div>

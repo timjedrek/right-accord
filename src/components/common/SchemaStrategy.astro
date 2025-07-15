@@ -1,0 +1,271 @@
+---
+// Master Schema Strategy Implementation Component
+import HealthcareOrganizationSchema from './HealthcareOrganizationSchema.astro';
+import WebsiteSchema from './WebsiteSchema.astro';
+import ServiceSchema from './ServiceSchema.astro';
+import MedicalProcedureSchema from './MedicalProcedureSchema.astro';
+import ReviewSchema from './ReviewSchema.astro';
+import LocationSchema from './LocationSchema.astro';
+import LocalBusinessSchema from './LocalBusinessSchema.astro';
+import ArticleSchema from './ArticleSchema.astro';
+import FAQSchema from './FAQSchema.astro';
+
+export interface Props {
+  page: {
+    type: 'home' | 'service' | 'location' | 'article' | 'specialty' | 'about' | 'contact';
+    title: string;
+    description: string;
+    url: string;
+  };
+  organization?: any;
+  website?: any;
+  service?: any;
+  location?: any;
+  article?: any;
+  reviews?: any[];
+  faqs?: any[];
+  aggregateRating?: any;
+  medicalProcedure?: any;
+}
+
+const { 
+  page, 
+  organization, 
+  website, 
+  service, 
+  location, 
+  article, 
+  reviews, 
+  faqs, 
+  aggregateRating,
+  medicalProcedure 
+} = Astro.props;
+
+// Default organization data for RIGHT ACCORD
+const defaultOrganization = {
+  name: 'RIGHT ACCORD Home Health Care',
+  description: 'Florida\'s premier home health care provider specializing in senior care, Alzheimer\'s care, Parkinson\'s care, stroke recovery, and hospice care services.',
+  url: 'https://rightaccordhealth.com',
+  telephone: '+1-941-366-0801',
+  email: 'info@rightaccordhealth.com',
+  address: {
+    streetAddress: '3500 East Fletcher Avenue',
+    addressLocality: 'Tampa',
+    addressRegion: 'Florida',
+    postalCode: '33613',
+    addressCountry: 'United States',
+  },
+  location: {
+    latitude: 28.0359,
+    longitude: -82.4565,
+  },
+  socialMedia: {
+    facebook: 'https://www.facebook.com/rightaccordhealth',
+    linkedin: 'https://www.linkedin.com/company/right-accord-health',
+    youtube: 'https://www.youtube.com/channel/UCrightaccord',
+  },
+  medicalSpecialty: [
+    'Home Health Care',
+    'Senior Care',
+    'Alzheimer\'s Care',
+    'Dementia Care',
+    'Parkinson\'s Care',
+    'Stroke Recovery',
+    'Hospice Care',
+    'Post-Surgical Care',
+    'Personal Care',
+    'Companion Care',
+    'Skilled Nursing',
+  ],
+  areaServed: [
+    'Sarasota',
+    'Bradenton',
+    'Venice',
+    'North Port',
+    'Fort Myers',
+    'Cape Coral',
+    'Lakewood Ranch',
+    'Longboat Key',
+    'Siesta Key',
+    'Tampa',
+    'St. Petersburg',
+    'Clearwater',
+  ],
+  paymentAccepted: [
+    'Private Pay',
+    'Long-term Care Insurance',
+    'Veterans Aid & Attendance Benefits',
+    'Some Medicaid Programs',
+  ],
+  priceRange: '$$',
+  operatingHours: [
+    { dayOfWeek: 'Monday', opens: '08:00', closes: '17:00' },
+    { dayOfWeek: 'Tuesday', opens: '08:00', closes: '17:00' },
+    { dayOfWeek: 'Wednesday', opens: '08:00', closes: '17:00' },
+    { dayOfWeek: 'Thursday', opens: '08:00', closes: '17:00' },
+    { dayOfWeek: 'Friday', opens: '08:00', closes: '17:00' },
+    { dayOfWeek: 'Saturday', opens: '09:00', closes: '15:00' },
+  ],
+  accreditation: [
+    'Florida Agency for Health Care Administration (AHCA)',
+    'Medicare Certified',
+    'Medicaid Certified',
+  ],
+};
+
+// Default website data
+const defaultWebsite = {
+  name: 'RIGHT ACCORD Home Health Care',
+  url: 'https://rightaccordhealth.com',
+  description: 'Professional home health care services in Florida. Specializing in senior care, Alzheimer\'s care, Parkinson\'s care, stroke recovery, and hospice care.',
+  inLanguage: 'en-US',
+  about: {
+    name: 'Home Health Care Services',
+    description: 'Comprehensive in-home healthcare services for seniors and elderly individuals with chronic conditions.',
+  },
+  publisher: {
+    name: 'RIGHT ACCORD Home Health Care',
+    url: 'https://rightaccordhealth.com',
+  },
+  potentialAction: {
+    type: 'SearchAction',
+    target: 'https://rightaccordhealth.com/search?q={search_term_string}',
+    queryInput: 'required name=search_term_string',
+  },
+  specialty: [
+    'Home Health Care',
+    'Senior Care',
+    'Alzheimer\'s Care',
+    'Dementia Care',
+    'Parkinson\'s Care',
+    'Stroke Recovery',
+    'Hospice Care',
+  ],
+  audience: 'Seniors and their families',
+};
+
+// Default FAQs for healthcare
+const defaultFAQs = [
+  {
+    question: 'What home health care services do you provide?',
+    answer: 'We provide comprehensive home health care including senior care, Alzheimer\'s and dementia care, post-surgical care, companion care, personal care, respite care, and live-in care services throughout Sarasota, Bradenton, Venice, and surrounding Southwest Florida areas.',
+  },
+  {
+    question: 'What areas in Florida do you serve?',
+    answer: 'RIGHT ACCORD serves Sarasota, Bradenton, Venice, North Port, Fort Myers, Cape Coral, Lakewood Ranch, Longboat Key, Siesta Key, and surrounding areas in Sarasota, Manatee, and Lee counties.',
+  },
+  {
+    question: 'Are your caregivers licensed and insured?',
+    answer: 'Yes, all RIGHT ACCORD caregivers are thoroughly screened, licensed, bonded, and insured. We conduct comprehensive background checks and provide ongoing training to ensure the highest quality of care.',
+  },
+  {
+    question: 'Do you accept insurance for home health care services?',
+    answer: 'We work with various payment options including private pay, long-term care insurance, Veterans Aid & Attendance benefits, and some Medicaid programs. Contact us to discuss your specific insurance coverage.',
+  },
+];
+
+// Use provided data or defaults
+const orgData = organization || defaultOrganization;
+const websiteData = website || defaultWebsite;
+const faqData = faqs || defaultFAQs;
+---
+
+<!-- Core Organization and Website Schemas - Always included -->
+<HealthcareOrganizationSchema organization={orgData} />
+<WebsiteSchema website={websiteData} />
+
+<!-- Page-specific schemas based on page type -->
+{page.type === 'service' && service && (
+  <ServiceSchema service={service} />
+)}
+
+{page.type === 'location' && location && (
+  <LocationSchema location={location} />
+)}
+
+{page.type === 'article' && article && (
+  <ArticleSchema article={article} />
+)}
+
+{page.type === 'specialty' && medicalProcedure && (
+  <MedicalProcedureSchema procedure={medicalProcedure} />
+)}
+
+<!-- Location-specific business schema for location pages -->
+{(page.type === 'location' || page.type === 'home') && location && (
+  <LocalBusinessSchema 
+    locationData={{
+      city: location.address?.addressLocality || 'Tampa',
+      state: location.address?.addressRegion || 'Florida',
+      county: location.serviceArea?.counties?.[0] || 'Hillsborough',
+      address: location.address?.streetAddress || orgData.address?.streetAddress,
+      phone: location.contactInfo?.telephone || orgData.telephone,
+      coordinates: location.coordinates || orgData.location,
+      servicesOffered: location.services || orgData.medicalSpecialty
+    }}
+  />
+)}
+
+<!-- Review schema if reviews are provided -->
+{reviews && reviews.length > 0 && (
+  <ReviewSchema 
+    reviews={reviews} 
+    aggregateRating={aggregateRating}
+    businessName={orgData.name}
+  />
+)}
+
+<!-- FAQ schema - always include for better search visibility -->
+<FAQSchema faqs={faqData} title="Frequently Asked Questions about Home Health Care" />
+
+<!-- Enhanced page-specific meta tags -->
+<meta name="schema:page-type" content={page.type} />
+{orgData.medicalSpecialty && <meta name="schema:medical-specialty" content={orgData.medicalSpecialty.join(', ')} />}
+{orgData.areaServed && <meta name="schema:service-area" content={orgData.areaServed.join(', ')} />}
+<meta name="schema:organization" content={orgData.name} />
+
+<!-- Healthcare-specific structured data -->
+<script type="application/ld+json">
+{
+  JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': `${page.url}/#webpage`,
+        url: page.url,
+        name: page.title,
+        description: page.description,
+        isPartOf: {
+          '@id': `${websiteData.url}/#website`
+        },
+        about: {
+          '@type': 'MedicalBusiness',
+          '@id': 'https://rightaccordhealth.com/#organization'
+        },
+        mainEntity: {
+          '@type': 'MedicalBusiness',
+          '@id': 'https://rightaccordhealth.com/#organization'
+        },
+        breadcrumb: {
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            {
+              '@type': 'ListItem',
+              position: 1,
+              name: 'Home',
+              item: 'https://rightaccordhealth.com'
+            },
+            {
+              '@type': 'ListItem',
+              position: 2,
+              name: page.title,
+              item: page.url
+            }
+          ]
+        }
+      }
+    ]
+  })
+}
+</script>

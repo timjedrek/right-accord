@@ -1,0 +1,209 @@
+#!/usr/bin/env node
+
+/**
+ * Script to fix LocationSchema.astro null checking issues
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const filePath = path.join(__dirname, '../src/components/common/LocationSchema.astro');
+// let content = fs.readFileSync(filePath, 'utf8');
+
+// Create a safer version of LocationSchema with proper null checking
+const saferLocationSchema = `---
+// Location-specific Schema with enhanced geographic and service area data
+export interface Props {
+  location: {
+    name: string;
+    description: string;
+    url: string;
+    address?: {
+      streetAddress?: string;
+      addressLocality?: string;
+      addressRegion?: string;
+      postalCode?: string;
+      addressCountry?: string;
+    };
+    coordinates?: {
+      latitude: number;
+      longitude: number;
+    };
+    serviceArea?: {
+      radius?: number;
+      counties?: string[];
+      zipCodes?: string[];
+    };
+    contactInfo?: {
+      telephone?: string;
+      email?: string;
+    };
+    services?: string[];
+    operatingHours?: {
+      dayOfWeek: string;
+      opens: string;
+      closes: string;
+    }[];
+  };
+}
+
+const { location } = Astro.props;
+
+// Safe address access with fallbacks
+const safeAddress = {
+  addressLocality: location.address?.addressLocality || location.name,
+  addressRegion: location.address?.addressRegion || 'FL',
+  addressCountry: location.address?.addressCountry || 'US',
+};
+
+const locationSchema = {
+  '@context': 'https://schema.org',
+  '@type': ['LocalBusiness', 'MedicalBusiness', 'Place'],
+  '@id': \`\${location.url}/#location\`,
+  name: \`RIGHT ACCORD Home Health Care - \${location.name}\`,
+  description: location.description,
+  url: location.url,
+
+  // Address information with safe access
+  address: {
+    '@type': 'PostalAddress',
+    ...(location.address?.streetAddress && {
+      streetAddress: location.address.streetAddress,
+    }),
+    addressLocality: safeAddress.addressLocality,
+    addressRegion: safeAddress.addressRegion,
+    ...(location.address?.postalCode && {
+      postalCode: location.address.postalCode,
+    }),
+    addressCountry: safeAddress.addressCountry,
+  },
+
+  // Geographic coordinates
+  ...(location.coordinates && {
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: location.coordinates.latitude,
+      longitude: location.coordinates.longitude,
+    },
+  }),
+
+  // Service area coverage
+  areaServed: [
+    {
+      '@type': 'City',
+      name: safeAddress.addressLocality,
+      containedInPlace: {
+        '@type': 'State',
+        name: safeAddress.addressRegion,
+      },
+    },
+    ...(location.serviceArea?.counties || []).map(county => ({
+      '@type': 'AdministrativeArea',
+      name: county,
+    })),
+  ],
+
+  // Parent organization
+  parentOrganization: {
+    '@type': 'MedicalBusiness',
+    name: 'RIGHT ACCORD Home Health Care',
+    url: 'https://rightaccordhealth.com',
+  },
+
+  // Services offered
+  ...(location.services && {
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Home Health Care Services',
+      itemListElement: location.services.map((service, index) => ({
+        '@type': 'Offer',
+        position: index + 1,
+        itemOffered: {
+          '@type': 'Service',
+          name: service,
+          category: 'Healthcare',
+        },
+      })),
+    },
+  }),
+
+  // Contact information
+  ...(location.contactInfo?.telephone && {
+    telephone: location.contactInfo.telephone,
+  }),
+  ...(location.contactInfo?.email && {
+    email: location.contactInfo.email,
+  }),
+
+  // Operating hours
+  ...(location.operatingHours && {
+    openingHours: location.operatingHours.map(
+      hours => \`\${hours.dayOfWeek} \${hours.opens}-\${hours.closes}\`
+    ),
+  }),
+};
+
+// Service area schema with safe access
+const serviceAreaSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ServiceArea',
+  '@id': \`\${location.url}/#servicearea\`,
+  name: \`\${safeAddress.addressLocality} Service Area\`,
+  description: \`Home health care service coverage area for \${safeAddress.addressLocality}, \${safeAddress.addressRegion}\`,
+  serviceType: 'Home Health Care',
+  provider: 'RIGHT ACCORD Home Health Care',
+  areaServed: {
+    '@type': 'City',
+    name: safeAddress.addressLocality,
+    addressRegion: safeAddress.addressRegion,
+    addressCountry: safeAddress.addressCountry,
+  },
+};
+
+// City/locality schema with safe access
+const citySchema = {
+  '@context': 'https://schema.org',
+  '@type': 'City',
+  name: safeAddress.addressLocality,
+  description: \`Home health care services in \${safeAddress.addressLocality}, \${safeAddress.addressRegion}\`,
+  containedInPlace: {
+    '@type': 'State',
+    name: safeAddress.addressRegion,
+  },
+};
+---
+
+<!-- Location-specific structured data -->
+<script type="application/ld+json" set:html={JSON.stringify(locationSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceAreaSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(citySchema)} />
+
+<!-- Location microdata (hidden from view but accessible to crawlers) -->
+<div itemscope itemtype="https://schema.org/LocalBusiness" style="display: none;">
+  <span itemprop="name">RIGHT ACCORD Home Health Care - {location.name}</span>
+  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    {location.address?.streetAddress && (
+      <span itemprop="streetAddress">{location.address.streetAddress}</span>
+    )}
+    <span itemprop="addressLocality">{safeAddress.addressLocality}</span>
+    <span itemprop="addressRegion">{safeAddress.addressRegion}</span>
+    <span itemprop="addressCountry">{safeAddress.addressCountry}</span>
+  </div>
+</div>
+
+<!-- Geographic meta tags with safe access -->
+<meta name="geo.position" content={location.coordinates ? \`\${location.coordinates.latitude};\${location.coordinates.longitude}\` : undefined} />
+<meta name="geo.placename" content={safeAddress.addressLocality} />
+<meta name="geo.region" content={safeAddress.addressRegion} />
+<meta name="ICBM" content={location.coordinates ? \`\${location.coordinates.latitude}, \${location.coordinates.longitude}\` : undefined} />
+
+<!-- Dublin Core geographic metadata -->
+<meta name="DC.coverage" content={\`\${safeAddress.addressLocality}, \${safeAddress.addressRegion}, \${safeAddress.addressCountry}\`} />
+
+<!-- Custom location meta tags -->
+<meta name="location:city" content={safeAddress.addressLocality} />
+<meta name="location:state" content={safeAddress.addressRegion} />
+<meta name="location:country" content={safeAddress.addressCountry} />`;
+
+fs.writeFileSync(filePath, saferLocationSchema);
+console.log('✅ Fixed LocationSchema.astro with proper null checking');

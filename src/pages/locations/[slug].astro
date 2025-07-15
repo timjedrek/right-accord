@@ -11,8 +11,36 @@ export function getStaticPaths() {
 }
 
 const { data } = Astro.props;
+
+// Schema data for location page
+const schemaData = {
+  page: {
+    type: 'location' as const,
+    title: data.metaData.title,
+    description: data.metaData.description,
+    url: `https://rightaccordhealth.com/locations/${data.slug}`,
+  },
+  location: {
+    name: data.name,
+    description: data.metaData.description,
+    url: `https://rightaccordhealth.com/locations/${data.slug}`,
+    areaServed: data.name,
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      serviceType: 'Home Health Care Services',
+    },
+    address: data.address
+      ? {
+          addressLocality: data.name,
+          addressRegion: 'FL',
+          addressCountry: 'US',
+        }
+      : undefined,
+  },
+};
 ---
 
-<Layout metadata={data.metaData}>
+<Layout metadata={data.metaData} schemaData={schemaData}>
   <LocationPage data={data} />
 </Layout>

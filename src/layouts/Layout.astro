@@ -11,6 +11,8 @@ import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
+import TechnicalSEO from '~/components/common/TechnicalSEO.astro';
+import SchemaStrategy from '~/components/common/SchemaStrategy.astro';
 
 // Uncomment line below to activate View Transitions
 import { ViewTransitions } from 'astro:transitions';
@@ -19,9 +21,26 @@ import type { MetaData as MetaDataType } from '~/types';
 
 export interface Props {
   metadata?: MetaDataType;
+  schemaData?: {
+    page: {
+      type: 'home' | 'service' | 'location' | 'article' | 'specialty' | 'about' | 'contact';
+      title: string;
+      description: string;
+      url: string;
+    };
+    organization?: any;
+    website?: any;
+    service?: any;
+    location?: any;
+    article?: any;
+    reviews?: any[];
+    faqs?: any[];
+    aggregateRating?: any;
+    medicalProcedure?: any;
+  };
 }
 
-const { metadata = {} } = Astro.props;
+const { metadata = {}, schemaData } = Astro.props;
 const { language, textDirection } = I18N;
 ---
 
@@ -43,7 +62,8 @@ const { language, textDirection } = I18N;
                                                __/ |                
                                               |___/                 
 
-    Nice to see you here.  Find new student pilots with Right Rudder Marketing.  https://rightruddermarketing.com/contact-us --><!-- Global Metadata -->
+    Nice to see you here.  Find new student pilots with Right Rudder Marketing.  https://rightruddermarketing.com/contact-us -->
+    <!-- Global Metadata -->
     <CommonMeta />
     <Favicons />
     <CustomStyles />
@@ -51,60 +71,21 @@ const { language, textDirection } = I18N;
     <Metadata {...metadata} />
     <SiteVerification />
     <Analytics />
+    <TechnicalSEO />
+
+    <!-- Schema Strategy - Enhanced Structured Data -->
+    {schemaData && <SchemaStrategy {...schemaData} />}
 
     <!-- Uncomment line below to activate View Transitions -->
     <ViewTransitions fallback="swap" />
 
     <script type="application/ld+json">
       {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "RIGHT ACCORD Home Health Care",
-        "description": "RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family.",
-        "keywords": "We highly specialized in 24 hour care for cases such as in Dementia and Alzheimer's Care, Parkinsons, Stroke and End of Life Care or Hospice Care. Our caregivers have extensive trainings and receive ongoing training while working at RIGHT ACCORD. Our Seniors and Caregiver Wellness Program focuses on Holistic Approach to total well being that embraces natural balance on mind, body, spirit, food and sleep.",
-        "image": "https://rightaccordhealth.com/_astro/right-accord-health-florida-HOMEPAGE_FIRSTPICTURE.aXUfqMLz_Z1uzV5g.webp",
-        "logo": "https://rightaccordhealth.com/RightAccordLogo.png",
-        "telephone": "+19413660801",
-        "email": "mailto:admin@rightaccordhealth.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "3900 Clark Rd SUITE B5",
-          "addressLocality": "Sarasota",
-          "addressRegion": "FL",
-          "addressCountry": "US",
-          "postalCode": "34233"
-        },
-        "currenciesAccepted": "USD",
-        "paymentAccepted": "Cash, Credit Card, Visa, Mastercard, American Express, Discover, Checks",
-        "areaServed": {
-          "@type": "GeoCircle",
-          "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "latitude": 27.270490288676417,
-            "longitude": -82.492179
-          },
-          "geoRadius": 9000
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "53"
-        },
-        "url": "https://rightaccordhealth.com/",
-        "priceRange": "$",
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 27.270490288676417,
-          "longitude": -82.492179
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "09:00",
-            "closes": "17:00"
-          }
-        ]
+        "description": "Florida's premier home health care provider specializing in senior care, Alzheimer's care, Parkinson's care, stroke recovery, and hospice care services. Replaced by SchemaStrategy component.",
+        "url": "https://rightaccordhealth.com/"
       }
     </script>
   </head>
@@ -133,8 +114,7 @@ const { language, textDirection } = I18N;
     <script
       src="https://widgets.leadconnectorhq.com/loader.js"
       data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-      data-widget-id="66cca91f2b74b55cbe1db1dc"
-    ></script>
+      data-widget-id="66cca91f2b74b55cbe1db1dc"></script>
     <!-- END GHL CHAT WIDGET CODE -->
   </body>
 </html>

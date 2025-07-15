@@ -1,0 +1,104 @@
+---
+// Medical Procedure Schema for healthcare services
+export interface Props {
+  procedure: {
+    name: string;
+    description: string;
+    url: string;
+    procedureType: string;
+    medicationClass?: string;
+    followup?: string;
+    preparation?: string;
+    howPerformed?: string;
+    bodyLocation?: string[];
+    status?: string;
+    contraindication?: string[];
+    indication?: string[];
+  };
+}
+
+const { procedure } = Astro.props;
+
+const medicalProcedureSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalProcedure',
+  name: procedure.name,
+  description: procedure.description,
+  url: procedure.url,
+  procedureType: procedure.procedureType,
+  ...(procedure.medicationClass && {
+    medicationClass: procedure.medicationClass,
+  }),
+  ...(procedure.followup && {
+    followup: procedure.followup,
+  }),
+  ...(procedure.preparation && {
+    preparation: procedure.preparation,
+  }),
+  ...(procedure.howPerformed && {
+    howPerformed: procedure.howPerformed,
+  }),
+  ...(procedure.bodyLocation && {
+    bodyLocation: procedure.bodyLocation,
+  }),
+  status: procedure.status || 'Available',
+  ...(procedure.contraindication && {
+    contraindication: procedure.contraindication,
+  }),
+  ...(procedure.indication && {
+    indication: procedure.indication,
+  }),
+  provider: {
+    '@type': 'MedicalBusiness',
+    '@id': 'https://rightaccordhealth.com/#organization',
+    name: 'RIGHT ACCORD Home Health Care',
+    url: 'https://rightaccordhealth.com',
+    telephone: '+1-941-366-0801',
+  },
+  availableService: {
+    '@type': 'MedicalTherapy',
+    name: procedure.name,
+    provider: {
+      '@type': 'MedicalBusiness',
+      name: 'RIGHT ACCORD Home Health Care',
+    },
+  },
+};
+
+// Medical condition schema for specialty care conditions
+const medicalConditionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalCondition',
+  name: procedure.name.includes('Alzheimer')
+    ? "Alzheimer's Disease"
+    : procedure.name.includes('Parkinson')
+      ? "Parkinson's Disease"
+      : procedure.name.includes('Stroke')
+        ? 'Stroke Recovery'
+        : procedure.name.includes('Hospice')
+          ? 'End of Life Care'
+          : 'Medical Condition',
+  associatedAnatomy: procedure.bodyLocation || ['Brain', 'Nervous System'],
+  possibleTreatment: {
+    '@type': 'MedicalTherapy',
+    name: procedure.name,
+    provider: {
+      '@type': 'MedicalBusiness',
+      name: 'RIGHT ACCORD Home Health Care',
+    },
+  },
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(medicalProcedureSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(medicalConditionSchema)} />
+
+<!-- Medical Procedure Microdata -->
+<div itemscope itemtype="https://schema.org/MedicalProcedure" style="display: none;">
+  <span itemprop="name">{procedure.name}</span>
+  <span itemprop="description">{procedure.description}</span>
+  <span itemprop="procedureType">{procedure.procedureType}</span>
+  <span itemprop="provider" itemscope itemtype="https://schema.org/MedicalBusiness">
+    <span itemprop="name">RIGHT ACCORD Home Health Care</span>
+  </span>
+</div>

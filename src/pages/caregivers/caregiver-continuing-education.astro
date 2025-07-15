@@ -9,6 +9,16 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 const metadata = {
   title: 'Sales Landing Page Demo',
 };
+// Schema data for caregiver-continuing-education page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/caregivers/caregiver-continuing-education'
+  }
+};
+
 
 const items = [
   {
@@ -31,7 +41,7 @@ const items = [
 import HeroImage from '~/assets/images/home-health-aide.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

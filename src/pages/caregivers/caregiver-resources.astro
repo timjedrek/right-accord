@@ -8,6 +8,16 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 const metadata = {
   title: 'Click-through Landing Page Demo',
 };
+// Schema data for caregiver-resources page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/caregivers/caregiver-resources'
+  }
+};
+
 
 const documents = [
   {
@@ -140,7 +150,7 @@ const questions = [
 import HeroImage from '~/assets/images/image_caregiver-resources2.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero Widget ******************* -->
 
   <Hero

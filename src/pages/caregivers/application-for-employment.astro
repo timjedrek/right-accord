@@ -7,6 +7,16 @@ import Button from '~/components/ui/Button.astro';
 const metadata = {
   title: 'Employment Application | RIGHT ACCORD Health',
 };
+// Schema data for application-for-employment page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/caregivers/application-for-employment'
+  }
+};
+
 
 import CNAImage from '/src/assets/images/certified-nursing-assistant2.jpg';
 import HHAImage from '/src/assets/images/home-health-aide2.jpg';
@@ -16,7 +26,7 @@ import Image from '~/components/common/Image.astro';
 import CTABook from '/src/assets/images/cta_book2.webp';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero

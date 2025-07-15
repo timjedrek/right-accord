@@ -6,17 +6,41 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 const metadata = {
   title: 'Veteran Aid & Attendant Benefits',
 };
+// Schema data for veteran-aid-attendant-benefits page
+const schemaData = {
+  page: {
+    type: 'service' as const,
+    title: 'Veteran Aid & Attendant Benefits',
+    description:
+      'RIGHT ACCORD understands that many elderly veterans in our community could use help at home from their disabilities.',
+    url: 'https://rightaccordhealth.com/services/home-care-packages',
+  },
+  service: {
+    name: 'Veteran Aid & Attendant Benefits',
+    description:
+      'RIGHT ACCORD understands that many elderly veterans in our community could use help at home from their disabilities.',
+    url: 'https://rightaccordhealth.com/services/veteran-aid-attendant-benefits',
+    serviceType: 'Home Health Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    },
+    category: 'Healthcare Services',
+    additionalType: 'https://schema.org/MedicalService',
+  },
+};
 
 import HeroImage from '~/assets/images/VETERANAID.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
     tagline="Veteran Aid & Attendant Benefits"
     title="We Salute You. Thank You To Our Veterans"
-    subtitle="RIGHT ACCORD understand that many elderly veterans in our community could use help at home from their disabilities."
+    subtitle="RIGHT ACCORD understands that many elderly veterans in our community could use help at home from their disabilities."
     actions={[
       {
         variant: 'primary',
@@ -49,7 +73,7 @@ import HeroImage from '~/assets/images/VETERANAID.jpg';
           title: 'Assist with gathering necessary documents and information for application',
         },
         {
-          title: 'Assist with filing out paperwork with the VA.',
+          title: 'Assist with filling out paperwork with the VA.',
         },
       ]}
       columns={1}
@@ -70,7 +94,7 @@ import HeroImage from '~/assets/images/VETERANAID.jpg';
     </p>
 
     <h2 class="font-semibold text-2xl mt-10 bg-main-blue text-white w-fit p-3">
-      2015 Maximum allowable pension rates (MAPR)
+      2024 Maximum allowable pension rates (MAPR)
     </h2>
 
     <ItemGrid

@@ -6,6 +6,16 @@ import Features7 from '~/components/widgets/Features7.astro';
 const metadata = {
   title: 'Payors for Home Care | RIGHT ACCORD Private Duty Home Health Care',
 };
+// Schema data for payors-for-home-care page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/family-services/payors-for-home-care'
+  }
+};
+
 
 import HeroImage from '/src/assets/images/main-image_payers-for-home2.jpg';
 import LongTermCareInsuranceImage from '/src/assets/images/long-term-insurance.jpg';
@@ -16,7 +26,7 @@ import MedicaidImage from '/src/assets/images/Medicaid.jpg';
 import WorkersCompensationImage from '/src/assets/images/workers-compensation.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero Widget ******************* -->
 
   <Hero

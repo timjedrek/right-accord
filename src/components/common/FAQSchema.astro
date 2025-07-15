@@ -1,0 +1,45 @@
+---
+// FAQ Schema Component for enhanced search visibility
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+export interface Props {
+  faqs: FAQItem[];
+  title?: string;
+}
+
+const { faqs, title = 'Frequently Asked Questions' } = Astro.props;
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+<!-- Default FAQ section for pages that don't have visible FAQs -->{
+  faqs.length > 0 && (
+    <section itemscope itemtype="https://schema.org/FAQPage" style="display: none;">
+      <h2>{title}</h2>
+      {faqs.map((faq) => (
+        <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">{faq.question}</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">{faq.answer}</div>
+          </div>
+        </div>
+      ))}
+    </section>
+  )
+}

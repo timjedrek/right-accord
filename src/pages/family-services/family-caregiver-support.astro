@@ -5,11 +5,21 @@ import Hero from '~/components/widgets/Hero.astro';
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+// Schema data for family-caregiver-support page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/family-services/family-caregiver-support'
+  }
+};
+
 
 import HeroImage from '~/assets/images/main-image_family-caregiver.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero Widget ******************* -->
 
   <Hero

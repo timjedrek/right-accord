@@ -7,6 +7,67 @@ import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
   title: '24-Hour in Home Care | RIGHT ACCORD Health Care',
+  description:
+    'Professional 24-hour in-home care services for seniors in Florida. Comprehensive around-the-clock care, safety monitoring, and assistance with daily activities from RIGHT ACCORD.',
+};
+
+// Schema data for 24-hour care service page
+const schemaData = {
+  page: {
+    type: 'service' as const,
+    title: metadata.title,
+    description: metadata.description,
+    url: 'https://rightaccordhealth.com/services/24-hour-care',
+  },
+  service: {
+    name: '24-Hour In-Home Care',
+    description:
+      'Comprehensive 24-hour in-home care services for seniors who need round-the-clock assistance and monitoring.',
+    url: 'https://rightaccordhealth.com/services/24-hour-care',
+    serviceType: 'Home Health Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    },
+    category: 'Senior Care Services',
+    offers: {
+      price: 'Contact for pricing',
+      priceCurrency: 'USD',
+      availability: '24 hours a day, 7 days a week',
+    },
+    additionalType: 'https://schema.org/MedicalService',
+    hasOfferCatalog: {
+      name: '24-Hour Care Services',
+      numberOfItems: 6,
+      itemListElement: [
+        {
+          name: 'Cognitive Impairment Care',
+          url: 'https://rightaccordhealth.com/services/24-hour-care#cognitive-care',
+        },
+        {
+          name: 'Safety Monitoring',
+          url: 'https://rightaccordhealth.com/services/24-hour-care#safety-monitoring',
+        },
+        {
+          name: 'Medication Management',
+          url: 'https://rightaccordhealth.com/services/24-hour-care#medication-management',
+        },
+        {
+          name: 'Fall Prevention',
+          url: 'https://rightaccordhealth.com/services/24-hour-care#fall-prevention',
+        },
+        {
+          name: 'Nutrition Support',
+          url: 'https://rightaccordhealth.com/services/24-hour-care#nutrition-support',
+        },
+        {
+          name: 'Personal Care Assistance',
+          url: 'https://rightaccordhealth.com/services/24-hour-care#personal-care',
+        },
+      ],
+    },
+  },
 };
 
 const facts = [
@@ -63,7 +124,7 @@ import HeroImage from '~/assets/images/right-accord-health-florida-live-in-home-
 import BenefitsImage from '~/assets/images/right-accord-health-florida-live-in-home-2.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

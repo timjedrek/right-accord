@@ -5,11 +5,21 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+// Schema data for family-portal-ersp page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/family-services/family-portal-ersp'
+  }
+};
+
 
 import HeroImage from '~/assets/images/main-image_family-portal.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

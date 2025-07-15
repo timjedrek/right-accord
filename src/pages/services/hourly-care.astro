@@ -13,6 +13,28 @@ import Image from 'astro/components/Image.astro';
 const metadata = {
   title: 'Hourly Care or 24-Hour Care | RIGHT ACCORD Health',
 };
+// Schema data for Hourly Home Care page
+const schemaData = {
+  page: {
+    type: 'service' as const,
+    title: 'Hourly Care',
+    description: 'Flexible hourly care services for seniors needing assistance with daily activities.',
+    url: 'https://rightaccordhealth.com/services/hourly-care',
+  },
+  service: {
+    name: 'Hourly Care',
+    description: 'Flexible hourly care services for seniors needing assistance with daily activities.',
+    url: 'https://rightaccordhealth.com/services/hourly-care',
+    serviceType: 'Home Health Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    },
+    category: 'Healthcare Services',
+    additionalType: 'https://schema.org/MedicalService',
+  },
+};
 
 const benefits = [
   {
@@ -137,7 +159,7 @@ const companionship = [
 ];
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

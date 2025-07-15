@@ -7,12 +7,40 @@ import Image from '~/components/common/Image.astro';
 const metadata = {
   title: 'Post Surgical/Recovery Care | RIGHT ACCORD Private Duty Home Health Care',
 };
+// Schema data for Post-Surgical Recovery Care page
+const schemaData = {
+  page: {
+    type: 'specialty',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/specialty-care/post-surgical-recovery-and-rehabilitation-care'
+  },
+  medicalProcedure: {
+    name: 'Post-Surgical Recovery Care',
+    description: 'Professional post-surgical care and rehabilitation services for safe recovery at home.',
+    procedureType: 'Recovery Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com'
+    },
+    medicalCondition: {
+      name: 'Post-Surgical Recovery',
+      description: 'Professional post-surgical care and rehabilitation services for safe recovery at home.',
+      possibleTreatment: [
+        'Post-Surgical Care',
+        'Wound Care',
+        'Recovery Support'
+      ]
+    }
+  }
+};
+
 
 import HeroImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_POSTSURGICAL.jpg';
 import HomeCareImage from '~/assets/images/sub-image1_post-surgery.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

@@ -1,0 +1,133 @@
+---
+// Technical SEO optimizations and performance enhancements
+export interface Props {
+  enableSpeedInsights?: boolean;
+  preloadImages?: string[];
+  critical?: {
+    css?: string[];
+    fonts?: string[];
+  };
+}
+
+const { 
+  enableSpeedInsights = true,
+  preloadImages = [],
+  critical = {}
+} = Astro.props;
+---
+
+<!-- DNS Prefetching for Performance -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+
+<!-- Preconnect to Critical Third Parties -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+
+<!-- Critical Resource Hints -->
+{critical.fonts && critical.fonts.map(font => (
+  <link rel="preload" href={font} as="font" type="font/woff2" crossorigin />
+))}
+
+{critical.css && critical.css.map(css => (
+  <link rel="preload" href={css} as="style" />
+))}
+
+<!-- Preload Critical Images -->
+{preloadImages.map(image => (
+  <link rel="preload" href={image} as="image" />
+))}
+
+<!-- Additional Security Headers -->
+<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+<meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+
+<!-- Improved Accessibility -->
+<meta name="theme-color" content="#0066CC" />
+<meta name="msapplication-TileColor" content="#0066CC" />
+<meta name="msapplication-config" content="/browserconfig.xml" />
+
+<!-- Enhanced Mobile Optimization -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="RIGHT ACCORD" />
+
+<!-- Search Engine Directives -->
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+<!-- Content Language -->
+<meta http-equiv="Content-Language" content="en-US" />
+
+<!-- PWA Manifest -->
+<link rel="manifest" href="/manifest.json" />
+
+{enableSpeedInsights && (
+  <script>
+    // Performance monitoring placeholder
+    // Web Vitals tracking can be added when the library is available
+    if (typeof window !== 'undefined') {
+      // Basic performance tracking
+      window.addEventListener('load', function() {
+        const performanceTiming = window.performance?.timing;
+        if (performanceTiming) {
+          const loadTime = performanceTiming.loadEventEnd - performanceTiming.navigationStart;
+          console.log('Page load time:', loadTime + 'ms');
+        }
+      });
+    }
+  </script>
+)}
+
+<!-- Optimize Resource Loading -->
+<script>
+  // Preload critical pages on hover
+  document.addEventListener('DOMContentLoaded', function() {
+    const prefetchLinks = document.querySelectorAll('a[href^="/"]');
+    const prefetched = new Set();
+    
+    function prefetchPage(url) {
+      if (!prefetched.has(url) && url !== window.location.pathname) {
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = url;
+        document.head.appendChild(link);
+        prefetched.add(url);
+      }
+    }
+    
+    prefetchLinks.forEach(link => {
+      link.addEventListener('mouseenter', () => {
+        prefetchPage(link.getAttribute('href'));
+      });
+    });
+  });
+</script>
+
+<!-- Lazy Loading Enhancement -->
+<script>
+  // Enhanced lazy loading for images
+  if ('loading' in HTMLImageElement.prototype) {
+    const images = document.querySelectorAll('img[data-src]');
+    images.forEach(img => {
+      const imageElement = img as HTMLImageElement;
+      if (imageElement.dataset && imageElement.dataset.src) {
+        imageElement.src = imageElement.dataset.src;
+        imageElement.removeAttribute('data-src');
+      }
+    });
+  } else {
+    // Fallback for browsers without native lazy loading
+    const script = document.createElement('script');
+    script.src = '/js/lazy-loading-polyfill.js';
+    document.body.appendChild(script);
+  }
+</script>

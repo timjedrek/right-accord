@@ -6,11 +6,21 @@ import FAQs from '~/components/widgets/FAQs.astro';
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+// Schema data for frequently-asked-questions page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/family-services/frequently-asked-questions'
+  }
+};
+
 
 import HeroImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_ALZHAIMERS.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero

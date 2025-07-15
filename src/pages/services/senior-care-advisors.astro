@@ -6,11 +6,35 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 const metadata = {
   title: 'Senior Care Advisors',
 };
+// Schema data for senior-care-advisors page
+const schemaData = {
+  page: {
+    type: 'service' as const,
+    title: 'Senior Care Advisors',
+    description:
+      'The Senior Care Advisors are individuals who are able to provide clients and families guidance in times of difficulty in making health care decisions.',
+    url: 'https://rightaccordhealth.com/services/senior-care-advisors',
+  },
+  service: {
+    name: 'Senior Care Advisors',
+    description:
+      'The Senior Care Advisors are individuals who are able to provide clients and families guidance in times of difficulty in making health care decisions.',
+    url: 'https://rightaccordhealth.com/services/senior-care-advisors',
+    serviceType: 'Home Health Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    },
+    category: 'Healthcare Services',
+    additionalType: 'https://schema.org/MedicalService',
+  },
+};
 
 import HeroImage from '~/assets/images/right-accord-health-florida-senior-care-advisor-1.jpeg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero

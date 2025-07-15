@@ -6,6 +6,30 @@ import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
   title: 'Home Care Packages | RIGHT ACCORD Health',
+  description:
+    'Comprehensive home care packages tailored to individual needs. Sunrise, Sunset, Wellness Check-in, and Welcome Home packages available in Florida.',
+};
+// Schema data for Home Care Packages page
+const schemaData = {
+  page: {
+    type: 'service' as const,
+    title: 'Home Care Packages',
+    description: 'Comprehensive home care packages tailored to individual needs and preferences.',
+    url: 'https://rightaccordhealth.com/services/home-care-packages',
+  },
+  service: {
+    name: 'Home Care Packages',
+    description: 'Comprehensive home care packages tailored to individual needs and preferences.',
+    url: 'https://rightaccordhealth.com/services/home-care-packages',
+    serviceType: 'Home Health Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    },
+    category: 'Healthcare Services',
+    additionalType: 'https://schema.org/MedicalService',
+  },
 };
 
 import HeroImage from '/src/assets/images/right-accord-health-florida-home-health-care-package-1.jpg';
@@ -15,7 +39,7 @@ import WellnessPackage from '/src/assets/images/right-accord-health-florida-home
 import WelcomePackage from '/src/assets/images/right-accord-health-florida-home-health-care-package-5.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

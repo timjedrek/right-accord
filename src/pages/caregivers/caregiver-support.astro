@@ -5,11 +5,21 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 const metadata = {
   title: 'Sales Landing Page Demo',
 };
+// Schema data for caregiver-support page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/caregivers/caregiver-support'
+  }
+};
+
 
 import HeroImage from '~/assets/images/home-maker2.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
