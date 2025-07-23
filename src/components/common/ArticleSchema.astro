@@ -1,0 +1,120 @@
+---
+// Article Schema for blog posts and content pages
+export interface Props {
+  article: {
+    title: string;
+    description: string;
+    publishDate: Date;
+    modifiedDate?: Date;
+    author?: string;
+    image?: string;
+    url: string;
+    category?: string;
+    tags?: string[];
+    readingTime?: number;
+  };
+}
+
+const { article } = Astro.props;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.title,
+  description: article.description,
+  url: article.url,
+  datePublished: article.publishDate.toISOString(),
+  dateModified: (article.modifiedDate || article.publishDate).toISOString(),
+  author: {
+    '@type': 'Organization',
+    name: article.author || 'RIGHT ACCORD Home Health Care',
+    url: 'https://rightaccordhealth.com',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'RIGHT ACCORD Home Health Care',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://rightaccordhealth.com/right-accord-logo-solo.svg',
+      width: 512,
+      height: 512,
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': article.url,
+  },
+  ...(article.image && {
+    image: {
+      '@type': 'ImageObject',
+      url: article.image,
+      width: 1200,
+      height: 630,
+    },
+  }),
+  ...(article.category && {
+    articleSection: article.category,
+  }),
+  ...(article.tags && {
+    keywords: article.tags.join(', '),
+  }),
+  inLanguage: 'en-US',
+  isAccessibleForFree: true,
+  about: {
+    '@type': 'Thing',
+    name: 'Home Health Care',
+    description: 'Professional home health care services for seniors',
+  },
+};
+
+// Breadcrumb for article
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://rightaccordhealth.com',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Blog',
+      item: 'https://rightaccordhealth.com/blog',
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: article.title,
+      item: article.url,
+    },
+  ],
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+<!-- Article Microdata -->
+<div itemscope itemtype="https://schema.org/Article" style="display: none;">
+  <span itemprop="headline">{article.title}</span>
+  <span itemprop="description">{article.description}</span>
+  <time itemprop="datePublished" datetime={article.publishDate.toISOString()}>
+    {article.publishDate.toLocaleDateString()}
+  </time>
+  <span itemprop="author" itemscope itemtype="https://schema.org/Organization">
+    <span itemprop="name">{article.author || 'RIGHT ACCORD Home Health Care'}</span>
+  </span>
+  <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <span itemprop="name">RIGHT ACCORD Home Health Care</span>
+  </span>
+</div>
+
+<!-- Additional Meta Tags -->
+<meta name="article:published_time" content={article.publishDate.toISOString()} />
+<meta name="article:modified_time" content={(article.modifiedDate || article.publishDate).toISOString()} />
+{article.author && <meta name="article:author" content={article.author} />}
+{article.category && <meta name="article:section" content={article.category} />}
+{article.tags && article.tags.map((tag) => <meta name="article:tag" content={tag} />)}

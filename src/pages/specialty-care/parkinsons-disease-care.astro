@@ -6,13 +6,39 @@ import Image from '~/components/common/Image.astro';
 
 const metadata = {
   title: 'Parkinsons Disease In-Home Care | RIGHT ACCORD Private Duty Home Health Care',
+  description:
+    "Specialized Parkinson's disease care services in Florida. Expert movement assistance, medication management, and daily living support from certified caregivers.",
+};
+
+// Schema data for Parkinson's Disease Care page
+const schemaData = {
+  page: {
+    type: 'specialty' as const,
+    title: "Parkinson's Disease Care",
+    description: "Specialized care and support for individuals living with Parkinson's disease.",
+    url: 'https://rightaccordhealth.com/specialty-care/parkinsons-disease-care',
+  },
+  medicalProcedure: {
+    name: "Parkinson's Disease Care",
+    description: "Specialized care and support for individuals living with Parkinson's disease.",
+    procedureType: 'Neurological Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+    },
+    medicalCondition: {
+      name: "Parkinson's Disease",
+      description: "Specialized care and support for individuals living with Parkinson's disease.",
+      possibleTreatment: ["Parkinson's Care", 'Movement Assistance', 'Medication Management'],
+    },
+  },
 };
 
 import HeroImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_PARKINSONS.jpg';
 import HomeCareImage from '~/assets/images/sub-image1_parkinsons-care.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

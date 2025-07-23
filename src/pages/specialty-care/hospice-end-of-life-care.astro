@@ -7,12 +7,40 @@ import Image from '~/components/common/Image.astro';
 const metadata = {
   title: 'Hospice & End of Life Support Care | RIGHT ACCORD Private Duty Home Health Care',
 };
+// Schema data for Hospice & End-of-Life Care page
+const schemaData = {
+  page: {
+    type: 'specialty',
+    title: 'Hospice & End of Life Support Care | RIGHT ACCORD Private Duty Home Health Care',
+    description: 'Learn about compassionate hospice and end-of-life care services provided by RIGHT ACCORD Home Health Care, ensuring comfort and dignity for patients with terminal illnesses.',
+    url: 'https://rightaccordhealth.com/specialty-care/hospice-end-of-life-care'
+  },
+  medicalProcedure: {
+    name: 'Hospice & End-of-Life Care',
+    description: 'Compassionate hospice and end-of-life care services providing comfort and dignity.',
+    procedureType: 'Hospice Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com'
+    },
+    medicalCondition: {
+      name: 'Terminal Illness',
+      description: 'Compassionate hospice and end-of-life care services providing comfort and dignity.',
+      possibleTreatment: [
+        'Hospice Care',
+        'Palliative Care',
+        'End-of-Life Support'
+      ]
+    }
+  }
+};
+
 
 import HeroImage from '~/assets/images/main-image_hospice-care.jpg';
 import HomeCareImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_HOSPICE.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero

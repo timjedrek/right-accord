@@ -1,0 +1,145 @@
+---
+// Review Schema Component for testimonials and reviews
+export interface ReviewItem {
+  reviewBody: string;
+  reviewRating: {
+    ratingValue: number;
+    bestRating?: number;
+    worstRating?: number;
+  };
+  author: {
+    name: string;
+    location?: string;
+  };
+  datePublished?: Date;
+  itemReviewed?: {
+    name: string;
+    type: string;
+  };
+}
+
+export interface Props {
+  reviews: ReviewItem[];
+  aggregateRating?: {
+    ratingValue: number;
+    reviewCount: number;
+    bestRating?: number;
+    worstRating?: number;
+  };
+  businessName?: string;
+}
+
+const { reviews, aggregateRating, businessName = 'RIGHT ACCORD Home Health Care' } = Astro.props;
+
+const reviewSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': 'https://rightaccordhealth.com/#organization',
+  name: businessName,
+  review: reviews.map((review) => ({
+    '@type': 'Review',
+    reviewBody: review.reviewBody,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: review.reviewRating.ratingValue,
+      bestRating: review.reviewRating.bestRating || 5,
+      worstRating: review.reviewRating.worstRating || 1,
+    },
+    author: {
+      '@type': 'Person',
+      name: review.author.name,
+      ...(review.author.location && {
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: review.author.location,
+        },
+      }),
+    },
+    ...(review.datePublished && {
+      datePublished: review.datePublished.toISOString().split('T')[0],
+    }),
+    ...(review.itemReviewed && {
+      itemReviewed: {
+        '@type': review.itemReviewed.type,
+        name: review.itemReviewed.name,
+      },
+    }),
+  })),
+  ...(aggregateRating && {
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: aggregateRating.ratingValue,
+      reviewCount: aggregateRating.reviewCount,
+      bestRating: aggregateRating.bestRating || 5,
+      worstRating: aggregateRating.worstRating || 1,
+    },
+  }),
+};
+
+// Individual review schemas for better granular indexing
+const individualReviewSchemas = reviews.map((review) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Review',
+  reviewBody: review.reviewBody,
+  reviewRating: {
+    '@type': 'Rating',
+    ratingValue: review.reviewRating.ratingValue,
+    bestRating: review.reviewRating.bestRating || 5,
+    worstRating: review.reviewRating.worstRating || 1,
+  },
+  author: {
+    '@type': 'Person',
+    name: review.author.name,
+    ...(review.author.location && {
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: review.author.location,
+      },
+    }),
+  },
+  itemReviewed: {
+    '@type': 'MedicalBusiness',
+    '@id': 'https://rightaccordhealth.com/#organization',
+    name: businessName,
+  },
+  ...(review.datePublished && {
+    datePublished: review.datePublished.toISOString().split('T')[0],
+  }),
+}));
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(reviewSchema)} />
+{individualReviewSchemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
+
+<!-- Review Microdata -->
+<div itemscope itemtype="https://schema.org/Organization" style="display: none;">
+  <span itemprop="name">{businessName}</span>
+  {
+    aggregateRating && (
+      <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+        <span itemprop="ratingValue">{aggregateRating.ratingValue}</span>
+        <span itemprop="reviewCount">{aggregateRating.reviewCount}</span>
+        <span itemprop="bestRating">{aggregateRating.bestRating || 5}</span>
+        <span itemprop="worstRating">{aggregateRating.worstRating || 1}</span>
+      </div>
+    )
+  }
+  {
+    reviews.map((review) => (
+      <div itemprop="review" itemscope itemtype="https://schema.org/Review">
+        <span itemprop="reviewBody">{review.reviewBody}</span>
+        <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+          <span itemprop="ratingValue">{review.reviewRating.ratingValue}</span>
+          <span itemprop="bestRating">{review.reviewRating.bestRating || 5}</span>
+        </div>
+        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">{review.author.name}</span>
+        </span>
+      </div>
+    ))
+  }
+</div>
+
+<!-- Review-specific meta tags -->
+{aggregateRating && <meta name="rating:average" content={aggregateRating.ratingValue.toString()} />}
+{aggregateRating && <meta name="rating:count" content={aggregateRating.reviewCount.toString()} />}

@@ -1,0 +1,227 @@
+---
+// Healthcare Organization Schema with enhanced medical business features
+export interface Props {
+  organization: {
+    name: string;
+    description: string;
+    url: string;
+    telephone?: string;
+    email?: string;
+    address?: {
+      streetAddress: string;
+      addressLocality: string;
+      addressRegion: string;
+      postalCode: string;
+      addressCountry: string;
+    };
+    location?: {
+      latitude: number;
+      longitude: number;
+    };
+    socialMedia?: {
+      facebook?: string;
+      linkedin?: string;
+      youtube?: string;
+    };
+    accreditation?: string[];
+    medicalSpecialty?: string[];
+    areaServed?: string[];
+    paymentAccepted?: string[];
+    priceRange?: string;
+    operatingHours?: {
+      dayOfWeek: string;
+      opens: string;
+      closes: string;
+    }[];
+  };
+}
+
+const { organization } = Astro.props;
+
+const healthcareOrgSchema = {
+  '@context': 'https://schema.org',
+  '@type': ['MedicalBusiness', 'HomeAndConstructionBusiness', 'HealthAndBeautyBusiness'],
+  '@id': 'https://rightaccordhealth.com/#organization',
+  name: organization.name,
+  description: organization.description,
+  url: organization.url,
+  telephone: organization.telephone,
+  ...(organization.email && { email: organization.email }),
+
+  // Address and location
+  ...(organization.address && {
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: organization.address.streetAddress,
+      addressLocality: organization.address.addressLocality,
+      addressRegion: organization.address.addressRegion,
+      postalCode: organization.address.postalCode,
+      addressCountry: organization.address.addressCountry,
+    },
+  }),
+  ...(organization.location && {
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: organization.location.latitude,
+      longitude: organization.location.longitude,
+    },
+  }),
+
+  // Medical business specific properties
+  ...(organization.medicalSpecialty && {
+    medicalSpecialty: organization.medicalSpecialty,
+  }),
+  ...(organization.areaServed && {
+    areaServed: organization.areaServed.map((area) => ({
+      '@type': 'City',
+      name: area,
+    })),
+  }),
+  ...(organization.paymentAccepted && {
+    paymentAccepted: organization.paymentAccepted,
+  }),
+  ...(organization.priceRange && {
+    priceRange: organization.priceRange,
+  }),
+
+  // Operational details
+  ...(organization.operatingHours && {
+    openingHours: organization.operatingHours.map((hours) => `${hours.dayOfWeek} ${hours.opens}-${hours.closes}`),
+  }),
+
+  // Social media and online presence
+  ...(organization.socialMedia && {
+    sameAs: Object.values(organization.socialMedia).filter(Boolean),
+  }),
+
+  // Healthcare-specific properties
+  availableService: [
+    {
+      '@type': 'MedicalTherapy',
+      name: "Alzheimer's and Dementia Care",
+      serviceType: 'Memory Care',
+    },
+    {
+      '@type': 'MedicalTherapy',
+      name: "Parkinson's Disease Care",
+      serviceType: 'Neurological Care',
+    },
+    {
+      '@type': 'MedicalTherapy',
+      name: 'Post-Stroke Care',
+      serviceType: 'Rehabilitation',
+    },
+    {
+      '@type': 'MedicalTherapy',
+      name: 'Hospice Care',
+      serviceType: 'End of Life Care',
+    },
+    {
+      '@type': 'MedicalTherapy',
+      name: 'Post-Surgical Care',
+      serviceType: 'Recovery Care',
+    },
+    {
+      '@type': 'Service',
+      name: '24-Hour Home Care',
+      serviceType: 'Personal Care',
+    },
+    {
+      '@type': 'Service',
+      name: 'Companion Care',
+      serviceType: 'Social Support',
+    },
+  ],
+
+  // Licensing and accreditation
+  ...(organization.accreditation && {
+    accreditation: organization.accreditation.map((acc) => ({
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: acc,
+    })),
+  }),
+
+  // Organization details
+  foundingDate: '2012',
+  numberOfEmployees: {
+    '@type': 'QuantitativeValue',
+    minValue: 50,
+    maxValue: 100,
+  },
+  legalName: 'RIGHT ACCORD Private Duty Home Health Care',
+  slogan: 'Caring for your family like our own',
+
+  // Additional business properties
+  knowsAbout: [
+    'Home Health Care',
+    'Senior Care',
+    "Alzheimer's Care",
+    'Dementia Care',
+    "Parkinson's Care",
+    'Stroke Recovery',
+    'Hospice Care',
+    'Post-Surgical Care',
+    'Personal Care',
+    'Companion Care',
+    'Skilled Nursing',
+    'Physical Therapy',
+    'Occupational Therapy',
+  ],
+
+  // Service area
+  serviceArea: {
+    '@type': 'State',
+    name: 'Florida',
+    containsPlace:
+      organization.areaServed?.map((city) => ({
+        '@type': 'City',
+        name: city,
+      })) || [],
+  },
+};
+
+// Professional Service schema
+const professionalServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': 'https://rightaccordhealth.com/#professionalservice',
+  name: organization.name,
+  provider: {
+    '@type': 'MedicalBusiness',
+    '@id': 'https://rightaccordhealth.com/#organization',
+  },
+  serviceType: 'Home Health Care',
+  category: 'Healthcare',
+  areaServed: organization.areaServed?.map((area) => ({
+    '@type': 'City',
+    name: area,
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(healthcareOrgSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(professionalServiceSchema)} />
+
+<!-- Organization Microdata -->
+<div itemscope itemtype="https://schema.org/MedicalBusiness" style="display: none;">
+  <span itemprop="name">{organization.name}</span>
+  <span itemprop="description">{organization.description}</span>
+  <span itemprop="telephone">{organization.telephone}</span>
+  {
+    organization.address && (
+      <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <span itemprop="streetAddress">{organization.address.streetAddress}</span>
+        <span itemprop="addressLocality">{organization.address.addressLocality}</span>
+        <span itemprop="addressRegion">{organization.address.addressRegion}</span>
+        <span itemprop="postalCode">{organization.address.postalCode}</span>
+      </div>
+    )
+  }
+</div>
+
+<!-- Healthcare-specific meta tags -->
+<meta name="healthcare:specialty" content="Home Health Care" />
+<meta name="healthcare:services" content="Senior Care, Alzheimer's Care, Dementia Care, Parkinson's Care" />
+{organization.telephone && <meta name="business:contact_data:phone_number" content={organization.telephone} />}
+{organization.address && <meta name="business:contact_data:locality" content={organization.address.addressLocality} />}
+{organization.address && <meta name="business:contact_data:region" content={organization.address.addressRegion} />}

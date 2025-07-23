@@ -8,12 +8,40 @@ import Image from '~/components/common/Image.astro';
 const metadata = {
   title: 'After Stroke In-Home Care | RIGHT ACCORD Private Duty Home Health Care',
 };
+// Schema data for After Stroke In-Home Care page
+const schemaData = {
+  page: {
+    type: 'specialty',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/specialty-care/after-stroke-in-home-care'
+  },
+  medicalProcedure: {
+    name: 'After Stroke In-Home Care',
+    description: 'Comprehensive post-stroke care and rehabilitation services in the home environment.',
+    procedureType: 'Rehabilitation Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com'
+    },
+    medicalCondition: {
+      name: 'Stroke Recovery',
+      description: 'Comprehensive post-stroke care and rehabilitation services in the home environment.',
+      possibleTreatment: [
+        'Stroke Recovery',
+        'Physical Therapy Support',
+        'Speech Therapy Support'
+      ]
+    }
+  }
+};
+
 
 import HeroImage from '~/assets/images/right-accord-health-florida-HOMEPAGE_AFTERSTROKE.jpg';
 import CaregiversImage from '/src/assets/images/main-image_after-stroke.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero

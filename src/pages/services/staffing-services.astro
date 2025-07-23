@@ -6,11 +6,33 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 const metadata = {
   title: 'Staffing Services',
 };
+// Schema data for staffing-services page
+const schemaData = {
+  page: {
+    type: 'service' as const,
+    title: 'Staffing Services',
+    description: 'RIGHT ACCORD understands the impact of nursing shortage in the delivery of health care services.',
+    url: 'https://rightaccordhealth.com/services/staffing-services',
+  },
+  service: {
+    name: 'Staffing Services',
+    description: 'RIGHT ACCORD understands the impact of nursing shortage in the delivery of health care services.',
+    url: 'https://rightaccordhealth.com/services/staffing-services',
+    serviceType: 'Home Health Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    },
+    category: 'Healthcare Services',
+    additionalType: 'https://schema.org/MedicalService',
+  },
+};
 
 import HeroImage from '~/assets/images/STAFFINGSERVICES.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

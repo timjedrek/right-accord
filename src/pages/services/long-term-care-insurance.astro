@@ -6,12 +6,36 @@ import Image from '~/components/common/Image.astro';
 const metadata = {
   title: 'Long Term Care Insurance | RIGHT ACCORD Health',
 };
+// Schema data for long-term-care-insurance page
+const schemaData = {
+  page: {
+    type: 'service' as const,
+    title: 'Long Term Care Insurance',
+    description:
+      'Long Term Care Insurance is designed to cover the costs of long-term care services, including personal and custodial care.',
+    url: 'https://rightaccordhealth.com/services/home-care-packages',
+  },
+  service: {
+    name: 'Long Term Care Insurance',
+    description:
+      'Long Term Care Insurance is designed to cover the costs of long-term care services, including personal and custodial care.',
+    url: 'https://rightaccordhealth.com/services/long-term-care-insurance',
+    serviceType: 'Home Health Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    },
+    category: 'Healthcare Services',
+    additionalType: 'https://schema.org/MedicalService',
+  },
+};
 
 import HeroImage from '~/assets/images/right-accord-health-florida-INSURANCE1.jpg';
 import InsuranceImage from '~/assets/images/right-accord-health-florida-INSURANCE2.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

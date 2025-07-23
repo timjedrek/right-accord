@@ -201,11 +201,21 @@ const resources = [
 const metadata = {
   title: 'Pre-Launch Landing Page',
 };
+// Schema data for community-care-resources page
+const schemaData = {
+  page: {
+    type: 'service',
+    title: '',
+    description: '',
+    url: 'https://rightaccordhealth.com/family-services/community-care-resources'
+  }
+};
+
 
 import HeroImage from '~/assets/images/main-image_community-care.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero Widget ******************* -->
 
   <Hero

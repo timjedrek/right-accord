@@ -11,7 +11,7 @@ metadata:
   title:
     default: RIGHT ACCORD
     template: '%s | RIGHT ACCORD'
-  description: "\U0001F680 RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family."
+  description: '🚀 RIGHT ACCORD Home Health Care is local, family owned and operated. We are very passionate about helping seniors and we treat each elderly home care client like our own family.'
   robots:
     index: true
     follow: true
@@ -23,8 +23,8 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@rightaccord'
+    site: '@rightaccord'
     cardType: summary_large_image
 
 i18n:

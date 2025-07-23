@@ -7,9 +7,32 @@ import Features2 from '~/components/widgets/Features2.astro';
 const metadata = {
   title: 'Contact Us | RIGHT ACCORD Health',
 };
+// Schema data for Contact RIGHT ACCORD Home Health Care
+const schemaData = {
+  page: {
+    type: 'contact' as const,
+    title: 'Contact RIGHT ACCORD Home Health Care',
+    description: 'Contact RIGHT ACCORD for home health care services in Florida. Call us or schedule a consultation.',
+    url: 'https://rightaccordhealth.com/contact',
+  },
+  organization: {
+    name: 'RIGHT ACCORD Home Health Care',
+    telephone: '+1-941-366-0801',
+    email: 'info@rightaccordhealth.com',
+    url: 'https://rightaccordhealth.com',
+    areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    address: {
+      streetAddress: '1337 Fruitville Road',
+      addressLocality: 'Sarasota',
+      addressRegion: 'FL',
+      postalCode: '34236',
+      addressCountry: 'US',
+    },
+  },
+};
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- HeroText Widget ******************* -->
 
   <HeroText tagline="Contact" title="Let's Connect!" />

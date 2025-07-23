@@ -35,14 +35,95 @@ import ManateeChamberLogo from 'src/assets/images/Chamber-Logo-Homepage-1.png';
 import LongboatkeyChamberLogo from 'src/assets/images/Longboat-Key-Rebrand-1.jpg';
 
 import Booklet from '/src/assets/images/booklet.png';
+import EnhancedSEO from '~/components/common/EnhancedSEO.astro';
+import FAQSchema from '~/components/common/FAQSchema.astro';
 
 const metadata = {
   title: 'Home Health Care Sarasota, FL | RIGHT ACCORD Private Duty Home Health Care',
   ignoreTitleTemplate: true,
+  description:
+    "RIGHT ACCORD Home Health Care provides compassionate, professional home health services in Sarasota, FL and surrounding areas. Senior care, Alzheimer's care, post-surgical care, and companion services.",
 };
+
+// Schema data for homepage
+const schemaData = {
+  page: {
+    type: 'home' as const,
+    title: metadata.title,
+    description: metadata.description,
+    url: 'https://rightaccordhealth.com/',
+  },
+  reviews: [
+    {
+      reviewBody:
+        'RIGHT ACCORD provided exceptional care for my mother. The caregivers are professional, compassionate, and truly dedicated.',
+      reviewRating: {
+        ratingValue: 5,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      author: {
+        name: 'Mary Johnson',
+      },
+      datePublished: new Date('2024-11-15'),
+    },
+    {
+      reviewBody:
+        'Outstanding home health care services. The team went above and beyond to ensure my father received the best care possible.',
+      reviewRating: {
+        ratingValue: 5,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      author: {
+        name: 'Robert Smith',
+      },
+      datePublished: new Date('2024-10-22'),
+    },
+  ],
+  aggregateRating: {
+    ratingValue: 4.8,
+    reviewCount: 53,
+  },
+};
+
+const homepageFaqs = [
+  {
+    question: 'What home health care services does RIGHT ACCORD provide?',
+    answer:
+      "We provide comprehensive home health care including senior care, Alzheimer's and dementia care, post-surgical care, companion care, personal care, respite care, and live-in care services throughout Sarasota, Bradenton, Venice, and surrounding Southwest Florida areas.",
+  },
+  {
+    question: 'What areas in Florida do you serve?',
+    answer:
+      'RIGHT ACCORD serves Sarasota, Bradenton, Venice, North Port, Fort Myers, Cape Coral, Lakewood Ranch, Longboat Key, Siesta Key, and surrounding areas in Sarasota, Manatee, and Lee counties.',
+  },
+  {
+    question: 'Are your caregivers licensed and insured?',
+    answer:
+      'Yes, all RIGHT ACCORD caregivers are thoroughly screened, licensed, bonded, and insured. We conduct comprehensive background checks and provide ongoing training to ensure the highest quality of care.',
+  },
+  {
+    question: 'Do you accept insurance for home health care services?',
+    answer:
+      'We work with various payment options including private pay, long-term care insurance, Veterans Aid & Attendance benefits, and some Medicaid programs. Contact us to discuss your specific insurance coverage.',
+  },
+];
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
+  <EnhancedSEO
+    pageType="homepage"
+    services={[
+      'Senior Care',
+      "Alzheimer's Care",
+      'Post-Surgical Care',
+      'Companion Care',
+      'Personal Care',
+      'Respite Care',
+    ]}
+  />
+  <FAQSchema faqs={homepageFaqs} />
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

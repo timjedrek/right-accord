@@ -7,12 +7,36 @@ import ItemGrid from '~/components/ui/ItemGrid.astro';
 const metadata = {
   title: 'Skilled Nursing Services',
 };
+// Schema data for Skilled Nursing Services page
+const schemaData = {
+  page: {
+    type: 'service' as const,
+    title: 'Skilled Nursing Services',
+    description:
+      "RIGHT ACCORD provides skilled nursing services by a registered professional nurse in your loved one's home.",
+    url: 'https://rightaccordhealth.com/services/skilled-nursing',
+  },
+  service: {
+    name: 'Skilled Nursing Services',
+    description:
+      "RIGHT ACCORD provides skilled nursing services by a registered professional nurse in your loved one's home.",
+    url: 'https://rightaccordhealth.com/services/skilled-nursing',
+    serviceType: 'Home Health Care Services',
+    provider: {
+      name: 'RIGHT ACCORD Home Health Care',
+      url: 'https://rightaccordhealth.com',
+      areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    },
+    category: 'Healthcare Services',
+    additionalType: 'https://schema.org/MedicalService',
+  },
+};
 
 import HeroImage from '~/assets/images/right-accord-health-florida-skilled-nursing-1.jpg';
 import benefitsImage from '~/assets/images/right-accord-health-florida-skilled-nursing-2.jpg';
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero2 Widget ******************* -->
 
   <Hero2

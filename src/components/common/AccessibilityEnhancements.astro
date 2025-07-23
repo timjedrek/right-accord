@@ -1,0 +1,264 @@
+---
+// Accessibility enhancements component
+export interface Props {
+  skipToContentId?: string;
+  enableHighContrast?: boolean;
+  enableFocusVisible?: boolean;
+}
+
+const { 
+  skipToContentId = 'main-content',
+  enableHighContrast = true,
+  enableFocusVisible = true 
+} = Astro.props;
+---
+
+<!-- Skip to main content link for screen readers -->
+<a 
+  href={`#${skipToContentId}`}
+  class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-blue-600 focus:text-white focus:no-underline"
+  tabindex="1"
+>
+  Skip to main content
+</a>
+
+{enableHighContrast && (
+  <>
+    <script>
+      function toggleHighContrast() {
+        const body = document.body;
+        const isHighContrast = body.classList.contains('high-contrast');
+        
+        if (isHighContrast) {
+          body.classList.remove('high-contrast');
+          localStorage.setItem('high-contrast', 'false');
+        } else {
+          body.classList.add('high-contrast');
+          localStorage.setItem('high-contrast', 'true');
+        }
+        // Update aria-pressed state
+        const btn = document.querySelector('.high-contrast-toggle');
+        if (btn) {
+          btn.setAttribute('aria-pressed', body.classList.contains('high-contrast') ? 'true' : 'false');
+        }
+      }
+      
+      // Make function available globally
+      if (typeof window !== 'undefined') {
+        (window as any).toggleHighContrast = toggleHighContrast;
+      }
+      
+      // Restore user preference on page load
+      document.addEventListener('DOMContentLoaded', function() {
+        const savedPreference = localStorage.getItem('high-contrast');
+        if (savedPreference === 'true') {
+          document.body.classList.add('high-contrast');
+        }
+        // Set initial aria-pressed state
+        const btn = document.querySelector('.high-contrast-toggle');
+        if (btn) {
+          btn.setAttribute('aria-pressed', document.body.classList.contains('high-contrast') ? 'true' : 'false');
+        }
+      });
+    </script>
+    
+    <style>
+      /* High contrast mode styles */
+      .high-contrast {
+        filter: contrast(1.5) brightness(1.2);
+      }
+      
+      .high-contrast a {
+        text-decoration: underline !important;
+      }
+      
+      .high-contrast button:focus,
+      .high-contrast input:focus,
+      .high-contrast select:focus,
+      .high-contrast textarea:focus {
+        outline: 3px solid #ffffff !important;
+        outline-offset: 2px !important;
+      }
+    </style>
+  </>
+)}
+
+{enableFocusVisible && (
+  <style>
+    /* Focus indicators for keyboard navigation */
+    .focus-visible:focus {
+      outline: 2px solid #0066cc;
+      outline-offset: 2px;
+      box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.3);
+    }
+    
+    /* Remove focus outline for mouse users */
+    .focus-visible:focus:not(.focus-visible) {
+      outline: none;
+      box-shadow: none;
+    }
+    
+    /* Ensure focus is visible on interactive elements */
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible,
+    [tabindex]:focus-visible {
+      outline: 2px solid #0066cc;
+      outline-offset: 2px;
+    }
+    
+    /* Skip link styles */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    
+    .sr-only:focus,
+    .sr-only:active {
+      position: static;
+      width: auto;
+      height: auto;
+      padding: 0.5rem 1rem;
+      margin: 0;
+      overflow: visible;
+      clip: auto;
+      white-space: normal;
+    }
+  </style>
+)}
+
+<!-- ARIA live region for dynamic content announcements -->
+<div 
+  id="announcement-region" 
+  aria-live="polite" 
+  aria-atomic="true" 
+  class="sr-only"
+></div>
+
+<!-- Accessibility enhancement scripts -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Add focus-visible polyfill for older browsers
+    if (!CSS.supports('selector(:focus-visible)')) {
+      const script = document.createElement('script');
+      script.src = 'https://unpkg.com/focus-visible@5.2.0/dist/focus-visible.min.js';
+      document.head.appendChild(script);
+    }
+    
+    // Enhance form accessibility
+    const forms = document.querySelectorAll('form');
+    forms.forEach(form => {
+      const inputs = form.querySelectorAll('input, select, textarea');
+      inputs.forEach(input => {
+        // Associate labels with inputs if not already done
+        if (!input.hasAttribute('aria-label') && !input.hasAttribute('aria-labelledby')) {
+          const label = form.querySelector(`label[for="${input.id}"]`);
+          if (label) {
+            input.setAttribute('aria-labelledby', label.id || input.id + '-label');
+          }
+        }
+        
+        // Add required field indicators
+        if (input.hasAttribute('required') && !input.hasAttribute('aria-required')) {
+          input.setAttribute('aria-required', 'true');
+        }
+      });
+    });
+    
+    // Improve navigation landmarks
+    const nav = document.querySelector('nav');
+    if (nav && !nav.hasAttribute('aria-label')) {
+      nav.setAttribute('aria-label', 'Main navigation');
+    }
+    
+    // Add role and aria-label to main content area
+    const main = document.querySelector('main');
+    if (main) {
+      main.setAttribute('role', 'main');
+      main.setAttribute('id', 'main-content');
+      if (!main.hasAttribute('aria-label')) {
+        main.setAttribute('aria-label', 'Main content');
+      }
+    }
+    
+    // Enhance button accessibility
+    const buttons = document.querySelectorAll('button');
+    buttons.forEach(button => {
+      if (!button.hasAttribute('type')) {
+        button.setAttribute('type', 'button');
+      }
+      
+      // Add aria-expanded for dropdown/toggle buttons
+      if (button.classList.contains('dropdown-toggle') || 
+          button.classList.contains('menu-toggle')) {
+        button.setAttribute('aria-expanded', 'false');
+      }
+    });
+    
+    // Announcement function for dynamic content
+    if (typeof window !== 'undefined') {
+      (window as any).announceToScreenReader = function(message: string, priority = 'polite') {
+        const announcer = document.getElementById('announcement-region');
+        if (announcer) {
+          announcer.setAttribute('aria-live', priority);
+          announcer.textContent = message;
+          
+          // Clear after announcement
+          setTimeout(() => {
+            announcer.textContent = '';
+          }, 1000);
+        }
+      };
+    }
+  });
+</script>
+
+<!-- Reduced motion preferences -->
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  /* Ensure text remains readable when zoomed to 200% */
+  @media (min-width: 1280px) {
+    html {
+      font-size: 1rem;
+    }
+  }
+  
+  /* High contrast media query support */
+  @media (prefers-contrast: high) {
+    :root {
+      --color-text: #000000;
+      --color-background: #ffffff;
+      --color-border: #000000;
+    }
+    
+    a {
+      text-decoration: underline;
+    }
+    
+    button,
+    input,
+    select,
+    textarea {
+      border: 2px solid #000000;
+    }
+  }
+</style>

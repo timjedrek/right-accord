@@ -9,9 +9,27 @@ import Layout from '~/layouts/PageLayout.astro';
 const metadata = {
   title: 'About us',
 };
+// Schema data for About RIGHT ACCORD Home Health Care
+const schemaData = {
+  page: {
+    type: 'about' as const,
+    title: 'About RIGHT ACCORD Home Health Care',
+    description:
+      'Learn about RIGHT ACCORD Private Duty Home Health Care, providing compassionate and professional healthcare services throughout Florida.',
+    url: 'https://rightaccordhealth.com/about',
+  },
+  organization: {
+    name: 'RIGHT ACCORD Home Health Care',
+    description: 'Private duty home health care services throughout Florida',
+    url: 'https://rightaccordhealth.com',
+    areaServed: ['Sarasota', 'Bradenton', 'Venice', 'North Port', 'Fort Myers', 'Cape Coral'],
+    foundingDate: '2013',
+    serviceType: 'Home Health Care Services',
+  },
+};
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} schemaData={schemaData}>
   <!-- Hero Widget ******************* -->
 
   <Hero

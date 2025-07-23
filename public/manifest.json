@@ -1,0 +1,50 @@
+{
+  "name": "RIGHT ACCORD Home Health Care",
+  "short_name": "RIGHT ACCORD",
+  "description": "Professional home health care services for seniors in Sarasota, FL and surrounding areas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0066CC",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["health", "medical", "business"],
+  "icons": [
+    {
+      "src": "/right-accord-logo-solo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/RightAccordLogo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with RIGHT ACCORD",
+      "url": "/contact",
+      "icons": [{ "src": "/right-accord-logo-solo.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Our Services",
+      "short_name": "Services",
+      "description": "View our home health care services",
+      "url": "/services",
+      "icons": [{ "src": "/right-accord-logo-solo.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Find Locations",
+      "short_name": "Locations",
+      "description": "Find RIGHT ACCORD locations near you",
+      "url": "/about-us/our-locations",
+      "icons": [{ "src": "/right-accord-logo-solo.svg", "sizes": "96x96" }]
+    }
+  ]
+}

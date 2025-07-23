@@ -1,0 +1,219 @@
+---
+// Enhanced Website Schema with healthcare focus
+export interface Props {
+  website: {
+    name: string;
+    url: string;
+    description: string;
+    inLanguage?: string;
+    about?: {
+      name: string;
+      description: string;
+    };
+    publisher?: {
+      name: string;
+      url: string;
+    };
+    potentialAction?: {
+      type: string;
+      target: string;
+      queryInput: string;
+    };
+    mainContentOfPage?: {
+      name: string;
+      description: string;
+    };
+    specialty?: string[];
+    audience?: string;
+  };
+}
+
+const { website } = Astro.props;
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${website.url}/#website`,
+  name: website.name,
+  url: website.url,
+  description: website.description,
+  inLanguage: website.inLanguage || 'en-US',
+
+  // Publisher information
+  publisher: {
+    '@type': 'MedicalBusiness',
+    '@id': 'https://rightaccordhealth.com/#organization',
+    name: website.publisher?.name || 'RIGHT ACCORD Home Health Care',
+    url: website.publisher?.url || 'https://rightaccordhealth.com',
+  },
+
+  // What the website is about
+  ...(website.about && {
+    about: {
+      '@type': 'Thing',
+      name: website.about.name,
+      description: website.about.description,
+    },
+  }),
+
+  // Search functionality
+  ...(website.potentialAction && {
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: website.potentialAction.target,
+      },
+      'query-input': website.potentialAction.queryInput,
+    },
+  }),
+
+  // Main content
+  ...(website.mainContentOfPage && {
+    mainContentOfPage: {
+      '@type': 'WebPageElement',
+      name: website.mainContentOfPage.name,
+      description: website.mainContentOfPage.description,
+    },
+  }),
+
+  // Healthcare specialties
+  ...(website.specialty && {
+    specialty: website.specialty,
+  }),
+
+  // Target audience
+  ...(website.audience && {
+    audience: {
+      '@type': 'Audience',
+      audienceType: website.audience,
+    },
+  }),
+
+  // Site navigation
+  hasPart: [
+    {
+      '@type': 'WebPage',
+      '@id': 'https://rightaccordhealth.com/#homepage',
+      name: 'Home',
+      url: 'https://rightaccordhealth.com',
+      description: 'Florida home health care services for seniors',
+    },
+    {
+      '@type': 'WebPage',
+      '@id': 'https://rightaccordhealth.com/services/#servicespage',
+      name: 'Services',
+      url: 'https://rightaccordhealth.com/services',
+      description: 'Home health care services including senior care, skilled nursing, and companion care',
+    },
+    {
+      '@type': 'WebPage',
+      '@id': 'https://rightaccordhealth.com/specialty-care/#specialtycarepage',
+      name: 'Specialty Care',
+      url: 'https://rightaccordhealth.com/specialty-care',
+      description: "Specialized care for Alzheimer's, Parkinson's, stroke recovery, and hospice care",
+    },
+    {
+      '@type': 'WebPage',
+      '@id': 'https://rightaccordhealth.com/locations/#locationspage',
+      name: 'Locations',
+      url: 'https://rightaccordhealth.com/locations',
+      description: 'Home health care service areas in Sarasota, Bradenton, Venice, and Southwest Florida',
+    },
+    {
+      '@type': 'WebPage',
+      '@id': 'https://rightaccordhealth.com/blog/#blogpage',
+      name: 'Blog',
+      url: 'https://rightaccordhealth.com/blog',
+      description: 'Healthcare articles and resources for seniors and caregivers',
+    },
+  ],
+
+  // Site features
+  isAccessibleForFree: true,
+  license: 'https://rightaccordhealth.com/terms',
+  copyrightYear: new Date().getFullYear(),
+  copyrightHolder: {
+    '@type': 'MedicalBusiness',
+    '@id': 'https://rightaccordhealth.com/#organization',
+  },
+};
+
+// Healthcare-focused WebPage schema for main pages
+const healthcareWebPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalWebPage',
+  '@id': `${website.url}/#medicalwebpage`,
+  name: website.name,
+  url: website.url,
+  description: website.description,
+  inLanguage: website.inLanguage || 'en-US',
+
+  isPartOf: {
+    '@type': 'WebSite',
+    '@id': `${website.url}/#website`,
+  },
+
+  // Medical content focus
+  mainContentOfPage: {
+    '@type': 'WebPageElement',
+    about: {
+      '@type': 'MedicalCondition',
+      name: 'Home Health Care',
+      description: 'Professional in-home healthcare services for seniors and elderly individuals',
+    },
+  },
+
+  // Healthcare audience
+  audience: {
+    '@type': 'PatientsAudience',
+    audienceType: 'Seniors and their families',
+    healthCondition: [
+      "Alzheimer's Disease",
+      'Dementia',
+      "Parkinson's Disease",
+      'Stroke Recovery',
+      'Post-Surgical Recovery',
+    ],
+  },
+
+  // Medical review information
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Rosemarie Tamunday Casanova',
+    jobTitle: 'Registered Nurse, BSN, MHA',
+  },
+
+  // Content categories
+  about: [
+    {
+      '@type': 'MedicalCondition',
+      name: "Alzheimer's Disease",
+    },
+    {
+      '@type': 'MedicalCondition',
+      name: "Parkinson's Disease",
+    },
+    {
+      '@type': 'MedicalProcedure',
+      name: 'Home Health Care',
+    },
+  ],
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(healthcareWebPageSchema)} />
+
+<!-- Website Microdata -->
+<div itemscope itemtype="https://schema.org/WebSite" style="display: none;">
+  <span itemprop="name">{website.name}</span>
+  <span itemprop="url">{website.url}</span>
+  <span itemprop="description">{website.description}</span>
+  <span itemprop="inLanguage">{website.inLanguage || 'en-US'}</span>
+</div>
+
+<!-- Website-specific meta tags -->
+<meta name="website:category" content="Healthcare" />
+<meta name="website:type" content="Medical Website" />
+<meta name="website:audience" content="Seniors and their families" />

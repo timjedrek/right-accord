@@ -1,0 +1,139 @@
+---
+// Service Schema Component for healthcare services
+export interface Props {
+  service: {
+    name: string;
+    description: string;
+    url: string;
+    serviceType: string;
+    provider: {
+      name: string;
+      url: string;
+      areaServed?: string[];
+    };
+    category?: string;
+    offers?: {
+      price?: string;
+      priceCurrency?: string;
+      availability?: string;
+    };
+    additionalType?: string;
+    hasOfferCatalog?: {
+      name: string;
+      numberOfItems: number;
+      itemListElement: {
+        name: string;
+        url: string;
+      }[];
+    };
+  };
+}
+
+const { service } = Astro.props;
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: service.name,
+  description: service.description,
+  url: service.url,
+  serviceType: service.serviceType,
+  category: service.category || 'Healthcare',
+  provider: {
+    '@type': 'MedicalBusiness',
+    '@id': 'https://rightaccordhealth.com/#organization',
+    name: service.provider.name,
+    url: service.provider.url,
+    ...(service.provider.areaServed && {
+      areaServed: service.provider.areaServed.map((area) => ({
+        '@type': 'City',
+        name: area,
+      })),
+    }),
+  },
+  ...(service.additionalType && {
+    additionalType: service.additionalType,
+  }),
+  ...(service.offers && {
+    offers: {
+      '@type': 'Offer',
+      ...(service.offers.price && {
+        price: service.offers.price,
+        priceCurrency: service.offers.priceCurrency || 'USD',
+      }),
+      availability: service.offers.availability || 'https://schema.org/InStock',
+    },
+  }),
+  ...(service.hasOfferCatalog && {
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: service.hasOfferCatalog.name,
+      numberOfItems: service.hasOfferCatalog.numberOfItems,
+      itemListElement: service.hasOfferCatalog.itemListElement.map((item, index) => ({
+        '@type': 'Offer',
+        position: index + 1,
+        itemOffered: {
+          '@type': 'Service',
+          name: item.name,
+          url: item.url,
+        },
+      })),
+    },
+  }),
+  availableChannel: {
+    '@type': 'ServiceChannel',
+    serviceUrl: service.url,
+    servicePhone: '+1-941-366-0801',
+    availableLanguage: 'English',
+  },
+  audience: {
+    '@type': 'PeopleAudience',
+    audienceType: 'Seniors and their families',
+  },
+  serviceOutput: 'Improved quality of life and independence for seniors',
+};
+
+// Breadcrumb for service pages
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://rightaccordhealth.com',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Services',
+      item: 'https://rightaccordhealth.com/services',
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: service.name,
+      item: service.url,
+    },
+  ],
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+<!-- Service Microdata -->
+<div itemscope itemtype="https://schema.org/Service" style="display: none;">
+  <span itemprop="name">{service.name}</span>
+  <span itemprop="description">{service.description}</span>
+  <span itemprop="serviceType">{service.serviceType}</span>
+  <span itemprop="provider" itemscope itemtype="https://schema.org/MedicalBusiness">
+    <span itemprop="name">{service.provider.name}</span>
+  </span>
+</div>
+
+<!-- Service-specific meta tags -->
+<meta name="service:name" content={service.name} />
+<meta name="service:type" content={service.serviceType} />
+<meta name="service:provider" content={service.provider.name} />
