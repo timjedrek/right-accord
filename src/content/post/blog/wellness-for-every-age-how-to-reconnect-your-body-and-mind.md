@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-02-05T00:00:00Z
+publishDate: 2025-10-05T00:00:00Z
 title: 'Wellness for Every Age: How to Reconnect Your Body and Mind'
 excerpt: 'No matter your age, simple daily habits like mindful eating, movement, rest, and connection can help restore balance between your body and mind. This guide shows you how to make small changes with a big impact on wellness.'
 image: /blog/2025/OctoberBlog-1-home-health-care.png
