@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-02-12T00:00:00Z
+publishDate: 2025-10-12T00:00:00Z
 title: 'Why Home is the Best Place to Recover After Surgery'
 excerpt: 'Recovering after surgery is a delicate process, and the comfort of home can make all the difference. Learn how RIGHT ACCORD’s Post-Surgical and Recovery Care helps patients heal safely, regain independence, and avoid hospital readmissions.'
 image: /blog/2025/OctoberBlog-2-home-health-care.png
