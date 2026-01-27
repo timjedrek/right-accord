@@ -1,8 +1,8 @@
 ---
 title: "Aging Is a Privilege: Celebrating Life, Wisdom, and Growing Older"
-description: "Explore why aging should be celebrated, not feared. Learn how aging reflects wisdom, resilience, and opportunity—and how RIGHT ACCORD supports it with compassionate care."
-pubDate: 2026-01-27T12:00:00
-heroImage: "/blog/celebrating-aging-and-wisdom.png"
+excerpt: "Explore why aging should be celebrated, not feared. Learn how aging reflects wisdom, resilience, and opportunity—and how RIGHT ACCORD supports it with compassionate care."
+publishDate: 2026-01-27T12:00:00
+image: "/blog/2026/celebrating-aging-and-wisdom.png"
 imgAlt: "Happy senior woman smiling in a garden surrounded by blooming flowers"
 author: RIGHT ACCORD Private Duty–Home Health Care
 fileTitle: "aging-is-a-privilege"
