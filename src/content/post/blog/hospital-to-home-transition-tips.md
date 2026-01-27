@@ -1,8 +1,8 @@
 ---
 title: "Hospital to Home: How Families Can Avoid Recovery Setbacks"
-description: "Learn how to support a loved one’s safe recovery after a hospital stay. This guide outlines key steps to avoid complications, falls, and readmission during the transition home."
-pubDate: 2026-01-10T12:00:00
-heroImage: "/blog/hospital-to-home-senior-recovery-guide.png"
+excerpt: "Learn how to support a loved one’s safe recovery after a hospital stay. This guide outlines key steps to avoid complications, falls, and readmission during the transition home."
+publishDate: 2026-01-10T12:00:00
+image: "/blog/2026/hospital-to-home-senior-recovery-guide.png"
 imgAlt: "Senior man with walker being helped by nurse at home"
 author: RIGHT ACCORD Private Duty–Home Health Care
 fileTitle: "hospital-to-home-recovery-guide"
