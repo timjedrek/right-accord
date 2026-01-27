@@ -1,8 +1,8 @@
 ---
 title: "Building a Healthy Routine While Caring for a Loved One"
-description: "Family caregivers often put their needs aside for others. Learn how small, sustainable routines can help caregivers stay healthy and supported while providing care."
-pubDate: 2026-01-28T12:00:00
-heroImage: "/blog/caregiver-self-care-tips.png"
+excerpt: "Family caregivers often put their needs aside for others. Learn how small, sustainable routines can help caregivers stay healthy and supported while providing care."
+publishDate: 2026-01-28T12:00:00
+image: "/blog/2026/caregiver-self-care-tips.png"
 imgAlt: "Caregiver holding hands with an older adult, symbolizing care and support"
 author: RIGHT ACCORD Private Duty–Home Health Care
 fileTitle: "building-a-healthy-routine-for-caregivers"
