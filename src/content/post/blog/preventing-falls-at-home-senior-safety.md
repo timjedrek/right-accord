@@ -1,8 +1,8 @@
 ---
 title: "Preventing Falls at Home: A Family Guide to Senior Safety"
-description: "Learn practical ways to reduce fall risks for seniors at home. Tips for safer daily routines, bathroom safety, medication awareness, and when to consider extra help."
-pubDate: 2026-01-10T12:00:00
-heroImage: "/blog/fall-prevention-senior-home-safety-guide.png"
+excerpt: "Learn practical ways to reduce fall risks for seniors at home. Tips for safer daily routines, bathroom safety, medication awareness, and when to consider extra help."
+publishDate: 2026-01-10T12:00:00
+image: "/blog/2026/fall-prevention-senior-home-safety-guide.png"
 imgAlt: "Senior woman being helped by a caregiver while walking at home"
 author: RIGHT ACCORD Private Duty–Home Health Care
 fileTitle: "preventing-falls-at-home-senior-safety"
