@@ -88,7 +88,7 @@ You’ll get:
 
 ### 📍 Location
 
-3900 Clark Road, Suite B5, Sarasota, FL 34233 📞 Questions? Call us at 941-366-0801
+3900 Clark Road Suite F1, Sarasota, FL 34233 📞 Questions? Call us at 941-366-0801
 
 ### 🌐 Or apply online at
 
